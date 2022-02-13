@@ -61,6 +61,7 @@ const Nav = () => {
                         layout="responsive"
                         width={1412}
                         height={690}
+                        alt="Ratone's Studio Logo"
                     ></Image>
                 </div>
                 <ul className={styles.navContent}>
@@ -122,6 +123,7 @@ const Nav = () => {
                                 width={35}
                                 height={35}
                                 className={styles.socialBannerLink}
+                                alt="Instagram Logo"
                                 />
                             </a>       
                         </Link>
@@ -136,6 +138,7 @@ const Nav = () => {
                                 layout="fixed"
                                 width={40}
                                 height={40}
+                                alt="Facebook Logo"
                                 />
                             </a>       
                         </Link>
@@ -151,6 +154,7 @@ const Nav = () => {
                                 width={40}
                                 height={40}
                                 className={styles.socialBannerLink}
+                                alt="Web Logo"
                                 />
                             </a>       
                         </Link>

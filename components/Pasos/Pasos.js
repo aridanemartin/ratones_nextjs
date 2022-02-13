@@ -32,7 +32,7 @@ const Pasos = () => {
                         src={Paso2}
                         layout="fill"
                         objectFit="cover"
-                        alt="Primer paso para grabar tu maqueta"
+                        alt="Segundo paso para grabar tu maqueta"
                     />
                 </div>
                 <div className={styles.text3}> 
@@ -44,7 +44,7 @@ const Pasos = () => {
                         src={Paso3}
                         layout="fill"
                         objectFit="cover"
-                        alt="Primer paso para grabar tu maqueta"
+                        alt="Tercer paso para grabar tu maqueta"
                     />
                 </div> 
             </div>
