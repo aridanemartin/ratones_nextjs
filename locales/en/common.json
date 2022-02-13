@@ -1,0 +1,33 @@
+{
+    "menuText": ["holala", " holelee", "holili"],
+    "buttonSaberMas": "Learn more",
+    "buttonEquipo": "Meet our team",
+    "precios": "Tagorock Rates",
+    "preciosDesc": "Click on the different categories to see our prices.",
+    "cuotasLibre": "Free Sessions",
+    "cuotasDirigida": "Assisted Classes",
+    "material": "stuff",
+    "mensual": "Monthly",
+    "medioMes": "Half Month",
+    "sesionLibre": "Free Session",
+    "clasePrueba": "*Test Class",
+    "claseIndividual": "Learn more",
+    "magnesioPeq": "Small Magnesium",
+    "magnesioGrande": "Magnesio Grande",
+    "alquilerPies": "Rent Climbing Shoes",
+    "clasePruebaObs": "*If they decide to continue after taking the test class, the amount will be deducted from the monthly payment.",
+    "comoLlegar":{
+        "title": "COME MEET US",
+        "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
+    },
+    "dias":{
+        "lunes": "Monday",
+        "martes": "Tuesday",
+        "miercoles": "Wednesday",
+        "jueves": "Thursday",
+        "viernes": "Friday",
+        "sabado": "Saturday",
+        "domingo": "Sunday",
+        "cerrado": "Closed"
+    }
+}

@@ -1,0 +1,93 @@
+.pasosWrapper{
+    
+    display: grid;
+    grid-template-areas: "text1 image1"
+    "image2 text2"
+    "text3 image3";
+    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-columns: 50% 50%;
+
+}
+
+.mainTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem;
+    color: #2D2424;
+}
+
+.mainTitle strong{
+    color: #B85C38;
+}
+
+.divider{
+    margin: 0 auto;
+    width: 10rem;
+    border-bottom: 2px solid #B85C38;
+}
+
+.mainDesc{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.text1, .text2, .text3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+.text1{
+    grid-area: text1;
+}
+.text2{
+    grid-area: text2;
+}
+.text3{
+    grid-area: text3;
+}
+
+.title{
+    /* display: flex;
+    align-items: center; */
+    color: #B85C38;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.title strong{
+    margin-left: 0.5rem;
+    font-size: 3rem;
+    color: #5C3D2E;
+}
+
+.text{
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+}
+
+.image1{
+    grid-area: image1;
+    position: relative;
+}
+.image2{
+    grid-area: image2;
+    position: relative;
+}
+.image3{
+    grid-area: image3;
+    position: relative;
+}
+
+
