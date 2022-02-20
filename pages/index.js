@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import useTranslation from 'next-translate/useTranslation';
 import TextBlock from '@components/TextBlock/TextBlock'
 import Servicios from '@components/Servicios/Servicios'
+import CoverSlider from '@components/CoverSlider/CoverSlider'
 
 
 export default function Home() {
@@ -26,13 +27,18 @@ export default function Home() {
         <Pasos/>
         <TextBlock 
                 title1={t('index:serviciosTitle1')}
-                // title2={t('index:introTitle2')}
                 text1={t('index:serviciosText1')}
                 description={t('index:serviciosDescription')}
         />
         <Servicios/>
-
-        </PageLayout>      
+        <TextBlock
+          title1={t('index:grabacionesTitle')}
+          description={t('index:grabacionesDescription')}
+          text1={t('index:grabacionesText1')}
+        />
+        <CoverSlider/>  
+        </PageLayout> 
+        
     </div>
   )
 }

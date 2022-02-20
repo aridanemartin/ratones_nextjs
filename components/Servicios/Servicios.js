@@ -1,14 +1,20 @@
 import Image from "next/image";
 import styles from "@styles/Servicios.module.css";
+import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
 
 // Images
 import grabacion from "../../public/images/grabacion.png";
 import audiovisuales from "../../public/images/audiovisuales.png";
 import mezcla from "../../public/images/mezcla.png";
 import produccion from "../../public/images/produccion.png";
-import Link from "next/link";
+
 
 const Servicios = () => {
+
+    const { t } = useTranslation();
+
+
     return ( 
         <>  
             <div className={styles.serviciosContainer}>
@@ -20,9 +26,8 @@ const Servicios = () => {
                             objectFit="cover"
                         />
                     </div>
-                    <h2>Produccion Musical</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci sint quisquam quo sed dolorem est doloremque aliquam dignissimos ad cum pariatur eum placeat, exercitationem harum eaque blanditiis dicta minus!
-                    Quos sit odio cumque dolores, aperiam asperiores possimus?
+                    <h2>{t('index:produccionTitle')}</h2>
+                    <p>{t('index:produccionText')}
                     </p>
                     <Link href="/">
                         <a>Más Información</a>
@@ -36,10 +41,8 @@ const Servicios = () => {
                             objectFit="cover"
                         />
                     </div>
-                    <h2>Grabacion de guitarras</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci sint quisquam quo sed dolorem est doloremque aliquam dignissimos ad cum pariatur eum placeat, exercitationem harum eaque blanditiis dicta minus!
-                    Quos sit odio cumque dolores, aperiam asperiores possimus?
-                    </p>
+                    <h2>{t('index:grabacionTitle')}</h2>
+                    <p>{t('index:produccionText')}</p>
                     <Link href="/">
                         <a>Más Información</a>
                     </Link>
@@ -52,10 +55,8 @@ const Servicios = () => {
                             objectFit="cover"
                         />
                     </div>
-                    <h2>Musica para Audiovisuales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci sint quisquam quo sed dolorem est doloremque aliquam dignissimos ad cum pariatur eum placeat, exercitationem harum eaque blanditiis dicta minus!
-                    Quos sit odio cumque dolores, aperiam asperiores possimus?
-                    </p>
+                    <h2>{t('index:audiovisualesTitle')}</h2>
+                    <p>{t('index:audiovisualesText')}</p>
                     <Link href="/">
                         <a>Más Información</a>
                     </Link>
@@ -68,10 +69,8 @@ const Servicios = () => {
                             objectFit="cover"
                         />
                     </div>
-                    <h2>Mezcla y Master</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci sint quisquam quo sed dolorem est doloremque aliquam dignissimos ad cum pariatur eum placeat, exercitationem harum eaque blanditiis dicta minus!
-                    Quos sit odio cumque dolores, aperiam asperiores possimus?
-                    </p>
+                    <h2>{t('index:mezclaTitle')}</h2>
+                    <p>{t('index:mezclaText')}</p>
                     <Link href="/">
                         <a>Más Información</a>
                     </Link>   
