@@ -1,0 +1,77 @@
+.serviciosContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "produccion grabacion"
+    "audiovisuales mezcla";
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.servicioImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+}
+
+.servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.servicio h2{
+    /* color: #B85C38; */
+    color: #5C3D2E;
+    font-family: 'Anton';
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin: ;
+}
+
+.servicio p{
+    max-width: 50ch; 
+    margin-top: 0rem;
+}
+
+.servicio a{
+    margin-top: 1rem;
+    color: #5C3D2E;
+    border: 2px solid #5C3D2E;
+    padding: 1rem;
+}
+
+.servicio1{
+    grid-area: produccion;
+}
+
+.servicio2{
+    grid-area: grabacion;
+}
+
+.servicio3{
+    grid-area: audiovisuales;
+}
+
+.servicio4{
+    grid-area: mezcla;
+}
+
+@media (max-width:1100px) {
+    .serviciosContainer{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "produccion"
+        "grabacion"
+        "audiovisuales"
+        "mezcla"
+        ;
+    }
+}
