@@ -9,6 +9,7 @@ import Servicios from '@components/Servicios/Servicios'
 import CoverSlider from '@components/CoverSlider/CoverSlider'
 import Banner from '@components/Banner/Banner'
 import InfiniteCarrousel from '@components/InfiniteCarrousel/InfiniteCarrousel'
+import Footer from '@components/Footer/Footer'
 
 
 export default function Home() {
@@ -64,6 +65,7 @@ export default function Home() {
           grupo4={t('index:CARROUSEL.grupo4')}
           lugar4={t('index:CARROUSEL.lugar4')}          
         />
+        <Footer/>
         
     </div>
   )

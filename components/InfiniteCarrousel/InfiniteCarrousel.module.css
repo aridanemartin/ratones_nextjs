@@ -92,6 +92,8 @@
 .lugar{
     font-size: 0.7rem;
     margin: 0;
+    font-weight: 500;
+    color: #E0C097;
 }
 
 @keyframes scroll {
@@ -104,6 +106,7 @@
 }
 
 @media (max-width: 500px){
+    
     .slider::before, .slider::after {
         background: transparent;
     }
@@ -119,9 +122,15 @@
     .slider {   
         height: 350px;
     }
+
+    .slideText{
+        padding: 1.5rem;
+    }
+
     .cslide {     
         height: 350px;
-        width: 300px;    
+        width: 300px;  
+        grid-template-rows: auto 60% 40%;  
     }
 
     @keyframes scroll {
