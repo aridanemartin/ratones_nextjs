@@ -7,6 +7,8 @@ import useTranslation from 'next-translate/useTranslation';
 import TextBlock from '@components/TextBlock/TextBlock'
 import Servicios from '@components/Servicios/Servicios'
 import CoverSlider from '@components/CoverSlider/CoverSlider'
+import Banner from '@components/Banner/Banner'
+import InfiniteCarrousel from '@components/InfiniteCarrousel/InfiniteCarrousel'
 
 
 export default function Home() {
@@ -38,6 +40,30 @@ export default function Home() {
         />
         <CoverSlider/>  
         </PageLayout> 
+        <Banner
+          text={t('index:BANNER.text')}
+          buttonText={t('index:BANNER.buttonText')}
+          link="/"
+        />
+        
+        <InfiniteCarrousel
+          text1={t('index:CARROUSEL.text1')}
+          desc1={t('index:CARROUSEL.desc1')}
+          grupo1={t('index:CARROUSEL.grupo1')}
+          lugar1={t('index:CARROUSEL.lugar1')}
+          text2={t('index:CARROUSEL.text2')}
+          desc2={t('index:CARROUSEL.desc2')}
+          grupo2={t('index:CARROUSEL.grupo2')}
+          lugar2={t('index:CARROUSEL.lugar2')}
+          text3={t('index:CARROUSEL.text3')}
+          desc3={t('index:CARROUSEL.desc3')}
+          grupo3={t('index:CARROUSEL.grupo3')}
+          lugar3={t('index:CARROUSEL.lugar3')}
+          text4={t('index:CARROUSEL.text4')}
+          desc4={t('index:CARROUSEL.desc4')}
+          grupo4={t('index:CARROUSEL.grupo4')}
+          lugar4={t('index:CARROUSEL.lugar4')}          
+        />
         
     </div>
   )

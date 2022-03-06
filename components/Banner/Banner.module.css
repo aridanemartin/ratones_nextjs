@@ -1,0 +1,61 @@
+.bannerWrap {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 20rem;
+  color: white;
+
+  background: hsla(20, 33%, 19%, 1);
+  background: linear-gradient(
+    360deg,
+    hsla(20, 33%, 19%, 1) 0%,
+    hsla(20, 33%, 49%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(20, 33%, 19%, 1) 0%,
+    hsla(20, 33%, 49%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(20, 33%, 19%, 1) 0%,
+    hsla(20, 33%, 49%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#A87054", GradientType=1 );
+}
+
+.bannerText {
+  text-align: center;
+  max-width: 35ch;
+
+  font-family: "Anton";
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.button {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 500;
+  /* margin-top: 1rem; */
+  color: white;
+  border: 3px solid white;
+  padding: 1rem 2rem;
+
+  /*   */
+  border-radius: 30px;
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#422C21", GradientType=1 );
+}
+
+@media(max-width: 570px){
+  .bannerText{
+    padding: 1rem;
+    font-size: 1.3rem;
+    line-height:normal;
+  }
+}

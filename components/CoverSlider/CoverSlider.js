@@ -1,14 +1,12 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
-
-import styles from '@styles/CoverSlider.module.css';
-
-// import "./styles.css";
+import "swiper/css/navigation";
 
 // import required modules
 import { Scrollbar } from "swiper";
@@ -20,12 +18,14 @@ import banddarra from "../../public/images/banddarra.jpg";
 
 const CoverSlider = () => {
     return (  
-    <div className={styles.coverSliderWrapper}>
+    <div>
         <Swiper
             scrollbar={{
             hide: true,
             }}
-            modules={[Scrollbar]}
+            navigation={true} 
+            modules={[Navigation, Scrollbar]}
+            
             className="mySwiper"
         >
             <SwiperSlide>
@@ -37,7 +37,7 @@ const CoverSlider = () => {
                     />
             </SwiperSlide>
             <SwiperSlide>
-                <div className={styles.imageWrapper}>
+                <div>
                     <Image
                         src={daniel}
                         layout="fill"
@@ -47,7 +47,7 @@ const CoverSlider = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className={styles.imageWrapper}>
+                <div>
                     <Image
                         src={banddarra}
                         layout="fill"
@@ -57,7 +57,7 @@ const CoverSlider = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className={styles.imageWrapper}>
+                <div>
                     <Image
                         src={cuerdas}
                         layout="fill"

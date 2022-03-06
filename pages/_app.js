@@ -3,8 +3,9 @@ import { motion } from 'framer-motion';
 import Layout from '@components/Layout/Layout';
 
 // swipper /// eslint-disable-next-line
-import "swiper/css/bundle";
-import "./styles.css";
+// import "swiper/css/bundle";
+import "@styles/swiperStyles.css";
+import 'normalize.css/normalize.css';
 
 function MyApp({ Component, pageProps, router }) {
   return (

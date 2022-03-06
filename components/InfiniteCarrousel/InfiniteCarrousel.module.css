@@ -1,0 +1,136 @@
+.slider {
+    background: white;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.slider::before, .slider::after {
+    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slideTrack {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(500px * 8);
+}
+
+.slider .slideTrack:hover {
+    animation-play-state: paused;
+}
+
+.cslide {
+    font-family: 'Roboto', sans-serif;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+
+    display: grid;
+    grid-template-rows: auto 50% 50%;
+    margin: 0;    
+}
+
+.imageWrap{
+    margin-left: 1rem;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    filter: invert(41%) sepia(48%) saturate(755%) hue-rotate(331deg) brightness(92%) contrast(85%);
+}
+
+.slideText{
+    font-size: 1rem;
+    font-style: italic;
+    padding: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.grupoWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo{
+    color: #2D2424;
+    font-family: 'Anton';
+    font-weight: 700;
+    font-size: 1.4rem; 
+    margin: 0;
+}
+
+.description{
+    color: #B85C38;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.4rem;
+}
+
+.lugar{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-500px * 4));
+    }
+}
+
+@media (max-width: 500px){
+    .slider::before, .slider::after {
+        background: transparent;
+    }
+
+    .slider .slideTrack {
+        width: calc(300px * 8);
+    }
+    
+    .slider .slideTrack:hover {
+        animation-play-state:unset;
+    }
+
+    .slider {   
+        height: 350px;
+    }
+    .cslide {     
+        height: 350px;
+        width: 300px;    
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-300px * 4));
+        }
+    }
+    
+}

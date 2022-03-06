@@ -17,6 +17,27 @@
     "mezclaText": "Consiga la producción musical online de sus canciones colaborando con productores y músicos de sesión de forma remota. Nos encargamos de todo: instrumentación a medida, afinación de voz, mezcla y mastering.",
     "grabacionesTitle": "Grabaciones Realizadas",
     "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
-    "grabacionesText1": "¿Buscas un servicio de grabación personalizado? ¿Necesitas ayuda con tu primera maqueta o proyecto personal? Necesitas un productor con experiencia que te ayude a darle ese pequeño punto de calidad que le falta a tu maqueta. Estoy aquí para ayudarte a conseguirlo."
-
+    "grabacionesText1": "¿Buscas un servicio de grabación personalizado? ¿Necesitas ayuda con tu primera maqueta o proyecto personal? Necesitas un productor con experiencia que te ayude a darle ese pequeño punto de calidad que le falta a tu maqueta. Estoy aquí para ayudarte a conseguirlo.",
+    "BANNER":{
+        "text":"CONTACTA CON NOSOTROS Y  TE ASESORAREMOS EN CÓMO PRODUCIR TU PRÓXIMO PROYECTO MUSICAL",
+        "buttonText": "Contacto"
+    },
+    "CARROUSEL":{
+        "text1":"Cuando conocimos a Víctor, vimos claro que queríamos que fuera él quien nos produjera el disco. Un profesional que sabe siempre como hacer que ese tema que estás grabando tenga el arreglo adecuado. Es muy fácil trabajar con él y el resultado ha sido excelente.",
+        "grupo1":"La Banddarra",
+        "desc1":"Grupo de Ska/Reggae/Rock",
+        "lugar1":"Sant Climent de Llobregat, España",
+        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "grupo2":"Dani Tura",
+        "desc2":"Guitarrista Independiente",
+        "lugar2":"Caldes de Montbui, España",
+        "text3":"Grabar con él ha sido un profeso natural y muy satisfactorio. Víctor fué muy profesional a la vez que cercano y respetuoso con el material original y nos aportó muy buenas ideas a la hora de producir los temas.¡Uno más de la banda!",
+        "grupo3":"Fran Peregrina",
+        "desc3":"Cantautor",
+        "lugar3":"Terrassa, España",
+        "text4":"Víctor, responsable de Ratone's Room es un músico cualificadísimo, constante, puntual, comprometido con el trabajo y flexible. Es responsable de los arreglos y la grabación de las guitarras de las 6 últimas canciones de mi primer disco. En ellas cabe destacar el sonido y la esencia americana que buscaba en esos temas.",
+        "grupo4":"Borja Remacha",
+        "desc4":"Cantautor",
+        "lugar4":"Sabadell, España"
+    }
 }

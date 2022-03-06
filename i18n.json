@@ -2,9 +2,6 @@
     "locales": ["es", "en"],
     "defaultLocale": "es",
     "pages": {
-        "/":["index"],
-        "/contacto":["contacto"],
-        "/rocodromo":["rocodromo"],
-        "*": ["common","meta"]
+        "*": ["index","common"]
     }
 }
