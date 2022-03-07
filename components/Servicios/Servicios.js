@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@styles/Servicios.module.css";
+import styles from "./Servicios.module.css";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 
@@ -29,7 +29,7 @@ const Servicios = () => {
                     <h2>{t('index:produccionTitle')}</h2>
                     <p>{t('index:produccionText')}
                     </p>
-                    <Link href="/">
+                    <Link href="/servicios#produccion-musical">
                         <a>Más Información</a>
                     </Link>
                 </div>

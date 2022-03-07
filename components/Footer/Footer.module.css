@@ -1,135 +1,137 @@
-.footerWrap{
-        
-    width: 100%;
-    height: auto;
-    background: hsla(20, 33%, 19%, 1);
+.footerWrap {
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+  background: hsla(20, 33%, 19%, 1);
   background: linear-gradient(
-    360deg,
+    270deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
   background: -moz-linear-gradient(
-    360deg,
+    270deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
   background: -webkit-linear-gradient(
-    360deg,
+    270deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#A87054", GradientType=1 );
-
 }
 
-.footerContentWrap{
-    max-width: 1440px;
-    margin: 0 auto;
+.footerContentWrap {
+  max-width: 1440px;
+  margin: 0 auto;
 
-    padding: 1rem;
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+  padding: 1rem;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
-.menuContent{
-    margin: 2rem 0rem;
+.menuContent {
+  padding: 0;
+  text-align: center;
 }
 
-.menuContent li{
-    list-style: none;
-    padding: 0.3rem 0rem;
+.menuContent li {
+  list-style: none;
+  padding: 0.5rem 0rem;
 }
 
-.menuContent li a{
-    color: white;
+.menuContent li a {
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
-.socialWrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.menuContent li a:hover {
+  margin-left: 0.3rem;
+  cursor: pointer;
 }
 
-.logoWrap{
-    position: relative;
-    min-width: 17rem;
-    max-width: 20rem;
-    padding: 1rem;
-    
+.menuWrap h3,
+.serviciosWrap h3 {
+  font-family: "Anton";
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
 }
 
-.socialContainer{
+.socialWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoWrap {
+  position: relative;
+  min-width: 17rem;
+  max-width: 20rem;
+  padding: 1rem;
+}
+
+.socialContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcon {
+  padding: 0 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialIcon svg {
+  filter: invert();
+  max-width: 2.3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.adress {
+  color: white;
+}
+
+.serviciosWrap,
+.menuWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .footerWrap{
+    height: 20rem;
+  }
+
+  .menuWrap h3, .serviciosWrap h3 {
+    display: none;
+  }
+
+  .menuContent {
+    display: none;
+  }
+
+  .footerContentWrap {
+    grid-template-columns: 100%;
+  }
+
+  .citaText {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+  }
+
+  .contactoWrap {
+    display: none;
+  }
 }
-
-.socialIcon{
-    padding: 0 1rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.socialIcon svg{
-    filter: invert();
-    max-width:2.3rem;
-    transition: all 0.3s ease-in-out;  
-}
-
-.socialIcon:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-    
-}
-
-.contactoWrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
-}
-
-.contactoText{
-    
-    width: 35ch;
-    text-align: justify;
-    text-align-last: center;
-    margin: 0;
-    margin-bottom: 1rem;
-}
-
-.contactoWrap h3{
-    font-family: 'Anton';
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    color: white;
-}
-
-@media(max-width: 1200px){
-
-    .footerWrap{
-        height: 15rem;
-    }
-
-    .menuContent{
-        display: none;
-    }
-
-    .footerContentWrap{ 
-        grid-template-columns: 100%;
-    }
-
-    .citaText{
-        width: 100%;
-        text-align: center;
-    }
-
-    .contactoWrap{
-        display: none;
-    }
-}
-
-

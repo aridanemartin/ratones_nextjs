@@ -9,30 +9,31 @@ export default function Footer() {
     <div className={styles.footerWrap}>
       <div className={styles.footerContentWrap}>
         <div className={styles.menuWrap}>
+          <h3>Menu</h3>
           <ul className={styles.menuContent}>
             <li>
               <Link href="/">
-                <a>Inicio</a>
+                <a>QUIÉNES SOMOS</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Conóceme</a>
+                <a>SERVICIOS</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Blog</a>
+                <a>EQUIPAMIENTO</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Equipo</a>
+                <a>TARIFAS</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Contacto</a>
+                <a>CONTACTO</a>
               </Link>
             </li>
           </ul>
@@ -96,23 +97,35 @@ export default function Footer() {
               </svg>
             </div>
           </div>
+          <p className={styles.adress}>
+            C/ Juan de Mariana 12 <br />
+            28045 Madrid (España)
+          </p>
         </div>
-        <div className={styles.contactoWrap}>
-          <h3>Contacto</h3>
-          <p className={styles.contactoText}>Podrás encontrarnos muy cerca del centro. Contacta con nosotros y ven a vernos sin compromiso.</p>
-          <div className={styles.mapWrapper}>
-            <iframe
-              width="400"
-              height="200"
-              frameBorder="0"
-              scrolling="no"
-              marginHeight="0"
-              marginWidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Puerta%20del%20Sol%201%20Madrid+(Ratone's%20Room)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-              <a href="https://www.gps.ie/truck-gps/">fleet tracking gps</a>
-            </iframe>
-          </div>
+        <div className={styles.serviciosWrap}>
+            <h3>SERVICIOS</h3>
+            <ul className={styles.menuContent}>
+              <li>
+                <Link href="/">
+                  <a>PRODUCCIÓN MUSICAL</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a>GRABACIÓN DE GUITARRAS</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a>MÚSICA PARA AUDIOVISUALES</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a>MEZCLA Y MÁSTER</a>
+                </Link>
+              </li>
+            </ul>         
         </div>
       </div>
     </div>

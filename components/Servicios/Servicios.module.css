@@ -1,0 +1,90 @@
+.serviciosContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "produccion grabacion"
+    "audiovisuales mezcla";
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.servicioImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    filter: invert(40%) sepia(16%) saturate(2027%) hue-rotate(331deg) brightness(80%) contrast(89%);
+}
+
+.servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.servicio h2{
+    /* color: #B85C38; */
+    color: #5C3D2E;
+    font-family: 'Anton';
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.servicio p{
+    max-width: 50ch; 
+    margin-top: 0rem;
+}
+
+.servicio a{
+    margin-top: 1rem;
+    background: #b85c38;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* border: 1px solid #5C3D2E; */
+    
+    padding: 1rem;
+    border-radius: 25rem;
+    /* border: 1px 1px #5C3D2E; */
+
+    transition: all 0.3s ease-in-out;
+}
+
+.servicio a:hover{
+    transform: translateY(-0.1rem);
+    box-shadow: 2px 2px 2px #5C3D2E;
+}
+
+.servicio1{
+    grid-area: produccion;
+}
+
+.servicio2{
+    grid-area: grabacion;
+}
+
+.servicio3{
+    grid-area: audiovisuales;
+}
+
+.servicio4{
+    grid-area: mezcla;
+}
+
+@media (max-width:1100px) {
+    .serviciosContainer{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "produccion"
+        "grabacion"
+        "audiovisuales"
+        "mezcla"
+        ;
+    }
+}

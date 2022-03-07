@@ -10,17 +10,17 @@
 
   background: hsla(20, 33%, 19%, 1);
   background: linear-gradient(
-    360deg,
+    90deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
   background: -moz-linear-gradient(
-    360deg,
+    90deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
   background: -webkit-linear-gradient(
-    360deg,
+    90deg,
     hsla(20, 33%, 19%, 1) 0%,
     hsla(20, 33%, 49%, 1) 100%
   );
@@ -35,21 +35,30 @@
   letter-spacing: 0.1rem;
   font-size: 2rem;
   line-height: 3rem;
+  text-shadow: 2px 2px 4px black;
 }
 
 .button {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Roboto";
   font-weight: 500;
+  font-size: 1.2rem;
   /* margin-top: 1rem; */
   color: white;
-  border: 3px solid white;
+  /* border: 3px solid white; */
+  
+  background:#b85c38;
   padding: 1rem 2rem;
-
-  /*   */
   border-radius: 30px;
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#422C21", GradientType=1 );
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-0.1rem);
+  background:#b85c38;
+  /* border: 3px solid #2d2424; */
+  box-shadow: 2px 2px 2px #2d2424;
 }
 
 @media(max-width: 570px){

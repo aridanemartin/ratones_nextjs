@@ -1,76 +1,112 @@
-.serviciosContainer{
+.servicios{
+    height: auto;
+    /* background-image: url(../public/images/amplifier.jpg); */
+    background-size: cover;
+    background-position: 43%;
+    object-fit: contain;
+
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "produccion grabacion"
-    "audiovisuales mezcla";
-    max-width: 1000px;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    
+    "pfoto1 ptext1"
+    "ptext2 pfoto2"
+    "pfoto3 ptext3"
+    ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 10rem;
 }
 
-.servicioImage{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 8rem;
-    height: 8rem;
-}
+.mainTitle{   
+    height: auto;
 
-.servicio{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
-    padding: 2rem;
-}
-
-.servicio h2{
-    /* color: #B85C38; */
-    color: #5C3D2E;
+    justify-content: center;
+    align-items: center;
+    
     font-family: 'Anton';
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    color: #2D2424;
+}
+
+
+.divider{
+    margin: 0 auto;
+    width: 10rem;
+    border-bottom: 2px solid #B85C38;
+    margin-bottom: 2rem;
+}
+
+.images{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ptext1, .ptext2, .ptext3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem;
+    text-align: center;
+}
+
+.ptext1 h3, .ptext2 h3, .ptext3 h3{
     font-size: 2rem;
-    letter-spacing: 1px;
+    font-family: 'anton';
+    color:#B85C38;
+    font-weight: bold;
 }
 
-.servicio p{
-    max-width: 50ch; 
-    margin-top: 0rem;
+.image1{
+    grid-area: pfoto1;
 }
 
-.servicio a{
-    margin-top: 1rem;
-    color: #5C3D2E;
-    border: 2px solid #5C3D2E;
-    padding: 1rem;
+.produccion1{
+    grid-area: ptext1;
 }
 
-.servicio1{
-    grid-area: produccion;
+.image2{
+    grid-area: pfoto2;
 }
 
-.servicio2{
-    grid-area: grabacion;
+.produccion2{
+    grid-area: ptext2;
 }
 
-.servicio3{
-    grid-area: audiovisuales;
+.image3{
+    grid-area: pfoto3;
 }
 
-.servicio4{
-    grid-area: mezcla;
+.produccion3{
+    grid-area: ptext3;
 }
 
-@media (max-width:1100px) {
-    .serviciosContainer{
-        display: grid;
-        grid-template-columns: 100%;
+@media(max-width:767px){
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-template-rows: 12rem 1fr 12rem 1fr 12rem 1fr;
         grid-template-areas: 
-        "produccion"
-        "grabacion"
-        "audiovisuales"
-        "mezcla"
-        ;
+        
+        "pfoto1"
+        "ptext1"
+        "pfoto2"
+        "ptext2"
+        "pfoto3"
+        "ptext3"
+        
+    }
+
+    .ptext1, .ptext2, .ptext3{
+        padding: 1rem;
+        padding-bottom: 3rem;
     }
 }
+
+

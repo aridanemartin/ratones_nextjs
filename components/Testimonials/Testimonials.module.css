@@ -1,0 +1,92 @@
+.testimonialsWrapper .mySwiper{
+    height: 30rem;
+}
+
+.mySwiper >.swiper-button-next{
+    display: none;
+}
+
+.cslide {
+    font-family: 'Roboto', sans-serif;
+    height: 30rem;
+    text-align: center;
+
+    display: grid;
+    grid-template-rows: auto 60% 40%;
+    margin: 0;    
+}
+
+.imageWrap{
+    margin-left: 3.5rem;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    filter: invert(41%) sepia(48%) saturate(755%) hue-rotate(331deg) brightness(92%) contrast(85%);
+    
+}
+
+.slideText{
+    font-size: 1rem;
+    font-style: italic;
+    padding: 3.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.grupoWrap{
+    margin: 0 auto;
+    width: 16rem;
+    display: grid;
+    grid-template-areas:
+     "foto texto"
+     ;
+    grid-gap: 0.5rem;
+}
+
+.profileImageFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileImageWrap{
+    position: relative;
+    height: 4rem;
+    width: 4rem;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.textWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: texto;
+}
+
+.grupo{
+    
+    color: #2D2424;
+    font-family: 'Anton';
+    font-weight: 700;
+    font-size: 1.4rem; 
+    margin: 0;
+}
+
+.description{
+    color: #B85C38;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.4rem;
+}
+
+.lugar{
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 500;
+    color: #E0C097;
+}
+
+@media(max-width:1024px){
+
+}

@@ -1,6 +1,17 @@
 /* #app { height: 100% } */
 
-.swiper {
+/* .swiper {
     width: 100%;
     height: 30rem;
-}
+} */
+.mySwiper .swiper-button-next{
+    color: #5c3d2e;
+  }
+  
+  .mySwiper .swiper-button-prev{
+    color: #5c3d2e;
+  }
+  
+  .mySwiper .swiper-button-disabled{
+    color: white;
+  }

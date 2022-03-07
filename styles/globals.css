@@ -12,6 +12,7 @@
  html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -357,7 +358,7 @@ body {
   
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-family: 'Roboto', sans-serif;
+  
 }
 
 a {
@@ -369,14 +370,38 @@ a {
   box-sizing: border-box;
 }
 
-.mySwiper .swiper-button-next{
-  color: #5c3d2e;
+.swiper-slide{
+  height: auto;
 }
 
-.mySwiper .swiper-button-prev{
-  color: #5c3d2e;
+.swiper-button-next{
+  background-image: url(../public/images/right-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  filter: invert(43%) sepia(40%) saturate(864%) hue-rotate(331deg) brightness(90%) contrast(88%);
 }
 
-.mySwiper .swiper-button-disabled{
-  color: white;
+.swiper-button-next::after{
+  display: none;
+}
+
+.swiper-button-prev{
+  background-image: url(../public/images/left-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  filter: invert(43%) sepia(40%) saturate(864%) hue-rotate(331deg) brightness(90%) contrast(88%);
+}
+
+.swiper-button-prev::after{
+  display: none;
+}
+
+.swiper-button-prev{
+  color: #5c3d2e!important;
+}
+
+.swiper-button-disabled{
+  color: #b85c38!important;
 }

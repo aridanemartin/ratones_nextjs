@@ -1,8 +1,9 @@
-.socialBannerWrap {
+.socialBannerWrap{
   width: 100%;
 }
 
 .socialBanner {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -29,12 +30,24 @@
   height: 4rem;
 }
 
+.socialBannerLinkWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
 .socialBannerLink {
+  position: relative;
   padding: 1rem;
 }
 
-.socialBannerLinkWrap {
-  transition: all 300ms ease-in-out;
+@media (max-width: 400px) {
+  .socialBannerLinkWrap {
+    padding: 0.7rem;
+  }
+
 }
 
 @media screen {

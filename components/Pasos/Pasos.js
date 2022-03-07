@@ -1,4 +1,4 @@
-import styles from '@styles/Pasos.module.css';
+import styles from './Pasos.module.css';
 import Image from 'next/image';
 
 // images

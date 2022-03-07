@@ -11,10 +11,12 @@ import "swiper/css/navigation";
 // import required modules
 import { Scrollbar } from "swiper";
 import Image from "next/image";
-import cuerdas from "../../public/images/12cuerdas.jpg";
+import cuerdas from "../../public/images/12cuerdas.png";
 import daniel from "../../public/images/danielFelices.jpg";
 import basilio from "../../public/images/drBasilio.jpg";
 import banddarra from "../../public/images/banddarra.jpg";
+import sandra from "../../public/images/sandraBautista.jpeg";
+import soviet from "../../public/images/k-soviet.jpg";
 
 const CoverSlider = () => {
     return (  
@@ -29,12 +31,32 @@ const CoverSlider = () => {
             className="mySwiper"
         >
             <SwiperSlide>
+                <div>
+                    <Image
+                        src={sandra}
+                        layout="fill"
+                        objectFit="cover"
+                        alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
+                    />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
                 <Image
                         src={basilio}
                         layout="fill"
                         objectFit="cover"
                         alt="DR.BASILIO - Grupos que han grabado en Ratone's Room"
                     />
+            </SwiperSlide>
+            <SwiperSlide>
+                <div>
+                    <Image
+                        src={soviet}
+                        layout="fill"
+                        objectFit="cover"
+                        alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
+                    />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
@@ -61,18 +83,11 @@ const CoverSlider = () => {
                     <Image
                         src={cuerdas}
                         layout="fill"
-                        objectFit="contain"
+                        objectFit="cover"
                         alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
                     />
                 </div>
-            </SwiperSlide>
-            
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            </SwiperSlide>   
         </Swiper>
     </div>
     );

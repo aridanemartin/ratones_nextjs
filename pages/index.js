@@ -11,13 +11,24 @@ import Banner from '@components/Banner/Banner'
 import InfiniteCarrousel from '@components/InfiniteCarrousel/InfiniteCarrousel'
 import Footer from '@components/Footer/Footer'
 
+import Completa from '../public/images/cover1.jpg';
+import heroLogo from '../public/images/logoLarge.png';
+import Testimonials from '@components/Testimonials/Testimonials.js'
+
+import banddarra from '../public/images/banddarra.jpg';
+import daniel from '../public/images/danielFelices.jpg';
+import fran from '../public/images/franPeregrina.jpg';
+import borja from '../public/images/borjaRemacha.jpg';
 
 export default function Home() {
   let { t } = useTranslation();
 
   return (
     <div className={styles.container}>
-        <Hero/>
+        <Hero
+          image={Completa}
+          logo={heroLogo}
+        />
         <SocialBanner/>
         <PageLayout>       
         <TextBlock 
@@ -46,8 +57,30 @@ export default function Home() {
           buttonText={t('index:BANNER.buttonText')}
           link="/"
         />
+        <Testimonials
+          text1={t('index:CARROUSEL.text1')}
+          desc1={t('index:CARROUSEL.desc1')}
+          grupo1={t('index:CARROUSEL.grupo1')}
+          lugar1={t('index:CARROUSEL.lugar1')}
+          image1={banddarra}
+          text2={t('index:CARROUSEL.text2')}
+          desc2={t('index:CARROUSEL.desc2')}
+          grupo2={t('index:CARROUSEL.grupo2')}
+          lugar2={t('index:CARROUSEL.lugar2')}
+          image2={daniel}
+          text3={t('index:CARROUSEL.text3')}
+          desc3={t('index:CARROUSEL.desc3')}
+          grupo3={t('index:CARROUSEL.grupo3')}
+          lugar3={t('index:CARROUSEL.lugar3')}
+          image3={fran}
+          text4={t('index:CARROUSEL.text4')}
+          desc4={t('index:CARROUSEL.desc4')}
+          grupo4={t('index:CARROUSEL.grupo4')}
+          lugar4={t('index:CARROUSEL.lugar4')}
+          image4={borja}
+        />
         
-        <InfiniteCarrousel
+        {/* <InfiniteCarrousel
           text1={t('index:CARROUSEL.text1')}
           desc1={t('index:CARROUSEL.desc1')}
           grupo1={t('index:CARROUSEL.grupo1')}
@@ -64,7 +97,7 @@ export default function Home() {
           desc4={t('index:CARROUSEL.desc4')}
           grupo4={t('index:CARROUSEL.grupo4')}
           lugar4={t('index:CARROUSEL.lugar4')}          
-        />
+        /> */}
         <Footer/>
         
     </div>
