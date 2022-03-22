@@ -7,6 +7,9 @@ import styles from "@styles/Servicios.module.css";
 import produccionCompleta from "../public/images/musicProduction.jpg";
 import composer from "../public/images/composer.jpg";
 import liveRecording from '../public/images/liveRecording.jpg';
+import CoverSlider from "@components/CoverSlider/CoverSlider";
+import CoverCollage from "@components/CoverCollage/CoverCollage";
+import ModalCover from "@components/ModalCover/ModalCover";
 
 export default function servicios() {
   return (
@@ -101,6 +104,25 @@ export default function servicios() {
           </p>
         </div> */}
       </div>
+      <div className={styles.mainTitle}>
+            <h2>Han confiado en nosotros para producir su música</h2>
+            <div className={styles.divider}></div>
+      </div>
+      <CoverCollage
+        img1={composer}
+        img2={composer}
+        img3={composer}
+        img4={composer}
+        img5={composer}
+        img6={composer}
+        img7={composer}
+        img8={composer}
+        img9={composer}
+        img10={composer}
+       />
+       
+       
+      
     </>
   );
 }

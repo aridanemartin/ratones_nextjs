@@ -1,0 +1,16 @@
+.coverCollageWrapper{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+}
+
+.singleCover{
+    position: relative;
+    background: black;
+    
+}
+
+.singleCover::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+  }

@@ -4,6 +4,7 @@ import Layout from '@components/Layout/Layout';
 
 
 function MyApp({ Component, pageProps, router }) {
+
   return (
   <>
     <motion.div 
