@@ -8,23 +8,7 @@
   height: 20rem;
   color: white;
 
-  background: hsla(20, 33%, 19%, 1);
-  background: linear-gradient(
-    90deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#A87054", GradientType=1 );
+  background: #6F1D1B;
 }
 
 .bannerText {
@@ -44,10 +28,10 @@
   font-weight: 500;
   font-size: 1.2rem;
   /* margin-top: 1rem; */
-  color: white;
+  color: #432818;
   /* border: 3px solid white; */
   
-  background:#b85c38;
+  background:#FFE6A7;
   padding: 1rem 2rem;
   border-radius: 30px;
 
@@ -56,7 +40,7 @@
 
 .button:hover {
   transform: translateY(-0.1rem);
-  background:#b85c38;
+  background:#FFE6A7;
   /* border: 3px solid #2d2424; */
   box-shadow: 2px 2px 2px #2d2424;
 }

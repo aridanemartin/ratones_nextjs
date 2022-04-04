@@ -1,5 +1,6 @@
-.testimonialsWrapper .mySwiper{
-    height: 30rem;
+/*solo incluir height aqui*/
+.testimonialsWrapper .mySwiper, .cslide{
+    height: 20rem;
 }
 
 .mySwiper >.swiper-button-next{
@@ -8,7 +9,6 @@
 
 .cslide {
     font-family: 'Roboto', sans-serif;
-    height: 30rem;
     text-align: center;
 
     display: grid;
@@ -21,7 +21,7 @@
     position: relative;
     height: 2rem;
     width: 2rem;
-    filter: invert(41%) sepia(48%) saturate(755%) hue-rotate(331deg) brightness(92%) contrast(85%);
+    filter: invert(66%) sepia(7%) saturate(2381%) hue-rotate(358deg) brightness(91%) contrast(90%);
     
 }
 
@@ -65,7 +65,7 @@
 
 .grupo{
     
-    color: #2D2424;
+    color: #432818;
     font-family: 'Anton';
     font-weight: 700;
     font-size: 1.4rem; 
@@ -73,7 +73,7 @@
 }
 
 .description{
-    color: #B85C38;
+    color: #6F1D1B;
     font-size: 0.8rem;
     font-weight: 500;
     margin: 0;
@@ -84,9 +84,15 @@
     font-size: 0.7rem;
     margin: 0;
     font-weight: 500;
-    color: #E0C097;
+    color: #BB9457;
 }
 
-@media(max-width:1024px){
+@media(max-width:1400px){
+    .testimonialsWrapper .mySwiper, .cslide{
+        height: 25rem;
+    }
 
+    .slideText{
+        padding: 3rem;
+    }
 }

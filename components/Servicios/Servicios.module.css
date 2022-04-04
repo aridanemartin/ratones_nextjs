@@ -28,7 +28,7 @@
 
 .servicio h2{
     /* color: #B85C38; */
-    color: #5C3D2E;
+    color: #432818;
     font-family: 'Anton';
     text-transform: uppercase;
     font-size: 2rem;
@@ -42,13 +42,13 @@
 
 .servicio a{
     margin-top: 1rem;
-    background: #b85c38;
-    color: white;
+    background: #BB9457;
+    color: #432818;
     font-weight: 700;
     font-size: 1.2rem;
     /* border: 1px solid #5C3D2E; */
     
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 25rem;
     /* border: 1px 1px #5C3D2E; */
 
@@ -57,7 +57,7 @@
 
 .servicio a:hover{
     transform: translateY(-0.1rem);
-    box-shadow: 2px 2px 2px #5C3D2E;
+    /* box-shadow: 2px 2px 2px #5C3D2E; */
 }
 
 .servicio1{

@@ -11,22 +11,6 @@
 
   /* background: #5C3D2E; */
   background: hsla(20, 33%, 19%, 1);
-  background: linear-gradient(
-    360deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    360deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    360deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#A87054", GradientType=1 );
   height: 4rem;
 }
 
@@ -53,6 +37,6 @@
 @media screen {
   .socialBannerLinkWrap:hover {
     transform: scale(1.1);
-    filter: drop-shadow(3px 3px 2px #000000);
+    /* filter: drop-shadow(1px 1px 1px #000000); */
   }
 }

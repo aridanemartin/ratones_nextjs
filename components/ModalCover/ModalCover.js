@@ -1,24 +1,32 @@
 import styles from './ModalCover.module.css';
-
 import Image from 'next/image'
+import { useState } from 'react';
+import { motion, AnimatePresence } from "framer-motion"
 
 
-export default function ModalCover({ image, open }) {
 
-    
+export default function ModalCover({ image, handleModalState, modalOpen }) {
+  
+  console.log(modalOpen);
   return (
-      <>
-    {open &&
-    <div className={styles.modalWrapper}>
-        {image ? <div className={styles.modalImageWrapper}>
+    <AnimatePresence>
+    {modalOpen && 
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className={styles.modalWrapper}
+      >
+        <div className={styles.modalImageWrapper}>
             <Image
                 src={image}
                 layout="fill"
                 objectFit="cover"
             />
-        </div> : ''}
-    </div>
-    }
-    </>
+            <button onClick={handleModalState}>lalala</button>
+        </div>
+    </motion.div>}
+    
+    </AnimatePresence>
   )
 }

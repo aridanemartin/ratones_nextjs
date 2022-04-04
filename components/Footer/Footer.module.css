@@ -2,23 +2,7 @@
   margin-top: 3rem;
   width: 100%;
   height: auto;
-  background: hsla(20, 33%, 19%, 1);
-  background: linear-gradient(
-    270deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    270deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    270deg,
-    hsla(20, 33%, 19%, 1) 0%,
-    hsla(20, 33%, 49%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#422C21", endColorstr="#A87054", GradientType=1 );
+  background: #432818;
 }
 
 .footerContentWrap {
@@ -34,6 +18,7 @@
 .menuContent {
   padding: 0;
   text-align: center;
+  font-weight: 500;
 }
 
 .menuContent li {

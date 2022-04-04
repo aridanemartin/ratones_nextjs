@@ -1,4 +1,4 @@
-import styles from '@styles/TextBlock.module.css';
+import styles from './TextBlock.module.css';
 
 const TextBlock = (props) => {
 

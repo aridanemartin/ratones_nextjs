@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 5rem;
     
     background: transparent;
     display: flex;
@@ -11,6 +12,7 @@
     justify-content: space-between;
 
     z-index: 100;
+    background: #432818;
 }
 
 .navContent{
@@ -35,18 +37,24 @@
     
     padding: 0.5rem 1.2rem;
     transition: all 300ms ease-in;
+    border-radius: 10rem;
 }
 
 .navLink:hover{
-    /* background-color: #2d2424; */
-    transform: scale(1.1) translateY(-0.2rem);
+    background-color: #27170E;  
 }
 
 .presupuesto{
-    background-color: #B85C38;
-    border-radius: 1rem;
+    margin-left: 2rem;
+    background-color: #FFE6A7;
+    border-radius: 10rem;
+    color: #432818;
+    font-weight: 700;
 }
 
+.presupuesto:hover{
+    background-color: #FFD56C;
+}
 
 .navLinkWrap{
     display: flex;

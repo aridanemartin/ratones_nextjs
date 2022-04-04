@@ -6,6 +6,18 @@ import styles from "@styles/Servicios.module.css";
 
 import produccionCompleta from "../public/images/musicProduction.jpg";
 import composer from "../public/images/composer.jpg";
+import cover1 from "../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
+import cover2 from "../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
+import cover3 from "../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
+import cover4 from "../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
+import cover5 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
+import cover6 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
+import cover7 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import cover8 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
+import cover9 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
+import cover10 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+
+
 import liveRecording from '../public/images/liveRecording.jpg';
 import CoverSlider from "@components/CoverSlider/CoverSlider";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
@@ -109,16 +121,16 @@ export default function servicios() {
             <div className={styles.divider}></div>
       </div>
       <CoverCollage
-        img1={composer}
-        img2={composer}
-        img3={composer}
-        img4={composer}
-        img5={composer}
-        img6={composer}
-        img7={composer}
-        img8={composer}
-        img9={composer}
-        img10={composer}
+        img1={cover1}
+        img2={cover2}
+        img3={cover3}
+        img4={cover4}
+        img5={cover5}
+        img6={cover6}
+        img7={cover7}
+        img8={cover8}
+        img9={cover9}
+        img10={cover10}
        />
        
        
