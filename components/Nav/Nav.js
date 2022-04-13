@@ -74,7 +74,7 @@ const Nav = () => {
                     </li>
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap2}>
                         <Link 
-                        href="/servicios"
+                        href="/#servicios"
                         >
                             <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{t('common:menuText.1.name')}</a>
                         </Link>

@@ -1,0 +1,35 @@
+.faqWrap{
+    padding: 5rem;
+    background: url(../../public/images/background3.jpg);
+    background-color: #2d2424af;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode:darken;
+}
+
+.faqWrap ul{
+    padding: 0;
+}
+
+.faqWrap ul li{
+    list-style: none;
+}
+
+.faqTitle{
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .faqWrap{
+        padding: 1rem;
+    }
+    .faqTitle{
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+}

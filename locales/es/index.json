@@ -1,5 +1,5 @@
 {
-    "introTitle1": "Produce tu proyecto en",
+    "introTitle1": "Produce tu proyecto en ",
     "introTitle2": "3 simples pasos ",
     "introText1": "Consigue el resultado que buscas en la producción musical online de sus canciones colaborando con productores y músicos de sesión presencialmente en Madrid o a través de internet.",
     "introText2": "En Ratone's Room trabajamos a medida y exclusiva para tu canción, con grabación de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final. Te entregamos tu canción lista para publicar en Spotify, Apple Music, Tidal, Instagram, TikTok… Llevamos más de 10 años realizado producciones musicales, arreglos y grabaciones para artistas independientes de lugares como Barcelona, Madrid, Sevilla, Vigo, Islas Canarias, México, Ecuador, Colombia y Estados Unidos.",
@@ -39,5 +39,17 @@
         "grupo4":"Borja Remacha",
         "desc4":"Cantautor",
         "lugar4":"Sabadell, España"
+    },
+    "FAQ":{
+        "title1":"¿Claasdlfkajsdflñkasdjflñ?",
+        "text1":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "title2":"Grupo de Ska/Reggae/Rock",
+        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "title3":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "text3":"Dani Tura",
+        "title4":"Guitarrista Independiente",
+        "text4":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "title5":"Grabar con él ha sido un proceso natural y muy satisfactorio. Víctor fué muy profesional a la vez que cercano y respetuoso con el material original y nos aportó muy buenas ideas a la hora de producir los temas.¡Uno más de la banda!",
+        "text5":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!"
     }
 }

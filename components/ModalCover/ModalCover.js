@@ -23,7 +23,7 @@ export default function ModalCover({ image, handleModalState, modalOpen }) {
                 layout="fill"
                 objectFit="cover"
             />
-            <button onClick={handleModalState}>lalala</button>
+            <button onClick={handleModalState}>Gracias Pol!</button>
         </div>
     </motion.div>}
     

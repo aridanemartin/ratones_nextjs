@@ -42,8 +42,8 @@
 
 .servicio a{
     margin-top: 1rem;
-    background: #BB9457;
-    color: #432818;
+    background: #99582A;
+    color: white;
     font-weight: 700;
     font-size: 1.2rem;
     /* border: 1px solid #5C3D2E; */
@@ -56,8 +56,8 @@
 }
 
 .servicio a:hover{
-    transform: translateY(-0.1rem);
-    /* box-shadow: 2px 2px 2px #5C3D2E; */
+    /* transform: translateY(-0.1rem); */
+    background: #bd6e35;
 }
 
 .servicio1{

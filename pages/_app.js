@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { motion } from 'framer-motion';
 import Layout from '@components/Layout/Layout';
+import "regenerator-runtime/runtime.js";
 
 
 function MyApp({ Component, pageProps, router }) {

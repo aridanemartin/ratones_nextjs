@@ -29,7 +29,7 @@ const Servicios = () => {
                     <h2>{t('index:produccionTitle')}</h2>
                     <p>{t('index:produccionText')}
                     </p>
-                    <Link href="/servicios#produccion-musical">
+                    <Link href="/servicios/produccion-musical">
                         <a>Más Información</a>
                     </Link>
                 </div>

@@ -39,7 +39,8 @@ export default function Home() {
                 text3={t('index:introText3')}
         />
         <Pasos/>
-        <TextBlock 
+        <span id="servicios"></span>
+        <TextBlock          
                 title1={t('index:serviciosTitle1')}
                 text1={t('index:serviciosText1')}
                 description={t('index:serviciosDescription')}
