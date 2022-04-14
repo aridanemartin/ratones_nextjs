@@ -28,6 +28,7 @@ import cover7 from "../public/images/covers/Sandra Bautista - Trapezista (Grabac
 import cover8 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
 import cover9 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
 import cover10 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import Layout from "@components/Layout/Layout";
 
 export default function Home() {
   let { t } = useTranslation();
@@ -54,12 +55,18 @@ export default function Home() {
           description={t("index:serviciosDescription")}
         />
         <Servicios />
-        <TextBlock
+        
+      </PageLayout>
+      <Banner
+        text={t("index:BANNER.text")}
+        buttonText={t("index:BANNER.buttonText")}
+        link="/"
+      />
+      <TextBlock
           title1={t("index:grabacionesTitle")}
           description={t("index:grabacionesDescription")}
           text1={t("index:grabacionesText1")}
         />
-      </PageLayout>
       <CoverCollage
           img1={cover1}
           img2={cover2}
@@ -72,11 +79,13 @@ export default function Home() {
           img9={cover9}
           img10={cover10}
         />
-      <Banner
-        text={t("index:BANNER.text")}
-        buttonText={t("index:BANNER.buttonText")}
-        link="/"
-      />
+      <PageLayout>
+        <TextBlock
+          title1={t("index:testimoniosTitle")}
+          description={t("index:testimoniosDescription")}
+          text1={t("index:testimoniosText1")}
+        />
+      </PageLayout>
       <Testimonials
         text1={t("index:CARROUSEL.text1")}
         desc1={t("index:CARROUSEL.desc1")}

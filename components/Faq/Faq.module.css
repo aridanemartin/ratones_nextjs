@@ -1,11 +1,11 @@
 .faqWrap{
     margin-top: 3rem;
     padding: 5rem;
-    background: url(../../public/images/background3.jpg);
-    background-color: #2d2424af;
+    background: url(../../public/images/guitarristaHero.jpg);
+    background-color: #2d2424be;
     background-size: cover;
-    background-position: 100% 60%;
-    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-attachment: initial;
     background-blend-mode:darken;
 }
 

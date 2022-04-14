@@ -8,7 +8,12 @@
   height: 20rem;
   color: white;
 
-  background: #6F1D1B;
+  background: url(../../public/images/guitarristaHero.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+  background-blend-mode: darken;
+  background-color: #4328186a;
+
 }
 
 .bannerText {
@@ -16,6 +21,7 @@
   max-width: 35ch;
 
   font-family: "Anton";
+  text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 2rem;
   line-height: 3rem;
@@ -28,10 +34,10 @@
   font-weight: 500;
   font-size: 1.2rem;
   /* margin-top: 1rem; */
-  color: #432818;
+  color: white;
   /* border: 3px solid white; */
   
-  background:#FFE6A7;
+  background:#99582a;
   padding: 1rem 2rem;
   border-radius: 30px;
 
@@ -39,8 +45,7 @@
 }
 
 .button:hover {
-  transform: translateY(-0.1rem);
-  background:#FFE6A7;
+  background: #c77336;
   /* border: 3px solid #2d2424; */
   box-shadow: 2px 2px 2px #2d2424;
 }

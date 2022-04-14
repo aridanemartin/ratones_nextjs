@@ -20,8 +20,11 @@
     "grabacionesTitle": "Trabajos Realizados",
     "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
     "grabacionesText1": "¿Buscas un servicio de grabación personalizado? ¿Necesitas ayuda con tu primera maqueta o proyecto personal? Necesitas un productor con experiencia que te ayude a darle ese pequeño punto de calidad que le falta a tu maqueta. Estoy aquí para ayudarte a conseguirlo.",
+    "testimoniosTitle": "Testimonios",
+    "testimoniosDescription": "",
+    "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
     "BANNER":{
-        "text":"CONTACTA CON NOSOTROS Y  TE ASESORAREMOS EN CÓMO PRODUCIR TU PRÓXIMO PROYECTO MUSICAL",
+        "text":"Contacta con nosotros y te asesoraremos en cómo producir tu próximo proyecto musical",
         "buttonText": "Contacto"
     },
     "CARROUSEL":{
@@ -43,16 +46,16 @@
         "lugar4":"Sabadell, España"
     },
     "FAQ":{
-        "title1":"¿Claasdlfkajsdflñkasdjflñ?",
-        "text1":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "title2":"Grupo de Ska/Reggae/Rock",
-        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "title3":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "text3":"Dani Tura",
-        "title4":"Guitarrista Independiente",
-        "text4":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "title5":"Grabar con él ha sido un proceso natural y muy satisfactorio. Víctor fué muy profesional a la vez que cercano y respetuoso con el material original y nos aportó muy buenas ideas a la hora de producir los temas.¡Uno más de la banda!",
-        "text5":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!"
+        "title1":"¿Qué necesito para comenzar a realizar una producción musical online?",
+        "text1":"Envíanos una grabación básica. Puede ser desde una maqueta hasta una pequeña demo grabada de forma casera.",
+        "title2":"Aún no he compuesto la música para mis letras ¿Cómo puedo comenzar el proceso de producción?",
+        "text2":"¡Estás en el sitio adecuado! Podemos ayudarte a componer la música antes de producir la canción",
+        "title3":"¿Podré solicitar modificaciones en el resultado final de la producción?",
+        "text3":"¡Claro! Recuerda que estaremos en contacto hasta que estés completamente contento con el resultado.",
+        "title4":"¿Qué derechos obtendré sobre mi producción",
+        "text4":"Tendrás el 100% de los derechos de distribución y uso de la grabación, sin ningún tipo de limitación de escuchas, tiempo o plataformas. Los derechos de autor de la composición siempre serán del autor/a de la canción. Si lo necesitas, podemos ayudarte a acabar de componer la canción.",
+        "title5":"¿Puedo grabar un cover o versión?",
+        "text5":"¡Por supuesto! también podemos realizar la producción adaptada medida de covers o versiones de otros artistas."
     },
     "PASOS":{
         "paso1":{

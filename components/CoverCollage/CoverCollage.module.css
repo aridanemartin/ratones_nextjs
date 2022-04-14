@@ -17,3 +17,9 @@
   padding-bottom: 100%;
   display: block;
 }
+
+@media(max-width: 900px){
+  .coverCollageWrapper {
+    display: none;
+  }
+}

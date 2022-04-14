@@ -20,7 +20,7 @@ export default function Guitarrista() {
 
       
       <div className={styles.mainTitle}>
-            <h2>Producción Musical</h2>
+            <h2>Contrata a un guitarrista de sesión</h2>
             <div className={styles.divider}></div>
         </div>
         <div className={styles.servicios}>
