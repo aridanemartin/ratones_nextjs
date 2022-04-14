@@ -43,7 +43,7 @@ const Servicios = () => {
                     </div>
                     <h2>{t('index:grabacionTitle')}</h2>
                     <p>{t('index:produccionText')}</p>
-                    <Link href="/">
+                    <Link href="/servicios/guitarrista">
                         <a>Más Información</a>
                     </Link>
                 </div>
@@ -57,7 +57,7 @@ const Servicios = () => {
                     </div>
                     <h2>{t('index:audiovisualesTitle')}</h2>
                     <p>{t('index:audiovisualesText')}</p>
-                    <Link href="/">
+                    <Link href="/servicios/musica-para-audiovisuales">
                         <a>Más Información</a>
                     </Link>
                 </div>
@@ -71,7 +71,7 @@ const Servicios = () => {
                     </div>
                     <h2>{t('index:mezclaTitle')}</h2>
                     <p>{t('index:mezclaText')}</p>
-                    <Link href="/">
+                    <Link href="/servicios/mezcla-master">
                         <a>Más Información</a>
                     </Link>   
                 </div>

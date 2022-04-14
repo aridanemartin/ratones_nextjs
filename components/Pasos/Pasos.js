@@ -6,14 +6,20 @@ import Paso1 from "../../public/images/talking2.jpg";
 import Paso2 from "../../public/images/working.jpg";
 import Paso3 from "../../public/images/listening1.jpg";
 
+import useTranslation from 'next-translate/useTranslation';
+
+
+
 const Pasos = () => {
+    let { t } = useTranslation();
+
     return ( 
         <>
             
             <div className={styles.pasosWrapper}>
                 <div className={styles.text1}> 
-                    <h3 className={styles.title}>Primer Paso: <strong>Hablemos</strong></h3>
-                    <p className={styles.text}>En primer lugar nos pondremos en contacto para que nos expliques que tienes en mente, estudiaremos tus necesidades y cerraremos un presupuesto personalizado.</p>
+                    <h3 className={styles.title}>{t("index:PASOS.paso1.title1")}<strong>{t("index:PASOS.paso1.title2")}</strong></h3>
+                    <p className={styles.text}>{t("index:PASOS.paso1.text")}</p>
                 </div>
                 <div className={styles.image1}>
                     <Image
@@ -24,8 +30,8 @@ const Pasos = () => {
                     />
                 </div>
                 <div className={styles.text2}> 
-                    <h3 className={styles.title}>Segundo Paso: <strong>¡A trabajar!</strong></h3>
-                    <p className={styles.text}>En segundo lugar, comenzaremos a trabajar en tu proyecto. Te consultaremos cuantas veces haga falta y te enviaremos premixes para que con nuestra experiencia y tu feedback encontremos el sonido que buscas.</p>
+                    <h3 className={styles.title}>{t("index:PASOS.paso2.title1")}<strong>{t("index:PASOS.paso2.title2")}</strong></h3>
+                    <p className={styles.text}>{t("index:PASOS.paso2.text")}</p>
                 </div>
                 <div className={styles.image2}>
                     <Image
@@ -36,8 +42,8 @@ const Pasos = () => {
                     />
                 </div>
                 <div className={styles.text3}> 
-                    <h3 className={styles.title}>Tercer Paso: <strong>¡Disfruta!</strong></h3>
-                    <p className={styles.text}>Ponte cómodo y !Disfruta del resultado! Recuerda que en Ratone's Room ofrecemos revisiones ilimitadas con tal de que encuentres el sonido que buscabas y acabes 100% satisfecho.</p>
+                    <h3 className={styles.title}>{t("index:PASOS.paso3.title1")}<strong>{t("index:PASOS.paso3.title2")}</strong></h3>
+                    <p className={styles.text}>{t("index:PASOS.paso3.text")}</p>
                 </div>  
                 <div className={styles.image3}>                 
                     <Image

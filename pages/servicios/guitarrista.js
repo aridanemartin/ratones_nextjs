@@ -1,34 +1,25 @@
-import Hero from "@components/Hero/Hero";
-import heroImage from "../../public/images/serviciosCover.jpg";
-import ratonLogo from "../../public/images/logoSoloRaton.png";
+import heroImage from '../../public/images/guitarristaHero.jpg';
+import ratonLogo from '../../public/images/logoSoloRaton.png'
+import Hero from '@components/Hero/Hero';
 import Image from "next/image";
 import styles from "@styles/Servicios.module.css";
 
 import produccionCompleta from "../../public/images/musicProduction.jpg";
 import composer from "../../public/images/composer.jpg";
-import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
-import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
-import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
-import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
-import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-
-
 import liveRecording from '../../public/images/liveRecording.jpg';
-import CoverSlider from "@components/CoverSlider/CoverSlider";
-import CoverCollage from "@components/CoverCollage/CoverCollage";
-import ModalCover from "@components/ModalCover/ModalCover";
+import PriceTable from '@components/PriceTable/PriceTable';
+import Banner from '@components/Banner/Banner';
+import TextBlock from '@components/TextBlock/TextBlock';
+import Faq from '@components/Faq/Faq';
 
-export default function Index() {
+
+export default function Guitarrista() {
   return (
     <>
-      <Hero image={heroImage} title="Servicios" logoPeq={ratonLogo} />
+      <Hero image={heroImage} title="Grabación de guitarras" logoPeq={ratonLogo} />
+
       
-        <div className={styles.mainTitle}>
+      <div className={styles.mainTitle}>
             <h2>Producción Musical</h2>
             <div className={styles.divider}></div>
         </div>
@@ -82,25 +73,11 @@ export default function Index() {
           </p>
         </div>
       </div>
-      <div className={styles.mainTitle}>
-            <h2>Han confiado en nosotros para producir su música</h2>
-            <div className={styles.divider}></div>
-      </div>
-      <CoverCollage
-        img1={cover1}
-        img2={cover2}
-        img3={cover3}
-        img4={cover4}
-        img5={cover5}
-        img6={cover6}
-        img7={cover7}
-        img8={cover8}
-        img9={cover9}
-        img10={cover10}
-       />
-       
-       
-      
+      <TextBlock title1="Tabla de Precios" 
+      text1="Lo más importante en Ratone’s Room es ofrecer un servicio profesional en el que quedes 100% satisfecho con el resultado. Por eso dispones de revisiones ilimitadas sin cargo extra además de otras ventajas que se detallan más abajo."
+      text2="Los precios mostrados a continuación son orientativos y no incluyen IVA (21%). Cada proyecto es diferente y requiere de herramientas y tiempos distintos, por eso te recomiendo que pidas un presupuesto sin compromiso para poder ajustar el precio lo máximo posible."/>
+      <PriceTable/>
+      <Faq />
     </>
-  );
+  )
 }

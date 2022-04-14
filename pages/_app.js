@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import { motion } from 'framer-motion';
 import Layout from '@components/Layout/Layout';
-import "regenerator-runtime/runtime.js";
+import Footer from '@components/Footer/Footer';
+
 
 
 function MyApp({ Component, pageProps, router }) {
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps, router }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Footer />
     </motion.div>
   </>
   

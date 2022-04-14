@@ -12,7 +12,7 @@
     justify-content: space-between;
 
     z-index: 100;
-    background: #432818;
+    background: #161111;
 }
 
 .navContent{
@@ -41,19 +41,22 @@
 }
 
 .navLink:hover{
-    background-color: #27170E;  
+    /* background-color: #27170E;   */
+    color: #99582a;
 }
 
 .presupuesto{
     margin-left: 2rem;
-    background-color: #FFE6A7;
+    background-color: #99582a;
     border-radius: 10rem;
-    color: #432818;
     font-weight: 700;
+    color: #432818;
+    color: white;
 }
 
 .presupuesto:hover{
-    background-color: #FFD56C;
+    background-color: #c77438;
+    color: white;
 }
 
 .navLinkWrap{

@@ -1,20 +1,22 @@
 {
     "introTitle1": "Produce tu proyecto en ",
     "introTitle2": "3 simples pasos ",
-    "introText1": "Consigue el resultado que buscas en la producción musical online de sus canciones colaborando con productores y músicos de sesión presencialmente en Madrid o a través de internet.",
-    "introText2": "En Ratone's Room trabajamos a medida y exclusiva para tu canción, con grabación de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final. Te entregamos tu canción lista para publicar en Spotify, Apple Music, Tidal, Instagram, TikTok… Llevamos más de 10 años realizado producciones musicales, arreglos y grabaciones para artistas independientes de lugares como Barcelona, Madrid, Sevilla, Vigo, Islas Canarias, México, Ecuador, Colombia y Estados Unidos.",
-    "introText3": "¡Grabar tu música no había sido nunca tan sencillo!",
+    "introText1": "Consigue el impacto y el resultado profesional que buscas en la producción musical de tus canciones en Madrid o a través de internet. Colaboramos con todo tipo de músicos y técnicos de confianza.",
+    "introText2": "En Ratone's Room trabajamos a medida para tu canción, EP o disco. con grabaciones de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final.",
+    "introText3": "Te entregamos tu música lista para ser publicada en las principales plataformas digitales: Spotify, iTunes, Youtube, Tidal, Deezer, etc. Si también quieres publicar tu música en formato físico (CD, vinilo, etc.) no te preocupes, nosotros nos encargamos.",
+    "introText4": "Llevamos más de 5 años realizado producciones musicales, arreglos y grabaciones para artistas independientes.",
+    "introText5": "¡Producir tu música no había sido nunca tan sencillo!",
     "serviciosTitle1": "Servicios",
     "serviciosDescription": "A CONTINUACIÓN TE MOSTRAMOS QUE PODEMOS HACER POR TÍ EN TU PRÓXIMO PROYECTO MUSICAL",
-    "serviciosText1": "En Ratone’s Room somos conscientes de que cada artista es totalmente diferente. Por ello tratamos de adaptarnos a tu estilo, estudiar tus necesidades y ayudarte a conseguir ese sonido que estás buscando ya sea en la grabación de tu maqueta, en la masterización de tu próximo EP o produciendo la música de tu próximo corto... ¡Podemos ayudarte!",
+    "serviciosText1": "En Ratone’s Room somos conscientes de que cada artista es totalmente diferente. Por ello tratamos de adaptarnos a tu estilo, estudiar tus necesidades y ayudarte a conseguir ese sonido que estás buscando ya sea en la grabación de tu single, en la masterización de tu próximo EP o produciendo la música de tu próximo cortometraje... ¡Podemos ayudarte!",
     "produccionTitle": "Producción Musical",
-    "produccionText": "Consiga la producción musical online de sus canciones colaborando con productores y músicos de sesión de forma remota. Nos encargamos de todo: instrumentación a medida, afinación de voz, mezcla y mastering.",
+    "produccionText": "Realizamos producciones musicales de todo tipo. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. Nos encargamos de todo el proceso: instrumentación y arreglos a medida, grabación y procesado de voces, mezcla y mastering.",
     "grabacionTitle": "Grabación de guitarras",
-    "grabacionText": "Contrate una grabación profesional de guitarras acústicas o eléctricas para su producción por un guitarrista de sesión online. Obtenga el mejor resultado de forma fácil y efectiva desde su estudio de grabación.",
+    "grabacionText": "Grabamos las guitarras de tu canción de forma remota. ¿Necesitas una guitarra acústica de acompañamiento? ¿Un solo de rock? Este servicio es muy económico, rápido y sencillo.",
     "audiovisualesTitle": "Música para audiovisuales",
-    "audiovisualesText": "Consiga la producción musical online de sus canciones colaborando con productores y músicos de sesión de forma remota. Nos encargamos de todo: instrumentación a medida, afinación de voz, mezcla y mastering.",
+    "audiovisualesText": "Componemos la música y el diseño sonoro para tu proyecto audiovisual (publicidad, cortometraje, largometraje, documental, podcast, etc.).",
     "mezclaTitle": "Mezcla y Máster",
-    "mezclaText": "Consiga la producción musical online de sus canciones colaborando con productores y músicos de sesión de forma remota. Nos encargamos de todo: instrumentación a medida, afinación de voz, mezcla y mastering.",
+    "mezclaText": "Tráenos tus pistas y nosotros te las mezclamos.Tráenos tu mezcla y nosotros te hacemos el máster. Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas.",
     "grabacionesTitle": "Trabajos Realizados",
     "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
     "grabacionesText1": "¿Buscas un servicio de grabación personalizado? ¿Necesitas ayuda con tu primera maqueta o proyecto personal? Necesitas un productor con experiencia que te ayude a darle ese pequeño punto de calidad que le falta a tu maqueta. Estoy aquí para ayudarte a conseguirlo.",
@@ -51,5 +53,22 @@
         "text4":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
         "title5":"Grabar con él ha sido un proceso natural y muy satisfactorio. Víctor fué muy profesional a la vez que cercano y respetuoso con el material original y nos aportó muy buenas ideas a la hora de producir los temas.¡Uno más de la banda!",
         "text5":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!"
+    },
+    "PASOS":{
+        "paso1":{
+            "title1": "Primer Paso: ",
+            "title2": "Hablemos",
+            "text": "En primer lugar nos pondremos en contacto para que nos expliques que tienes en mente, estudiaremos tus necesidades y cerraremos un presupuesto personalizado."
+        },
+        "paso2":{
+            "title1": "Segundo Paso: ",
+            "title2": "¡A trabajar!",
+            "text": "Una vez esté aprobado el presupuesto, comenzaremos a trabajar en tu proyecto. Te consultaremos cuantas veces haga falta y te enviaremos muestras para que con nuestra experiencia y tus ideas encontremos el sonido que buscas."
+        },
+        "paso3":{
+            "title1": "Tercer Paso: ",
+            "title2": "¡Disfruta!",
+            "text": "Ponte cómodo y disfruta del resultado. Recuerda que en Ratone's Room ofrecemos revisiones ilimitadas con tal de que encuentres el sonido que buscas y estés 100% satisfecho."
+        }
     }
 }

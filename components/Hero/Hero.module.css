@@ -37,7 +37,7 @@
 
 .logoWrapper{
     position: relative;
-    height: 15rem;
+    height: 12rem;
     width: 17rem;
 }
 
@@ -50,7 +50,7 @@
     .logoWrapper{
         position: relative;
         height: 12rem;
-        width: 14rem;
+        /* width: 14rem; */
     }
 
     .mainTitleWrapper{
