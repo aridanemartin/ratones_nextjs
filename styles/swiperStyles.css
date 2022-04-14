@@ -1,9 +1,9 @@
-/* #app { height: 100% } */
+#app { height: 100% }
 
-/* .swiper {
+.swiper {
     width: 100%;
     height: 30rem;
-} */
+}
 .mySwiper .swiper-button-next{
     color: #5c3d2e;
   }

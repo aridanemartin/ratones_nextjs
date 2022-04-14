@@ -1,4 +1,4 @@
-
+import styles from './CoverSlider.module.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
@@ -11,16 +11,16 @@ import "swiper/css/navigation";
 // import required modules
 import { Scrollbar } from "swiper";
 import Image from "next/image";
-import cuerdas from "../../public/images/12cuerdas.png";
-import daniel from "../../public/images/danielFelices.jpg";
+import cuerdas from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
+import daniel from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
 import basilio from "../../public/images/drBasilio.jpg";
-import banddarra from "../../public/images/banddarra.jpg";
-import sandra from "../../public/images/sandraBautista.jpeg";
-import soviet from "../../public/images/k-soviet.jpg";
+import banddarra from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
+import sandra from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import soviet from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
 
 const CoverSlider = () => {
     return (  
-    <div>
+    <div className={styles.coverSliderWrapper}>
         <Swiper
             scrollbar={{
             hide: true,
@@ -41,14 +41,6 @@ const CoverSlider = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <Image
-                        src={basilio}
-                        layout="fill"
-                        objectFit="cover"
-                        alt="DR.BASILIO - Grupos que han grabado en Ratone's Room"
-                    />
-            </SwiperSlide>
-            <SwiperSlide>
                 <div>
                     <Image
                         src={soviet}
@@ -61,20 +53,28 @@ const CoverSlider = () => {
             <SwiperSlide>
                 <div>
                     <Image
-                        src={daniel}
-                        layout="fill"
-                        objectFit="cover"
-                        alt="Daniel Felices - Grupos que han grabado en Ratone's Room"
-                    />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div>
-                    <Image
                         src={banddarra}
                         layout="fill"
                         objectFit="cover"
                         alt="Banddarra - Grupos que han grabado en Ratone's Room"
+                    />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Image
+                        src={basilio}
+                        layout="fill"
+                        objectFit="cover"
+                        alt="DR.BASILIO - Grupos que han grabado en Ratone's Room"
+                    />
+            </SwiperSlide>
+            <SwiperSlide>
+                <div>
+                    <Image
+                        src={daniel}
+                        layout="fill"
+                        objectFit="cover"
+                        alt="Daniel Felices - Grupos que han grabado en Ratone's Room"
                     />
                 </div>
             </SwiperSlide>

@@ -79,6 +79,7 @@ export default function Home() {
           img9={cover9}
           img10={cover10}
         />
+      <CoverSlider/>
       <PageLayout>
         <TextBlock
           title1={t("index:testimoniosTitle")}
@@ -108,6 +109,7 @@ export default function Home() {
         lugar4={t("index:CARROUSEL.lugar4")}
         image4={borja}
       />
+      
 
       {/* <InfiniteCarrousel
           text1={t('index:CARROUSEL.text1')}
