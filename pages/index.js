@@ -15,7 +15,7 @@ import Testimonials from "@components/Testimonials/Testimonials.js";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
 
 import banddarra from "../public/images/banddarra.jpg";
-import juanca from "../public/images/juanca.jpeg";
+import juanca from "../public/images/Juanca.jpeg";
 import fran from "../public/images/franPeregrina.jpg";
 import borja from "../public/images/borjaRemacha.jpg";
 import cover1 from "../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";

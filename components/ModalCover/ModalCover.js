@@ -1,6 +1,5 @@
 import styles from './ModalCover.module.css';
 import Image from 'next/image'
-import { useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion"
 
 
