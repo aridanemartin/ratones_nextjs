@@ -15,7 +15,7 @@ import Testimonials from "@components/Testimonials/Testimonials.js";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
 
 import banddarra from "../public/images/banddarra.jpg";
-import daniel from "../public/images/danielFelices.jpg";
+import juanca from "../public/images/juanca.jpeg";
 import fran from "../public/images/franPeregrina.jpg";
 import borja from "../public/images/borjaRemacha.jpg";
 import cover1 from "../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
@@ -29,6 +29,7 @@ import cover8 from "../public/images/covers/Fran Peregrina - Mi Romance (Producc
 import cover9 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
 import cover10 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
 import Layout from "@components/Layout/Layout";
+import Ventajas from "@components/Ventajas/Ventajas";
 
 export default function Home() {
   let { t } = useTranslation();
@@ -48,6 +49,11 @@ export default function Home() {
           text5={t("index:introText5")}
         />
         <Pasos />
+        <TextBlock
+          title1={t("index:ventajasTitle")}
+          text1={t("index:ventajasText1")}
+        />
+        <Ventajas/>
         <span id="servicios"></span>
         <TextBlock
           title1={t("index:serviciosTitle1")}
@@ -69,15 +75,33 @@ export default function Home() {
         />
       <CoverCollage
           img1={cover1}
+          text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
+          url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
           img2={cover2}
+          text2="Borja Remacha - Arreglos y grabación de guitarras"
+          url2=""
           img3={cover3}
+          text3="Fran Peregrina - Producción musical, mezcla y máster"
+          url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
           img4={cover4}
+          text4="Fran Peregrina - Producción musical, mezcla y máster"
+          url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
           img5={cover5}
+          text5="Fran Peregrina - Producción musical, mezcla y máster"
+          url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
           img6={cover6}
+          text6="Frederico Vannini - Máster"
+          url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
           img7={cover7}
+          text7="Sandra Bautista - Grabación de guitarras"
+          url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
           img8={cover8}
+          text8="Dr. Basilio - Grabación de guitarras"
+          url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
           img9={cover9}
+          text9="Dos"
           img10={cover10}
+          text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
         />
       <CoverSlider/>
       <PageLayout>
@@ -97,7 +121,7 @@ export default function Home() {
         desc2={t("index:CARROUSEL.desc2")}
         grupo2={t("index:CARROUSEL.grupo2")}
         lugar2={t("index:CARROUSEL.lugar2")}
-        image2={daniel}
+        image2={juanca}
         text3={t("index:CARROUSEL.text3")}
         desc3={t("index:CARROUSEL.desc3")}
         grupo3={t("index:CARROUSEL.grupo3")}
@@ -109,26 +133,6 @@ export default function Home() {
         lugar4={t("index:CARROUSEL.lugar4")}
         image4={borja}
       />
-      
-
-      {/* <InfiniteCarrousel
-          text1={t('index:CARROUSEL.text1')}
-          desc1={t('index:CARROUSEL.desc1')}
-          grupo1={t('index:CARROUSEL.grupo1')}
-          lugar1={t('index:CARROUSEL.lugar1')}
-          text2={t('index:CARROUSEL.text2')}
-          desc2={t('index:CARROUSEL.desc2')}
-          grupo2={t('index:CARROUSEL.grupo2')}
-          lugar2={t('index:CARROUSEL.lugar2')}
-          text3={t('index:CARROUSEL.text3')}
-          desc3={t('index:CARROUSEL.desc3')}
-          grupo3={t('index:CARROUSEL.grupo3')}
-          lugar3={t('index:CARROUSEL.lugar3')}
-          text4={t('index:CARROUSEL.text4')}
-          desc4={t('index:CARROUSEL.desc4')}
-          grupo4={t('index:CARROUSEL.grupo4')}
-          lugar4={t('index:CARROUSEL.lugar4')}          
-        /> */}
     </div>
   );
 }

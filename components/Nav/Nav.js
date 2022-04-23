@@ -79,13 +79,6 @@ const Nav = () => {
                             <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{t('common:menuText.1.name')}</a>
                         </Link>
                     </li>
-                    <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap3}>
-                        <Link 
-                        href="/rocodromo"
-                        >
-                            <a className={(serviciosOpen ? styles.hideMenu : '') + ' ' + (styles.navLink)}>{t('common:menuText.2.name')}</a>
-                        </Link>  
-                    </li>
                     <li className={isOpen === false ? styles.navLinkWrap : styles.navLinkWrap + ' ' + styles.navLinkWrap4}>
                         <Link 
                         href="/contacto"

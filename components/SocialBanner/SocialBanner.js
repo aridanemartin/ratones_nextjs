@@ -15,17 +15,17 @@ const SocialBanner = () => {
             <div className={styles.socialBanner}>
                 <div className={styles.socialBannerLinkWrap}>
                     <Link 
-                    href="https://www.linkedin.com/in/v%C3%ADctor-mart%C3%ADnez-galeote-14b6821a4/?originalSubdomain=es"
+                    href="https://www.instagram.com/ratonesroom/"
                     >
                         <a className={styles.socialBannerLink} target="_blank">
                             <Image 
-                            src={linkedin}
+                            src={Instagram}
                             layout="fill"
                             objectFit="contain"
-                            // maxWidth={40}
-                            // height={40}
+                            // maxWidth={35}
+                            // height={35}
                             className={styles.socialBannerLink}
-                            alt="Victor Martinez - Website"
+                            alt="Ratone's Room - Instagram"
                             />
                         </a>       
                     </Link>
@@ -42,40 +42,6 @@ const SocialBanner = () => {
                             // maxWidth={40}
                             // height={40}
                             alt="Ratone's Room - Facebook"
-                            />
-                        </a>       
-                    </Link>
-                </div>
-                <div className={styles.socialBannerLinkWrap}>
-                    <Link 
-                    href="https://www.victormartinezgaleote.com/"
-                    >
-                        <a className={styles.socialBannerLink} target="_blank">
-                            <Image 
-                            src={youtube}
-                            layout="fill"
-                            objectFit="contain"
-                            // maxWidth={40}
-                            // height={40}
-                            className={styles.socialBannerLink}
-                            alt="Victor Martinez - Website"
-                            />
-                        </a>       
-                    </Link>
-                </div>
-                <div className={styles.socialBannerLinkWrap}>
-                    <Link 
-                    href="https://www.instagram.com/ratonesroom/"
-                    >
-                        <a className={styles.socialBannerLink} target="_blank">
-                            <Image 
-                            src={Instagram}
-                            layout="fill"
-                            objectFit="contain"
-                            // maxWidth={35}
-                            // height={35}
-                            className={styles.socialBannerLink}
-                            alt="Ratone's Room - Instagram"
                             />
                         </a>       
                     </Link>

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 
 
-export default function ModalCover({ image, handleModalState, modalOpen }) {
+export default function ModalCover({ image, text, url, handleModalState, modalOpen }) {
   
   console.log(modalOpen);
   return (
@@ -24,6 +24,16 @@ export default function ModalCover({ image, handleModalState, modalOpen }) {
                 objectFit="cover"
             />
             <button onClick={handleModalState}>Cerrar</button>
+            <p className={styles.modalText}>{text}</p>
+            <iframe className={styles.modalSpotify}
+            src={url} 
+            width="100%" 
+            height="80" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          
         </div>
     </motion.div>}
     

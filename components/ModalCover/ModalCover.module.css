@@ -1,28 +1,46 @@
 .modalWrapper{
-    
+
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.79);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 5;
 }
 
 .modalImageWrapper{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 25rem;
     height: 25rem;
 }
 
+.modalText{
+    position: absolute;
+    font-size: 1.2rem;
+    width: 25rem;
+    color: white;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalSpotify{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-50%, -50%);
+}
+
 .modalImageWrapper button{
     cursor: pointer;
-    
+
     position: absolute;
-    top: 100%;
+    top: 165%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 10rem;
@@ -33,7 +51,7 @@
     text-transform: uppercase;
     color: white;
     background: #99582a;
-    z-index: 2;
+    
     transition: all 0.3s ease-in-out;
 }
 

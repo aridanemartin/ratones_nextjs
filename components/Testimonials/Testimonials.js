@@ -39,10 +39,10 @@ export default function Testimonials(props) {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          // 1024: {
+          //   slidesPerView: 3,
+          //   spaceBetween: 20,
+          // },
         }}
         modules={[Autoplay, Pagination, Navigation]}
         className={styles.mySwiper}

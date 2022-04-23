@@ -19,10 +19,12 @@
     "mezclaText": "Tráenos tus pistas y nosotros te las mezclamos.Tráenos tu mezcla y nosotros te hacemos el máster. Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas.",
     "grabacionesTitle": "Trabajos Realizados",
     "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
-    "grabacionesText1": "¿Buscas un servicio de grabación personalizado? ¿Necesitas ayuda con tu primera maqueta o proyecto personal? Necesitas un productor con experiencia que te ayude a darle ese pequeño punto de calidad que le falta a tu maqueta. Estoy aquí para ayudarte a conseguirlo.",
-    "testimoniosTitle": "Testimonios",
+    "grabacionesText1": "A continuación mostramos algunos de los trabajos en los que hemos realizado la producción musical, grabaciones de guitarras, mezcla o máster.",
+    "testimoniosTitle": "Recomendaciones",
     "testimoniosDescription": "",
     "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
+    "ventajasTitle": "Ventajas",
+    "ventajasText1": "Descubre las numerosas ventajas de trabajar con Ratone's Room.",
     "BANNER":{
         "text":"Contacta con nosotros y te asesoraremos en cómo producir tu próximo proyecto musical",
         "buttonText": "Contacto"
@@ -31,19 +33,19 @@
         "text1":"Cuando conocimos a Víctor, vimos claro que queríamos que fuera él quien nos produjera el disco. Un profesional que sabe siempre como hacer que ese tema que estás grabando tenga el arreglo adecuado. Es muy fácil trabajar con él y el resultado ha sido excelente.",
         "grupo1":"La Banddarra",
         "desc1":"Grupo de Ska/Reggae/Rock",
-        "lugar1":"Sant Climent de Llobregat, España",
+        "lugar1":"Barcelona",
         "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "grupo2":"Dani Tura",
-        "desc2":"Guitarrista Independiente",
-        "lugar2":"Caldes de Montbui, España",
-        "text3":"Grabar con él ha sido un proceso natural y muy satisfactorio. Víctor fué muy profesional a la vez que cercano y respetuoso con el material original y nos aportó muy buenas ideas a la hora de producir los temas.¡Uno más de la banda!",
+        "grupo2":"Juan Carlos Rojas",
+        "desc2":"Flamenco/Pop/Fusión ",
+        "lugar2":"Barcelona",
+        "text3":"Trabajar en Ratone's Room ha sido todo un placer. Además, el trato recibido por parte de Víctor ha sido más que excelente, no únicamente me ha ayudado a tener un mejor sonido a nivel de mezcla y de masterización, si no que me ha ayudado con todo tipo de consejos y trucos para conseguir un mejor sonido desde la grabación.",
         "grupo3":"Fran Peregrina",
         "desc3":"Cantautor",
-        "lugar3":"Terrassa, España",
+        "lugar3":"Barcelona",
         "text4":"Víctor, responsable de Ratone's Room es un músico cualificadísimo, constante, puntual, comprometido con el trabajo y flexible. Es responsable de los arreglos y la grabación de las guitarras de las 6 últimas canciones de mi primer disco. En ellas cabe destacar el sonido y la esencia americana que buscaba en esos temas.",
         "grupo4":"Borja Remacha",
-        "desc4":"Cantautor",
-        "lugar4":"Sabadell, España"
+        "desc4":"Cantautor de Pop/Rock",
+        "lugar4":"Barcelona"
     },
     "FAQ":{
         "title1":"¿Qué necesito para comenzar a realizar una producción musical online?",
@@ -73,5 +75,13 @@
             "title2": "¡Disfruta!",
             "text": "Ponte cómodo y disfruta del resultado. Recuerda que en Ratone's Room ofrecemos revisiones ilimitadas con tal de que encuentres el sonido que buscas y estés 100% satisfecho."
         }
+    },
+    "VENTAJAS":{
+        "ventaja1":"Satisfacción 100% garantizada.",
+        "ventaja2":"Descuentos y promociones especiales",
+        "ventaja3":"Máster de muestra gratis.",
+        "ventaja4":"Evaluación de mezcla gratis.",
+        "ventaja5":"Rapidez",
+        "ventaja6":"Asesoramiento creativo y técnico"           
     }
 }
