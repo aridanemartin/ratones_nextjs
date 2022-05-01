@@ -1,83 +1,153 @@
-import heroImage from '../../public/images/working.jpg';
-import ratonLogo from '../../public/images/logoSoloRaton.png'
-import Hero from '@components/Hero/Hero';
-import Image from "next/image";
-import styles from "@styles/Servicios.module.css";
-
+import heroImage from "../../public/images/working.jpg";
+import Hero from "@components/Hero/Hero";
+import ImageTextBlock from "@components/ImageTextBlock/ImageTextBlock";
+import { List } from "@components/List";
+import PageLayout from "@components/PageLayout/PageLayout";
+import CoverCollage from "@components/CoverCollage/CoverCollage";
+import CoverSlider from "@components/CoverSlider/CoverSlider";
 import produccionCompleta from "../../public/images/musicProduction.jpg";
-import composer from "../../public/images/composer.jpg";
-import liveRecording from '../../public/images/liveRecording.jpg';
-import PriceTable from '@components/PriceTable/PriceTable';
-import Banner from '@components/Banner/Banner';
-import TextBlock from '@components/TextBlock/TextBlock';
-import Faq from '@components/Faq/Faq';
+import Banner from "@components/Banner/Banner";
+import TextBlock from "@components/TextBlock/TextBlock";
+import Faq from "@components/Faq/Faq";
+import useTranslation from "next-translate/useTranslation";
+import Ventajas from "@components/Ventajas/Ventajas";
+
+import paso1 from "../../public/images/icons/inbox.png";
+import paso2 from "../../public/images/icons/handshake.png";
+import paso3 from "../../public/images/icons/work.png";
+import paso4 from "../../public/images/icons/microphone.png";
+import paso5 from "../../public/images/icons/fader.png";
+import paso6 from "../../public/images/icons/listen.png";
+import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
+import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
+import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
+import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
+import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
+import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
+import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
+import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
+import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import cantautora from "../../public/images/cantautora.jpg";
 
 
 export default function ProduccionMusical() {
+  let { t } = useTranslation();
+
   return (
     <>
-      <Hero image={heroImage} title="Producción Musical" logoPeq={ratonLogo} />
+      <Hero image={heroImage} title="Producción Musical" />
 
+      <TextBlock
+        title1={t("index:PRODUCCION-MUSICAL.p2")}
+        text1={t("index:PRODUCCION-MUSICAL.p1")}
+      />
+
+      <ImageTextBlock
+        txt1={t("index:PRODUCCION-MUSICAL.p3")}
+        txt2={t("index:PRODUCCION-MUSICAL.p4")}
+        img={produccionCompleta}
+      />
+      <TextBlock
+        title1={t("index:PRODUCCION-MUSICAL.pasos.title")}
+        text1={t("index:PRODUCCION-MUSICAL.pasos.desc")}
+      />
+      <PageLayout small>
+        <Ventajas
+          vertical
+          img1={paso1}
+          img2={paso2}
+          img3={paso3}
+          img4={paso4}
+          img5={paso5}
+          img6={paso6}
+          txt1={t("index:PRODUCCION-MUSICAL.pasos.1")}
+          txt2={t("index:PRODUCCION-MUSICAL.pasos.2")}
+          txt3={t("index:PRODUCCION-MUSICAL.pasos.3")}
+          txt4={t("index:PRODUCCION-MUSICAL.pasos.4")}
+          txt5={t("index:PRODUCCION-MUSICAL.pasos.5")}
+          txt6={t("index:PRODUCCION-MUSICAL.pasos.6")}
+        />
+      </PageLayout>
+      <Banner
+        text={t("index:PRODUCCION-MUSICAL.p5")}
+        link="/contacto"
+        buttonText="CONTACTO"
+      />
+      <TextBlock
+        title1={t("index:PRODUCCION-MUSICAL.p7")}
+      />
       
-      <div className={styles.mainTitle}>
-            <h2>Producción Musical</h2>
-            <div className={styles.divider}></div>
-        </div>
-        <div className={styles.servicios}>
-        <div className={styles.image1 + " " + styles.images}>
-          <Image src={produccionCompleta} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext1}>
-          <h3 id="produccion-musical">Producción Completa</h3>
-          <p>
-            Realizar una producción musical profesional implica varios procesos
-            desde que tienes una idea y la desarrollas hasta que terminamos y te
-            entregamos el master.
-            <br />
-            <br />
-            Nosotros te acompañamos en todos y cada uno de esos procesos, desde
-            la preproducción al mastering, poniendo a tu disposición todo el
-            equipo y nuestra experiencia para conseguir sacarle todo el partido
-            a tus canciones.
-            <br />
-            <br />
-            Incluye preproducción, grabación, edición, arreglos, mezcla y
-            mastering.
-          </p>
-        </div>
-
-        <div className={styles.image2 + " " + styles.images}>
-          <Image src={composer} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext2}>
-          <h3>Composición y Arreglos</h3>
-          <p>
-            ¿Tienes tus canciones solo compuestas con voz, con voz y algún
-            instrumento o incluso solo la letra y te falta el resto?
-            <br />
-            <br />
-            Estamos encantados de ayudarte a terminar de darles forma para que
-            quedan como imaginabas, a componer y grabar el resto de
-            instrumentación, realizar la producción completa desde el principio
-            o cualquier otra cosa que se te ocurra para desarrollarlas y
-            llevarlas a un nuevo nivel.
-          </p>
-        </div>
-        <div className={styles.image3 + " " + styles.images}>
-          <Image src={liveRecording} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext3}>
-          <h3>Grabación Móvil Multipista</h3>
-          <p>
-            Me desplazo donde tú quieras para realizar una grabación multipista (4 canales, con posibilidad de ampliar a 16).  Ideal si quieres hacer una pre-producción antes de grabar un disco, grabar un concierto, un ensayo, etc.
-          </p>
-        </div>
-      </div>
-      <TextBlock title1="Tabla de Precios" 
-      text1="Lo más importante en Ratone’s Room es ofrecer un servicio profesional en el que quedes 100% satisfecho con el resultado. Por eso dispones de revisiones ilimitadas sin cargo extra además de otras ventajas que se detallan más abajo."
-      text2="Los precios mostrados a continuación son orientativos y no incluyen IVA (21%). Cada proyecto es diferente y requiere de herramientas y tiempos distintos, por eso te recomiendo que pidas un presupuesto sin compromiso para poder ajustar el precio lo máximo posible."/>
-      <PriceTable/>
-      <Faq />
+        <List
+          img={cantautora}
+          li1={t("index:PRODUCCION-MUSICAL.servicios.s1")}
+          li2={t("index:PRODUCCION-MUSICAL.servicios.s2")}
+          li3={t("index:PRODUCCION-MUSICAL.servicios.s3")}
+          li4={t("index:PRODUCCION-MUSICAL.servicios.s4")}
+          li5={t("index:PRODUCCION-MUSICAL.servicios.s5")}
+          li6={t("index:PRODUCCION-MUSICAL.servicios.s6")}
+          li7={t("index:PRODUCCION-MUSICAL.servicios.s7")}
+        />
+        <TextBlock
+        description={t("index:PRODUCCION-MUSICAL.p6")}
+      />
+      
+      <TextBlock
+        title1={t("index:grabacionesTitle")}
+        description={t("index:grabacionesDescription")}
+        text1={t("index:grabacionesText1")}
+      />
+      <CoverCollage
+        img1={cover1}
+        text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
+        url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
+        img2={cover2}
+        text2="Borja Remacha - Arreglos y grabación de guitarras"
+        url2=""
+        img3={cover3}
+        text3="Fran Peregrina - Producción musical, mezcla y máster"
+        url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
+        img4={cover4}
+        text4="Fran Peregrina - Producción musical, mezcla y máster"
+        url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
+        img5={cover5}
+        text5="Fran Peregrina - Producción musical, mezcla y máster"
+        url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
+        img6={cover6}
+        text6="Frederico Vannini - Máster"
+        url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
+        img7={cover7}
+        text7="Sandra Bautista - Grabación de guitarras"
+        url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
+        img8={cover8}
+        text8="Dr. Basilio - Grabación de guitarras"
+        url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
+        img9={cover9}
+        text9="Dos"
+        img10={cover10}
+        text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
+      />
+      <CoverSlider />
+      <Faq 
+        p1={t("index:PRODUCCION-MUSICAL.faq.p1")}
+        r1={t("index:PRODUCCION-MUSICAL.faq.r1")}
+        p2={t("index:PRODUCCION-MUSICAL.faq.p2")}
+        r2={t("index:PRODUCCION-MUSICAL.faq.r2")}
+        p3={t("index:PRODUCCION-MUSICAL.faq.p3")}
+        r3={t("index:PRODUCCION-MUSICAL.faq.r3")}
+        p4={t("index:PRODUCCION-MUSICAL.faq.p4")}
+        r4={t("index:PRODUCCION-MUSICAL.faq.r4")}
+        p5={t("index:PRODUCCION-MUSICAL.faq.p5")}
+        r5={t("index:PRODUCCION-MUSICAL.faq.r5")}
+        p6={t("index:PRODUCCION-MUSICAL.faq.p6")}
+        r6={t("index:PRODUCCION-MUSICAL.faq.r6")}
+        p7={t("index:PRODUCCION-MUSICAL.faq.p7")}
+        r7={t("index:PRODUCCION-MUSICAL.faq.r7")}
+        p8={t("index:PRODUCCION-MUSICAL.faq.p8")}
+        r8={t("index:PRODUCCION-MUSICAL.faq.r8")}
+        p9={t("index:PRODUCCION-MUSICAL.faq.p9")}
+        r9={t("index:PRODUCCION-MUSICAL.faq.r9")}
+      />
     </>
-  )
+  );
 }

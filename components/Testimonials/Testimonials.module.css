@@ -1,7 +1,7 @@
 /*solo incluir height aqui*/
 .testimonialsWrapper .mySwiper, .cslide{
     height: 20rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .mySwiper >.swiper-button-next{

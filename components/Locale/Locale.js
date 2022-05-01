@@ -6,21 +6,21 @@ export default function Locale() {
   const router = useRouter()
   const { locales, locale: activeLocale } = router
   const otherLocales = locales.filter((locale) => locale !== activeLocale)
-
+  console.log(router)
   return (
     <>
-      <ul>
+      <div className={styles.localeWrapper}>
         {otherLocales.map((locale) => {
           const { pathname, query, asPath } = router
           return (
-            <li key={locale} className={styles.locale}>
+            <div key={locale} className={styles.locale}>
               <Link href={{ pathname, query }} as={asPath} locale={locale}>
-                <a className={styles.localeText}>{locale}</a>
+                <a className={styles.localeText}>{locale == 'es' ? 'Español' : 'English'}</a>
               </Link>
-            </li>
+            </div>
           )
         })}
-      </ul>
+      </div>
     </>
   )
 }

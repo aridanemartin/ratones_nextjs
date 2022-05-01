@@ -83,5 +83,74 @@
         "ventaja4":"Evaluación de mezcla gratis.",
         "ventaja5":"Rapidez",
         "ventaja6":"Asesoramiento creativo y técnico"           
+    },
+    "QUIENES-SOMOS":{
+        "p1":"es un espacio que ofrece servicios profesionales de producción musical, grabación, mezcla y máster. Estamos ubicados en el centro de Madrid (España) pero también trabajamos de forma remota para todo el mundo (online).",
+        "p2":"Somos un grupo de productores musicales, músicos de sesión y técnicos con una dilatada experiencia que trabajamos coordinadamente para ofrecer el mejor sonido con unas tarifas razonables y competitivas.",
+        "p3":"Nuestro objetivo principal es que el cliente quede satisfecho al 100%. Nos implicamos al máximo en cada proyecto, dedicándole el tiempo y los medios necesarios. Hacemos un equilibrio entre la parte creativa y técnica, respetando y apoyando siempre las decisiones de nuestros clientes.",
+        "p4":"es quien está al frente de Ratone's Room. Guitarrista, compositor, productor musical e ingeniero de sonido. Es titulado superior en música moderna y jazz por el Conservatorio del Liceo (Barcelona). También es ingeniero de telecomunicaciones (especialidad en sonido e imagen) por la Universitat Politècnica de Catalunya (UPC). Con 15 años de experiencia profesional, ha grabado y girado por toda España con artistas como D'Callaos, Sandra Bautista (director musical), Daniel Felices o Javier Sólo. Ha liderado sus propios proyectos musicales, de estilos muy variados, con los que ha publicado varios discos.",
+        "p5":"Nuestros servicios principales son:",
+        "p6":"Otros servicios que pueden interesarte:",
+        "servicios":{
+            "s1":"Edición y cuantización de baterías",
+            "s2":"Edición y afinación de voces",
+            "s3":"Restauración de audio",
+            "s4":"Grabación portátil multipista",
+            "s5":"Montaje y postproducción de vídeo",
+            "s6":"Asesoramiento técnico",
+            "s7":"Asesoramiento legal en España (Propiedad Intelectual,SGAE)"
+        },
+        "p7":"Consúltamnos sin compromiso"
+    },
+    "PRODUCCION-MUSICAL":{
+        "p1":"Realizamos producciones musicales de todo tipo y estilos. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. ¿Tienes una canción pero no sabes cómo llevarla al siguiente nivel? ¿Estás atascado con un temazo y no sabes cómo seguir? No te preocupes, nos podemos encargar de todo el proceso creativo y técnico. Cuéntanos que estás buscando y pongámonos a trabajar en ello.",
+        "p2":"Producción Musical Completa",
+        "p3":"Una producción musical profesional se compone de varias etapas (composición y arreglos, preproducción, grabación, edición y afinación, mezcla y máster). Nace a partir de una pequeña idea musical y termina con un máster listo para ser publicado en plataformas digitales.",
+        "p4":"Nosotros te acompañamos en todos y cada uno de esos procesos, poniendo a tu disposición todos los medios necesarios y nuestra experiencia para sacarle el máximo partido a tus ideas.",
+        "pasos":{
+            "title":"Pasos",
+            "desc":"Comienza a planear tu producción siguiendo los pasos que te mostramos a continuación:",
+            "1":"1 - Envíanos tu canción.",
+            "2":"2 - Acordamos un precio.",
+            "3":"3 - Trabajamos en la base instrumental.",
+            "4":"4 - Grabación de la voz.",
+            "5":"5 - Edición, mezcla y máster.",
+            "6":"6 - ¡Disfruta!"
+        },
+        "p5":"Disfruta de este servicio a partir de 199€ / canción.",
+        "p6":"Consulta nuestros descuentos y promociones especiales",
+        "p7":"¿Qué incluye este servicio?",
+        "servicios":{
+            "s1":"Sugerencias creativas.",
+            "s2":"Dirección musical y estilística.",
+            "s3":"Creación exclusiva de una base instrumental básica (2 instrumentos + percusión).",
+            "s4":"Grabación de guitarras online",
+            "s5":"Mezcla y máster online (revisiones ilimitadas).",
+            "s6":"Asesoramiento en distribución digital y física",
+            "s7":"Asesoramiento legal en España (Propiedad Intelectual,SGAE)."
+        },
+        "p8":"El precio no incluye el 21% de IVA (solo para España).",
+        "p9":"El precio no incluye la producción vocal (grabación, edición y afinación).",
+        "p10":"Pide tu presupuesto gratis ahora.",
+        "faq":{
+            "p1":"¿Qué es lo primero que debo hacer para trabajar con vosotros?",
+            "r1":"Lo primero que tendrás que hacer es enviarnos una grabación con tu canción. Puede ser una grabación con el móvil, con o sin instrumento de acompañamiento.",
+            "p2":"¿Podéis hacer la música de una letra que he escrito?",
+            "r2":"Si has escrito una letra, con o sin melodía, podemos ayudarte a componer y producir el resto de la canción.",
+            "p3":"¿Cómo son las bases instrumentales?",
+            "r3":"Una vez estudiemos tu canción veremos qué tipo de producción le puede venir bien. Podemos hacer desde algo íntimo y acústico (pocos instrumentos) a crear una producción más completa y densa con pianos, teclados, sección de cuerdas, baterías, etc. Dependiendo de la cantidad de instrumentos y de la complejidad el precio final podrá variar.",
+            "p4":"¿Quién tendrá los derechos de la canción?",
+            "r4":"Los derechos de distribución y el uso que le quieras dar serán completamente tuyos al 100%. Los derechos de autor serán del creador o creadores de la obra. Te podemos asesorar sin coste adicional.",
+            "p5":"¿Puedo solicitar modificaciones?",
+            "r5":"Sí, las modificaciones en la fase de composición forman parte del proceso. También tienes revisiones ilimitadas de mezcla y de máster.",
+            "p6":"¿Cómo grabo las pistas de voz definitivas?",
+            "r6":"Si ya dispones de un pequeño equipo para hacerlo en tu casa (micrófono, interface, etc.) te podemos asesorar, sin coste adicional. De todas maneras te recomendamos que lo hagas en nuestro estudio de Madrid o Barcelona para conseguir un resultado más profesional. Contacta con nosotros para conocer las tarifas.",
+            "p7":"¿Cuándo tendré mi canción?",
+            "r7":"El servicio de producción musical suele tardar entre 1 y 2 semanas desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de instrumentos.",
+            "p8":"¿Qué recibiré al terminar?",
+            "r8":"Cuando todo esté terminado, recibirás el máster en formato wav en alta calidad (24 bits), wav en calidad CD (16 bits, 44,1 Khz) y en mp3. También te proporcionaremos la base instrumental para que puedas practicar. Si lo deseas también te podemos enviar las pistas o stems por separado (consultar).",
+            "p9":"¿Qué formas de pago aceptáis?",
+            "r9":"Puedes pagar mediante Paypal, bizum o transferencia bancaria."
+        }
     }
 }

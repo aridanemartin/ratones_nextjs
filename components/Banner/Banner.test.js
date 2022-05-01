@@ -19,7 +19,7 @@ test('Renders content', () => {
 
     // component.getByText('lololo');
 
-    expect(component.container).toHaveTextContent('lalala')
+    expect(component.container).toHaveTextContent('lalala');
 })
 
 test('Click the button calls', () => {

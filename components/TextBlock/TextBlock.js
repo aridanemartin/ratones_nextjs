@@ -4,11 +4,16 @@ const TextBlock = (props) => {
   return (
     <>
       <div className={styles.textBlockContainer}>
-        <h2 className={styles.mainTitle}>
-          {props.title1}
-          {props.title2 && <strong>{props.title2}</strong>}
-        </h2>
-        <div className={styles.divider}></div>
+        {props.title1 && (
+          <>
+            <h2 className={styles.mainTitle}>
+              {props.title1}
+              {props.title2 && <strong>{props.title2}</strong>}
+            </h2>
+
+            <div className={styles.divider}></div>
+          </>
+        )}
         {props.description && (
           <p className={styles.shortDescription}>{props.description}</p>
         )}

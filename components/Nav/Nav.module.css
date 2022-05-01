@@ -24,6 +24,21 @@
     cursor: pointer;
     padding: 0rem 1rem;
 }
+.logoSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:4rem;
+    top: 0.5rem;
+    width: 15rem;
+}
 
 .navLink{
     font-weight: 500;
@@ -165,6 +180,15 @@
 
 
 @media (max-width: 1100px) {
+    .logoWrapper{
+        display: none;
+    }
+
+    .logoSection{
+        margin-top: 1.5rem;
+        justify-content: flex-end;
+    }
+
     .burger{
         display: block;
     }

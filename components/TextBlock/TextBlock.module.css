@@ -7,15 +7,10 @@
 }
 
 .mainTitle{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    align-items: center; */
     margin: 0;
     text-align: center;
     font-family: 'Anton';
-    /* letter-spacing: 0.1rem; */
+    font-weight: 200;
     text-transform: uppercase;
     font-size: 3rem;
     padding-bottom: 1rem;
@@ -58,6 +53,7 @@
     .mainTitle{
         font-size: 2.5rem;
         text-align: center;
+        padding: 1rem;
     }
    
     .mainDesc{

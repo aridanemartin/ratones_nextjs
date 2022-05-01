@@ -1,12 +1,18 @@
-.locale{
-    padding: 0.5rem;
-    list-style: none;
+.localeWrapper{
+    display: flex;
+    align-items: center;
 }
+
+
+.locale{
+    /* padding: 0.5rem; */
+}
+
 
 .localeText{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1rem;
     
     /* text-shadow: 2px 2px 2px black; */
     letter-spacing: 0.1rem;
@@ -26,7 +32,7 @@
     }
 
     .localeText{
-        font-size: 2rem;
+        font-size: 1rem;
         text-transform: uppercase;
         color: white;
     }

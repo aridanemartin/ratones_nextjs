@@ -1,5 +1,5 @@
 import Hero from "@components/Hero/Hero";
-import PageLayout from "@components/PageLayout/Layout";
+import Layout from "@components/Layout/Layout";
 import Pasos from "@components/Pasos/Pasos";
 import SocialBanner from "@components/SocialBanner/SocialBanner";
 import styles from "../styles/Home.module.css";
@@ -28,8 +28,13 @@ import cover7 from "../public/images/covers/Sandra Bautista - Trapezista (Grabac
 import cover8 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
 import cover9 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
 import cover10 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-import Layout from "@components/Layout/Layout";
+import v1 from "../public/images/icons/like.png";
+import v2 from "../public/images/icons/percent.png";
+import v3 from "../public/images/icons/free.png";
+import v5 from "../public/images/icons/clock.png";
+import v6 from "../public/images/icons/interview.png";
 import Ventajas from "@components/Ventajas/Ventajas";
+import PageLayout from "@components/PageLayout/PageLayout";
 
 export default function Home() {
   let { t } = useTranslation();
@@ -53,7 +58,22 @@ export default function Home() {
           title1={t("index:ventajasTitle")}
           text1={t("index:ventajasText1")}
         />
-        <Ventajas/>
+        <Layout>
+          <Ventajas
+            img1={v1}
+            img2={v2}
+            img3={v3}
+            img4={v3}
+            img5={v5}
+            img6={v6}
+            txt1={t("index:VENTAJAS.ventaja1")}
+            txt2={t("index:VENTAJAS.ventaja2")}
+            txt3={t("index:VENTAJAS.ventaja3")}
+            txt4={t("index:VENTAJAS.ventaja4")}
+            txt5={t("index:VENTAJAS.ventaja5")}
+            txt6={t("index:VENTAJAS.ventaja6")}
+          />
+        </Layout>
         <span id="servicios"></span>
         <TextBlock
           title1={t("index:serviciosTitle1")}
@@ -61,49 +81,49 @@ export default function Home() {
           description={t("index:serviciosDescription")}
         />
         <Servicios />
-        
       </PageLayout>
       <Banner
         text={t("index:BANNER.text")}
         buttonText={t("index:BANNER.buttonText")}
         link="/"
+        background={cover1}
       />
       <TextBlock
-          title1={t("index:grabacionesTitle")}
-          description={t("index:grabacionesDescription")}
-          text1={t("index:grabacionesText1")}
-        />
+        title1={t("index:grabacionesTitle")}
+        description={t("index:grabacionesDescription")}
+        text1={t("index:grabacionesText1")}
+      />
       <CoverCollage
-          img1={cover1}
-          text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
-          url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
-          img2={cover2}
-          text2="Borja Remacha - Arreglos y grabación de guitarras"
-          url2=""
-          img3={cover3}
-          text3="Fran Peregrina - Producción musical, mezcla y máster"
-          url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
-          img4={cover4}
-          text4="Fran Peregrina - Producción musical, mezcla y máster"
-          url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
-          img5={cover5}
-          text5="Fran Peregrina - Producción musical, mezcla y máster"
-          url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
-          img6={cover6}
-          text6="Frederico Vannini - Máster"
-          url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
-          img7={cover7}
-          text7="Sandra Bautista - Grabación de guitarras"
-          url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
-          img8={cover8}
-          text8="Dr. Basilio - Grabación de guitarras"
-          url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
-          img9={cover9}
-          text9="Dos"
-          img10={cover10}
-          text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
-        />
-      <CoverSlider/>
+        img1={cover1}
+        text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
+        url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
+        img2={cover2}
+        text2="Borja Remacha - Arreglos y grabación de guitarras"
+        url2=""
+        img3={cover3}
+        text3="Fran Peregrina - Producción musical, mezcla y máster"
+        url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
+        img4={cover4}
+        text4="Fran Peregrina - Producción musical, mezcla y máster"
+        url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
+        img5={cover5}
+        text5="Fran Peregrina - Producción musical, mezcla y máster"
+        url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
+        img6={cover6}
+        text6="Frederico Vannini - Máster"
+        url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
+        img7={cover7}
+        text7="Sandra Bautista - Grabación de guitarras"
+        url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
+        img8={cover8}
+        text8="Dr. Basilio - Grabación de guitarras"
+        url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
+        img9={cover9}
+        text9="Dos"
+        img10={cover10}
+        text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
+      />
+      <CoverSlider />
       <PageLayout>
         <TextBlock
           title1={t("index:testimoniosTitle")}
