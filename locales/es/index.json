@@ -152,5 +152,44 @@
             "p9":"¿Qué formas de pago aceptáis?",
             "r9":"Puedes pagar mediante Paypal, bizum o transferencia bancaria."
         }
+    },
+    "GUITARRISTA":{
+        "title": "Grabación de guitarras online",
+        "p1":"¿Necesitas una guitarra en tu canción? ¿Un solo enérgico de rock? ¿Un acompañamiento con la magia del flamenco? Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
+        "p2":"Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
+        "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.",
+        "p4":"No esperes más... let's rock!",
+        "pasos":{
+            "1":"Envíanos tu canción",
+            "2":"Acordamos un precio",
+            "3":"Grabamos tus guitarras",
+            "4":"¡Disfruta!"
+        },
+        "p5":"Contrata este servicio a partir de 35€ / canción.",
+        "p6":"Consulta nuestros descuentos y promociones especiales.",
+        "servicios":{
+            "title":"¿Qué incluye este servicio?",
+            "s1":"Sugerencias de estilo",
+            "s2":"Grabación de un solo de guitarra (de 8 a 16 compases aprox.)",
+            "s3":"Dos propuestas de sonido"
+        },
+        "p7":"El precio no incluye el 21% de IVA (solo para España).",
+        "p8":"Pide tu presupuesto gratis ahora",
+        "faq":{
+            "p1":"¿Qué es lo primero que debo hacer para tener guitarras en mi canción?",
+            "r1":"Lo primero que tendrás que hacer es enviarnos tu canción, en formato wav de alta calidad (24 bits). Puedes incluir comentarios, referencias, etc. para que nosotros entendamos mejor qué estás buscando.",
+            "p2":"¿Podéis grabar guitarras flamencas?",
+            "r2":"Así es, nuestro especialista dispone de todo lo necesario para tal cometido, y lo más importante... ¡el duende!",
+            "p3":"¿También podéis grabar otros instrumentos de cuerda?",
+            "r3":"Sí, ukeleles, banjos, mandolinas, bajos, lap steel... ¡consúltanos sin problema!",
+            "p4":"¿Puedo solicitar modificaciones?",
+            "r4":"Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
+            "p5":"¿Cuándo tendré la canción con las guitarras?",
+            "r5":"El servicio de grabación de guitarras suele tardar entre 1 y 3 días desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de pistas e instrumentos a grabar.",
+            "p6":"¿Cómo grabo las pistas de voz definitivas?",
+            "r6":"Cuando todo esté terminado recibirás las pistas de guitarra en formato wav de alta calidad. Dispondrás de una versión sin procesar y otra versión con nuestra propuesta de sonido. Así tendrás todo el margen de maniobra para poder elegir.",
+            "p7":"¿Qué formas de pago aceptáis?",
+            "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
+        }
     }
 }

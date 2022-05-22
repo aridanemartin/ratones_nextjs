@@ -1,0 +1,24 @@
+.componentWrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "foto text";
+  height: 30rem;
+}
+
+.imageWrapper {
+  grid-area: foto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper p {
+  max-width: 40ch;
+  font-size: 1.3rem;
+}

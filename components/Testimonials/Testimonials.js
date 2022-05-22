@@ -1,4 +1,3 @@
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
@@ -12,7 +11,7 @@ import styles from "./Testimonials.module.css";
 
 // import required modules
 import Image from "next/image";
-import leftCuote from "../../public/images/left-quote.png";
+import leftCuote from "../../public/images/icons/left-quote.png";
 
 export default function Testimonials(props) {
   return (
@@ -74,7 +73,7 @@ export default function Testimonials(props) {
             </div>
             <p className={styles.slideText}>{props.text2}</p>
             <div className={styles.grupoWrap}>
-            <div className={styles.profileImageFlex}>
+              <div className={styles.profileImageFlex}>
                 <div className={styles.profileImageWrap}>
                   <Image src={props.image2} layout="fill" objectFit="cover" />
                 </div>
@@ -94,7 +93,7 @@ export default function Testimonials(props) {
             </div>
             <p className={styles.slideText}>{props.text3}</p>
             <div className={styles.grupoWrap}>
-            <div className={styles.profileImageFlex}>
+              <div className={styles.profileImageFlex}>
                 <div className={styles.profileImageWrap}>
                   <Image src={props.image3} layout="fill" objectFit="cover" />
                 </div>
@@ -114,7 +113,7 @@ export default function Testimonials(props) {
             </div>
             <p className={styles.slideText}>{props.text4}</p>
             <div className={styles.grupoWrap}>
-            <div className={styles.profileImageFlex}>
+              <div className={styles.profileImageFlex}>
                 <div className={styles.profileImageWrap}>
                   <Image src={props.image4} layout="fill" objectFit="cover" />
                 </div>

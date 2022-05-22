@@ -1,67 +1,55 @@
 .bgWrap {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-    filter: brightness(50%);
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  filter: brightness(50%);
 }
 
-.mainTitleWrapper h1{
-    
-    position: absolute;
+.mainTitleWrapper h1 {
+  position: absolute;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    margin-left: auto;
-    margin-right: auto;
-    
-    color: white;
-    
-    font-weight: 700;
-    
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: min-content;
-    font-size: 4rem;
-    margin: 0.2rem;
-    text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+
+  font-weight: 700;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 15ch;
+  font-size: 4rem;
+  margin: 0.2rem;
+  text-transform: uppercase;
 }
-
-    
-
-
 
 @media (max-width: 1100px) {
-    .bgWrap {
-        height: 70vh;
-    }
+  .bgWrap {
+    height: 70vh;
+  }
 
-    .mainTitleWrapper h1{
-        font-size: 3rem;
-        top: 35vh;
-    }
+  .mainTitleWrapper h1 {
+    font-size: 3rem;
+    top: 35vh;
+  }
 }
 
 @media (max-width: 600px) {
-    .bgWrap {
-        height: 70vh;
-    }
+  .bgWrap {
+    height: 70vh;
+  }
 
-    .mainTitleWrapper h1{
-        flex-direction:column-reverse;
-        font-size: 2.2rem;
-        top: 35vh;
-    }
+  .mainTitleWrapper h1 {
+    flex-direction: column-reverse;
+    font-size: 2.2rem;
+    top: 35vh;
+  }
 }
-
-
-
-
-
-
-

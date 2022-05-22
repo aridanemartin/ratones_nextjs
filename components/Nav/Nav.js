@@ -10,9 +10,9 @@ import useTranslation from "next-translate/useTranslation";
 
 import ratonLogo from "../../public/images/logoLarge.png";
 import Logo from "../../public/images/logoVertical.png";
-import Instagram from "../../public/images/instagram.webp";
-import Facebook from "../../public/images/facebook.webp";
-import Web from "../../public/images/corchea.png";
+import Instagram from "../../public/images/icons/instagram.webp";
+import Facebook from "../../public/images/icons/facebook.webp";
+import Web from "../../public/images/icons/corchea.png";
 
 const Nav = () => {
   let { t } = useTranslation();
@@ -58,24 +58,22 @@ const Nav = () => {
           }
         >
           <div className={styles.logoSection}>
-          
             <div className={styles.logoWrapper}>
-              <Link href='/'>
-              <a>
-              <Image
-                src={ratonLogo}
-                placeholder="blur"
-                objectFit="contain"
-                layout="fill"
-                width={1412}
-                height={690}
-                alt="Ratone's Studio Logo"
-              />
-              </a>
+              <Link href="/">
+                <a>
+                  <Image
+                    src={ratonLogo}
+                    placeholder="blur"
+                    objectFit="contain"
+                    layout="fill"
+                    width={1412}
+                    height={690}
+                    alt="Ratone's Studio Logo"
+                  />
+                </a>
               </Link>
             </div>
             <Locale />
-            
           </div>
 
           <div
