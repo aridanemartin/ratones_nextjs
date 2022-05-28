@@ -1,7 +1,14 @@
 import styles from "./TextWithPicture.module.css";
 import Image from "next/image";
 
-export const TextWithPicture = ({ image, text, imageAlt, title }) => {
+export const TextWithPicture = ({
+  image,
+  text,
+  text2,
+  imageAlt,
+  title,
+  list,
+}) => {
   return (
     <div className={styles.componentWrapper}>
       <div className={styles.imageWrapper}>
@@ -9,7 +16,20 @@ export const TextWithPicture = ({ image, text, imageAlt, title }) => {
       </div>
       <div className={styles.textWrapper}>
         {title && <h2>{title}</h2>}
-        <p>{text}</p>
+        {list && (
+          <ul className={styles.milestonesList}>
+            {list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        )}
+        {text && <p>{text}</p>}
+        {text2 && (
+          <>
+            <br />
+            <p>{text2}</p>
+          </>
+        )}
       </div>
     </div>
   );

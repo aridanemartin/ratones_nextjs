@@ -1,11 +1,11 @@
 .bannerWrap {
-  margin: 3rem 0rem;
+  margin: 6rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  height: 20rem;
+  height: 25rem;
   color: white;
 
   background: url(../../public/images/guitarristaHero.jpg);
@@ -13,7 +13,6 @@
   background-position: 100% 50%;
   background-blend-mode: darken;
   background-color: #4328186a;
-
 }
 
 .bannerText {
@@ -36,8 +35,8 @@
   /* margin-top: 1rem; */
   color: white;
   /* border: 3px solid white; */
-  
-  background:#99582a;
+
+  background: #99582a;
   padding: 1rem 2rem;
   border-radius: 30px;
 
@@ -50,10 +49,13 @@
   box-shadow: 2px 2px 2px #2d2424;
 }
 
-@media(max-width: 570px){
-  .bannerText{
+@media (max-width: 570px) {
+  .bannerWrap {
+    margin: 3rem 0rem;
+  }
+  .bannerText {
     padding: 1rem;
     font-size: 1.3rem;
-    line-height:normal;
+    line-height: normal;
   }
 }

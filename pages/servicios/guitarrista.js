@@ -16,9 +16,15 @@ import PageLayout from "@components/PageLayout/PageLayout";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import Ventajas from "@components/Ventajas/Ventajas";
 import { List } from "@components/List";
+import Banner from "@components/Banner/Banner";
 
 export default function Guitarrista() {
   let { t } = useTranslation();
+  let listaIntro = [
+    t("index:GUITARRISTA.lista.0"),
+    t("index:GUITARRISTA.lista.1"),
+    t("index:GUITARRISTA.lista.2"),
+  ];
 
   return (
     <>
@@ -33,6 +39,7 @@ export default function Guitarrista() {
           <div className={styles.divider}></div>
         </div>
         <TextWithPicture
+          list={listaIntro}
           image={textImage}
           text={t("index:GUITARRISTA.p1")}
           altText="lalal"
@@ -67,6 +74,11 @@ export default function Guitarrista() {
           txt4={t("index:GUITARRISTA.pasos.4")}
         />
       </PageLayout>
+      <Banner
+        text={t("index:PRODUCCION-MUSICAL.p5")}
+        link="/contacto"
+        buttonText="CONTACTO"
+      />
 
       <Faq
         p1={t("index:GUITARRISTA.faq.p1")}

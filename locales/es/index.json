@@ -155,7 +155,8 @@
     },
     "GUITARRISTA":{
         "title": "Grabación de guitarras online",
-        "p1":"¿Necesitas una guitarra en tu canción? ¿Un solo enérgico de rock? ¿Un acompañamiento con la magia del flamenco? Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
+        "lista": ["¿Necesitas una guitarra en tu canción?", "¿Un solo enérgico de rock?", "¿Un acompañamiento con la magia del flamenco?"],
+        "p1": "Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
         "p2":"Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
         "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.",
         "p4":"No esperes más... let's rock!",
@@ -188,6 +189,46 @@
             "r5":"El servicio de grabación de guitarras suele tardar entre 1 y 3 días desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de pistas e instrumentos a grabar.",
             "p6":"¿Cómo grabo las pistas de voz definitivas?",
             "r6":"Cuando todo esté terminado recibirás las pistas de guitarra en formato wav de alta calidad. Dispondrás de una versión sin procesar y otra versión con nuestra propuesta de sonido. Así tendrás todo el margen de maniobra para poder elegir.",
+            "p7":"¿Qué formas de pago aceptáis?",
+            "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
+        }
+    },
+    "MEZCLAMASTER":{
+        "title": "Mezcla y Máster",
+        "lista": ["Tráenos tus pistas y nosotros te las mezclamos.", "Tráenos tu mezcla y nosotros te hacemos el máster.", "Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas."],
+        "p1": "Hoy en día es muy habitual que las bandas y los cantautores se graben en sus casas o locales de ensayo. La tecnología y los medios necesarios están al alcance de todo el mundo ofreciendo resultados profesionales. Somos conscientes de esto. ",
+        "p2":"También somos conscientes de que, a pesar de tener la toma perfecta grabada, no consigues que todo suene empastado, equilibrado, con pegada, etc. Deja tus pistas en nuestras manos, nos encargaremos de hacerlas sonar a la perfección.",
+        "pasos":{
+            "1":"Envíanos tus pistas",
+            "2":"Acordamos un precio",
+            "3":"Mezclamos",
+            "4":"Revisamos las veces necesarias",
+            "5":"Masterizamos",
+            "6":"¡Disfruta!"
+        },
+        "p5":"Contrata este servicio a partir de 39€ / canción.",
+        "p6":"Consulta nuestros descuentos y promociones especiales.",
+        "servicios":{
+            "title":"¿Qué se incluye por este precio?",
+            "s1":"Mezcla de 2 o 3 pistas",
+            "s2":"Máster para plataformas digitales",
+            "s3":"Revisiones ilimitadas de mezcla"
+        },
+        "p7":"El precio no incluye el 21% de IVA (solo para España).",
+        "p8":"Pide tu presupuesto gratis ahora",
+        "faq":{
+            "p1":"¿Qué debo hacer si no consigo que mis mezclas suenen como me gustaría?",
+            "r1":"No te preocupes, nosotros nos encargamos. Envíanos tus pistas y contacta con nosotros, seguro que te podemos ayudar.",
+            "p2":"Tengo un montón de pistas y pesan mucho, ¿cómo os las envío?",
+            "r2":"Nosotros tenemos un servidor privado, te proporcionaremos un enlace donde podemos compartir todo el material. Fácil, rápido y seguro.",
+            "p3":"¿Puedo solicitar revisiones o modificaciones?",
+            "r3":"Sí, por defecto tendrás revisiones ilimitadas en la mezcla. Si lo contratas también podrás tener revisiones ilimitadas en el máster.",
+            "p4":"¿Cuándo tiempo tarda este proceso?",
+            "r4":"Dependerá del número de pistas. Puedes recibir una pre-mezcla en el mismo día. Cuando el proyecto es grande suele tardar entre 3 y 5 días.",
+            "p5":"¿Os puedo enviar las pistas grabadas sin editar y sin afinar?",
+            "r5":"Sí, pero tendrá un coste adicional. Editar cada pista y afinar las voces puede ser una faena tediosa. Envíanos las pistas y analizaremos tu caso particular. Te contestaremos con un precio justo.",
+            "p6":"¿Qué recibiré al terminar?",
+            "r6":"Cuando todo esté terminado recibirás el máster de tu canción. El máster será un archivo wav a 24 bits a la mayor frecuencia de muestreo posible. También recibirás un wav a 16 bits y un mp3. Si lo deseas también puedes recibir los stems por separado.",
             "p7":"¿Qué formas de pago aceptáis?",
             "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
         }

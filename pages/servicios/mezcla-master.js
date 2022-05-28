@@ -1,82 +1,84 @@
-import heroImage from '../../public/images/musicProduction.jpg';
-import ratonLogo from '../../public/images/logoSoloRaton.png'
-import Hero from '@components/Hero/Hero';
-import Image from "next/image";
-import styles from "@styles/Servicios.module.css";
+import heroImage from "../../public/images/musicProduction.jpg";
+import ratonLogo from "../../public/images/logoSoloRaton.png";
+import Hero from "@components/Hero/Hero";
 
-import produccionCompleta from "../../public/images/musicProduction.jpg";
-import composer from "../../public/images/composer.jpg";
-import liveRecording from '../../public/images/liveRecording.jpg';
-import PriceTable from '@components/PriceTable/PriceTable';
-import TextBlock from '@components/TextBlock/TextBlock';
-import Faq from '@components/Faq/Faq';
-
+import TextBlock from "@components/TextBlock/TextBlock";
+import Faq from "@components/Faq/Faq";
+import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
+import introPicture from "../../public/images/fotosVictor/_DSC0159.jpg";
+import PageLayout from "@components/PageLayout/PageLayout";
+import useTranslation from "next-translate/useTranslation";
+import Ventajas from "@components/Ventajas/Ventajas";
+import img1 from "../../public/images/icons/send.png";
+import img2 from "../../public/images/icons/handshake.png";
+import img3 from "../../public/images/icons/mezcla.png";
+import img4 from "../../public/images/icons/lupa.png";
+import img5 from "../../public/images/icons/fader.png";
+import img6 from "../../public/images/icons/listen.png";
+import Banner from "@components/Banner/Banner";
 
 export default function MezclaMaster() {
+  let { t } = useTranslation();
+
+  let listaIntro = [
+    t("index:MEZCLAMASTER.lista.0"),
+    t("index:MEZCLAMASTER.lista.1"),
+    t("index:MEZCLAMASTER.lista.2"),
+  ];
+
   return (
     <>
       <Hero image={heroImage} title="Mezcla y Master" logoPeq={ratonLogo} />
+      <PageLayout>
+        <TextBlock title1={t("index:MEZCLAMASTER.title")} />
+        <TextWithPicture
+          list={listaIntro}
+          image={introPicture}
+          imageAlt="Mezcla y Master"
+          text={t("index:MEZCLAMASTER.p1")}
+          text2={t("index:MEZCLAMASTER.p2")}
+        />
+      </PageLayout>
+      <Banner
+        text={t("index:MEZCLAMASTER.p5")}
+        link="/contacto"
+        buttonText="CONTACTO"
+      />
+      <TextBlock title1="Pasos" />
+      <PageLayout small>
+        <Ventajas
+          vertical
+          img1={img1}
+          img2={img2}
+          img3={img3}
+          img4={img4}
+          img5={img5}
+          img6={img6}
+          txt1={t("index:MEZCLAMASTER.pasos.1")}
+          txt2={t("index:MEZCLAMASTER.pasos.2")}
+          txt3={t("index:MEZCLAMASTER.pasos.3")}
+          txt4={t("index:MEZCLAMASTER.pasos.4")}
+          txt5={t("index:MEZCLAMASTER.pasos.5")}
+          txt6={t("index:MEZCLAMASTER.pasos.6")}
+        />
+      </PageLayout>
 
-      
-      <div className={styles.mainTitle}>
-            <h2>Mezcla y Máster</h2>
-            <div className={styles.divider}></div>
-        </div>
-        <div className={styles.servicios}>
-        <div className={styles.image1 + " " + styles.images}>
-          <Image src={produccionCompleta} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext1}>
-          <h3 id="produccion-musical">Producción Completa</h3>
-          <p>
-            Realizar una producción musical profesional implica varios procesos
-            desde que tienes una idea y la desarrollas hasta que terminamos y te
-            entregamos el master.
-            <br />
-            <br />
-            Nosotros te acompañamos en todos y cada uno de esos procesos, desde
-            la preproducción al mastering, poniendo a tu disposición todo el
-            equipo y nuestra experiencia para conseguir sacarle todo el partido
-            a tus canciones.
-            <br />
-            <br />
-            Incluye preproducción, grabación, edición, arreglos, mezcla y
-            mastering.
-          </p>
-        </div>
-
-        <div className={styles.image2 + " " + styles.images}>
-          <Image src={composer} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext2}>
-          <h3>Composición y Arreglos</h3>
-          <p>
-            ¿Tienes tus canciones solo compuestas con voz, con voz y algún
-            instrumento o incluso solo la letra y te falta el resto?
-            <br />
-            <br />
-            Estamos encantados de ayudarte a terminar de darles forma para que
-            quedan como imaginabas, a componer y grabar el resto de
-            instrumentación, realizar la producción completa desde el principio
-            o cualquier otra cosa que se te ocurra para desarrollarlas y
-            llevarlas a un nuevo nivel.
-          </p>
-        </div>
-        <div className={styles.image3 + " " + styles.images}>
-          <Image src={liveRecording} layout="fill" objectFit="cover" />
-        </div>
-        <div className={styles.ptext3}>
-          <h3>Grabación Móvil Multipista</h3>
-          <p>
-            Me desplazo donde tú quieras para realizar una grabación multipista (4 canales, con posibilidad de ampliar a 16).  Ideal si quieres hacer una pre-producción antes de grabar un disco, grabar un concierto, un ensayo, etc.
-          </p>
-        </div>
-      </div>
-      <TextBlock title1="Tabla de Precios" 
-      text1="Lo más importante en Ratone’s Room es ofrecer un servicio profesional en el que quedes 100% satisfecho con el resultado. Por eso dispones de revisiones ilimitadas sin cargo extra además de otras ventajas que se detallan más abajo."
-      text2="Los precios mostrados a continuación son orientativos y no incluyen IVA (21%). Cada proyecto es diferente y requiere de herramientas y tiempos distintos, por eso te recomiendo que pidas un presupuesto sin compromiso para poder ajustar el precio lo máximo posible."/>
-      <PriceTable/>
-      <Faq />
+      <Faq
+        p1={t("index:MEZCLAMASTER.faq.p1")}
+        r1={t("index:MEZCLAMASTER.faq.r1")}
+        p2={t("index:MEZCLAMASTER.faq.p2")}
+        r2={t("index:MEZCLAMASTER.faq.r2")}
+        p3={t("index:MEZCLAMASTER.faq.p3")}
+        r3={t("index:MEZCLAMASTER.faq.r3")}
+        p4={t("index:MEZCLAMASTER.faq.p4")}
+        r4={t("index:MEZCLAMASTER.faq.r4")}
+        p5={t("index:MEZCLAMASTER.faq.p5")}
+        r5={t("index:MEZCLAMASTER.faq.r5")}
+        p6={t("index:MEZCLAMASTER.faq.p6")}
+        r6={t("index:MEZCLAMASTER.faq.r6")}
+        p7={t("index:MEZCLAMASTER.faq.p7")}
+        r7={t("index:MEZCLAMASTER.faq.r7")}
+      />
     </>
-  )
+  );
 }
