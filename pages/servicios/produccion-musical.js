@@ -30,28 +30,28 @@ import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster
 import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
 import cantautora from "../../public/images/cantautora.jpg";
 
-
 export default function ProduccionMusical() {
   let { t } = useTranslation();
 
   return (
     <>
       <Hero image={heroImage} title="Producción Musical" />
+      <PageLayout>
+        <TextBlock
+          title1={t("index:PRODUCCION-MUSICAL.p2")}
+          text1={t("index:PRODUCCION-MUSICAL.p1")}
+        />
 
-      <TextBlock
-        title1={t("index:PRODUCCION-MUSICAL.p2")}
-        text1={t("index:PRODUCCION-MUSICAL.p1")}
-      />
-
-      <ImageTextBlock
-        txt1={t("index:PRODUCCION-MUSICAL.p3")}
-        txt2={t("index:PRODUCCION-MUSICAL.p4")}
-        img={produccionCompleta}
-      />
-      <TextBlock
-        title1={t("index:PRODUCCION-MUSICAL.pasos.title")}
-        text1={t("index:PRODUCCION-MUSICAL.pasos.desc")}
-      />
+        <ImageTextBlock
+          txt1={t("index:PRODUCCION-MUSICAL.p3")}
+          txt2={t("index:PRODUCCION-MUSICAL.p4")}
+          img={produccionCompleta}
+        />
+        <TextBlock
+          title1={t("index:PRODUCCION-MUSICAL.pasos.title")}
+          text1={t("index:PRODUCCION-MUSICAL.pasos.desc")}
+        />
+      </PageLayout>
       <PageLayout small>
         <Ventajas
           vertical
@@ -74,10 +74,9 @@ export default function ProduccionMusical() {
         link="/contacto"
         buttonText="CONTACTO"
       />
-      <TextBlock
-        title1={t("index:PRODUCCION-MUSICAL.p7")}
-      />
-      
+      <PageLayout>
+        <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
+
         <List
           img={cantautora}
           li1={t("index:PRODUCCION-MUSICAL.servicios.s1")}
@@ -88,10 +87,8 @@ export default function ProduccionMusical() {
           li6={t("index:PRODUCCION-MUSICAL.servicios.s6")}
           li7={t("index:PRODUCCION-MUSICAL.servicios.s7")}
         />
-        <TextBlock
-        description={t("index:PRODUCCION-MUSICAL.p6")}
-      />
-      
+        <TextBlock description={t("index:PRODUCCION-MUSICAL.p6")} />
+      </PageLayout>
       <TextBlock
         title1={t("index:grabacionesTitle")}
         description={t("index:grabacionesDescription")}
@@ -128,7 +125,7 @@ export default function ProduccionMusical() {
         text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
       />
       <CoverSlider />
-      <Faq 
+      <Faq
         p1={t("index:PRODUCCION-MUSICAL.faq.p1")}
         r1={t("index:PRODUCCION-MUSICAL.faq.r1")}
         p2={t("index:PRODUCCION-MUSICAL.faq.p2")}

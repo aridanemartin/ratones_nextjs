@@ -15,7 +15,9 @@ import img3 from "../../public/images/icons/mezcla.png";
 import img4 from "../../public/images/icons/lupa.png";
 import img5 from "../../public/images/icons/fader.png";
 import img6 from "../../public/images/icons/listen.png";
+import fader from "../../public/images/darkFader.jpg";
 import Banner from "@components/Banner/Banner";
+import { List } from "@components/List";
 
 export default function MezclaMaster() {
   let { t } = useTranslation();
@@ -43,6 +45,7 @@ export default function MezclaMaster() {
         text={t("index:MEZCLAMASTER.p5")}
         link="/contacto"
         buttonText="CONTACTO"
+        disclaimer={t("index:MEZCLAMASTER.p7")}
       />
       <TextBlock title1="Pasos" />
       <PageLayout small>
@@ -62,6 +65,17 @@ export default function MezclaMaster() {
           txt6={t("index:MEZCLAMASTER.pasos.6")}
         />
       </PageLayout>
+      <PageLayout>
+        <TextBlock title1={t("index:MEZCLAMASTER.servicios.title")} />
+        <List
+          img={fader}
+          li1={t("index:MEZCLAMASTER.servicios.s1")}
+          li2={t("index:MEZCLAMASTER.servicios.s2")}
+          li3={t("index:MEZCLAMASTER.servicios.s3")}
+        />
+      </PageLayout>
+
+      <TextBlock description={t("index:MEZCLAMASTER.p6")} />
 
       <Faq
         p1={t("index:MEZCLAMASTER.faq.p1")}

@@ -1,6 +1,7 @@
+import HeroLogo from "@components/HeroLogo/HeroLogo";
 import Image from "next/image";
-import HeroLogo from "../HeroLogo/HeroLogo";
 import styles from "./Hero.module.css";
+import logo from "../../public/images/logoLarge.png";
 
 const Hero = (props) => {
   return (
@@ -14,6 +15,7 @@ const Hero = (props) => {
           priority={true}
         />
       </div>
+      <HeroLogo image={logo} maxWidth={"90"} minWidth={"10"} />
       <h1 className={styles.mainTitle}>{props.title}</h1>
     </div>
   );

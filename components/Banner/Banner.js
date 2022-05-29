@@ -1,13 +1,16 @@
-import styles from './Banner.module.css';
-import Link from 'next/link';
+import styles from "./Banner.module.css";
+import Link from "next/link";
 
-export default function Banner(props) {
-    return (
+export default function Banner({ text, link, buttonText, disclaimer }) {
+  return (
     <div className={styles.bannerWrap}>
-        <h3 className={styles.bannerText}>{props.text}</h3>
-        <Link href={props.link}>
-            <a className={styles.button}>{props.buttonText}</a>
+      <div className={styles.contentWrap}>
+        <h3 className={styles.bannerText}>{text}</h3>
+        <Link href={link}>
+          <a className={styles.button}>{buttonText}</a>
         </Link>
+      </div>
+      <p className={styles.disclaimer}>{disclaimer}</p>
     </div>
-    );
+  );
 }

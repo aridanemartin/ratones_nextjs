@@ -1,60 +1,62 @@
-.modalWrapper{
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 5;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.modalImageWrapper{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 25rem;
-    height: 25rem;
+.contentWrapper {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-.modalText{
-    position: absolute;
-    font-size: 1.2rem;
-    width: 25rem;
-    color: white;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.modalImage {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
 }
 
-.modalSpotify{
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    width: 65%;
-    transform: translate(-50%, -50%);
+.modalText {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  width: 25rem;
+  color: white;
+  text-align: center;
 }
 
-.modalImageWrapper button{
-    cursor: pointer;
-
-    position: absolute;
-    top: 165%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10rem;
-    height: 3rem;
-    border: 0;
-    border-radius: 10rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    background: #99582a;
-    
-    transition: all 0.3s ease-in-out;
+.modalSpotify {
+  margin: 0 auto;
+  width: 15rem;
 }
 
-.modalImageWrapper button:hover{
-    background: #d67b3a;
+.contentWrapper button {
+  margin: 2rem auto;
+  cursor: pointer;
+
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background: #99582a;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.contentWrapper button:hover {
+  background: #d67b3a;
 }
