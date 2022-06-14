@@ -126,6 +126,26 @@ export default function Testimonials(props) {
             </div>
           </section>
         </SwiperSlide>
+        <SwiperSlide>
+          <section className={styles.cslide}>
+            <div className={styles.imageWrap}>
+              <Image src={leftCuote} layout="fill" objectFit="cover" />
+            </div>
+            <p className={styles.slideText}>{props.text5}</p>
+            <div className={styles.grupoWrap}>
+              <div className={styles.profileImageFlex}>
+                <div className={styles.profileImageWrap}>
+                  <Image src={props.image5} layout="fill" objectFit="cover" />
+                </div>
+              </div>
+              <div className={styles.textWrap}>
+                <p className={styles.grupo}>{props.grupo5}</p>
+                <p className={styles.description}>{props.desc5}</p>
+                <p className={styles.lugar}>{props.lugar5}</p>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

@@ -7,6 +7,10 @@
   margin-bottom: 3rem;
 }
 
+.full {
+  min-height: 50rem;
+}
+
 .imageWrapper {
   grid-area: foto;
   position: relative;
@@ -49,6 +53,9 @@
     grid-template-areas: "foto" "text";
     grid-template-rows: 15rem 1fr;
     height: auto;
+  }
+  .full {
+    grid-template-rows: 50rem 1fr;
   }
   .textWrapper {
     padding: 1rem;

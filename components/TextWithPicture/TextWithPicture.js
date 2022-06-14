@@ -5,12 +5,21 @@ export const TextWithPicture = ({
   image,
   text,
   text2,
+  text3,
+  text4,
   imageAlt,
   title,
   list,
+  full,
 }) => {
   return (
-    <div className={styles.componentWrapper}>
+    <div
+      className={
+        full
+          ? styles.componentWrapper + " " + styles.full
+          : styles.componentWrapper
+      }
+    >
       <div className={styles.imageWrapper}>
         <Image src={image} objectFit="cover" layout="fill" alt={imageAlt} />
       </div>
@@ -28,6 +37,18 @@ export const TextWithPicture = ({
           <>
             <br />
             <p>{text2}</p>
+          </>
+        )}
+        {text3 && (
+          <>
+            <br />
+            <p>{text3}</p>
+          </>
+        )}
+        {text4 && (
+          <>
+            <br />
+            <p>{text4}</p>
           </>
         )}
       </div>

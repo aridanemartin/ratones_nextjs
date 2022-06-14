@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styles from "./CoverCollage.module.css";
 import Image from "next/image/";
 
@@ -6,160 +6,113 @@ import { useState } from "react";
 
 import ModalCover from "@components/ModalCover/ModalCover";
 
-export default function CoverCollage(props) {
-  const { img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, text1, text2, text3, text4, text5, text6, text7, text8, text9, text10, url1, url2, url3, url4, url5, url6, url7, url8, url9, url10 } = props;
+export default function CoverCollage({
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  title1,
+  title2,
+  title3,
+  title4,
+  title5,
+  title6,
+  title7,
+  title8,
+  title9,
+  title10,
+  artist1,
+  artist2,
+  artist3,
+  artist4,
+  artist5,
+  artist6,
+  artist7,
+  artist8,
+  artist9,
+  artist10,
+  text1,
+  text2,
+  text3,
+  text4,
+  text5,
+  text6,
+  text7,
+  text8,
+  text9,
+  text10,
+  url1,
+  url2,
+  url3,
+  url4,
+  url5,
+  url6,
+  url7,
+  url8,
+  url9,
+  url10,
+}) {
+  const coverData = [
+    [img1, title1, artist1, text1, url1],
+    [img2, title2, artist2, text2, url2],
+    [img3, title3, artist3, text3, url3],
+    [img4, title4, artist4, text4, url4],
+    [img5, title5, artist5, text5, url5],
+    [img6, title6, artist6, text6, url6],
+    [img7, title7, artist7, text7, url7],
+    [img8, title8, artist8, text8, url8],
+    [img9, title9, artist9, text9, url9],
+    [img10, title10, artist10, text10, url10],
+  ];
 
   const [modalImage, setModalImage] = useState();
-  const [modalText, setModalText] = useState('');
-  const [modalUrl, setModalUrl] = useState('');
+  const [modalTitle, setModalTitle] = useState();
+  const [modalArtist, setModalArtist] = useState();
+  const [modalText, setModalText] = useState("");
+  const [modalUrl, setModalUrl] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
- 
+
   function handleModalState() {
     setModalOpen(!modalOpen);
   }
 
   return (
-
     <div className={styles.coverCollageWrapper}>
-      
-      <ModalCover 
-      image={modalImage} 
-      text={modalText} 
-      url={modalUrl}
-      handleModalState={handleModalState} 
-      modalOpen={modalOpen}/>
-      
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text1);
-            setModalImage(img1);
-            setModalUrl(url1);
-            handleModalState();
-          }}
-          src={img1}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text2);
-            setModalImage(img2);
-            setModalUrl(url2);
-            handleModalState();
-          }}
-          src={img2}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text3);
-            setModalImage(img3);
-            setModalUrl(url3);
-            handleModalState();
-          }}
-          src={img3}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text4);
-            setModalImage(img4);
-            setModalUrl(url4);
-            handleModalState();
-          }}
-          src={img4}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text5);
-            setModalImage(img5);
-            setModalUrl(url5);
-            handleModalState();
-          }}
-          src={img5}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text6);
-            setModalImage(img6);
-            setModalUrl(url6);
-            handleModalState();
-          }}
-          src={img6}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text7);
-            setModalImage(img7);
-            setModalUrl(url7);
-            handleModalState();
-          }}
-          src={img7}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text8);
-            setModalImage(img8);
-            setModalUrl(url8);
-            handleModalState();
-          }}
-          src={img8}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text9);
-            setModalImage(img9);
-            setModalUrl(url9);
-            handleModalState();
-          }}
-          src={img9}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-      <a className={styles.singleCover}>
-        <Image
-          onClick={() => {
-            setModalText(text10);
-            setModalImage(img10);
-            setModalUrl(url10);
-            handleModalState();
-          }}
-          src={img10}
-          layout="fill"
-          objectFit="cover"
-        />
-      </a>
-    </div>
+      <ModalCover
+        image={modalImage}
+        title={modalTitle}
+        artist={modalArtist}
+        text={modalText}
+        url={modalUrl}
+        handleModalState={handleModalState}
+        modalOpen={modalOpen}
+      />
 
+      {coverData.map((coverData, index) => {
+        return (
+          <a className={styles.singleCover}>
+            <Image
+              onClick={() => {
+                setModalImage(coverData[0]);
+                setModalTitle(coverData[1]);
+                setModalArtist(coverData[2]);
+                setModalText(coverData[3]);
+                setModalUrl(coverData[4]);
+                handleModalState();
+              }}
+              src={coverData[0]}
+              layout="fill"
+              objectFit="cover"
+            />
+          </a>
+        );
+      })}
+    </div>
   );
 }

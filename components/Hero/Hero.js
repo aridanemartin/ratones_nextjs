@@ -1,22 +1,21 @@
 import HeroLogo from "@components/HeroLogo/HeroLogo";
 import Image from "next/image";
 import styles from "./Hero.module.css";
-import logo from "../../public/images/logoLarge.png";
 
-const Hero = (props) => {
+const Hero = ({ logo, image, title }) => {
   return (
     <div className={styles.mainTitleWrapper}>
       <div className={styles.bgWrap}>
         <Image
           alt="Background image"
-          src={props.image}
+          src={image}
           layout="fill"
           objectFit="cover"
           priority={true}
         />
       </div>
-      <HeroLogo image={logo} maxWidth={"90"} minWidth={"10"} />
-      <h1 className={styles.mainTitle}>{props.title}</h1>
+      {logo && <HeroLogo image={logo} maxWidth={"90"} minWidth={"10"} />}
+      <h1 className={styles.mainTitle}>{title}</h1>
     </div>
   );
 };

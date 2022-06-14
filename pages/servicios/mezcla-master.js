@@ -30,7 +30,11 @@ export default function MezclaMaster() {
 
   return (
     <>
-      <Hero image={heroImage} title="Mezcla y Master" logoPeq={ratonLogo} />
+      <Hero
+        image={heroImage}
+        title={t("index:MEZCLAMASTER.title")}
+        logoPeq={ratonLogo}
+      />
       <PageLayout>
         <TextBlock title1={t("index:MEZCLAMASTER.title")} />
         <TextWithPicture

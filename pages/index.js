@@ -18,30 +18,25 @@ import banddarra from "../public/images/banddarra.jpg";
 import juanca from "../public/images/Juanca.jpeg";
 import fran from "../public/images/franPeregrina.jpg";
 import borja from "../public/images/borjaRemacha.jpg";
+import david from "../public/images/davidGarcia.png";
 import cover1 from "../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
-import cover2 from "../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
-import cover3 from "../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
-import cover4 from "../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
-import cover5 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover6 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover7 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-import cover8 from "../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover9 from "../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover10 from "../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
 import v1 from "../public/images/icons/like.png";
 import v2 from "../public/images/icons/percent.png";
 import v3 from "../public/images/icons/free.png";
 import v5 from "../public/images/icons/clock.png";
 import v6 from "../public/images/icons/interview.png";
+import logo from "../public/images/logoLarge.png";
 import Ventajas from "@components/Ventajas/Ventajas";
 import PageLayout from "@components/PageLayout/PageLayout";
+
+import { albumData } from "@components/CoverCollage/albumData";
 
 export default function Home() {
   let { t } = useTranslation();
 
   return (
     <div className={styles.container}>
-      <Hero image={Completa} logo={heroLogo} />
+      <Hero image={Completa} logo={logo} />
       <SocialBanner />
       <PageLayout>
         <TextBlock
@@ -54,6 +49,13 @@ export default function Home() {
           text5={t("index:introText5")}
         />
         <Pasos />
+        <span id="servicios"></span>
+        <TextBlock
+          title1={t("index:serviciosTitle1")}
+          text1={t("index:serviciosText1")}
+          description={t("index:serviciosDescription")}
+        />
+        <Servicios />
         <TextBlock
           title1={t("index:ventajasTitle")}
           text1={t("index:ventajasText1")}
@@ -74,54 +76,70 @@ export default function Home() {
             txt6={t("index:VENTAJAS.ventaja6")}
           />
         </Layout>
-        <span id="servicios"></span>
-        <TextBlock
-          title1={t("index:serviciosTitle1")}
-          text1={t("index:serviciosText1")}
-          description={t("index:serviciosDescription")}
-        />
-        <Servicios />
       </PageLayout>
       <Banner
         text={t("index:BANNER.text")}
         buttonText={t("index:BANNER.buttonText")}
         link="/"
-        background={cover1}
+        background={albumData[0].image.cover1}
       />
       <TextBlock
         title1={t("index:grabacionesTitle")}
         description={t("index:grabacionesDescription")}
         text1={t("index:grabacionesText1")}
       />
+
       <CoverCollage
-        img1={cover1}
-        text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
-        url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
-        img2={cover2}
-        text2="Borja Remacha - Arreglos y grabación de guitarras"
-        url2=""
-        img3={cover3}
-        text3="Fran Peregrina - Producción musical, mezcla y máster"
-        url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
-        img4={cover4}
-        text4="Fran Peregrina - Producción musical, mezcla y máster"
-        url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
-        img5={cover5}
-        text5="Fran Peregrina - Producción musical, mezcla y máster"
-        url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
-        img6={cover6}
-        text6="Frederico Vannini - Máster"
-        url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
-        img7={cover7}
-        text7="Sandra Bautista - Grabación de guitarras"
-        url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
-        img8={cover8}
-        text8="Dr. Basilio - Grabación de guitarras"
-        url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
-        img9={cover9}
-        text9="Dos"
-        img10={cover10}
-        text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
+        img1={albumData[0].image.cover1}
+        title1={albumData[0].title}
+        artist1={albumData[0].artist}
+        text1={albumData[0].text}
+        url1={albumData[0].url}
+        img2={albumData[1].image.cover2}
+        title2={albumData[1].title}
+        artist2={albumData[1].artist}
+        text2={albumData[1].text}
+        url2={albumData[1].url}
+        img3={albumData[2].image.cover3}
+        title3={albumData[2].title}
+        artist3={albumData[2].artist}
+        text3={albumData[2].text}
+        url3={albumData[2].url}
+        img4={albumData[3].image.cover4}
+        title4={albumData[3].title}
+        artist4={albumData[3].artist}
+        text4={albumData[3].text}
+        url4={albumData[3].url}
+        img5={albumData[4].image.cover5}
+        title5={albumData[4].title}
+        artist5={albumData[4].artist}
+        text5={albumData[4].text}
+        url5={albumData[4].url}
+        img6={albumData[5].image.cover6}
+        title6={albumData[5].title}
+        artist6={albumData[5].artist}
+        text6={albumData[5].text}
+        url6={albumData[5].url}
+        img7={albumData[6].image.cover7}
+        title7={albumData[6].title}
+        artist7={albumData[6].artist}
+        text7={albumData[6].text}
+        url7={albumData[6].url}
+        img8={albumData[7].image.cover8}
+        title8={albumData[7].title}
+        artist8={albumData[7].artist}
+        text8={albumData[7].text}
+        url8={albumData[7].url}
+        img9={albumData[8].image.cover9}
+        title9={albumData[8].title}
+        artist9={albumData[8].artist}
+        text9={albumData[8].text}
+        url9={albumData[8].url}
+        img10={albumData[9].image.cover10}
+        title10={albumData[9].title}
+        artist10={albumData[9].artist}
+        text10={albumData[9].text}
+        url10={albumData[9].url}
       />
       <CoverSlider />
       <PageLayout>
@@ -152,6 +170,11 @@ export default function Home() {
         grupo4={t("index:CARROUSEL.grupo4")}
         lugar4={t("index:CARROUSEL.lugar4")}
         image4={borja}
+        text5={t("index:CARROUSEL.text5")}
+        desc5={t("index:CARROUSEL.desc5")}
+        grupo5={t("index:CARROUSEL.grupo5")}
+        lugar5={t("index:CARROUSEL.lugar5")}
+        image5={david}
       />
     </div>
   );

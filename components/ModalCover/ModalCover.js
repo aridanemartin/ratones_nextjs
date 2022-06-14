@@ -4,12 +4,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function ModalCover({
   image,
+  title,
+  artist,
   text,
   url,
   handleModalState,
   modalOpen,
 }) {
-  console.log(modalOpen);
   return (
     <AnimatePresence>
       {modalOpen && (
@@ -28,6 +29,8 @@ export default function ModalCover({
                 alt="Cover Image"
               />
             </div>
+            <h2>{title}</h2>
+            <p className={styles.artist}>{artist}</p>
             <p className={styles.modalText}>{text}</p>
             <iframe
               className={styles.modalSpotify}

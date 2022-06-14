@@ -74,11 +74,6 @@ export default function Guitarrista() {
           txt4={t("index:GUITARRISTA.pasos.4")}
         />
       </PageLayout>
-      <Banner
-        text={t("index:PRODUCCION-MUSICAL.p5")}
-        link="/contacto"
-        buttonText="CONTACTO"
-      />
 
       <Faq
         p1={t("index:GUITARRISTA.faq.p1")}

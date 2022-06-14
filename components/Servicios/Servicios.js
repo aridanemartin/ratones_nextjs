@@ -30,7 +30,7 @@ const Servicios = () => {
             <Image src={grabacion} layout="fill" objectFit="cover" />
           </div>
           <h2>{t("index:grabacionTitle")}</h2>
-          <p>{t("index:produccionText")}</p>
+          <p>{t("index:grabacionText")}</p>
           <Link href="/servicios/guitarrista">
             <a>Más Información</a>
           </Link>

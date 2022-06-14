@@ -100,7 +100,7 @@ const Nav = () => {
                   : styles.navLinkWrap + " " + styles.navLinkWrap1
               }
             >
-              <Link href="/">
+              <Link href="/quienes-somos">
                 <a
                   className={
                     (serviciosOpen ? styles.hideMenu : "") +

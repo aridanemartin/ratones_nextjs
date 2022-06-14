@@ -12,7 +12,7 @@
     "produccionTitle": "Producción Musical",
     "produccionText": "Realizamos producciones musicales de todo tipo. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. Nos encargamos de todo el proceso: instrumentación y arreglos a medida, grabación y procesado de voces, mezcla y mastering.",
     "grabacionTitle": "Grabación de guitarras",
-    "grabacionText": "Grabamos las guitarras de tu canción de forma remota. ¿Necesitas una guitarra acústica de acompañamiento? ¿Un solo de rock? Este servicio es muy económico, rápido y sencillo.",
+    "grabacionText": "¿Necesitas una guitarra en tu canción? ¿Un solo enérgico de rock? ¿Un acompañamiento con la magia del flamenco? Sea lo que sea que lleve cuerdas nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
     "audiovisualesTitle": "Música para audiovisuales",
     "audiovisualesText": "Componemos la música y el diseño sonoro para tu proyecto audiovisual (publicidad, cortometraje, largometraje, documental, podcast, etc.).",
     "mezclaTitle": "Mezcla y Máster",
@@ -34,7 +34,7 @@
         "grupo1":"La Banddarra",
         "desc1":"Grupo de Ska/Reggae/Rock",
         "lugar1":"Barcelona",
-        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscara la forma de hacerlo sonar ¡Recomendable al 100%!",
+        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscará la forma de hacerlo sonar ¡Recomendable al 100%!",
         "grupo2":"Juan Carlos Rojas",
         "desc2":"Flamenco/Pop/Fusión ",
         "lugar2":"Barcelona",
@@ -45,7 +45,11 @@
         "text4":"Víctor, responsable de Ratone's Room es un músico cualificadísimo, constante, puntual, comprometido con el trabajo y flexible. Es responsable de los arreglos y la grabación de las guitarras de las 6 últimas canciones de mi primer disco. En ellas cabe destacar el sonido y la esencia americana que buscaba en esos temas.",
         "grupo4":"Borja Remacha",
         "desc4":"Cantautor de Pop/Rock",
-        "lugar4":"Barcelona"
+        "lugar4":"Barcelona",
+        "text5":"Víctor, además de amigo, es un profesional de la cabeza a los pies. A su buen criterio en cuanto a sonido y producción hay que sumar su calidad como guitarrista y como músico en el más amplio sentido de la palabra. Grabar y producir con Víctor es hacerlo con un técnico de primera y con un músico más siempre dispuesto a aportar lo mejor de sí mismo.",
+        "grupo5":"David García",
+        "desc5":"Guitarrista",
+        "lugar5":"Barcelona"
     },
     "FAQ":{
         "title1":"¿Qué necesito para comenzar a realizar una producción musical online?",
@@ -77,18 +81,19 @@
         }
     },
     "VENTAJAS":{
-        "ventaja1":"Satisfacción 100% garantizada.",
+        "ventaja1":"Satisfacción 100% garantizada",
         "ventaja2":"Descuentos y promociones especiales",
-        "ventaja3":"Máster de muestra gratis.",
-        "ventaja4":"Evaluación de mezcla gratis.",
+        "ventaja3":"Máster de muestra gratis",
+        "ventaja4":"Evaluación de mezcla gratis",
         "ventaja5":"Rapidez",
         "ventaja6":"Asesoramiento creativo y técnico"           
     },
-    "QUIENES-SOMOS":{
-        "p1":"es un espacio que ofrece servicios profesionales de producción musical, grabación, mezcla y máster. Estamos ubicados en el centro de Madrid (España) pero también trabajamos de forma remota para todo el mundo (online).",
+    "QUIENESSOMOS":{
+        "title":"¿Quiénes somos?",
+        "p1":"Ratone's Room es un espacio que ofrece servicios profesionales de producción musical, grabación, mezcla y máster. Estamos ubicados en el centro de Madrid (España) pero también trabajamos de forma remota para todo el mundo (online).",
         "p2":"Somos un grupo de productores musicales, músicos de sesión y técnicos con una dilatada experiencia que trabajamos coordinadamente para ofrecer el mejor sonido con unas tarifas razonables y competitivas.",
         "p3":"Nuestro objetivo principal es que el cliente quede satisfecho al 100%. Nos implicamos al máximo en cada proyecto, dedicándole el tiempo y los medios necesarios. Hacemos un equilibrio entre la parte creativa y técnica, respetando y apoyando siempre las decisiones de nuestros clientes.",
-        "p4":"es quien está al frente de Ratone's Room. Guitarrista, compositor, productor musical e ingeniero de sonido. Es titulado superior en música moderna y jazz por el Conservatorio del Liceo (Barcelona). También es ingeniero de telecomunicaciones (especialidad en sonido e imagen) por la Universitat Politècnica de Catalunya (UPC). Con 15 años de experiencia profesional, ha grabado y girado por toda España con artistas como D'Callaos, Sandra Bautista (director musical), Daniel Felices o Javier Sólo. Ha liderado sus propios proyectos musicales, de estilos muy variados, con los que ha publicado varios discos.",
+        "p4":"Víctor Martínez Galeote es quien está al frente de Ratone's Room. Guitarrista, compositor, productor musical e ingeniero de sonido. Es titulado superior en música moderna y jazz por el Conservatorio del Liceo (Barcelona). También es ingeniero de telecomunicaciones (especialidad en sonido e imagen) por la Universitat Politècnica de Catalunya (UPC). Con 15 años de experiencia profesional, ha grabado y girado por toda España con artistas como D'Callaos, Sandra Bautista (director musical), Daniel Felices o Javier Sólo. Ha liderado sus propios proyectos musicales, de estilos muy variados, con los que ha publicado varios discos.",
         "p5":"Nuestros servicios principales son:",
         "p6":"Otros servicios que pueden interesarte:",
         "servicios":{
