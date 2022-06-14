@@ -44,7 +44,7 @@ export const ContactForm = () => {
             id="Producción Musical"
             name="Producción Musical"
           />
-          <label for="Producción Musical">Producción Musical</label>
+          <label htmlFor="Producción Musical">Producción Musical</label>
         </div>
         <div>
           <input
@@ -52,7 +52,7 @@ export const ContactForm = () => {
             id="Grabación de guitarras"
             name="Grabación de guitarras"
           />
-          <label for="Grabación de guitarras">Grabación de guitarras</label>
+          <label htmlFor="Grabación de guitarras">Grabación de guitarras</label>
         </div>
         <div>
           <input
@@ -60,13 +60,13 @@ export const ContactForm = () => {
             id="Música para audiovisuales"
             name="Música para audiovisuales"
           />
-          <label for="Música para audiovisuales">
+          <label htmlFor="Música para audiovisuales">
             Música para audiovisuales
           </label>
         </div>
         <div>
           <input type="checkbox" id="Mezcla y Máster" name="Mezcla y Máster" />
-          <label for="Mezcla y Máster">Mezcla y Máster</label>
+          <label htmlFor="Mezcla y Máster">Mezcla y Máster</label>
         </div>
       </fieldset>
 
