@@ -115,26 +115,27 @@
         "pasos":{
             "title":"Pasos",
             "desc":"Comienza a planear tu producción siguiendo los pasos que te mostramos a continuación:",
-            "1":"1 - Envíanos tu canción.",
-            "2":"2 - Acordamos un precio.",
-            "3":"3 - Trabajamos en la base instrumental.",
-            "4":"4 - Grabación de la voz.",
-            "5":"5 - Edición, mezcla y máster.",
+            "1":"1 - Envíanos tu canción",
+            "2":"2 - Acordamos un precio",
+            "3":"3 - Trabajamos en la base instrumental",
+            "4":"4 - Grabación de la voz",
+            "5":"5 - Edición, mezcla y máster",
             "6":"6 - ¡Disfruta!"
         },
-        "p5":"Disfruta de este servicio a partir de 199€ / canción.",
+        "p5":{"text":"Disfruta de este servicio a partir de ",
+        "price":"199€ / canción"},
         "p6":"Consulta nuestros descuentos y promociones especiales",
         "p7":"¿Qué incluye este servicio?",
         "servicios":{
-            "s1":"Sugerencias creativas.",
-            "s2":"Dirección musical y estilística.",
-            "s3":"Creación exclusiva de una base instrumental básica (2 instrumentos + percusión).",
+            "s1":"Sugerencias creativas",
+            "s2":"Dirección musical y estilística",
+            "s3":"Creación exclusiva de una base instrumental básica (2 instrumentos + percusión)",
             "s4":"Grabación de guitarras online",
-            "s5":"Mezcla y máster online (revisiones ilimitadas).",
+            "s5":"Mezcla y máster online (revisiones ilimitadas)",
             "s6":"Asesoramiento en distribución digital y física",
-            "s7":"Asesoramiento legal en España (Propiedad Intelectual,SGAE)."
+            "s7":"Asesoramiento legal en España y derechos de autor (Propiedad Intelectual,SGAE)"
         },
-        "p8":"El precio no incluye el 21% de IVA (solo para España).",
+        "p8":"El precio no incluye el 21% de IVA (solo para España). No incluye la producción vocal (grabación, edición y afinación).",
         "p9":"El precio no incluye la producción vocal (grabación, edición y afinación).",
         "p10":"Pide tu presupuesto gratis ahora.",
         "faq":{
@@ -171,7 +172,8 @@
             "3":"Grabamos tus guitarras",
             "4":"¡Disfruta!"
         },
-        "p5":"Contrata este servicio a partir de 35€ / canción.",
+        "p5":{"text":"Contrata este servicio a partir de ",
+            "price":"35€ / canción."},
         "p6":"Consulta nuestros descuentos y promociones especiales.",
         "servicios":{
             "title":"¿Qué incluye este servicio?",

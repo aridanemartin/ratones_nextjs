@@ -1,5 +1,6 @@
 import Hero from "@components/Hero/Hero";
 import PageLayout from "@components/PageLayout/PageLayout";
+import Servicios from "@components/Servicios/Servicios";
 import TextBlock from "@components/TextBlock/TextBlock";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import useTranslation from "next-translate/useTranslation";
@@ -25,6 +26,12 @@ const Quienessomos = () => {
           text3={t("index:QUIENESSOMOS.p3")}
           text4={t("index:QUIENESSOMOS.p4")}
         />
+        <TextBlock
+          title1={t("index:serviciosTitle1")}
+          text1={t("index:serviciosText1")}
+          description={t("index:serviciosDescription")}
+        />
+        <Servicios />
       </PageLayout>
     </>
   );

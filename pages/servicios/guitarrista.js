@@ -53,7 +53,15 @@ export default function Guitarrista() {
           li2={t("index:GUITARRISTA.servicios.s2")}
           li3={t("index:GUITARRISTA.servicios.s3")}
         />
-
+      </PageLayout>
+      <Banner
+        text={t("index:GUITARRISTA.p5.text")}
+        price={t("index:GUITARRISTA.p5.price")}
+        link="/contacto"
+        buttonText="CONTACTO"
+        disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
+      />
+      <PageLayout>
         <TextBlock
           title1={t("index:GUITARRISTA.title")}
           text1={t("index:GUITARRISTA.p2")}
@@ -61,6 +69,7 @@ export default function Guitarrista() {
           text3={t("index:GUITARRISTA.p4")}
         />
       </PageLayout>
+
       <PageLayout small>
         <Ventajas
           vertical

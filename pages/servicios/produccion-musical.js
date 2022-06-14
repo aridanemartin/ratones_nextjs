@@ -70,9 +70,11 @@ export default function ProduccionMusical() {
         />
       </PageLayout>
       <Banner
-        text={t("index:PRODUCCION-MUSICAL.p5")}
+        text={t("index:PRODUCCION-MUSICAL.p5.text")}
+        price={t("index:PRODUCCION-MUSICAL.p5.price")}
         link="/contacto"
         buttonText="CONTACTO"
+        disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
       />
       <PageLayout>
         <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />

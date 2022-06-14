@@ -4,13 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const HeroLogo = (props) => {
   return (
-    <div
-      className={styles.heroLogoWrap}
-      style={{
-        maxWidth: props.maxWidth + "rem",
-        minWidth: props.minWidth + "rem",
-      }}
-    >
+    <div className={styles.heroLogoWrap}>
       <AnimatePresence exitBeforeEnter>
         <motion.div
           animate={{ opacity: 1, y: 0 }}

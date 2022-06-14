@@ -14,7 +14,7 @@ const Hero = ({ logo, image, title }) => {
           priority={true}
         />
       </div>
-      {logo && <HeroLogo image={logo} maxWidth={"90"} minWidth={"10"} />}
+      {logo && <HeroLogo image={logo} />}
       <h1 className={styles.mainTitle}>{title}</h1>
     </div>
   );

@@ -96,7 +96,7 @@ export default function CoverCollage({
 
       {coverData.map((coverData, index) => {
         return (
-          <a className={styles.singleCover}>
+          <a className={styles.singleCover} key={coverData[0] + index}>
             <Image
               onClick={() => {
                 setModalImage(coverData[0]);

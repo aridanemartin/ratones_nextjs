@@ -60,7 +60,7 @@ export default function Home() {
           title1={t("index:ventajasTitle")}
           text1={t("index:ventajasText1")}
         />
-        <Layout>
+        <PageLayout>
           <Ventajas
             img1={v1}
             img2={v2}
@@ -75,7 +75,7 @@ export default function Home() {
             txt5={t("index:VENTAJAS.ventaja5")}
             txt6={t("index:VENTAJAS.ventaja6")}
           />
-        </Layout>
+        </PageLayout>
       </PageLayout>
       <Banner
         text={t("index:BANNER.text")}
