@@ -8,8 +8,8 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import useTranslation from "next-translate/useTranslation";
 
-import ratonLogo from "../../public/images/logoLargeNoSubtitle.png";
-import Logo from "../../public/images/logoVertical.png";
+import ratonLogoDesktop from "../../public/images/logoLargeNoSubtitle.png";
+import ratonLogoMobile from "../../public/images/logoVertical.png";
 import Instagram from "../../public/images/icons/instagram.webp";
 import Facebook from "../../public/images/icons/facebook.webp";
 import Web from "../../public/images/icons/corchea.png";
@@ -30,7 +30,7 @@ const Nav = () => {
   const [serviciosOpen, setServiciosOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-  console.log(serviciosOpen);
+
   return (
     <>
       {/* Size Debugging!
@@ -60,16 +60,14 @@ const Nav = () => {
           }
         >
           <div className={styles.logoSection}>
-            <div className={styles.logoWrapper}>
+            <div>
               <Link href="/">
-                <a>
+                <a className={styles.logoWrapper}>
                   <Image
-                    src={ratonLogo}
+                    src={ratonLogoDesktop}
                     placeholder="blur"
                     objectFit="contain"
                     layout="fill"
-                    width={1412}
-                    height={690}
                     alt="Ratone's Studio Logo"
                   />
                 </a>
@@ -79,11 +77,9 @@ const Nav = () => {
           </div>
           <div className={styles.navLogoWrap}>
             <Image
-              src={Logo}
+              src={ratonLogoMobile}
               placeholder="blur"
               layout="responsive"
-              width={1412}
-              height={690}
               alt="Ratone's Studio Logo"
             />
           </div>
@@ -120,7 +116,7 @@ const Nav = () => {
                     exit={{ opacity: 0 }}
                     className={styles.dropdown}
                   >
-                    <ul>
+                    <ul className={styles.dropDownMenu}>
                       <li>
                         <Link href="/servicios/produccion-musical">
                           <a>Producción musical</a>
@@ -144,6 +140,12 @@ const Nav = () => {
                           <a>Mezcla y Máster</a>
                         </Link>
                       </li>
+                      <a
+                        className={styles.goBackMobile}
+                        onClick={() => setServiciosOpen(false)}
+                      >
+                        Atrás
+                      </a>
                     </ul>
                   </motion.div>
                 )}
@@ -151,7 +153,7 @@ const Nav = () => {
             </li>
 
             <li className={styles.navLinkWrap}>
-              <Link href="/servicios/contacto">
+              <Link href="/contacto">
                 <a
                   className={
                     (serviciosOpen ? styles.hideMenu : "") +
