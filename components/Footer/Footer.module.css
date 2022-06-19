@@ -1,7 +1,7 @@
 .footerWrap {
   /* margin-top: 3rem; */
   width: 100%;
-  height: auto;
+  height: 25rem;
   background: #161111;
 }
 
@@ -95,11 +95,12 @@
 }
 
 @media (max-width: 1200px) {
-  .footerWrap{
+  .footerWrap {
     height: 20rem;
   }
 
-  .menuWrap h3, .serviciosWrap h3 {
+  .menuWrap h3,
+  .serviciosWrap h3 {
     display: none;
   }
 

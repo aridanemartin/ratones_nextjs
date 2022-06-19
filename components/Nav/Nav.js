@@ -2,13 +2,13 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Locale from "../../components/Locale/Locale";
-import styles from "./Nav.module.css";
+import styles from "./Nav.module.scss";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import useTranslation from "next-translate/useTranslation";
 
-import ratonLogo from "../../public/images/logoLarge.png";
+import ratonLogo from "../../public/images/logoLargeNoSubtitle.png";
 import Logo from "../../public/images/logoVertical.png";
 import Instagram from "../../public/images/icons/instagram.webp";
 import Facebook from "../../public/images/icons/facebook.webp";
@@ -22,13 +22,15 @@ const Nav = () => {
   const { locale, locales, defaultLocale } = router;
 
   const [isOpen, setIsOpen] = useState(false);
-  // Dropdown menu
-  const [open, setOpen] = useState(false);
+
   // Dropdown menu (mobile)
+  const [isOpenMobile, setIsOpenMobile] = useState(false);
+
+  // Dropdown menu (desktop)
   const [serviciosOpen, setServiciosOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  console.log(serviciosOpen);
   return (
     <>
       {/* Size Debugging!
@@ -75,14 +77,7 @@ const Nav = () => {
             </div>
             <Locale />
           </div>
-
-          <div
-            className={
-              isOpen === false
-                ? styles.navLogoWrap
-                : styles.navLogoWrap + " " + styles.navLogoWrapEffect
-            }
-          >
+          <div className={styles.navLogoWrap}>
             <Image
               src={Logo}
               placeholder="blur"
@@ -92,14 +87,9 @@ const Nav = () => {
               alt="Ratone's Studio Logo"
             />
           </div>
+
           <ul className={styles.navContent}>
-            <li
-              className={
-                isOpen === false
-                  ? styles.navLinkWrap
-                  : styles.navLinkWrap + " " + styles.navLinkWrap1
-              }
-            >
+            <li className={styles.navLinkWrap}>
               <Link href="/quienes-somos">
                 <a
                   className={
@@ -108,37 +98,60 @@ const Nav = () => {
                     styles.navLink
                   }
                 >
-                  {t("common:menuText.0.name")}
+                  Quiénes somos
                 </a>
               </Link>
             </li>
-            <li
-              className={
-                isOpen === false
-                  ? styles.navLinkWrap
-                  : styles.navLinkWrap + " " + styles.navLinkWrap2
-              }
-            >
-              <Link href="/#servicios">
-                <a
-                  className={
-                    (serviciosOpen ? styles.hideMenu : "") +
-                    " " +
-                    styles.navLink
-                  }
-                >
-                  {t("common:menuText.1.name")}
-                </a>
-              </Link>
+            <li className={styles.navLinkWrap}>
+              <a
+                onClick={() => setServiciosOpen(!serviciosOpen)}
+                className={
+                  (serviciosOpen ? styles.hideMenu : "") + " " + styles.navLink
+                }
+              >
+                Servicios
+              </a>
+              {/* SERVICIOS (DROP DOWN)*/}
+              <AnimatePresence>
+                {serviciosOpen && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className={styles.dropdown}
+                  >
+                    <ul>
+                      <li>
+                        <Link href="/servicios/produccion-musical">
+                          <a>Producción musical</a>
+                        </Link>
+                      </li>
+
+                      <li>
+                        <Link href="/servicios/guitarrista">
+                          <a>Grabación de guitarras</a>
+                        </Link>
+                      </li>
+
+                      <li>
+                        <Link href="/servicios/musica-para-audiovisuales">
+                          <a>Música para audiovisuales</a>
+                        </Link>
+                      </li>
+
+                      <li>
+                        <Link href="/servicios/mezcla-master">
+                          <a>Mezcla y Máster</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </li>
-            <li
-              className={
-                isOpen === false
-                  ? styles.navLinkWrap
-                  : styles.navLinkWrap + " " + styles.navLinkWrap5
-              }
-            >
-              <Link href="/contacto">
+
+            <li className={styles.navLinkWrap}>
+              <Link href="/servicios/contacto">
                 <a
                   className={
                     (serviciosOpen ? styles.hideMenu : "") +
@@ -150,13 +163,7 @@ const Nav = () => {
                 </a>
               </Link>
             </li>
-            <li
-              className={
-                isOpen === false
-                  ? styles.navLinkWrap
-                  : styles.navLinkWrap + " " + styles.navLinkWrap6
-              }
-            >
+            <li className={styles.navLinkWrap}>
               <Link href="/contacto">
                 <a
                   className={

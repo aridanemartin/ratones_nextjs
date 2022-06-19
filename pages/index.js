@@ -82,6 +82,7 @@ export default function Home() {
         buttonText={t("index:BANNER.buttonText")}
         link="/"
         background={albumData[0].image.cover1}
+        noPrice
       />
       <TextBlock
         title1={t("index:grabacionesTitle")}

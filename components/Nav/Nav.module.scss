@@ -22,6 +22,7 @@
   cursor: pointer;
   padding: 0rem 1rem;
 }
+
 .logoSection {
   display: flex;
   flex-direction: row;
@@ -82,6 +83,21 @@
 
 .navSocialWrap {
   display: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 5rem;
+  background: #161111;
+  padding: 1rem;
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      padding: 1rem;
+      text-transform: uppercase;
+    }
+  }
 }
 
 /* ------------- BURGUER ------------- */
@@ -194,10 +210,15 @@
 
   .nav {
     position: fixed;
-    background-image: url("../../public/images/background2.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1)
+      ),
+      url("../../public/images/background2.jpg");
     background-size: cover;
     background-position: center;
-    /* filter: grayscale(100%); */
     border: 10px solid white;
     height: 100%;
 
@@ -217,52 +238,25 @@
   .navContent {
     padding: 0rem;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-grow: 1;
     margin: 0;
   }
 
   .navLinkWrap {
-    padding: 0rem;
+    padding: 2rem 0;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    opacity: 0;
-  }
-
-  .navLinkWrap1 {
-    opacity: 1;
-    transition-delay: 0.4s;
-  }
-  .navLinkWrap2 {
-    opacity: 1;
-    transition-delay: 0.5s;
-  }
-  .navLinkWrap3 {
-    opacity: 1;
-    transition-delay: 0.6s;
-  }
-  .navLinkWrap4 {
-    opacity: 1;
-    transition-delay: 0.7s;
-  }
-
-  .navLinkWrap5 {
-    opacity: 1;
-    transition-delay: 0.8s;
-  }
-
-  .navLinkWrap6 {
-    opacity: 1;
-    transition-delay: 0.9s;
   }
 
   .navLink {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0rem;
   }
 
   .presupuesto {
-    padding: 0.7rem;
+    margin-left: 0;
+    padding: 0.8rem 1.5rem;
   }
 
   /*social (mobile)*/
@@ -283,14 +277,7 @@
     min-width: 15rem;
     max-width: 20rem;
     padding: 0rem 1rem;
-
-    opacity: 0;
     transition: all 0.3s ease-in-out;
-  }
-
-  .navLogoWrapEffect {
-    opacity: 1;
-    transition-delay: 0.3s;
   }
 
   .socialBanner {
@@ -298,14 +285,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    opacity: 0;
     transition: all 0.4s linear;
-  }
-
-  .socialBannerEffect {
-    opacity: 1;
-    transition-delay: 1s;
   }
 
   .hideMenu {

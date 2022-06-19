@@ -1,20 +1,31 @@
 import styles from "./Banner.module.css";
 import Link from "next/link";
 
-export default function Banner({ text, price, link, buttonText, disclaimer }) {
+export default function Banner({
+  text,
+  price,
+  link,
+  buttonText,
+  disclaimer,
+  noPrice,
+}) {
   return (
-    <div className={styles.bannerWrap}>
+    <div
+      className={
+        noPrice ? styles.bannerWrap + " " + styles.noPrice : styles.bannerWrap
+      }
+    >
       <div className={styles.contentWrap}>
-        <h3 className={styles.bannerText}>
-          {text}
+        <div className={styles.bannerText}>
+          <p>{text}</p>
           <br />
-          <strong>{price}</strong>
-        </h3>
+          <h3>{price}</h3>
+        </div>
         <Link href={link}>
           <a className={styles.button}>{buttonText}</a>
         </Link>
       </div>
-      <p className={styles.disclaimer}>{disclaimer}</p>
+      {noPrice ? "" : <p className={styles.disclaimer}>{disclaimer}</p>}
     </div>
   );
 }

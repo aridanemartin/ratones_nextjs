@@ -1,0 +1,161 @@
+.contactFormWrapper {
+  min-height: 60rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(../../public/images/guitarBackground3.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.backgroundWrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(40%);
+}
+
+.contactForm {
+  position: absolute;
+  top: 35rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1440px;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "map form";
+  border-radius: 2rem;
+  overflow: hidden;
+
+  .imageWrapper {
+    grid-area: map;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    iframe {
+      border: none;
+    }
+  }
+
+  .formWrapper {
+    grid-area: form;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      resize: none;
+    }
+    .primaryLabel {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .secondaryLabel {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    legend {
+      padding: 0rem 1rem;
+    }
+
+    textarea {
+      height: 200px;
+    }
+
+    fieldset {
+      margin: 2rem 0rem;
+    }
+
+    .checkboxWrapper {
+      padding: 1rem 20%;
+      .checkbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        input {
+          width: auto;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      text-transform: uppercase;
+      background-color: #834d26;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #c77438;
+        color: #fff;
+      }
+    }
+
+    @media (min-width: 768px) {
+      padding: 20px 40px;
+    }
+
+    .primaryLabel {
+      display: block;
+      margin: 1rem 0rem;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .backgroundWrapper {
+    display: none;
+  }
+  .contactFormWrapper {
+    background-color: #161111;
+    background-image: none;
+  }
+  .contactForm {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    transform: translate(0, 0);
+    top: 0;
+    left: 0;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 30rem;
+    grid-template-areas: "form" "map";
+    border-radius: 0rem;
+    overflow: hidden;
+
+    h1 {
+      margin-top: 5rem;
+    }
+
+    .formWrapper {
+      background: #161111;
+      color: white;
+      height: fit-content;
+    }
+  }
+}

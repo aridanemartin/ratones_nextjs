@@ -1,7 +1,7 @@
 .bannerWrap {
   margin: 6rem 0rem;
   display: grid;
-  grid-template-rows: 85% 15%;
+  grid-template-rows: 80% 20%;
   grid-template-columns: 100%;
   grid-template-areas:
     "text"
@@ -15,6 +15,17 @@
   background-position: 100% 50%;
   background-blend-mode: darken;
   background-color: #4328186a;
+}
+
+.noPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPrice p {
+  font-size: 1.8rem;
 }
 
 .contentWrap {
@@ -36,30 +47,40 @@
 
 .bannerText {
   grid-area: text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  max-width: 35ch;
+
+  max-width: 40ch;
   font-weight: 100;
+  margin: 0;
 
   font-family: "Anton";
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.5rem;
-  line-height: 3.5rem;
   text-shadow: 2px 2px 4px black;
 }
 
-.bannerText strong {
-  font-size: 3.5rem;
+.bannerText p {
+  padding: 0rem 1rem;
+  margin: 0;
+}
 
-  margin-top: 1rem;
+.bannerText h3 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 0;
 }
 
 .button {
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 1.2rem;
-  /* margin-top: 1rem; */
+  margin-top: 2rem;
   color: white;
   /* border: 3px solid white; */
 
@@ -82,7 +103,7 @@
   }
   .bannerText {
     font-size: 1.3rem;
-    line-height: normal;
+    max-width: 30ch;
   }
   .bannerText strong {
     font-size: 2.5rem;
