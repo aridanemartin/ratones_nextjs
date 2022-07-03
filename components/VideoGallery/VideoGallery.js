@@ -3,17 +3,16 @@ import styles from "./VideoGallery.module.scss";
 export const VideoGallery = ({ videoArray }) => {
   return (
     <div className={styles.videoGallery}>
-      {videoArray.map((video) => {
+      {videoArray.map((video, index) => {
         return (
-          <div className={styles.videoCard}>
+          <div className={styles.videoCard} key={video.src + index}>
             <h1>{video.title}</h1>
             <iframe
               src={video.src}
               width="100%"
               height="360"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullscreen
+              frameBorder="0"
+              allowFullScreen
             ></iframe>
           </div>
         );
