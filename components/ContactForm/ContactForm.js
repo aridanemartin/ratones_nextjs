@@ -1,15 +1,15 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
 import styles from "./ContactForm.module.scss";
+import { useForm } from "hooks/useForm";
 
 const initialForm = {
   name: "",
   email: "",
   message: "",
-  produccion: "",
-  grabacion: "",
-  audiovisuales: "",
-  mezcla: "",
+  produccion: "NO",
+  grabacion: "NO",
+  audiovisuales: "NO",
+  mezcla: "NO",
 };
 
 const validationsForm = (form) => {
@@ -40,9 +40,17 @@ const validationsForm = (form) => {
 };
 
 export const ContactForm = () => {
-  const { form, errors, loading, handleChange, handleBlur, handleSubmit } =
-    useForm(initialForm, validationsForm);
+  const {
+    form,
+    errors,
+    loading,
+    handleChange,
+    handleBlur,
+    handleCheckbox,
+    handleSubmit,
+  } = useForm(initialForm, validationsForm);
 
+  console.log(form);
   return (
     <div className={styles.contactFormWrapper}>
       <div className={styles.contactForm}>
@@ -54,73 +62,102 @@ export const ContactForm = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <form ref={form} onSubmit={handleSubmit} className={styles.formWrapper}>
-          <h1>Contacta con nosotros</h1>
-          <label className={styles.primaryLabel}>Nombre</label>
-          <input
-            type="text"
-            name="user_name"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          <label className={styles.primaryLabel}>Email</label>
-          <input
-            type="email"
-            name="user_email"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          <label className={styles.primaryLabel}>Mensaje</label>
-          <p>
-            Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad
-            posible
-          </p>
-          <textarea
-            name="message"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          <fieldset>
-            <legend>
-              Selecciona los servicios en los que puedas estar interesado:
-            </legend>
-            <div className={styles.checkboxWrapper}>
-              <div className={styles.checkbox}>
-                <label className={styles.secondaryLabel} htmlFor="produccion">
-                  Producción Musical
-                </label>
-                <input type="checkbox" id="produccion" name="produccion" />
+        {loading ? (
+          <h1>'hi'</h1>
+        ) : (
+          <form
+            ref={form}
+            onSubmit={(e) => handleSubmit(e)}
+            className={styles.formWrapper}
+          >
+            <h1>Contacta con nosotros</h1>
+            <label className={styles.primaryLabel}>Nombre</label>
+            <input
+              type="text"
+              name="name"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            <p>{errors.name}</p>
+            <label className={styles.primaryLabel}>Email</label>
+            <input
+              type="email"
+              name="email"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            <p>{errors.email}</p>
+            <label className={styles.primaryLabel}>Mensaje</label>
+            <p>
+              Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad
+              posible
+            </p>
+            <textarea
+              name="message"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            <p>{errors.message}</p>
+            <fieldset>
+              <legend>
+                Selecciona los servicios en los que puedas estar interesado:
+              </legend>
+              <div className={styles.checkboxWrapper}>
+                <div className={styles.checkbox}>
+                  <label className={styles.secondaryLabel} htmlFor="produccion">
+                    Producción Musical
+                  </label>
+                  <input
+                    type="checkbox"
+                    id="produccion"
+                    name="produccion"
+                    onChange={handleCheckbox}
+                  />
+                </div>
+                <div className={styles.checkbox}>
+                  <label className={styles.secondaryLabel} htmlFor="grabacion">
+                    Grabación de guitarras
+                  </label>
+                  <input
+                    type="checkbox"
+                    id="grabacion"
+                    name="grabacion"
+                    onChange={handleCheckbox}
+                  />
+                </div>
+                <div className={styles.checkbox}>
+                  <label
+                    className={styles.secondaryLabel}
+                    htmlFor="audiovisuales"
+                  >
+                    Música para audiovisuales
+                  </label>
+                  <input
+                    type="checkbox"
+                    id="audiovisuales"
+                    onChange={handleCheckbox}
+                    name="audiovisuales"
+                  />
+                </div>
+                <div className={styles.checkbox}>
+                  <label className={styles.secondaryLabel} htmlFor="mezcla">
+                    Mezcla y Máster
+                  </label>
+                  <input
+                    type="checkbox"
+                    id="mezcla"
+                    name="mezcla"
+                    onChange={handleCheckbox}
+                  />
+                </div>
               </div>
-              <div className={styles.checkbox}>
-                <label className={styles.secondaryLabel} htmlFor="grabacion">
-                  Grabación de guitarras
-                </label>
-                <input type="checkbox" id="grabacion" name="grabacion" />
-              </div>
-              <div className={styles.checkbox}>
-                <label
-                  className={styles.secondaryLabel}
-                  htmlFor="audiovisuales"
-                >
-                  Música para audiovisuales
-                </label>
-                <input
-                  type="checkbox"
-                  id="audiovisuales"
-                  name="audiovisuales"
-                />
-              </div>
-              <div className={styles.checkbox}>
-                <label className={styles.secondaryLabel} htmlFor="mezcla">
-                  Mezcla y Máster
-                </label>
-                <input type="checkbox" id="mezcla" name="mezcla" />
-              </div>
-            </div>
-          </fieldset>
+            </fieldset>
 
-          <button type="submit">Enviar</button>
-        </form>
+            <button type="submit" onClick={handleSubmit}>
+              Enviar
+            </button>
+          </form>
+        )}
       </div>
     </div>
   );

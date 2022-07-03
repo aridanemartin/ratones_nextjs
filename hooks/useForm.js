@@ -1,5 +1,5 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 export const useForm = (initialForm, validateForm) => {
   const [form, setForm] = useState(initialForm);
@@ -9,9 +9,18 @@ export const useForm = (initialForm, validateForm) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({
-      ...form, //copia de la variable de estado
+      ...form,
       [name]: value,
     });
+  };
+
+  const handleCheckbox = (e) => {
+    const { name, checked } = e.target;
+    {
+      checked
+        ? setForm({ ...form, [name]: "SÍ" })
+        : setForm({ ...form, [name]: "NO" });
+    }
   };
 
   const handleBlur = (e) => {
@@ -49,6 +58,10 @@ export const useForm = (initialForm, validateForm) => {
             name: "",
             email: "",
             message: "",
+            produccion: "",
+            grabacion: "",
+            audiovisuales: "",
+            mezcla: "",
           }),
         5000
       );
@@ -63,28 +76,7 @@ export const useForm = (initialForm, validateForm) => {
     loading,
     handleChange,
     handleBlur,
+    handleCheckbox,
     handleSubmit,
   };
 };
-
-// const sendEmail = (e) => {
-//     e.preventDefault();
-//     console.log(e.target);
-
-//     emailjs
-//       .sendForm(
-//         `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
-//         `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`,
-//         form.current,
-//         `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
-//       )
-//       .then(
-//         (result) => {
-//           console.log(result.text);
-//         },
-//         (error) => {
-//           console.log(error.text);
-//         }
-//       );
-//     e.target.reset();
-//   };
