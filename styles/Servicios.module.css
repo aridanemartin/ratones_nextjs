@@ -1,117 +1,116 @@
-.servicios{
-    height: auto;
-    /* background-image: url(../public/images/amplifier.jpg); */
-    background-size: cover;
-    background-position: 43%;
-    object-fit: contain;
+.servicios {
+  height: auto;
+  /* background-image: url(../public/images/amplifier.webp); */
+  background-size: cover;
+  background-position: 43%;
+  object-fit: contain;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
     "pfoto1 ptext1"
     "ptext2 pfoto2"
-    "pfoto3 ptext3"
-    ;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin-bottom: 3rem;
+    "pfoto3 ptext3";
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 3rem;
 }
 
-.mainTitle{   
-    height: auto;
+.mainTitle {
+  height: auto;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    font-family: 'Anton';
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-    color: #2D2424;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Anton";
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  color: #2d2424;
 }
 
-
-.divider{
-    margin: 0 auto;
-    width: 10rem;
-    border-bottom: 2px solid #B85C38;
-    margin-bottom: 2rem;
+.divider {
+  margin: 0 auto;
+  width: 10rem;
+  border-bottom: 2px solid #b85c38;
+  margin-bottom: 2rem;
 }
 
-.images{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.images {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.ptext1, .ptext2, .ptext3{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.ptext1,
+.ptext2,
+.ptext3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 
-    padding: 3rem;
-    text-align: center;
+  padding: 3rem;
+  text-align: center;
 }
 
-.ptext1 h3, .ptext2 h3, .ptext3 h3{
+.ptext1 h3,
+.ptext2 h3,
+.ptext3 h3 {
+  font-size: 2rem;
+  font-family: "anton";
+  color: #b85c38;
+  font-weight: bold;
+}
+
+.image1 {
+  grid-area: pfoto1;
+}
+
+.produccion1 {
+  grid-area: ptext1;
+}
+
+.image2 {
+  grid-area: pfoto2;
+}
+
+.produccion2 {
+  grid-area: ptext2;
+}
+
+.image3 {
+  grid-area: pfoto3;
+}
+
+.produccion3 {
+  grid-area: ptext3;
+}
+
+@media (max-width: 767px) {
+  .mainTitle {
     font-size: 2rem;
-    font-family: 'anton';
-    color:#B85C38;
-    font-weight: bold;
+  }
+
+  .servicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: 12rem 1fr 12rem 1fr 12rem 1fr;
+    grid-template-areas:
+      "pfoto1"
+      "ptext1"
+      "pfoto2"
+      "ptext2"
+      "pfoto3"
+      "ptext3";
+  }
+
+  .ptext1,
+  .ptext2,
+  .ptext3 {
+    padding: 1rem;
+  }
 }
-
-.image1{
-    grid-area: pfoto1;
-}
-
-.produccion1{
-    grid-area: ptext1;
-}
-
-.image2{
-    grid-area: pfoto2;
-}
-
-.produccion2{
-    grid-area: ptext2;
-}
-
-.image3{
-    grid-area: pfoto3;
-}
-
-.produccion3{
-    grid-area: ptext3;
-}
-
-@media(max-width:767px){
-    .mainTitle{     
-        font-size: 2rem;
-    }
-
-    .servicios{
-        grid-template-columns: 1fr;
-        grid-template-rows: 12rem 1fr 12rem 1fr 12rem 1fr;
-        grid-template-areas: 
-        
-        "pfoto1"
-        "ptext1"
-        "pfoto2"
-        "ptext2"
-        "pfoto3"
-        "ptext3"
-        
-    }
-
-    .ptext1, .ptext2, .ptext3{
-        padding: 1rem;
-    }
-}
-
-

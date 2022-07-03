@@ -1,37 +1,37 @@
-.faqWrap{
-    margin-top: 3rem;
-    padding: 5rem;
-    background: url(../../public/images/guitarristaHero.jpg);
-    background-color: #2d2424be;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: initial;
-    background-blend-mode:darken;
+.faqWrap {
+  margin-top: 3rem;
+  padding: 5rem;
+  background: url(../../public/images/guitarristaHero.webp);
+  background-color: #2d2424be;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: initial;
+  background-blend-mode: darken;
 }
 
-.faqWrap ul{
-    padding: 0;
+.faqWrap ul {
+  padding: 0;
 }
 
-.faqWrap ul li{
-    list-style: none;
+.faqWrap ul li {
+  list-style: none;
 }
 
-.faqTitle{
-    display: flex;
-    justify-content: center;
-    
-    padding-bottom: 3rem;
-    font-size: 3rem;
-    color: white;
+.faqTitle {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  color: white;
 }
 
-@media (max-width: 768px){
-    .faqWrap{
-        padding: 1rem;
-    }
-    .faqTitle{
-        width: 100%;
-        padding: 1rem 0rem;
-    }
+@media (max-width: 768px) {
+  .faqWrap {
+    padding: 1rem;
+  }
+  .faqTitle {
+    width: 100%;
+    padding: 1rem 0rem;
+  }
 }

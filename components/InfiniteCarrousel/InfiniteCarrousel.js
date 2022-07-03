@@ -1,6 +1,6 @@
 import styles from "./InfiniteCarrousel.module.css";
 import Image from "next/image";
-import leftCuote from "../../public/images/left-quote.png";
+import leftCuote from "../../public/images/left-quote.webp";
 
 export default function InfiniteCarrousel(props) {
   return (

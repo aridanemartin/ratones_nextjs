@@ -4,9 +4,9 @@ import Servicios from "@components/Servicios/Servicios";
 import TextBlock from "@components/TextBlock/TextBlock";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import useTranslation from "next-translate/useTranslation";
-import mainImage from "../public/images/estudio.jpg";
-import logo from "../public/images/logoLarge.png";
-import header from "../public/images/musicLand.jpg";
+import mainImage from "../public/images/estudio.webp";
+import logo from "../public/images/logoLarge.webp";
+import header from "../public/images/musicLand.webp";
 
 const Quienessomos = () => {
   const { t } = useTranslation();

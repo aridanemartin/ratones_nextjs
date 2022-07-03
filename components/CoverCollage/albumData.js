@@ -1,13 +1,13 @@
-import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
-import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
-import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
-import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
-import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-import cover8 from "../../public/images/covers/andare.png";
-import cover9 from "../../public/images/covers/tuBoca.jpg";
-import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).webp";
+import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).webp";
+import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).webp";
+import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).webp";
+import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
+import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
+import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
+import cover8 from "../../public/images/covers/andare.webp";
+import cover9 from "../../public/images/covers/tuBoca.webp";
+import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
 
 export const albumData = [
   {

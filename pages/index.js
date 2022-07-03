@@ -9,23 +9,21 @@ import Servicios from "@components/Servicios/Servicios";
 import CoverSlider from "@components/CoverSlider/CoverSlider";
 import Banner from "@components/Banner/Banner";
 
-import Completa from "../public/images/cover1.jpg";
-import heroLogo from "../public/images/logoLarge.png";
+import Completa from "../public/images/cover1.webp";
 import Testimonials from "@components/Testimonials/Testimonials.js";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
 
-import banddarra from "../public/images/banddarra.jpg";
-import juanca from "../public/images/Juanca.jpeg";
-import fran from "../public/images/franPeregrina.jpg";
-import borja from "../public/images/borjaRemacha.jpg";
-import david from "../public/images/davidGarcia.png";
-import cover1 from "../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
-import v1 from "../public/images/icons/like.png";
-import v2 from "../public/images/icons/percent.png";
-import v3 from "../public/images/icons/free.png";
-import v5 from "../public/images/icons/clock.png";
-import v6 from "../public/images/icons/interview.png";
-import logo from "../public/images/logoLarge.png";
+import banddarra from "../public/images/banddarra.webp";
+import juanca from "../public/images/Juanca.webp";
+import fran from "../public/images/franPeregrina.webp";
+import borja from "../public/images/borjaRemacha.webp";
+import david from "../public/images/davidGarcia.webp";
+import v1 from "../public/images/icons/like.webp";
+import v2 from "../public/images/icons/percent.webp";
+import v3 from "../public/images/icons/free.webp";
+import v5 from "../public/images/icons/clock.webp";
+import v6 from "../public/images/icons/interview.webp";
+import logo from "../public/images/logoLarge.webp";
 import Ventajas from "@components/Ventajas/Ventajas";
 import PageLayout from "@components/PageLayout/PageLayout";
 

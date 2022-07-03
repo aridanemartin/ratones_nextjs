@@ -1,21 +1,21 @@
-import heroImage from "../../public/images/musicProduction.jpg";
-import ratonLogo from "../../public/images/logoSoloRaton.png";
+import heroImage from "../../public/images/musicProduction.webp";
+import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 
 import TextBlock from "@components/TextBlock/TextBlock";
 import Faq from "@components/Faq/Faq";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
-import introPicture from "../../public/images/fotosVictor/_DSC0159.jpg";
+import introPicture from "../../public/images/fotosVictor/_DSC0159.webp";
 import PageLayout from "@components/PageLayout/PageLayout";
 import useTranslation from "next-translate/useTranslation";
 import Ventajas from "@components/Ventajas/Ventajas";
-import img1 from "../../public/images/icons/send.png";
-import img2 from "../../public/images/icons/handshake.png";
-import img3 from "../../public/images/icons/mezcla.png";
-import img4 from "../../public/images/icons/lupa.png";
-import img5 from "../../public/images/icons/fader.png";
-import img6 from "../../public/images/icons/listen.png";
-import fader from "../../public/images/darkFader.jpg";
+import img1 from "../../public/images/icons/send.webp";
+import img2 from "../../public/images/icons/handshake.webp";
+import img3 from "../../public/images/icons/mezcla.webp";
+import img4 from "../../public/images/icons/lupa.webp";
+import img5 from "../../public/images/icons/fader.webp";
+import img6 from "../../public/images/icons/listen.webp";
+import fader from "../../public/images/darkFader.webp";
 import Banner from "@components/Banner/Banner";
 import { List } from "@components/List";
 
@@ -46,7 +46,8 @@ export default function MezclaMaster() {
         />
       </PageLayout>
       <Banner
-        text={t("index:MEZCLAMASTER.p5")}
+        text={t("index:MEZCLAMASTER.p5.text")}
+        price={t("index:MEZCLAMASTER.p5.price")}
         link="/contacto"
         buttonText="CONTACTO"
         disclaimer={t("index:MEZCLAMASTER.p7")}

@@ -1,13 +1,13 @@
-import heroImage from "../../public/images/guitarraHero2.jpg";
-import textImage from "../../public/images/guitarraNegro.jpg";
-import ratonLogo from "../../public/images/logoSoloRaton.png";
+import heroImage from "../../public/images/guitarraHero2.webp";
+import textImage from "../../public/images/guitarraNegro.webp";
+import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 import styles from "@styles/Servicios.module.css";
 
-import img1 from "../../public/images/icons/send.png";
-import img2 from "../../public/images/icons/handshake.png";
-import img3 from "../../public/images/icons/grabacion.png";
-import img4 from "../../public/images/icons/produccion.png";
+import img1 from "../../public/images/icons/send.webp";
+import img2 from "../../public/images/icons/handshake.webp";
+import img3 from "../../public/images/icons/grabacion.webp";
+import img4 from "../../public/images/icons/produccion.webp";
 
 import TextBlock from "@components/TextBlock/TextBlock";
 import Faq from "@components/Faq/Faq";

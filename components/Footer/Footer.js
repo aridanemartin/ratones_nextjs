@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
-import ratonesLogo from "../../public/images/logoLarge.png";
+import ratonesLogo from "../../public/images/logoLarge.webp";
 
 export default function Footer() {
   return (
@@ -103,29 +103,29 @@ export default function Footer() {
           </p>
         </div>
         <div className={styles.serviciosWrap}>
-            <h3>SERVICIOS</h3>
-            <ul className={styles.menuContent}>
-              <li>
-                <Link href="/">
-                  <a>PRODUCCIÓN MUSICAL</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>GRABACIÓN DE GUITARRAS</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>MÚSICA PARA AUDIOVISUALES</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>MEZCLA Y MÁSTER</a>
-                </Link>
-              </li>
-            </ul>         
+          <h3>SERVICIOS</h3>
+          <ul className={styles.menuContent}>
+            <li>
+              <Link href="/">
+                <a>PRODUCCIÓN MUSICAL</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>GRABACIÓN DE GUITARRAS</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>MÚSICA PARA AUDIOVISUALES</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>MEZCLA Y MÁSTER</a>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

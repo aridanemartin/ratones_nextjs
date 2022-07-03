@@ -11,7 +11,7 @@ import styles from "./Testimonials.module.css";
 
 // import required modules
 import Image from "next/image";
-import leftCuote from "../../public/images/icons/left-quote.png";
+import leftCuote from "../../public/images/icons/left-quote.webp";
 
 export default function Testimonials(props) {
   return (

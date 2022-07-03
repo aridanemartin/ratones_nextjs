@@ -8,11 +8,11 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import useTranslation from "next-translate/useTranslation";
 
-import ratonLogoDesktop from "../../public/images/logoLargeNoSubtitle.png";
-import ratonLogoMobile from "../../public/images/logoVertical.png";
+import ratonLogoDesktop from "../../public/images/logoLargeNoSubtitle.webp";
+import ratonLogoMobile from "../../public/images/logoVertical.webp";
 import Instagram from "../../public/images/icons/instagram.webp";
 import Facebook from "../../public/images/icons/facebook.webp";
-import Web from "../../public/images/icons/corchea.png";
+import Web from "../../public/images/icons/corchea.webp";
 
 const Nav = () => {
   let { t } = useTranslation();

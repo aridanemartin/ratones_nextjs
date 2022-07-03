@@ -4,7 +4,7 @@
   grid-template-areas: "foto text";
   min-height: 30rem;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .full {
@@ -57,8 +57,18 @@
   .full {
     grid-template-rows: 50rem 1fr;
   }
+  .milestonesList {
+    padding: 0rem;
+    padding-bottom: 1rem;
+  }
+  .milestonesList li {
+    font-size: 1.1rem;
+  }
   .textWrapper {
-    padding: 1rem;
-    padding-bottom: 3rem;
+    padding: 2rem 1rem;
+  }
+  .textWrapper p {
+    padding: 0rem;
+    font-size: 1rem;
   }
 }

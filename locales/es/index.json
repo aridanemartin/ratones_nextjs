@@ -173,7 +173,7 @@
             "4":"¡Disfruta!"
         },
         "p5":{"text":"Contrata este servicio a partir de ",
-            "price":"35€ / canción."},
+            "price":"35€ / canción"},
         "p6":"Consulta nuestros descuentos y promociones especiales.",
         "servicios":{
             "title":"¿Qué incluye este servicio?",
@@ -213,7 +213,10 @@
             "5":"Masterizamos",
             "6":"¡Disfruta!"
         },
-        "p5":"Contrata este servicio a partir de 39€ / canción.",
+        "p5":{
+            "text": "Contrata este servicio a partir de ",
+            "price": "39€ / canción"
+        },
         "p6":"Consulta nuestros descuentos y promociones especiales.",
         "servicios":{
             "title":"¿Qué se incluye por este precio?",
@@ -239,5 +242,28 @@
             "p7":"¿Qué formas de pago aceptáis?",
             "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
         }
+    },
+    "AUDIOVISUALES":{
+        "title": "Audiovisuales",
+        "lista": ["- Publicidad (spots, identidad corporativa, jingles...)", "- Cine (cortometrajes, largometrajes, documentales, etc.)", "- Televisión (series, programas, etc.)", "- Podcasts..."],
+        "p1": "Componemos la música y realizamos el diseño sonoro para tu proyecto audiovisual. ",
+        "p2":"Crearemos la identidad sonora que reforzará el mensaje que quieres transmitir, a medida y en exclusiva para tu proyecto audiovisual o empresa.",
+        "p3":{
+            "text": "Consultanos para contratar este servicio"
+        },
+        "trabajos":{
+            "title":"Trabajos realizados",
+            "p": "A continuación te mostramos algunos trabajos realizados para nuestros clientes."
+        },
+        "videos":[
+            {
+                "title": "Identidad Sonora y Música Corporativa",
+                "src": "https://player.vimeo.com/video/655941851?h=5ebec0d1d4"
+            },
+            {
+                "title": "Música para Televisión",
+                "src": "https://www.youtube.com/embed/WRJEQRXwL2o"	
+            }
+        ]
     }
 }

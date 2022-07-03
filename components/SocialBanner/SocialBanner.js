@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Instagram from "../../public/images/icons/instagram.webp";
 import Facebook from "../../public/images/icons/facebook.webp";
-import vimeo from "../../public/images/icons/vimeo.png";
+import vimeo from "../../public/images/icons/vimeo.webp";
 
 const SocialBanner = () => {
   return (

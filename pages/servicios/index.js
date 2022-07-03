@@ -1,24 +1,23 @@
 import Hero from "@components/Hero/Hero";
-import heroImage from "../../public/images/serviciosCover.jpg";
-import ratonLogo from "../../public/images/logoSoloRaton.png";
+import heroImage from "../../public/images/serviciosCover.webp";
+import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Image from "next/image";
 import styles from "@styles/Servicios.module.css";
 
-import produccionCompleta from "../../public/images/musicProduction.jpg";
-import composer from "../../public/images/composer.jpg";
-import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).jpeg";
-import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).jpeg";
-import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).jpeg";
-import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).jpeg";
-import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
-import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).jpeg";
-import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).jpeg";
-import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).jpeg";
+import produccionCompleta from "../../public/images/musicProduction.webp";
+import composer from "../../public/images/composer.webp";
+import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).webp";
+import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).webp";
+import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).webp";
+import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).webp";
+import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
+import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
+import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
+import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
+import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
+import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
 
-
-import liveRecording from '../../public/images/liveRecording.jpg';
+import liveRecording from "../../public/images/liveRecording.webp";
 import CoverSlider from "@components/CoverSlider/CoverSlider";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
 import ModalCover from "@components/ModalCover/ModalCover";
@@ -27,12 +26,12 @@ export default function Index() {
   return (
     <>
       <Hero image={heroImage} title="Servicios" logoPeq={ratonLogo} />
-      
-        <div className={styles.mainTitle}>
-            <h2>Producción Musical</h2>
-            <div className={styles.divider}></div>
-        </div>
-        <div className={styles.servicios}>
+
+      <div className={styles.mainTitle}>
+        <h2>Producción Musical</h2>
+        <div className={styles.divider}></div>
+      </div>
+      <div className={styles.servicios}>
         <div className={styles.image1 + " " + styles.images}>
           <Image src={produccionCompleta} layout="fill" objectFit="cover" />
         </div>
@@ -78,13 +77,16 @@ export default function Index() {
         <div className={styles.ptext3}>
           <h3>Grabación Móvil Multipista</h3>
           <p>
-            Me desplazo donde tú quieras para realizar una grabación multipista (4 canales, con posibilidad de ampliar a 16).  Ideal si quieres hacer una pre-producción antes de grabar un disco, grabar un concierto, un ensayo, etc.
+            Me desplazo donde tú quieras para realizar una grabación multipista
+            (4 canales, con posibilidad de ampliar a 16). Ideal si quieres hacer
+            una pre-producción antes de grabar un disco, grabar un concierto, un
+            ensayo, etc.
           </p>
         </div>
       </div>
       <div className={styles.mainTitle}>
-            <h2>Han confiado en nosotros para producir su música</h2>
-            <div className={styles.divider}></div>
+        <h2>Han confiado en nosotros para producir su música</h2>
+        <div className={styles.divider}></div>
       </div>
       <CoverCollage
         img1={cover1}
@@ -97,10 +99,7 @@ export default function Index() {
         img8={cover8}
         img9={cover9}
         img10={cover10}
-       />
-       
-       
-      
+      />
     </>
   );
 }

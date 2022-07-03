@@ -4,10 +4,10 @@ import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 
 // Images
-import grabacion from "../../public/images/icons/grabacion.png";
-import audiovisuales from "../../public/images/icons/audiovisuales.png";
-import mezcla from "../../public/images/icons/mezcla.png";
-import produccion from "../../public/images/icons/produccion.png";
+import grabacion from "../../public/images/icons/grabacion.webp";
+import audiovisuales from "../../public/images/icons/audiovisuales.webp";
+import mezcla from "../../public/images/icons/mezcla.webp";
+import produccion from "../../public/images/icons/produccion.webp";
 
 const Servicios = () => {
   const { t } = useTranslation();
