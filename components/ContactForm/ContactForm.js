@@ -60,7 +60,7 @@ export const ContactForm = () => {
 
   return (
     <div className={styles.contactFormWrapper}>
-      {/* {loading ? ( */}
+      {loading ? (
       <div className={styles.loading}>
         <p>{t("common:contactForm.loading")}</p>
         <div className={styles.logoWrap}>
@@ -73,7 +73,7 @@ export const ContactForm = () => {
           />
         </div>
       </div>
-      {/* ) : (
+      ) : (
         <>
           <div className={styles.contactForm}>
             <div className={styles.imageWrapper}>
@@ -196,7 +196,7 @@ export const ContactForm = () => {
             </form>
           </div>
         </>
-      )} */}
+      )}
     </div>
   );
 };
