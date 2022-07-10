@@ -12,7 +12,7 @@ import ratonLogoDesktop from "../../public/images/logoLargeNoSubtitle.webp";
 import ratonLogoMobile from "../../public/images/logoVertical.webp";
 import Instagram from "../../public/images/icons/instagram.webp";
 import Facebook from "../../public/images/icons/facebook.webp";
-import Web from "../../public/images/icons/corchea.webp";
+import vimeo from "../../public/images/icons/vimeo.webp";
 
 const Nav = () => {
   let { t } = useTranslation();
@@ -193,7 +193,7 @@ const Nav = () => {
               }
             >
               <div className={styles.socialBannerLinkWrap}>
-                <Link href="https://www.instagram.com/tagorockmundovertical/?hl=es">
+                <Link href="https://www.instagram.com/ratonesroom/">
                   <a className={styles.socialBannerLink} target="_blank">
                     <Image
                       src={Instagram}
@@ -207,7 +207,7 @@ const Nav = () => {
                 </Link>
               </div>
               <div className={styles.socialBannerLinkWrap}>
-                <Link href="https://www.facebook.com/sala.tagorock">
+                <Link href="https://www.facebook.com/ratonesroom/">
                   <a className={styles.socialBannerLink} target="_blank">
                     <Image
                       src={Facebook}
@@ -220,15 +220,15 @@ const Nav = () => {
                 </Link>
               </div>
               <div className={styles.socialBannerLinkWrap}>
-                <Link href="https://www.youtube.com/channel/UCp71gyByJMd82XcQZmWi2HQ/videos">
+                <Link href="https://vimeo.com/ratonesroom">
                   <a className={styles.socialBannerLink} target="_blank">
                     <Image
-                      src={Web}
+                      src={vimeo}
                       layout="fixed"
                       width={40}
                       height={40}
                       className={styles.socialBannerLink}
-                      alt="Web Logo"
+                      alt="Vimeo logo"
                     />
                   </a>
                 </Link>

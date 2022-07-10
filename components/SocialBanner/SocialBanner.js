@@ -40,7 +40,7 @@ const SocialBanner = () => {
           </Link>
         </div>
         <div className={styles.socialBannerLinkWrap}>
-          <Link href="https://www.victormartinezgaleote.com/">
+          <Link href="https://vimeo.com/ratonesroom">
             <a className={styles.socialBannerLink} target="_blank">
               <Image
                 src={vimeo}
@@ -49,7 +49,7 @@ const SocialBanner = () => {
                 // maxWidth={40}
                 // height={40}
                 className={styles.socialBannerLink}
-                alt="Victor Martinez - Website"
+                alt="Victor Martinez - Vimeo"
               />
             </a>
           </Link>

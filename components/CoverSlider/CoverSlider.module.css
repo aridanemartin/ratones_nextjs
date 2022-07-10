@@ -1,5 +1,12 @@
-@media(min-width: 900px){
-    .coverSliderWrapper {
-      display: none;
-    }
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 900px) {
+  .coverSliderWrapper {
+    display: none;
   }
+}

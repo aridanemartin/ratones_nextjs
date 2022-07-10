@@ -149,30 +149,10 @@ export default function Home() {
         />
       </PageLayout>
       <Testimonials
-        text1={t("index:CARROUSEL.text1")}
-        desc1={t("index:CARROUSEL.desc1")}
-        grupo1={t("index:CARROUSEL.grupo1")}
-        lugar1={t("index:CARROUSEL.lugar1")}
         image1={banddarra}
-        text2={t("index:CARROUSEL.text2")}
-        desc2={t("index:CARROUSEL.desc2")}
-        grupo2={t("index:CARROUSEL.grupo2")}
-        lugar2={t("index:CARROUSEL.lugar2")}
         image2={juanca}
-        text3={t("index:CARROUSEL.text3")}
-        desc3={t("index:CARROUSEL.desc3")}
-        grupo3={t("index:CARROUSEL.grupo3")}
-        lugar3={t("index:CARROUSEL.lugar3")}
         image3={fran}
-        text4={t("index:CARROUSEL.text4")}
-        desc4={t("index:CARROUSEL.desc4")}
-        grupo4={t("index:CARROUSEL.grupo4")}
-        lugar4={t("index:CARROUSEL.lugar4")}
         image4={borja}
-        text5={t("index:CARROUSEL.text5")}
-        desc5={t("index:CARROUSEL.desc5")}
-        grupo5={t("index:CARROUSEL.grupo5")}
-        lugar5={t("index:CARROUSEL.lugar5")}
         image5={david}
       />
     </div>

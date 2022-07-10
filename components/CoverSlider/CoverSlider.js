@@ -30,34 +30,28 @@ const CoverSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div>
-            <Image
-              src={sandra}
-              layout="fill"
-              objectFit="cover"
-              alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
-            />
-          </div>
+          <Image
+            src={sandra}
+            layout="fill"
+            objectFit="cover"
+            alt="Sandra Bautista - Grupos que han grabado en Ratone's Room"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              src={soviet}
-              layout="fill"
-              objectFit="cover"
-              alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
-            />
-          </div>
+          <Image
+            src={soviet}
+            layout="fill"
+            objectFit="cover"
+            alt="Frederico Vannini - Grupos que han grabado en Ratone's Room"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              src={banddarra}
-              layout="fill"
-              objectFit="cover"
-              alt="Banddarra - Grupos que han grabado en Ratone's Room"
-            />
-          </div>
+          <Image
+            src={banddarra}
+            layout="fill"
+            objectFit="cover"
+            alt="Fran Peregrina - Grupos que han grabado en Ratone's Room"
+          />
         </SwiperSlide>
         <SwiperSlide>
           <Image
@@ -68,24 +62,20 @@ const CoverSlider = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              src={daniel}
-              layout="fill"
-              objectFit="cover"
-              alt="Daniel Felices - Grupos que han grabado en Ratone's Room"
-            />
-          </div>
+          <Image
+            src={daniel}
+            layout="fill"
+            objectFit="cover"
+            alt="Borja Remacha - Grupos que han grabado en Ratone's Room"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              src={cuerdas}
-              layout="fill"
-              objectFit="cover"
-              alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
-            />
-          </div>
+          <Image
+            src={cuerdas}
+            layout="fill"
+            objectFit="cover"
+            alt="12 Cuerdas - Grupos que han grabado en Ratone's Room"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
