@@ -41,7 +41,9 @@
       "text": "Contract this service from",
       "price": "35€ / song"
     },
-    "title": "Online guitar recording"
+    "title": "Online guitar recording",
+    "subtitle": "We record your guitars",
+    "subtitle2": "Hire a professional guitarist!"
   },
   "AUDIOVISUALES": {
     "lista": [ "- Advertising (spots, corporate identity, jingles...)", "- Film (short films, feature films, documentaries, etc.)", "- Television (series, programmes, etc.)", "- Podcasts..." ],

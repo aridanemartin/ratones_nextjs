@@ -146,7 +146,7 @@ const Nav = () => {
                         className={styles.goBackMobile}
                         onClick={() => setServiciosOpen(false)}
                       >
-                        Atrás
+                        {t("common:back")}
                       </a>
                     </ul>
                   </motion.div>

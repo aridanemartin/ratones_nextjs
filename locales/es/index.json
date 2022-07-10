@@ -160,7 +160,9 @@
         }
     },
     "GUITARRISTA":{
-        "title": "Grabación de guitarras online",
+        "title": "Grabación de guitarras",
+        "subtitle": "Déjanos las guitarras a nosotros",	
+        "subtitle2": "¡Contrata a un guitarrista profesional!",
         "lista": ["¿Necesitas una guitarra en tu canción?", "¿Un solo enérgico de rock?", "¿Un acompañamiento con la magia del flamenco?"],
         "p1": "Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
         "p2":"Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",

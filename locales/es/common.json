@@ -22,6 +22,7 @@
         "send": "Enviar",
         "loading": "Su mensaje está siendo enviado...",
         "success": "Su mensaje ha sido enviado correctamente."
-    }
+    },
+    "back": "Volver"
 }
 	

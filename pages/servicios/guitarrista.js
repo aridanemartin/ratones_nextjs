@@ -30,12 +30,12 @@ export default function Guitarrista() {
     <>
       <Hero
         image={heroImage}
-        title="Grabación de guitarras"
+        title={t("index:GUITARRISTA.title")}
         logoPeq={ratonLogo}
       />
       <PageLayout>
         <div className={styles.mainTitle}>
-          <h2>Contrata a un guitarrista de sesión</h2>
+          <h2>{t("index:GUITARRISTA.subtitle")}</h2>
           <div className={styles.divider}></div>
         </div>
         <TextWithPicture
@@ -63,7 +63,7 @@ export default function Guitarrista() {
       />
       <PageLayout>
         <TextBlock
-          title1={t("index:GUITARRISTA.title")}
+          title1={t("index:GUITARRISTA.subtitle2")}
           text1={t("index:GUITARRISTA.p2")}
           text2={t("index:GUITARRISTA.p3")}
           text3={t("index:GUITARRISTA.p4")}
