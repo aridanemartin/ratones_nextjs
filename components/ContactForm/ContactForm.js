@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ContactForm.module.scss";
 import { useForm } from "hooks/useForm";
+import useTranslation from "next-translate/useTranslation";
 
 const initialForm = {
   name: "",
@@ -19,27 +20,31 @@ const validationsForm = (form) => {
   let regexMessage = /^.{1,300}$/;
 
   if (!form.name.trim()) {
-    errors.name = "El campo 'Nombre' es requerido";
+    errors.name = "Nombre requerido / Name required";
   } else if (!regexName.test(form.name.trim())) {
-    errors.name = "El campo 'Nombre' solo acepta letras y espacios en blanco";
+    errors.name =
+      "Solo letras y espacios en blanco / only letters and spaces are allowed";
   }
 
   if (!form.email.trim()) {
-    errors.email = "El campo 'Email' es requerido";
+    errors.email = "Email requerido / Email required";
   } else if (!regexEmail.test(form.email.trim())) {
-    errors.email = "El 'Email' debe tener un formato válido";
+    errors.email =
+      "El 'Email' debe tener un formato válido / The 'Email' must have a valid format";
   }
 
   if (!form.message.trim()) {
-    errors.message = "El campo 'Mensaje' es requerido";
+    errors.message = "Mensaje requerido / Message required";
   } else if (!regexMessage.test(form.message.trim())) {
-    errors.message = "El campo 'Mensaje' tiene un máximo de 300 caracteres";
+    errors.message = "Máximo de 300 caracteres / Maximum of 300 characters";
   }
 
   return errors;
 };
 
 export const ContactForm = () => {
+  let { t } = useTranslation();
+
   const {
     form,
     errors,
@@ -50,7 +55,6 @@ export const ContactForm = () => {
     handleSubmit,
   } = useForm(initialForm, validationsForm);
 
-  console.log(form);
   return (
     <div className={styles.contactFormWrapper}>
       <div className={styles.contactForm}>
@@ -70,42 +74,43 @@ export const ContactForm = () => {
             onSubmit={(e) => handleSubmit(e)}
             className={styles.formWrapper}
           >
-            <h1>Contacta con nosotros</h1>
-            <label className={styles.primaryLabel}>Nombre</label>
+            <h1>{t("common:contactForm.title")}</h1>
+            <label className={styles.primaryLabel}>
+              {t("common:contactForm.name")}
+            </label>
             <input
               type="text"
               name="name"
               onChange={handleChange}
               onBlur={handleBlur}
             />
-            <p>{errors.name}</p>
-            <label className={styles.primaryLabel}>Email</label>
+            <p className={styles.fieldError}>{errors.name}</p>
+            <label className={styles.primaryLabel}>
+              {t("common:contactForm.email")}
+            </label>
             <input
               type="email"
               name="email"
               onChange={handleChange}
               onBlur={handleBlur}
             />
-            <p>{errors.email}</p>
-            <label className={styles.primaryLabel}>Mensaje</label>
-            <p>
-              Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad
-              posible
-            </p>
+            <p className={styles.fieldError}>{errors.email}</p>
+            <label className={styles.primaryLabel}>
+              {t("common:contactForm.message")}
+            </label>
             <textarea
               name="message"
               onChange={handleChange}
               onBlur={handleBlur}
+              placeholder={t("common:contactForm.messagePlaceholder")}
             />
-            <p>{errors.message}</p>
+            <p className={styles.fieldError}>{errors.message}</p>
             <fieldset>
-              <legend>
-                Selecciona los servicios en los que puedas estar interesado:
-              </legend>
+              <legend>{t("common:contactForm.servicesDescription")}</legend>
               <div className={styles.checkboxWrapper}>
                 <div className={styles.checkbox}>
                   <label className={styles.secondaryLabel} htmlFor="produccion">
-                    Producción Musical
+                    {t("common:servicios.0")}
                   </label>
                   <input
                     type="checkbox"
@@ -116,7 +121,7 @@ export const ContactForm = () => {
                 </div>
                 <div className={styles.checkbox}>
                   <label className={styles.secondaryLabel} htmlFor="grabacion">
-                    Grabación de guitarras
+                    {t("common:servicios.1")}
                   </label>
                   <input
                     type="checkbox"
@@ -130,7 +135,7 @@ export const ContactForm = () => {
                     className={styles.secondaryLabel}
                     htmlFor="audiovisuales"
                   >
-                    Música para audiovisuales
+                    {t("common:servicios.2")}
                   </label>
                   <input
                     type="checkbox"
@@ -141,7 +146,7 @@ export const ContactForm = () => {
                 </div>
                 <div className={styles.checkbox}>
                   <label className={styles.secondaryLabel} htmlFor="mezcla">
-                    Mezcla y Máster
+                    {t("common:servicios.3")}
                   </label>
                   <input
                     type="checkbox"
@@ -154,7 +159,7 @@ export const ContactForm = () => {
             </fieldset>
 
             <button type="submit" onClick={handleSubmit}>
-              Enviar
+              {t("common:contactForm.send")}
             </button>
           </form>
         )}

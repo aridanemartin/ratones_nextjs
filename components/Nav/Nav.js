@@ -94,7 +94,8 @@ const Nav = () => {
                     styles.navLink
                   }
                 >
-                  Quiénes somos
+                  {/* Quienes somos */}
+                  {t("common:menuText.0.name")}
                 </a>
               </Link>
             </li>
@@ -105,7 +106,8 @@ const Nav = () => {
                   (serviciosOpen ? styles.hideMenu : "") + " " + styles.navLink
                 }
               >
-                Servicios
+                {/* Servicios */}
+                {t("common:menuText.1.name")}
               </a>
               {/* SERVICIOS (DROP DOWN)*/}
               <AnimatePresence>
@@ -119,25 +121,25 @@ const Nav = () => {
                     <ul className={styles.dropDownMenu}>
                       <li>
                         <Link href="/servicios/produccion-musical">
-                          <a>Producción musical</a>
+                          <a>{t("common:servicios.0")}</a>
                         </Link>
                       </li>
 
                       <li>
                         <Link href="/servicios/guitarrista">
-                          <a>Grabación de guitarras</a>
+                          <a>{t("common:servicios.1")}</a>
                         </Link>
                       </li>
 
                       <li>
                         <Link href="/servicios/musica-para-audiovisuales">
-                          <a>Música para audiovisuales</a>
+                          <a>{t("common:servicios.2")}</a>
                         </Link>
                       </li>
 
                       <li>
                         <Link href="/servicios/mezcla-master">
-                          <a>Mezcla y Máster</a>
+                          <a>{t("common:servicios.3")}</a>
                         </Link>
                       </li>
                       <a
@@ -161,7 +163,8 @@ const Nav = () => {
                     styles.navLink
                   }
                 >
-                  {t("common:menuText.4.name")}
+                  {/* Contacto */}
+                  {t("common:menuText.2.name")}
                 </a>
               </Link>
             </li>
@@ -174,7 +177,8 @@ const Nav = () => {
                     (styles.navLink + " " + styles.presupuesto)
                   }
                 >
-                  {t("common:menuText.5.name")}
+                  {/* Pide tu presupuesto */}
+                  {t("common:menuText.3.name")}
                 </a>
               </Link>
             </li>

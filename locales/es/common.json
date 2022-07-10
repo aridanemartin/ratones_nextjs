@@ -1,42 +1,25 @@
 {
     "menuText": [
-        {"name": "quiénes somos"}, 
-        {"name": "servicios"}, 
-        {"name": "equipamiento"}, 
-        {"name": "tarifas"}, 
-        {"name": "contacto"},
-        {"name": "pide tu presupuesto"}
+        {"name": "QUIÉNES SOMOS"}, 
+        {"name": "SERVICIOS"}, 
+        {"name": "CONTACTO"}, 
+        {"name": "PIDE TU PRESUPUESTO"}
     ],
-    "buttonSaberMas": "Saber más",
-    "buttonEquipo": "Conoce a nuestro equipo",
-    "precios": "Tarifas Tagorock",
-    "preciosDesc": "Haz click en las diferentes categorías para conocer nuestros para conocer nuestros precios.",
-    "cuotasLibre": "Sesiones Libres",
-    "cuotasDirigida": "Clases Dirigidas",
-    "material": "Material",
-    "mensual": "Mensual",
-    "medioMes": "Medio Mes",
-    "sesionLibre": "Sesión Libre",
-    "clasePrueba": "*Clase de Prueba",
-    "claseIndividual": "Saber más",
-    "magnesioPeq": "Magnesio Pequeño",
-    "magnesioGrande": "Magnesio Grande",
-    "alquilerPies": "Alquiler de Pies de Gato",
-    "clasePruebaObs": "*Si deciden continuar después de haber realizado la clase de prueba el importe de la misma será descontado de la mensualidad.",
-    "comoLlegar":{
-        "title": "CÓMO LLEGAR",
-        "text": "C. Covadonga, 20, 35010 Las Palmas de Gran Canaria, Las Palmas"
-    },
-    "dias":{
-        "lunes": "lunes",
-        "martes": "martes",
-        "miercoles": "miércoles",
-        "jueves": "jueves",
-        "viernes": "viernes",
-        "sabado": "sábado",
-        "domingo": "domingo",
-        "cerrado": "cerrado"
-    },
-    "timetableIntro1": "¿Quieres hacernos una consulta sobre nuestras actividades de escalada y guiajes? ¿Te gustaría venir a ver nuestra sala y rocódromo indoor? ¿hacernos una recomendación? ¿Simplemente decirnos \"¡hola!\"?",
-    "timetableIntro2": "Puedes contactarnos cuando quieras en el siguiente horario. Te invitamos a que pases a vernos y nos conozcas."
+    "servicios": [
+        "Producción musical",
+        "Grabación de guitarras",
+        "Música para audiovisuales",
+        "Mezcla y Máster"
+    ],
+    "contactForm": {
+        "title": "Contacta con Nosotros",
+        "description": "Utiliza el siguiente formulario para contactar con nosotros o directamente pedirnos un presupuesto.",
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "messagePlaceholder": "Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad posible",
+        "servicesDescription": "Selecciona los servicios en los que puedas estar interesado:",
+        "send": "Enviar"
+    }
 }
+	

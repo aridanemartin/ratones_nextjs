@@ -1,7 +1,270 @@
 {
-    "introTitle1": "Produce tu proyecto en",
-    "introTitle2": "3 simples pasos ",
-    "introText1": "Consigue el resultado que buscas en la producción musical online de sus canciones colaborando con productores y músicos de sesión presencialmente en Madrid o a través de internet.",
-    "introText2": "En Ratone's Room trabajamos a medida y exclusiva para tu canción, con grabación de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final. Te entregamos tu canción lista para publicar en Spotify, Apple Music, Tidal, Instagram, TikTok… Llevamos más de 10 años realizado producciones musicales, arreglos y grabaciones para artistas independientes de lugares como Barcelona, Madrid, Sevilla, Vigo, Islas Canarias, México, Ecuador, Colombia y Estados Unidos.",
-    "introText3": "¡Grabar tu música no había sido nunca tan sencillo!"
+  "produccionTitle": "Music Production",
+  "GUITARRISTA": {
+    "lista": [ "Do you need a guitar in your song?", "An energetic rock solo?", "An accompaniment with the magic of flamenco?" ],
+    "faq": {
+      "p3": "Can you also record other string instruments?",
+      "p4": "Can I request modifications?",
+      "p1": "What is the first thing I need to do to have guitars in my song?",
+      "p2": "Can you record flamenco guitars?",
+      "p7": "What forms of payment do you accept?",
+      "p5": "When will I get the song with the guitars?",
+      "p6": "How do I record the final voice tracks?",
+      "r1": "The first thing you will have to do is send us your song, in high quality wav format (24 bits). You can include comments, references, etc. so that we can better understand what you are looking for.",
+      "r2": "That's right, our specialist has everything you need for this task, and the most important thing.... the elf!",
+      "r5": "The guitar recording service usually takes between 1 and 3 days from the time the order is placed, depending mainly on the complexity and number of tracks and instruments to be recorded.",
+      "r6": "When everything is finished you will receive the guitar tracks in high quality wav format. You will have a raw version and a version with our sound proposal. This gives you plenty of room for manoeuvre to choose from.",
+      "r3": "Yes, ukuleles, banjos, mandolins, bass guitars, lap steel... ask us, no problem!",
+      "r4": "Yes, depending on the service you hire we will send you several versions of the same work. This way we can choose or combine several tracks to your liking.",
+      "r7": "You can pay by Paypal, bizum or bank transfer."
+    },
+    "servicios": {
+      "title": "What does this service include?",
+      "s3": "Two sound proposals",
+      "s2": "Recording of a guitar solo (from 8 to 16 bars approx.)",
+      "s1": "Style suggestions"
+    },
+    "pasos": {
+      "4": "Enjoy!",
+      "3": "We record your guitars",
+      "2": "We agree on a price",
+      "1": "Send us your song"
+    },
+    "p8": "Request your free quote now",
+    "p7": "The price does not include 21% VAT (only for Spain).",
+    "p6": "Check our discounts and special promotions.",
+    "p4": "Don't wait any longer... let's rock!",
+    "p3": "We have a great sonic arsenal, both analogue and digital. Our instruments are top of the line (Gibson, Alhambra, Ibanez, Godin, etc.) and are always perfectly tuned by our trusted luthier. The microphones and preamps we use are industry standard and never fail (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.).",
+    "p2": "Recording a guitar has never been so easy. Send us the song you want us to record guitars for and tell us what you are looking for, we are sure we will be able to help you. Yes, depending on the service you hire we will send you several versions of the same work. This way we can choose or combine several tracks to your liking.",
+    "p1": "Whatever it is that has strings (guitar, bass, ukulele, banjo, mandolin, lap steel, etc.) we can record it for you. This service is very quick, easy and economical.",
+    "p5": {
+      "text": "Contract this service from",
+      "price": "35€ / song"
+    },
+    "title": "Online guitar recording"
+  },
+  "AUDIOVISUALES": {
+    "lista": [ "- Advertising (spots, corporate identity, jingles...)", "- Film (short films, feature films, documentaries, etc.)", "- Television (series, programmes, etc.)", "- Podcasts..." ],
+    "videos": [ {
+      "title": "Sound Identity and Corporate Music",
+      "src": "https://player.vimeo.com/video/655941851?h=5ebec0d1d4"
+    }, {
+      "title": "Music for Television",
+      "src": "https://www.youtube.com/embed/WRJEQRXwL2o"
+    } ],
+    "title": "Audiovisuals",
+    "p3": {
+      "text": "Contact us to contract this service"
+    },
+    "trabajos": {
+      "p": "Below you can see some of the work we have done for our clients.",
+      "title": "Work carried out"
+    },
+    "p2": "We will create the sound identity that will reinforce the message you want to convey, tailor-made and exclusively for your audiovisual project or company.",
+    "p1": "We compose the music and create the sound design for your audiovisual project."
+  },
+  "CARROUSEL": {
+    "lugar4": "Barcelona",
+    "lugar3": "Barcelona",
+    "lugar5": "Barcelona",
+    "lugar2": "Barcelona",
+    "lugar1": "Barcelona",
+    "text5": "Víctor, as well as being a friend, is a professional from head to toe. In addition to his good criteria in terms of sound and production, we must add his quality as a guitarist and as a musician in the broadest sense of the word. To record and produce with Víctor is to do it with a first class technician and with a musician who is always ready to give the best of himself.",
+    "text2": "Victor is very good at his job, you can ask him practically anything you want and he will find a way to make it sound. 100% recommendable!",
+    "text1": "When we met Víctor, it was clear that we wanted him to produce the album for us. He is a professional who always knows how to make sure that the song you are recording has the right arrangement. He is very easy to work with and the result has been excellent.",
+    "text4": "Víctor, in charge of Ratone's Room, is a highly qualified, constant, punctual, committed and flexible musician. He is responsible for the arrangements and the recording of the guitars of the last 6 songs of my first album. The sound and the American essence that I was looking for in those songs is worth mentioning.",
+    "text3": "Working at Ratone's Room has been a real pleasure. In addition, the treatment received from Victor has been more than excellent, not only has he helped me to have a better sound in terms of mixing and mastering, but he has also helped me with all kinds of tips and tricks to get a better sound from the recording.",
+    "grupo2": "Juan Carlos Rojas",
+    "grupo1": "La Banddarra",
+    "grupo4": "Borja Remacha",
+    "grupo3": "Fran Peregrina",
+    "grupo5": "David García",
+    "desc5": "Guitarist",
+    "desc1": "Ska/Reggae/Rock Group",
+    "desc2": "Flamenco/Pop/Fusion",
+    "desc3": "Cantautor",
+    "desc4": "Pop/Rock singer/songwriter"
+  },
+  "mezclaText": "Bring us your tracks and we'll mix them for you, bring us your mix and we'll do the mastering. We'll get everything ready for you so you can release your music in the professional quality you expect.",
+  "testimoniosDescription": "",
+  "PRODUCCION-MUSICAL": {
+    "pasos": {
+      "4": "4 - Voice recording",
+      "3": "3 - We work on the instrumental basis",
+      "2": "2 - We agree on a price",
+      "1": "1 - Send us your song",
+      "6": "6 - Enjoy!",
+      "5": "5 - Editing, mixing and mastering",
+      "desc": "Start planning your production by following the steps below:",
+      "title": "Steps"
+    },
+    "p5": {
+      "price": "199€ / song",
+      "text": "Enjoy this service from"
+    },
+    "servicios": {
+      "s1": "Creative suggestions",
+      "s2": "Musical and stylistic direction",
+      "s3": "Exclusive creation of a basic instrumental base (2 instruments + percussion)",
+      "s4": "Online guitar recording",
+      "s5": "Online mixing and mastering (unlimited revisions)",
+      "s6": "Advice on digital and physical distribution",
+      "s7": "Legal advice in Spain and copyright (Intellectual Property,SGAE)"
+    },
+    "faq": {
+      "p7": "When will I get my song?",
+      "p8": "What will I receive when I finish?",
+      "p9": "What forms of payment do you accept?",
+      "p1": "What is the first thing I have to do to work with you?",
+      "p2": "Can you make music to a lyric I have written?",
+      "p3": "What are the instrumental bases like?",
+      "p4": "Who will have the rights to the song?",
+      "p5": "Can I request modifications?",
+      "p6": "How do I record the final voice tracks?",
+      "r9": "You can pay by Paypal, bizum or bank transfer.",
+      "r1": "The first thing you will have to do is send us a recording of your song. It can be a mobile phone recording, with or without an accompanying instrument.",
+      "r2": "If you have written lyrics, with or without melody, we can help you compose and produce the rest of the song.",
+      "r3": "Once we study your song we will see what kind of production would suit it. We can do anything from something intimate and acoustic (few instruments) to creating a more complete and dense production with pianos, keyboards, string section, drums, etc. Depending on the amount of instruments and complexity the final price may vary.",
+      "r4": "The distribution rights and the use you want to give it will be 100% yours. The copyright will belong to the creator or creators of the work. We can advise you at no additional cost.",
+      "r5": "Yes, modifications in the composition phase are part of the process. You also have unlimited mixing and mastering revisions.",
+      "r6": "If you already have a small equipment to do it at home (microphone, interface, etc.) we can advise you, at no additional cost. However, we recommend that you do it in our studio in Madrid or Barcelona to get a more professional result. Contact us to know the rates.",
+      "r7": "The music production service usually takes between 1 and 2 weeks from the time the order is placed, depending mainly on the complexity and quantity of instruments.",
+      "r8": "When everything is finished, you will receive the master in high quality wav format (24 bits), CD quality wav (16 bits, 44,1 Khz) and mp3. We will also provide you with the instrumental base so that you can practice. If you wish, we can also send you the tracks or stems separately (please consult us)."
+    },
+    "p10": "Request your free quote now.",
+    "p8": "The price does not include 21% VAT (only for Spain). Vocal production (recording, editing and tuning) is not included.",
+    "p7": "What does this service include?",
+    "p9": "The price does not include vocal production (recording, editing and tuning).",
+    "p4": "We accompany you in each and every one of these processes, providing you with all the necessary means and our experience to get the most out of your ideas.",
+    "p3": "A professional music production consists of several stages (composition and arrangements, pre-production, recording, editing and tuning, mixing and mastering). It starts from a small musical idea and ends with a master ready to be published on digital platforms.",
+    "p6": "Check our discounts and special promotions",
+    "p2": "Full Music Production",
+    "p1": "We produce music productions of all types and styles. We help you get your music in the best possible musical packaging. Do you have a song but don't know how to take it to the next level? Are you stuck with a great track and don't know how to go on? Don't worry, we can take care of the whole creative and technical process. Tell us what you're looking for and let's get to work on it."
+  },
+  "MEZCLAMASTER": {
+    "faq": {
+      "p7": "What forms of payment do you accept?",
+      "p6": "What will I receive when I finish?",
+      "p5": "Can I send you the recorded tracks unedited and untuned?",
+      "p4": "How long does this process take?",
+      "p3": "Can I request revisions or modifications?",
+      "p2": "I have a lot of tracks and they are very heavy, how do I send them to you?",
+      "p1": "What should I do if I can't get my mixes to sound the way I want them to?",
+      "r7": "You can pay by Paypal, bizum or bank transfer.",
+      "r6": "When everything is finished you will receive the master of your song. The master will be a 24-bit wav file at the highest possible sample rate. You will also receive a 16-bit wav and an mp3. If you wish you can also receive the stems separately.",
+      "r5": "Yes, but it will cost extra. Editing each track and fine-tuning the vocals can be a tedious task. Send us the tracks and we will analyse your particular case. We'll get back to you with a fair price.",
+      "r4": "It will depend on the number of tracks. You can receive a pre-mix on the same day. When the project is large it usually takes between 3 and 5 days.",
+      "r3": "Yes, by default you will have unlimited revisions in the mix. If you contract it, you can also have unlimited revisions in the master.",
+      "r2": "We have a private server, we will provide you with a link where we can share all the material. Easy, fast and secure.",
+      "r1": "Don't worry, we'll take care of it. Send us your clues and contact us, we are sure we can help you."
+    },
+    "servicios": {
+      "title": "What is included for this price?",
+      "s3": "Unlimited mix revisions",
+      "s2": "Master for digital platforms",
+      "s1": "Mixing of 2 or 3 tracks"
+    },
+    "p5": {
+      "text": "Contract this service from",
+      "price": "39€ / song"
+    },
+    "title": "Mixing and Mastering",
+    "p1": "Nowadays it is very common for bands and singer-songwriters to record at home or in their rehearsal rooms. The technology and the necessary means are within everyone's reach, offering professional results. We are aware of this.",
+    "lista": [ "Bring us your tracks and we'll mix them for you.", "Bring us your mix and we'll master it for you.", "We'll get everything ready for you so you can publish your music in the professional quality you expect." ],
+    "p2": "We are also aware that, in spite of having the perfect take recorded, you can't get everything to sound smooth, balanced, punchy, etc. Leave your tracks in our hands, we will make them sound perfect.",
+    "p6": "Check our discounts and special promotions.",
+    "p7": "The price does not include 21% VAT (only for Spain).",
+    "p8": "Request your free quote now",
+    "pasos": {
+      "6": "Enjoy!",
+      "5": "We masterize",
+      "4": "We check as many times as necessary",
+      "3": "We mix",
+      "2": "We agree on a price",
+      "1": "Send us your clues"
+    }
+  },
+  "ventajasText1": "Discover the many advantages of working with Ratone's Room.",
+  "produccionText": "We make musical productions of all kinds. We help you to give your music the best possible musical packaging. We take care of the whole process: custom instrumentation and arrangements, recording and processing of vocals, mixing and mastering.",
+  "PASOS": {
+    "paso2": {
+      "title2": "Let's get to work!",
+      "title1": "Segundo Paso:",
+      "text": "Once the budget is approved, we will start working on your project. We will consult you as many times as necessary and send you samples so that with our experience and your ideas we can find the sound you are looking for."
+    },
+    "paso3": {
+      "text": "Sit back and enjoy the result. Remember that at Ratone's Room we offer unlimited revisions so that you can find the sound you are looking for and be 100% satisfied.",
+      "title1": "Step 3:",
+      "title2": "Enjoy!"
+    },
+    "paso1": {
+      "text": "First of all, we will contact you to explain what you have in mind, we will study your needs and we will draw up a personalised budget.",
+      "title2": "Let's talk",
+      "title1": "Step 1:"
+    }
+  },
+  "serviciosTitle1": "Services",
+  "mezclaTitle": "Mixing and Mastering",
+  "testimoniosTitle": "Recommendations",
+  "grabacionText": "Need a guitar in your song? An energetic rock solo? An accompaniment with the magic of flamenco? Whatever it is that has strings we can record it for you. This service is very quick, easy and economical.",
+  "grabacionesText1": "Below are some of the works in which we have done the musical production, guitar recordings, mixing or mastering.",
+  "grabacionTitle": "Guitar recording",
+  "grabacionesTitle": "Work Performed",
+  "grabacionesDescription": "GET THE MOST PROFESSIONAL SOUND WITH OUR LIVE RECORDINGS, ONLINE MIXING AND MASTERING...",
+  "VENTAJAS": {
+    "ventaja5": "Rapidez",
+    "ventaja6": "Creative and technical advice",
+    "ventaja3": "Free sample master",
+    "ventaja4": "Free mix evaluation",
+    "ventaja1": "100% satisfaction guaranteed",
+    "ventaja2": "Discounts and special promotions"
+  },
+  "testimoniosText1": "Find out what different artists who have worked with us have to say.",
+  "serviciosDescription": "HERE'S WHAT WE CAN DO FOR YOU ON YOUR NEXT MUSIC PROJECT",
+  "FAQ": {
+    "text1": "Send us a basic recording. It can be anything from a demo to a small home-recorded demo.",
+    "text2": "You're in the right place! We can help you compose the music before producing the song.",
+    "text3": "Of course! Remember that we will be in touch until you are completely happy with the result.",
+    "text4": "You will have 100% of the rights of distribution and use of the recording, without any limitation of listening, time or platforms. The copyright of the composition will always belong to the author of the song. If you need it, we can help you to finish composing the song.",
+    "text5": "Of course! we can also produce custom-made covers or versions of other artists.",
+    "title3": "Will I be able to request modifications to the final result of the production?",
+    "title2": "I have not yet composed the music for my lyrics. How can I start the production process?",
+    "title1": "What do I need to start an online music production?",
+    "title5": "Can I record a cover or version?",
+    "title4": "What rights will I get over my production"
+  },
+  "BANNER": {
+    "text": "Contact us and we will advise you on how to produce your next music project.",
+    "buttonText": "Contact"
+  },
+  "QUIENESSOMOS": {
+    "p6": "Other services that may be of interest to you:",
+    "p5": "Our main services are:",
+    "p4": "Víctor Martínez Galeote is in charge of Ratone's Room. Guitarist, composer, music producer and sound engineer. He holds a degree in modern music and jazz from the Conservatori del Liceu (Barcelona). He is also a telecommunications engineer (specialising in sound and image) from the Universitat Politècnica de Catalunya (UPC). With 15 years of professional experience, he has recorded and toured all over Spain with artists such as D'Callaos, Sandra Bautista (musical director), Daniel Felices and Javier Sólo. He has led his own musical projects, in a wide variety of styles, with which he has released several albums.",
+    "p3": "Our main objective is that the client is 100% satisfied. We get fully involved in each project, dedicating the necessary time and resources. We strike a balance between creative and technical aspects, always respecting and supporting our clients' decisions.",
+    "servicios": {
+      "s7": "Legal advice in Spain (Intellectual Property,SGAE)",
+      "s5": "Video editing and post-production",
+      "s6": "Technical advice",
+      "s3": "Audio restoration",
+      "s4": "Portable multitrack recording",
+      "s1": "Battery editing and quantization",
+      "s2": "Voice editing and tuning"
+    },
+    "p7": "Contact us without obligation",
+    "p2": "We are a group of experienced music producers, session musicians and technicians who work together to provide the best sound at reasonable and competitive rates.",
+    "p1": "Ratone's Room is a space that offers professional music production, recording, mixing and mastering services. We are located in the centre of Madrid (Spain) but we also work remotely for the whole world (online).",
+    "title": "Who are we?"
+  },
+  "ventajasTitle": "Ventajas",
+  "audiovisualesTitle": "Music for audiovisuals",
+  "introTitle1": "Produce your project in ",
+  "introTitle2": "3 simple steps",
+  "audiovisualesText": "We compose the music and sound design for your audiovisual project (advertising, short film, feature film, documentary, podcast, etc.).",
+  "introText5": "Producing your music has never been easier!",
+  "introText4": "We have been producing, arranging and recording for independent artists for more than 5 years.",
+  "introText3": "We deliver your music ready to be published in the main digital platforms: Spotify, iTunes, Youtube, Tidal, Deezer, etc. If you also want to publish your music in physical format (CD, vinyl, etc.) don't worry, we'll take care of it.",
+  "introText2": "At Ratone's Room we work customised for your song, EP or album, recording guitars, bass, samples, drums, keyboards, vocal tuning, mixing and final mastering.",
+  "introText1": "Get the impact and the professional result you are looking for in the musical production of your songs in Madrid or through the internet. We collaborate with all kinds of musicians and reliable technicians.",
+  "serviciosText1": "At Ratone's Room we are aware that every artist is totally different. That's why we try to adapt to your style, study your needs and help you get the sound you're looking for, whether it's recording your single, mastering your next EP or producing the music for your next short film... We can help you!"
 }

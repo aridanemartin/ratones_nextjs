@@ -3,8 +3,11 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 
 import ratonesLogo from "../../public/images/logoLarge.webp";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Footer() {
+  let { t } = useTranslation();
+
   return (
     <div className={styles.footerWrap}>
       <div className={styles.footerContentWrap}>
@@ -12,28 +15,23 @@ export default function Footer() {
           <h3>Menu</h3>
           <ul className={styles.menuContent}>
             <li>
-              <Link href="/">
-                <a>QUIÉNES SOMOS</a>
+              <Link href="/quienes-somos">
+                <a>{t("common:menuText.0.name")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>SERVICIOS</a>
+              <Link href="/#servicios">
+                <a>{t("common:menuText.1.name")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>EQUIPAMIENTO</a>
+              <Link href="/contacto">
+                <a>{t("common:menuText.2.name")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>TARIFAS</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>CONTACTO</a>
+              <Link href="/contacto">
+                <a>{t("common:menuText.3.name")}</a>
               </Link>
             </li>
           </ul>
@@ -103,26 +101,26 @@ export default function Footer() {
           </p>
         </div>
         <div className={styles.serviciosWrap}>
-          <h3>SERVICIOS</h3>
+          <h3>{t("common:menuText.1.name")}</h3>
           <ul className={styles.menuContent}>
             <li>
               <Link href="/">
-                <a>PRODUCCIÓN MUSICAL</a>
+                <a>{t("common:servicios.0")}</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>GRABACIÓN DE GUITARRAS</a>
+                <a>{t("common:servicios.1")}</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>MÚSICA PARA AUDIOVISUALES</a>
+                <a>{t("common:servicios.2")}</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>MEZCLA Y MÁSTER</a>
+                <a>{t("common:servicios.3")}</a>
               </Link>
             </li>
           </ul>

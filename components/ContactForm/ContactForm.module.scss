@@ -124,6 +124,11 @@
   }
 }
 
+.fieldError {
+  color: #00000057;
+  font-weight: bold;
+}
+
 @media (max-width: 1500px) {
   .backgroundWrapper {
     display: none;
