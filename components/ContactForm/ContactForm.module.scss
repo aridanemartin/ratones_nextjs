@@ -8,7 +8,48 @@
     url(../../public/images/guitarBackground3.webp);
   background-size: cover;
   background-blend-mode: darken;
+
+  .loading {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    p {
+      text-align: center;
+      padding: 0rem 1rem;
+      font-size: 1.4rem;
+      color: white;
+    }
+
+    .logoWrap {
+      opacity: 0.5;
+      position: relative;
+      min-width: 12rem;
+      max-width: 15rem;
+    }
+  }
+
+  @keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
+
 .backgroundWrapper {
   position: relative;
   width: 100%;
@@ -50,6 +91,27 @@
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+
+    .success {
+      color: white;
+      font-weight: bold;
+      background-color: green;
+      font-size: 1.2rem;
+      padding: 1rem 0rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+
+      animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
     input,
     textarea {
@@ -155,12 +217,24 @@
 
     h1 {
       margin-top: 5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #ccc;
     }
 
     .formWrapper {
       background: #161111;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../../public/images/guitarBackground4.webp);
+      background-position: center;
+      background-size: cover;
+
       color: white;
       height: fit-content;
+    }
+    .fieldError {
+      padding: 0.5rem;
+      color: white;
+      background: #834d26c7;
     }
   }
 }

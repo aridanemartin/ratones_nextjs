@@ -5,6 +5,7 @@ export const useForm = (initialForm, validateForm) => {
   const [form, setForm] = useState(initialForm);
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -52,6 +53,7 @@ export const useForm = (initialForm, validateForm) => {
 
       setLoading(true);
       setTimeout(() => setLoading(false), 5000);
+      setSuccess(true);
       setTimeout(
         () =>
           setForm({
@@ -71,6 +73,7 @@ export const useForm = (initialForm, validateForm) => {
   };
 
   return {
+    success,
     form,
     errors,
     loading,

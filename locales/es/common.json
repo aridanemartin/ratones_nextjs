@@ -19,7 +19,9 @@
         "message": "Mensaje",
         "messagePlaceholder": "Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad posible",
         "servicesDescription": "Selecciona los servicios en los que puedas estar interesado:",
-        "send": "Enviar"
+        "send": "Enviar",
+        "loading": "Su mensaje está siendo enviado...",
+        "success": "Su mensaje ha sido enviado correctamente."
     }
 }
 	
