@@ -60,20 +60,20 @@ export const ContactForm = () => {
 
   return (
     <div className={styles.contactFormWrapper}>
-      {loading ? (
-        <div className={styles.loading}>
-          <p>{t("common:contactForm.loading")}</p>
-          <div className={styles.logoWrap}>
-            <Image
-              src={ratonesLogo}
-              layout="responsive"
-              quality="50"
-              priority="true"
-              as="image"
-            />
-          </div>
+      {/* {loading ? ( */}
+      <div className={styles.loading}>
+        <p>{t("common:contactForm.loading")}</p>
+        <div className={styles.logoWrap}>
+          <Image
+            src={ratonesLogo}
+            layout="responsive"
+            quality="50"
+            priority="true"
+            as="image"
+          />
         </div>
-      ) : (
+      </div>
+      {/* ) : (
         <>
           <div className={styles.contactForm}>
             <div className={styles.imageWrapper}>
@@ -196,7 +196,7 @@ export const ContactForm = () => {
             </form>
           </div>
         </>
-      )}
+      )} */}
     </div>
   );
 };
