@@ -6,7 +6,7 @@ import ratonesLogo from "../../public/images/logoLarge.webp";
 import useTranslation from "next-translate/useTranslation";
 import americanExpress from "../../public/images/cards/americanExpress.webp";
 import visa from "../../public/images/cards/visa.webp";
-import mastercard from "../../public/images/cards/mastercard.webp";
+import mastercard from "../../public/images/cards/masterCard.webp";
 import discover from "../../public/images/cards/discover.webp";
 import maestro from "../../public/images/cards/maestro.webp";
 import payPal from "../../public/images/cards/payPal.webp";
