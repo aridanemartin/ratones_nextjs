@@ -1,9 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./Footer.module.css";
+import styles from "./Footer.module.scss";
 
 import ratonesLogo from "../../public/images/logoLarge.webp";
 import useTranslation from "next-translate/useTranslation";
+import americanExpress from "../../public/images/cards/americanExpress.webp";
+import visa from "../../public/images/cards/visa.webp";
+import mastercard from "../../public/images/cards/mastercard.webp";
+import discover from "../../public/images/cards/discover.webp";
+import maestro from "../../public/images/cards/maestro.webp";
+import payPal from "../../public/images/cards/payPal.webp";
+import bizum from "../../public/images/cards/bizum.webp";
 
 export default function Footer() {
   let { t } = useTranslation();
@@ -12,7 +19,7 @@ export default function Footer() {
     <div className={styles.footerWrap}>
       <div className={styles.footerContentWrap}>
         <div className={styles.menuWrap}>
-          <h3>Menu</h3>
+          <h3>Ratone's Room</h3>
           <ul className={styles.menuContent}>
             <li>
               <Link href="/quienes-somos">
@@ -33,6 +40,67 @@ export default function Footer() {
               <Link href="/contacto">
                 <a>{t("common:menuText.3.name")}</a>
               </Link>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.payments}>
+          <h3>{t("common:footer.payments")}</h3>
+          <ul className={styles.paymentsContent}>
+            <li>
+              <Image
+                src={visa}
+                layout="fill"
+                objectFit="cover"
+                alt="Visa credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={mastercard}
+                layout="fill"
+                objectFit="cover"
+                alt="Mastercard credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={americanExpress}
+                layout="fill"
+                objectFit="cover"
+                alt="American Express credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={discover}
+                layout="fill"
+                objectFit="cover"
+                alt="Discover credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={maestro}
+                layout="fill"
+                objectFit="cover"
+                alt="Maestro credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={payPal}
+                layout="fill"
+                objectFit="cover"
+                alt="PayPal credit card"
+              />
+            </li>
+            <li>
+              <Image
+                src={bizum}
+                layout="fill"
+                objectFit="cover"
+                alt="Bizum credit card"
+              />
             </li>
           </ul>
         </div>
@@ -125,6 +193,17 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className={styles.legal}>
+        <Link href="/legal/politica-de-cookies">
+          <a>Política de Cookies</a>
+        </Link>
+        <Link href="/legal/politica-de-privacidad">
+          <a>Política de Privacidad</a>
+        </Link>
+        <Link href="/legal/aviso-legal">
+          <a>Aviso Legal</a>
+        </Link>
       </div>
     </div>
   );

@@ -1,18 +1,16 @@
 .footerWrap {
   width: 100%;
-  height: 25rem;
+
   background: #161111;
-  margin-top: 3rem;
 }
 
 .footerContentWrap {
   max-width: 1440px;
   margin: 0 auto;
 
-  padding: 1rem;
-  padding-top: 2rem;
+  padding: 2rem 1rem;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .menuContent {
@@ -38,7 +36,8 @@
 }
 
 .menuWrap h3,
-.serviciosWrap h3 {
+.serviciosWrap h3,
+.payments h3 {
   font-family: "Anton";
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
@@ -72,7 +71,7 @@
 }
 
 .socialIcon svg {
-  filter: invert();
+  filter: invert(100%);
   max-width: 2.3rem;
   transition: all 0.3s ease-in-out;
 }
@@ -95,17 +94,52 @@
   color: white;
 }
 
-@media (max-width: 1200px) {
-  .footerWrap {
-    height: 20rem;
+.payments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    li {
+      margin: 0;
+      list-style: none;
+      position: relative;
+      width: 100%;
+      height: 1.5rem;
+    }
   }
+}
 
+.legal {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+
+  a {
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
   .menuWrap h3,
   .serviciosWrap h3 {
     display: none;
   }
 
   .menuContent {
+    display: none;
+  }
+
+  .payments {
     display: none;
   }
 
@@ -120,5 +154,14 @@
 
   .contactoWrap {
     display: none;
+  }
+
+  .legal {
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    a {
+      padding: 0.5rem;
+    }
   }
 }

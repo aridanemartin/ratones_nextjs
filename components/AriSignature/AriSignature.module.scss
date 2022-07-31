@@ -1,0 +1,25 @@
+.createdBy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: #834d26;
+  color: #061820;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.createdBy p {
+  font-weight: 500;
+}
+
+.createdBy a {
+  color: #ffffff;
+  font-weight: 700;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    color: #f1d3be;
+    cursor: pointer;
+  }
+}

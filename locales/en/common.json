@@ -27,6 +27,9 @@
         "back": "Back",
         "moreInfo": "More info"
 
+    },
+    "footer":{
+        "payments": "Payments"
     }
     
 }

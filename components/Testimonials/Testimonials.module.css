@@ -1,109 +1,111 @@
 /*solo incluir height aqui*/
-.testimonialsWrapper .mySwiper, .cslide{
-    height: 20rem;
-    margin-bottom: 5rem;
+.testimonialsWrapper .mySwiper,
+.cslide {
+  height: 20rem;
+  margin-bottom: 5rem;
+
+  margin-top: 3rem;
 }
 
-.mySwiper >.swiper-button-next{
-    display: none;
+.mySwiper > .swiper-button-next {
+  display: none;
 }
 
 .cslide {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 
-    display: grid;
-    grid-template-rows: auto 60% 40%;
-    margin: 0;    
+  display: grid;
+  grid-template-rows: auto 60% 40%;
+  margin: 0;
 }
 
-.imageWrap{
-    margin-left: 3.5rem;
-    position: relative;
-    height: 2rem;
-    width: 2rem;
-    filter: invert(66%) sepia(7%) saturate(2381%) hue-rotate(358deg) brightness(91%) contrast(90%);
-    
+.imageWrap {
+  margin-left: 3.5rem;
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  filter: invert(66%) sepia(7%) saturate(2381%) hue-rotate(358deg)
+    brightness(91%) contrast(90%);
 }
 
-.slideText{
-    font-size: 1.2rem;
-    font-style: italic;
-    padding: 3.5rem;
-    text-align: center;
-    margin: 0;
+.slideText {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 3.5rem;
+  text-align: center;
+  margin: 0;
 }
 
-.grupoWrap{
-    margin: 0 auto;
-    width: 16rem;
-    display: grid;
-    grid-template-areas:
-     "foto texto"
-     ;
-    grid-gap: 0.5rem;
+.grupoWrap {
+  margin: 0 auto;
+  width: 16rem;
+  display: grid;
+  grid-template-areas: "foto texto";
+  grid-gap: 0.5rem;
 }
 
-.profileImageFlex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.profileImageFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.profileImageWrap{
-    position: relative;
-    height: 4rem;
-    width: 4rem;
-    clip-path: circle(50% at 50% 50%);
+.profileImageWrap {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  clip-path: circle(50% at 50% 50%);
 }
 
-.textWrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    grid-area: texto;
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: texto;
 }
 
-.grupo{
-    
-    color: #432818;
-    font-family: 'Anton';
-    font-weight: 700;
-    font-size: 1.4rem; 
-    margin: 0;
+.grupo {
+  color: #432818;
+  font-family: "Anton";
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
 }
 
-.description{
-    color: #6F1D1B;
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin: 0;
-    padding: 0.4rem;
+.description {
+  color: #6f1d1b;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0.4rem;
 }
 
-.lugar{
-    font-size: 0.7rem;
-    margin: 0;
-    font-weight: 500;
-    color: #BB9457;
+.lugar {
+  font-size: 0.7rem;
+  margin: 0;
+  font-weight: 500;
+  color: #bb9457;
 }
 
-@media(max-width:1400px){
-    .testimonialsWrapper .mySwiper, .cslide{
-        height: 25rem;
-    }
+@media (max-width: 1400px) {
+  .testimonialsWrapper .mySwiper,
+  .cslide {
+    height: 25rem;
+  }
 
-    .slideText{
-        padding: 3rem;
-    }
+  .slideText {
+    padding: 3rem;
+  }
 }
 
-@media(max-width: 875px){
-    .slideText{
-        font-size: 1rem;
-    }
+@media (max-width: 875px) {
+  .slideText {
+    font-size: 1rem;
+  }
 
-    .testimonialsWrapper .mySwiper, .cslide{
-        height: 30rem;
-    }
+  .testimonialsWrapper .mySwiper,
+  .cslide {
+    height: 30rem;
+  }
 }
