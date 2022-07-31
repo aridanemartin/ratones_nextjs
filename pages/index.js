@@ -72,6 +72,12 @@ export default function Home() {
             txt4={t("index:VENTAJAS.ventaja4")}
             txt5={t("index:VENTAJAS.ventaja5")}
             txt6={t("index:VENTAJAS.ventaja6")}
+            desc1={t("index:VENTAJAS.desc1")}
+            desc2={t("index:VENTAJAS.desc2")}
+            desc3={t("index:VENTAJAS.desc3")}
+            desc4={t("index:VENTAJAS.desc4")}
+            desc5={t("index:VENTAJAS.desc5")}
+            desc6={t("index:VENTAJAS.desc6")}
           />
         </PageLayout>
       </PageLayout>

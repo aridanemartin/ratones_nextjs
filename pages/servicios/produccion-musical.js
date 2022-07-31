@@ -47,6 +47,31 @@ export default function ProduccionMusical() {
           txt2={t("index:PRODUCCION-MUSICAL.p4")}
           img={produccionCompleta}
         />
+      </PageLayout>
+
+      <Banner
+        text={t("index:PRODUCCION-MUSICAL.p5.text")}
+        price={t("index:PRODUCCION-MUSICAL.p5.price")}
+        link="/contacto"
+        buttonText="CONTACTO"
+        disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
+      />
+
+      <PageLayout>
+        <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
+
+        <List
+          img={cantautora}
+          li1={t("index:PRODUCCION-MUSICAL.servicios.s1")}
+          li2={t("index:PRODUCCION-MUSICAL.servicios.s2")}
+          li3={t("index:PRODUCCION-MUSICAL.servicios.s3")}
+          li4={t("index:PRODUCCION-MUSICAL.servicios.s4")}
+          li5={t("index:PRODUCCION-MUSICAL.servicios.s5")}
+          li6={t("index:PRODUCCION-MUSICAL.servicios.s6")}
+          li7={t("index:PRODUCCION-MUSICAL.servicios.s7")}
+        />
+      </PageLayout>
+      <PageLayout>
         <TextBlock
           title1={t("index:PRODUCCION-MUSICAL.pasos.title")}
           text1={t("index:PRODUCCION-MUSICAL.pasos.desc")}
@@ -68,28 +93,6 @@ export default function ProduccionMusical() {
           txt5={t("index:PRODUCCION-MUSICAL.pasos.5")}
           txt6={t("index:PRODUCCION-MUSICAL.pasos.6")}
         />
-      </PageLayout>
-      <Banner
-        text={t("index:PRODUCCION-MUSICAL.p5.text")}
-        price={t("index:PRODUCCION-MUSICAL.p5.price")}
-        link="/contacto"
-        buttonText="CONTACTO"
-        disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
-      />
-      <PageLayout>
-        <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
-
-        <List
-          img={cantautora}
-          li1={t("index:PRODUCCION-MUSICAL.servicios.s1")}
-          li2={t("index:PRODUCCION-MUSICAL.servicios.s2")}
-          li3={t("index:PRODUCCION-MUSICAL.servicios.s3")}
-          li4={t("index:PRODUCCION-MUSICAL.servicios.s4")}
-          li5={t("index:PRODUCCION-MUSICAL.servicios.s5")}
-          li6={t("index:PRODUCCION-MUSICAL.servicios.s6")}
-          li7={t("index:PRODUCCION-MUSICAL.servicios.s7")}
-        />
-        <TextBlock description={t("index:PRODUCCION-MUSICAL.p6")} />
       </PageLayout>
       <TextBlock
         title1={t("index:grabacionesTitle")}

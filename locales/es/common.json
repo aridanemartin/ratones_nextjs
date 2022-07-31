@@ -23,6 +23,10 @@
         "loading": "Su mensaje está siendo enviado...",
         "success": "Su mensaje ha sido enviado correctamente."
     },
-    "back": "Volver"
+    "buttonText": {
+        "back": "Volver",
+        "moreInfo": "Más información"
+
+    }
 }
 	

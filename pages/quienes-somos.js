@@ -1,3 +1,4 @@
+import Banner from "@components/Banner/Banner";
 import Hero from "@components/Hero/Hero";
 import PageLayout from "@components/PageLayout/PageLayout";
 import Servicios from "@components/Servicios/Servicios";
@@ -31,8 +32,14 @@ const Quienessomos = () => {
           text1={t("index:serviciosText1")}
           description={t("index:serviciosDescription")}
         />
-        <Servicios />
+        <Servicios noText />
       </PageLayout>
+      <Banner
+        noPrice
+        buttonText={t("common:contactForm.title")}
+        link="/contacto"
+        text={t("index:QUIENESSOMOS.banner")}
+      />
     </>
   );
 };

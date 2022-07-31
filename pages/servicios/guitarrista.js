@@ -1,5 +1,5 @@
 import heroImage from "../../public/images/guitarraHero2.webp";
-import textImage from "../../public/images/guitarraNegro.webp";
+import introPicture from "../../public/images/fotosVictor/_DSC0159.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 import styles from "@styles/Servicios.module.css";
@@ -40,18 +40,9 @@ export default function Guitarrista() {
         </div>
         <TextWithPicture
           list={listaIntro}
-          image={textImage}
+          image={introPicture}
           text={t("index:GUITARRISTA.p1")}
           altText="lalal"
-        />
-
-        <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
-
-        <List
-          img={heroImage}
-          li1={t("index:GUITARRISTA.servicios.s1")}
-          li2={t("index:GUITARRISTA.servicios.s2")}
-          li3={t("index:GUITARRISTA.servicios.s3")}
         />
       </PageLayout>
       <Banner
@@ -61,6 +52,17 @@ export default function Guitarrista() {
         buttonText="CONTACTO"
         disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
       />
+      <PageLayout>
+        <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
+
+        <List
+          img={heroImage}
+          li1={t("index:GUITARRISTA.servicios.s1")}
+          li2={t("index:GUITARRISTA.servicios.s2")}
+          li3={t("index:GUITARRISTA.servicios.s3")}
+        />
+      </PageLayout>
+
       <PageLayout>
         <TextBlock
           title1={t("index:GUITARRISTA.subtitle2")}

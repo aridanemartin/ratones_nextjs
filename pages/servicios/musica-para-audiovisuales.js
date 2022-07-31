@@ -22,17 +22,17 @@ export default function MusicaParaAudiovisuales() {
   ];
 
   let videoArray = [
-    // {
-    //   title: `${t("index:AUDIOVISUALES.videos.0.title")}`,
-    //   src: `${t("index:AUDIOVISUALES.videos.0.src")}`,
-    // },
+    {
+      title: `${t("index:AUDIOVISUALES.videos.0.title")}`,
+      src: `${t("index:AUDIOVISUALES.videos.0.src")}`,
+    },
     {
       title: `${t("index:AUDIOVISUALES.videos.1.title")}`,
       src: `${t("index:AUDIOVISUALES.videos.1.src")}`,
     },
     {
-      title: `${t("index:AUDIOVISUALES.videos.1.title")}`,
-      src: `${t("index:AUDIOVISUALES.videos.1.src")}`,
+      title: `${t("index:AUDIOVISUALES.videos.2.title")}`,
+      src: `${t("index:AUDIOVISUALES.videos.2.src")}`,
     },
   ];
 
@@ -57,6 +57,12 @@ export default function MusicaParaAudiovisuales() {
           text2={t("index:AUDIOVISUALES.p2")}
         />
       </PageLayout>
+      <Banner
+        noPrice
+        text={t("index:AUDIOVISUALES.p3.text")}
+        link="/contacto"
+        buttonText="CONTACTO"
+      />
       <PageLayout>
         <TextBlock
           title1={t("index:AUDIOVISUALES.trabajos.title")}
@@ -64,12 +70,6 @@ export default function MusicaParaAudiovisuales() {
         />
         <VideoGallery videoArray={videoArray} />
       </PageLayout>
-      <Banner
-        noPrice
-        text={t("index:AUDIOVISUALES.p3.text")}
-        link="/contacto"
-        buttonText="CONTACTO"
-      />
     </>
   );
 }

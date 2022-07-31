@@ -1,4 +1,5 @@
 .coverCollageWrapper {
+  padding-top: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
   margin-bottom: 3rem;
@@ -9,7 +10,7 @@
   background: black;
 }
 
-.singleCover:hover{
+.singleCover:hover {
   cursor: pointer;
 }
 
@@ -19,7 +20,7 @@
   display: block;
 }
 
-@media(max-width: 900px){
+@media (max-width: 900px) {
   .coverCollageWrapper {
     display: none;
   }

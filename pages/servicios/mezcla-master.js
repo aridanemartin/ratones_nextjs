@@ -5,7 +5,7 @@ import Hero from "@components/Hero/Hero";
 import TextBlock from "@components/TextBlock/TextBlock";
 import Faq from "@components/Faq/Faq";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
-import introPicture from "../../public/images/fotosVictor/_DSC0159.webp";
+import introPicture from "../../public/images/programaDeEstudio.png";
 import PageLayout from "@components/PageLayout/PageLayout";
 import useTranslation from "next-translate/useTranslation";
 import Ventajas from "@components/Ventajas/Ventajas";
@@ -52,6 +52,15 @@ export default function MezclaMaster() {
         buttonText="CONTACTO"
         disclaimer={t("index:MEZCLAMASTER.p7")}
       />
+      <PageLayout>
+        <TextBlock title1={t("index:MEZCLAMASTER.servicios.title")} />
+        <List
+          img={fader}
+          li1={t("index:MEZCLAMASTER.servicios.s1")}
+          li2={t("index:MEZCLAMASTER.servicios.s2")}
+          li3={t("index:MEZCLAMASTER.servicios.s3")}
+        />
+      </PageLayout>
       <TextBlock title1="Pasos" />
       <PageLayout small>
         <Ventajas
@@ -70,18 +79,6 @@ export default function MezclaMaster() {
           txt6={t("index:MEZCLAMASTER.pasos.6")}
         />
       </PageLayout>
-      <PageLayout>
-        <TextBlock title1={t("index:MEZCLAMASTER.servicios.title")} />
-        <List
-          img={fader}
-          li1={t("index:MEZCLAMASTER.servicios.s1")}
-          li2={t("index:MEZCLAMASTER.servicios.s2")}
-          li3={t("index:MEZCLAMASTER.servicios.s3")}
-        />
-      </PageLayout>
-
-      <TextBlock description={t("index:MEZCLAMASTER.p6")} />
-
       <Faq
         p1={t("index:MEZCLAMASTER.faq.p1")}
         r1={t("index:MEZCLAMASTER.faq.r1")}

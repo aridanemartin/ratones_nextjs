@@ -86,7 +86,13 @@
         "ventaja3":"Máster de muestra gratis",
         "ventaja4":"Evaluación de mezcla gratis",
         "ventaja5":"Rapidez",
-        "ventaja6":"Asesoramiento creativo y técnico"           
+        "ventaja6":"Asesoramiento creativo y técnico",
+        "desc1": "Comunicación clara y fluida. Revisiones ilimitadas.",
+        "desc2": " Diferentes descuentos disponibles: cliente habitual, números de canciones...",
+        "desc3": "Recibe, sin coste ni compromiso alguno, una muestra final de cómo sonará tu canción.",
+        "desc4": "Antes de masterizar tus canciones con nosotros, evaluamos tus mezclas aportando comentarios y posibles soluciones para mejorarla, sin coste alguno.",
+        "desc5": "Nos ponemos a trabajar en exclusiva para ti, optimizando al máximo los tiempos.",
+        "desc6": "En cualquiera de nuestros servicios recibirás asesoramiento creativo y técnico adaptados a tus necesidades."
     },
     "QUIENESSOMOS":{
         "title":"¿Quiénes somos?",
@@ -105,7 +111,8 @@
             "s6":"Asesoramiento técnico",
             "s7":"Asesoramiento legal en España (Propiedad Intelectual,SGAE)"
         },
-        "p7":"Consúltamnos sin compromiso"
+        "p7":"Consúltamnos sin compromiso",
+        "banner": "Contacta con nosotros y te ayudaremos a dar forma a tu próximo proyecto."
     },
     "PRODUCCION-MUSICAL":{
         "p1":"Realizamos producciones musicales de todo tipo y estilos. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. ¿Tienes una canción pero no sabes cómo llevarla al siguiente nivel? ¿Estás atascado con un temazo y no sabes cómo seguir? No te preocupes, nos podemos encargar de todo el proceso creativo y técnico. Cuéntanos que estás buscando y pongámonos a trabajar en ello.",
@@ -166,7 +173,7 @@
         "lista": ["¿Necesitas una guitarra en tu canción?", "¿Un solo enérgico de rock?", "¿Un acompañamiento con la magia del flamenco?"],
         "p1": "Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
         "p2":"Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
-        "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.",
+        "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.)",
         "p4":"No esperes más... let's rock!",
         "pasos":{
             "1":"Envíanos tu canción",
@@ -260,11 +267,15 @@
         "videos":[
             {
                 "title": "Identidad Sonora y Música Corporativa",
-                "src": "https://player.vimeo.com/video/655941851?h=5ebec0d1d4"
+                "src": "https://www.youtube.com/embed/ZNga2TyWISE"
             },
             {
                 "title": "Música para Televisión",
                 "src": "https://www.youtube.com/embed/WRJEQRXwL2o"	
+            },
+            {
+                "title": "Música para Documentales",
+                "src": "https://www.youtube.com/embed/IaiBBt4lOiU"	
             }
         ]
     }

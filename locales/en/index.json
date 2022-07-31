@@ -47,13 +47,20 @@
   },
   "AUDIOVISUALES": {
     "lista": [ "- Advertising (spots, corporate identity, jingles...)", "- Film (short films, feature films, documentaries, etc.)", "- Television (series, programmes, etc.)", "- Podcasts..." ],
-    "videos": [ {
-      "title": "Sound Identity and Corporate Music",
-      "src": "https://player.vimeo.com/video/655941851?h=5ebec0d1d4"
-    }, {
-      "title": "Music for Television",
-      "src": "https://www.youtube.com/embed/WRJEQRXwL2o"
-    } ],
+    "videos":[
+      {
+          "title": "Sound and Corporate Identity",
+          "src": "https://www.youtube.com/embed/ZNga2TyWISE"
+      },
+      {
+          "title": "TV Music",
+          "src": "https://www.youtube.com/embed/WRJEQRXwL2o"	
+      },
+      {
+          "title": "Documentary Music",
+          "src": "https://www.youtube.com/embed/IaiBBt4lOiU"	
+      }
+  ],
     "title": "Audiovisuals",
     "p3": {
       "text": "Contact us to contract this service"
@@ -191,7 +198,7 @@
   "PASOS": {
     "paso2": {
       "title2": "Let's get to work!",
-      "title1": "Segundo Paso:",
+      "title1": "Step 2:",
       "text": "Once the budget is approved, we will start working on your project. We will consult you as many times as necessary and send you samples so that with our experience and your ideas we can find the sound you are looking for."
     },
     "paso3": {
@@ -214,12 +221,18 @@
   "grabacionesTitle": "Work Performed",
   "grabacionesDescription": "GET THE MOST PROFESSIONAL SOUND WITH OUR LIVE RECORDINGS, ONLINE MIXING AND MASTERING...",
   "VENTAJAS": {
-    "ventaja5": "Rapidez",
+    "ventaja5": "Speed",
     "ventaja6": "Creative and technical advice",
     "ventaja3": "Free sample master",
     "ventaja4": "Free mix evaluation",
     "ventaja1": "100% satisfaction guaranteed",
-    "ventaja2": "Discounts and special promotions"
+    "ventaja2": "Discounts and special promotions",
+    "desc1": "Clear and fluent communication. Unlimited revisions.",
+        "desc2": "Different discounts available: regular customer, song numbers...",
+        "desc3": "Receive, free of charge and with no obligation, a final sample of what your song will sound like.",
+        "desc4": "Before mastering your songs with us, we evaluate your mixes and provide feedback and possible solutions to improve it, free of charge.",
+        "desc5": "We work exclusively for you, optimising time to the maximum.",
+        "desc6": "In any of our services you will receive creative and technical advice tailored to your needs."
   },
   "testimoniosText1": "Find out what different artists who have worked with us have to say.",
   "serviciosDescription": "HERE'S WHAT WE CAN DO FOR YOU ON YOUR NEXT MUSIC PROJECT",
@@ -256,7 +269,8 @@
     "p7": "Contact us without obligation",
     "p2": "We are a group of experienced music producers, session musicians and technicians who work together to provide the best sound at reasonable and competitive rates.",
     "p1": "Ratone's Room is a space that offers professional music production, recording, mixing and mastering services. We are located in the centre of Madrid (Spain) but we also work remotely for the whole world (online).",
-    "title": "Who are we?"
+    "title": "Who are we?",
+    "banner": "Contact us and we will advise you on how to produce your next music project."
   },
   "ventajasTitle": "Ventajas",
   "audiovisualesTitle": "Music for audiovisuals",
