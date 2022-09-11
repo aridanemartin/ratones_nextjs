@@ -9,9 +9,7 @@ export const YoutubePlayer = () => {
         height="100%"
         src="https://www.youtube.com/embed/JHCEV0by7pE"
         title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
       ></iframe>
     </div>
   );
