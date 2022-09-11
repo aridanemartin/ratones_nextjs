@@ -1,4 +1,4 @@
-.socialBannerWrap{
+.socialBannerWrap {
   width: 100%;
 }
 
@@ -25,13 +25,14 @@
 .socialBannerLink {
   position: relative;
   padding: 1rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102%) contrast(102%);
 }
 
 @media (max-width: 400px) {
   .socialBannerLinkWrap {
     padding: 0.7rem;
   }
-
 }
 
 @media screen {
