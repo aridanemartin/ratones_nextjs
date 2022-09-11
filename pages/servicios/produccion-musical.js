@@ -96,7 +96,7 @@ export default function ProduccionMusical() {
       </PageLayout>
       <TextBlock
         title1={t("index:grabacionesTitle")}
-        description={t("index:grabacionesDescription")}
+        // description={t("index:grabacionesDescription")}
         text1={t("index:grabacionesText1")}
       />
       <CoverCollage

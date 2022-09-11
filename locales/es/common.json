@@ -27,6 +27,9 @@
         "back": "Volver",
         "moreInfo": "Más información"
 
+    },
+    "footer": {
+        "payments": "Métodos de pago"
     }
 }
 	

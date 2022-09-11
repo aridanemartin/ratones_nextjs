@@ -25,10 +25,11 @@
       "s1": "Style suggestions"
     },
     "pasos": {
-      "4": "Enjoy!",
-      "3": "We record your guitars",
+      "title": "Steps",
+      "1": "Send us your song",
       "2": "We agree on a price",
-      "1": "Send us your song"
+      "3": "We record your guitars",
+      "4": "Enjoy!"
     },
     "p8": "Request your free quote now",
     "p7": "The price does not include 21% VAT (only for Spain).",
@@ -104,7 +105,7 @@
       "1": "1 - Send us your song",
       "6": "6 - Enjoy!",
       "5": "5 - Editing, mixing and mastering",
-      "desc": "Start planning your production by following the steps below:",
+      "desc": "Start your music production by following the steps below:",
       "title": "Steps"
     },
     "p5": {
@@ -118,7 +119,7 @@
       "s4": "Online guitar recording",
       "s5": "Online mixing and mastering (unlimited revisions)",
       "s6": "Advice on digital and physical distribution",
-      "s7": "Legal advice in Spain and copyright (Intellectual Property,SGAE)"
+      "s7": "Legal advice in Spain and copyright (Intellectual Property, SGAE)"
     },
     "faq": {
       "p7": "When will I get my song?",
@@ -185,6 +186,8 @@
     "p7": "The price does not include 21% VAT (only for Spain).",
     "p8": "Request your free quote now",
     "pasos": {
+      "title": "Steps",
+      "subtitle": "Follow the steps below to find the sound you are looking for:",
       "6": "Enjoy!",
       "5": "We masterize",
       "4": "We check as many times as necessary",
@@ -216,7 +219,7 @@
   "mezclaTitle": "Mixing and Mastering",
   "testimoniosTitle": "Recommendations",
   "grabacionText": "Need a guitar in your song? An energetic rock solo? An accompaniment with the magic of flamenco? Whatever it is that has strings we can record it for you. This service is very quick, easy and economical.",
-  "grabacionesText1": "Below are some of the works in which we have done the musical production, guitar recordings, mixing or mastering.",
+  "grabacionesText1": "Below you can see some of the works in which we have performed or participated in the musical production.",
   "grabacionTitle": "Guitar recording",
   "grabacionesTitle": "Work Performed",
   "grabacionesDescription": "GET THE MOST PROFESSIONAL SOUND WITH OUR LIVE RECORDINGS, ONLINE MIXING AND MASTERING...",
@@ -258,7 +261,7 @@
     "p4": "Víctor Martínez Galeote is in charge of Ratone's Room. Guitarist, composer, music producer and sound engineer. He holds a degree in modern music and jazz from the Conservatori del Liceu (Barcelona). He is also a telecommunications engineer (specialising in sound and image) from the Universitat Politècnica de Catalunya (UPC). With 15 years of professional experience, he has recorded and toured all over Spain with artists such as D'Callaos, Sandra Bautista (musical director), Daniel Felices and Javier Sólo. He has led his own musical projects, in a wide variety of styles, with which he has released several albums.",
     "p3": "Our main objective is that the client is 100% satisfied. We get fully involved in each project, dedicating the necessary time and resources. We strike a balance between creative and technical aspects, always respecting and supporting our clients' decisions.",
     "servicios": {
-      "s7": "Legal advice in Spain (Intellectual Property,SGAE)",
+      "s7": "Legal advice in Spain (Intellectual Property, SGAE)",
       "s5": "Video editing and post-production",
       "s6": "Technical advice",
       "s3": "Audio restoration",
@@ -270,7 +273,7 @@
     "p2": "We are a group of experienced music producers, session musicians and technicians who work together to provide the best sound at reasonable and competitive rates.",
     "p1": "Ratone's Room is a space that offers professional music production, recording, mixing and mastering services. We are located in the centre of Madrid (Spain) but we also work remotely for the whole world (online).",
     "title": "Who are we?",
-    "banner": "Contact us and we will advise you on how to produce your next music project."
+    "banner": "Contact us and we will advise you on how to produce your next music project"
   },
   "ventajasTitle": "Ventajas",
   "audiovisualesTitle": "Music for audiovisuals",

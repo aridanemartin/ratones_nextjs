@@ -19,7 +19,7 @@
     "mezclaText": "Tráenos tus pistas y nosotros te las mezclamos.Tráenos tu mezcla y nosotros te hacemos el máster. Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas.",
     "grabacionesTitle": "Trabajos Realizados",
     "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
-    "grabacionesText1": "A continuación mostramos algunos de los trabajos en los que hemos realizado la producción musical, grabaciones de guitarras, mezcla o máster.",
+    "grabacionesText1": "A continuación mostramos algunos de los trabajos en los que hemos realizado o participado en la producción musical.",
     "testimoniosTitle": "Recomendaciones",
     "testimoniosDescription": "",
     "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
@@ -109,10 +109,10 @@
             "s4":"Grabación portátil multipista",
             "s5":"Montaje y postproducción de vídeo",
             "s6":"Asesoramiento técnico",
-            "s7":"Asesoramiento legal en España (Propiedad Intelectual,SGAE)"
+            "s7":"Asesoramiento legal en España (Propiedad Intelectual, SGAE)"
         },
         "p7":"Consúltamnos sin compromiso",
-        "banner": "Contacta con nosotros y te ayudaremos a dar forma a tu próximo proyecto."
+        "banner": "Contacta con nosotros y te ayudaremos a dar forma a tu próximo proyecto"
     },
     "PRODUCCION-MUSICAL":{
         "p1":"Realizamos producciones musicales de todo tipo y estilos. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. ¿Tienes una canción pero no sabes cómo llevarla al siguiente nivel? ¿Estás atascado con un temazo y no sabes cómo seguir? No te preocupes, nos podemos encargar de todo el proceso creativo y técnico. Cuéntanos que estás buscando y pongámonos a trabajar en ello.",
@@ -121,7 +121,7 @@
         "p4":"Nosotros te acompañamos en todos y cada uno de esos procesos, poniendo a tu disposición todos los medios necesarios y nuestra experiencia para sacarle el máximo partido a tus ideas.",
         "pasos":{
             "title":"Pasos",
-            "desc":"Comienza a planear tu producción siguiendo los pasos que te mostramos a continuación:",
+            "desc":"Comienza tu producción musical siguiendo los pasos que te mostramos a continuación:",
             "1":"1 - Envíanos tu canción",
             "2":"2 - Acordamos un precio",
             "3":"3 - Trabajamos en la base instrumental",
@@ -140,7 +140,7 @@
             "s4":"Grabación de guitarras online",
             "s5":"Mezcla y máster online (revisiones ilimitadas)",
             "s6":"Asesoramiento en distribución digital y física",
-            "s7":"Asesoramiento legal en España y derechos de autor (Propiedad Intelectual,SGAE)"
+            "s7":"Asesoramiento legal en España y derechos de autor (Propiedad Intelectual, SGAE)"
         },
         "p8":"El precio no incluye el 21% de IVA (solo para España). No incluye la producción vocal (grabación, edición y afinación).",
         "p9":"El precio no incluye la producción vocal (grabación, edición y afinación).",
@@ -176,6 +176,7 @@
         "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.)",
         "p4":"No esperes más... let's rock!",
         "pasos":{
+            "title": "Pasos",
             "1":"Envíanos tu canción",
             "2":"Acordamos un precio",
             "3":"Grabamos tus guitarras",
@@ -215,6 +216,8 @@
         "p1": "Hoy en día es muy habitual que las bandas y los cantautores se graben en sus casas o locales de ensayo. La tecnología y los medios necesarios están al alcance de todo el mundo ofreciendo resultados profesionales. Somos conscientes de esto. ",
         "p2":"También somos conscientes de que, a pesar de tener la toma perfecta grabada, no consigues que todo suene empastado, equilibrado, con pegada, etc. Deja tus pistas en nuestras manos, nos encargaremos de hacerlas sonar a la perfección.",
         "pasos":{
+            "title": "Pasos",
+            "subtitle": "Sigue los pasos que te mostramos a continuación para encontrar el sonido que estás buscando:",
             "1":"Envíanos tus pistas",
             "2":"Acordamos un precio",
             "3":"Mezclamos",

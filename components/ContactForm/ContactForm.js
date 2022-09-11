@@ -4,6 +4,13 @@ import { useForm } from "hooks/useForm";
 import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
 import ratonesLogo from "../../public/images/logoLarge.webp";
+// import Link from "next/link";
+
+// import Instagram from "../../public/images/icons/instagram.webp";
+// import Facebook from "../../public/images/icons/facebook.webp";
+// import vimeo from "../../public/images/icons/vimeo.webp";
+import email from "../../public/images/icons/mail.png";
+import phone from "../../public/images/icons/phone-call.png";
 
 const initialForm = {
   name: "",
@@ -61,24 +68,24 @@ export const ContactForm = () => {
   return (
     <div className={styles.contactFormWrapper}>
       {loading ? (
-      <div className={styles.loading}>
-        <p>{t("common:contactForm.loading")}</p>
-        <div className={styles.logoWrap}>
-          <Image
-            src={ratonesLogo}
-            layout="responsive"
-            quality="50"
-            priority="true"
-            as="image"
-          />
+        <div className={styles.loading}>
+          <p>{t("common:contactForm.loading")}</p>
+          <div className={styles.logoWrap}>
+            <Image
+              src={ratonesLogo}
+              layout="responsive"
+              quality="50"
+              priority="true"
+              as="image"
+            />
+          </div>
         </div>
-      </div>
       ) : (
         <>
           <div className={styles.contactForm}>
             <div className={styles.imageWrapper}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.49697429807!2d-3.6859413999999995!3d40.397839999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42263e9c7ff531%3A0xea709ef82282a29a!2sC.%20de%20Juan%20de%20Mariana%2C%2012%2C%2028045%20Madrid!5e0!3m2!1ses!2ses!4v1655287470616!5m2!1ses!2ses"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10826.461571389951!2d-3.6872770522070377!3d40.40723137071332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42278f7c2b90b7%3A0xd3c275e76a14fa94!2sRatone&#39;s%20Room!5e0!3m2!1sen!2ses!4v1662925019950!5m2!1sen!2ses"
                 width="100%"
                 height="100%"
                 loading="lazy"
@@ -193,6 +200,83 @@ export const ContactForm = () => {
               <button type="submit" onClick={handleSubmit}>
                 {t("common:contactForm.send")}
               </button>
+              {/* <div className={styles.contactWrapper}>
+                <a href="mailto:someone@yoursite.com">
+                  hola@victormartinezgaleote.com
+                </a>
+                <p>+34 659 670 788</p>
+                <p>Hablemos por teléfono, WhatsApp o Skype </p>
+              </div> */}
+              <div className={styles.contactWrapper}>
+                {/* <p>Hablemos por teléfono, WhatsApp o Skype</p> */}
+                <a
+                  href="mailto:info@ratonesroom.com?subject=Solicitud%20de%20información"
+                  className={styles.email}
+                >
+                  <div className={styles.contactIcon}>
+                    <Image src={email} layout="fill" objectFit="cover" />
+                  </div>
+                  <p>info@ratonesroom.com</p>
+                </a>
+                <a
+                  className={styles.phone}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://api.whatsapp.com/send?phone=34659670788"
+                >
+                  <div className={styles.contactIcon}>
+                    <Image src={phone} layout="fill" objectFit="cover" />
+                  </div>
+                  <p>+34 659 670 788</p>
+                </a>
+              </div>
+
+              {/* <div className={styles.socialWrapper}>
+                <div className={styles.socialBannerLinkWrap}>
+                  <Link href="https://www.instagram.com/ratonesroom/">
+                    <a className={styles.socialBannerLink} target="_blank">
+                      <Image
+                        src={Instagram}
+                        layout="fill"
+                        objectFit="contain"
+                        // maxWidth={35}
+                        // height={35}
+                        className={styles.socialBannerLink}
+                        alt="Ratone's Room - Instagram"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className={styles.socialBannerLinkWrap}>
+                  <Link href="https://www.facebook.com/ratonesroom/">
+                    <a className={styles.socialBannerLink} target="_blank">
+                      <Image
+                        src={Facebook}
+                        layout="fill"
+                        objectFit="contain"
+                        // maxWidth={40}
+                        // height={40}
+                        alt="Ratone's Room - Facebook"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className={styles.socialBannerLinkWrap}>
+                  <Link href="https://vimeo.com/ratonesroom">
+                    <a className={styles.socialBannerLink} target="_blank">
+                      <Image
+                        src={vimeo}
+                        layout="fill"
+                        objectFit="contain"
+                        // maxWidth={40}
+                        // height={40}
+                        className={styles.socialBannerLink}
+                        alt="Victor Martinez - Vimeo"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </div> */}
             </form>
           </div>
         </>

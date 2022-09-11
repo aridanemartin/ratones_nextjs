@@ -4,10 +4,17 @@ import PageLayout from "@components/PageLayout/PageLayout";
 import Servicios from "@components/Servicios/Servicios";
 import TextBlock from "@components/TextBlock/TextBlock";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
+import Ventajas from "@components/Ventajas/Ventajas";
 import useTranslation from "next-translate/useTranslation";
 import mainImage from "../public/images/estudio.webp";
 import logo from "../public/images/logoLarge.webp";
 import header from "../public/images/musicLand.webp";
+
+import v1 from "../public/images/icons/like.webp";
+import v2 from "../public/images/icons/percent.webp";
+import v3 from "../public/images/icons/free.webp";
+import v5 from "../public/images/icons/clock.webp";
+import v6 from "../public/images/icons/interview.webp";
 
 const Quienessomos = () => {
   const { t } = useTranslation();
@@ -32,7 +39,28 @@ const Quienessomos = () => {
           text1={t("index:serviciosText1")}
           description={t("index:serviciosDescription")}
         />
+
         <Servicios noText />
+      </PageLayout>
+      <TextBlock
+        title1={t("index:ventajasTitle")}
+        text1={t("index:ventajasText1")}
+      />
+      <PageLayout small>
+        <Ventajas
+          img1={v1}
+          img2={v2}
+          img3={v3}
+          img4={v3}
+          img5={v5}
+          img6={v6}
+          txt1={t("index:VENTAJAS.ventaja1")}
+          txt2={t("index:VENTAJAS.ventaja2")}
+          txt3={t("index:VENTAJAS.ventaja3")}
+          txt4={t("index:VENTAJAS.ventaja4")}
+          txt5={t("index:VENTAJAS.ventaja5")}
+          txt6={t("index:VENTAJAS.ventaja6")}
+        />
       </PageLayout>
       <Banner
         noPrice

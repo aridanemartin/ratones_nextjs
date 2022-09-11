@@ -66,7 +66,7 @@
 }
 
 .socialIcon {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -119,13 +119,22 @@
 
 .legal {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   text-align: center;
 
   a {
     color: white;
     font-size: 0.8rem;
     padding: 1rem;
+  }
+}
+
+.mapWrapper {
+  margin-top: 1rem;
+  width: 70%;
+  iframe {
+    border-style: none;
+    pointer-events: none;
   }
 }
 

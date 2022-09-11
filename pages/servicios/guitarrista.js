@@ -17,6 +17,8 @@ import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import Ventajas from "@components/Ventajas/Ventajas";
 import { List } from "@components/List";
 import Banner from "@components/Banner/Banner";
+import { SpotifyPlayer } from "@components/SpotifyPlayer/SpotifyPlayer";
+import { YoutubePlayer } from "@components/YoutubePlayer/YoutubePlayer";
 
 export default function Guitarrista() {
   let { t } = useTranslation();
@@ -50,7 +52,7 @@ export default function Guitarrista() {
         price={t("index:GUITARRISTA.p5.price")}
         link="/contacto"
         buttonText="CONTACTO"
-        disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
+        disclaimer={t("index:GUITARRISTA.p7")}
       />
       <PageLayout>
         <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
@@ -85,7 +87,15 @@ export default function Guitarrista() {
           txt4={t("index:GUITARRISTA.pasos.4")}
         />
       </PageLayout>
-
+      <PageLayout small>
+        <TextBlock
+          title1={t("index:grabacionesTitle")}
+          description={t("index:grabacionesDescription")}
+          text1={t("index:grabacionesText1")}
+        />
+        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/33NHTIm3d2WlKCA3oA94U7?utm_source=generator" />
+        <YoutubePlayer />
+      </PageLayout>
       <Faq
         p1={t("index:GUITARRISTA.faq.p1")}
         r1={t("index:GUITARRISTA.faq.r1")}

@@ -1,5 +1,6 @@
 .contactFormWrapper {
-  min-height: 60rem;
+  position: relative;
+  min-height: 80rem;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0),
@@ -73,7 +74,7 @@
 
 .contactForm {
   position: absolute;
-  top: 35rem;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 1440px;
@@ -197,12 +198,70 @@
       display: block;
       margin: 1rem 0rem;
     }
+
+    .contactWrapper {
+      margin: 2rem 0rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .phone,
+      .email {
+        min-width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img {
+          filter: invert(5%) sepia(37%) saturate(281%) hue-rotate(314deg)
+            brightness(95%) contrast(96%);
+          transition: all 300ms ease-in-out;
+        }
+        img:hover {
+          filter: invert(36%) sepia(69%) saturate(484%) hue-rotate(342deg)
+            brightness(90%) contrast(91%);
+        }
+      }
+
+      .phone p,
+      .email p {
+        margin-left: 1rem;
+      }
+      .contactIcon {
+        position: relative;
+        height: 2rem;
+        width: 2rem;
+      }
+    }
   }
 }
 
 .fieldError {
   color: #00000057;
   font-weight: bold;
+}
+
+.socialWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem 0;
+  height: 3rem;
+  width: 100%;
+  .socialBannerLinkWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: all 300ms ease-in-out;
+  }
+  .socialBannerLink {
+    position: relative;
+    padding: 1rem;
+    filter: invert(24%) sepia(100%) saturate(508%) hue-rotate(348deg)
+      brightness(95%) contrast(94%);
+  }
 }
 
 @media (max-width: 1500px) {
@@ -249,6 +308,13 @@
       padding: 0.5rem;
       color: white;
       background: #834d26c7;
+    }
+
+    .contactWrapper {
+      .phone img,
+      .email img {
+        filter: invert(100%);
+      }
     }
   }
 }

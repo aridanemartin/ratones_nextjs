@@ -1,0 +1,12 @@
+.spotifyPlayerWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 1rem;
+  padding-top: 3rem;
+
+  iframe {
+    border-radius: 12px;
+  }
+}

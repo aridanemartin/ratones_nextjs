@@ -18,6 +18,7 @@ import img6 from "../../public/images/icons/listen.webp";
 import fader from "../../public/images/darkFader.webp";
 import Banner from "@components/Banner/Banner";
 import { List } from "@components/List";
+import { SpotifyPlayer } from "@components/SpotifyPlayer/SpotifyPlayer";
 
 export default function MezclaMaster() {
   let { t } = useTranslation();
@@ -61,7 +62,10 @@ export default function MezclaMaster() {
           li3={t("index:MEZCLAMASTER.servicios.s3")}
         />
       </PageLayout>
-      <TextBlock title1="Pasos" />
+      <TextBlock
+        title1={t("index:MEZCLAMASTER.pasos.title")}
+        text1={t("index:MEZCLAMASTER.pasos.subtitle")}
+      />
       <PageLayout small>
         <Ventajas
           vertical
@@ -78,6 +82,14 @@ export default function MezclaMaster() {
           txt5={t("index:MEZCLAMASTER.pasos.5")}
           txt6={t("index:MEZCLAMASTER.pasos.6")}
         />
+      </PageLayout>
+      <PageLayout small>
+        <TextBlock
+          title1={t("index:grabacionesTitle")}
+          description={t("index:grabacionesDescription")}
+          text1={t("index:grabacionesText1")}
+        />
+        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/1vCrR9NwWgTB6tje6RIpHu?utm_source=generator" />
       </PageLayout>
       <Faq
         p1={t("index:MEZCLAMASTER.faq.p1")}
