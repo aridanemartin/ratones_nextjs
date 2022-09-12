@@ -200,15 +200,12 @@ export const ContactForm = () => {
               <button type="submit" onClick={handleSubmit}>
                 {t("common:contactForm.send")}
               </button>
-              {/* <div className={styles.contactWrapper}>
-                <a href="mailto:someone@yoursite.com">
-                  hola@victormartinezgaleote.com
-                </a>
-                <p>+34 659 670 788</p>
-                <p>Hablemos por teléfono, WhatsApp o Skype </p>
-              </div> */}
+
+              <p className={styles.submitDisclaimer}>
+                {t("common:contactForm.disclaimer")}
+              </p>
+
               <div className={styles.contactWrapper}>
-                {/* <p>Hablemos por teléfono, WhatsApp o Skype</p> */}
                 <a
                   href="mailto:info@ratonesroom.com?subject=Solicitud%20de%20información"
                   className={styles.email}
@@ -230,53 +227,6 @@ export const ContactForm = () => {
                   <p>+34 659 670 788</p>
                 </a>
               </div>
-
-              {/* <div className={styles.socialWrapper}>
-                <div className={styles.socialBannerLinkWrap}>
-                  <Link href="https://www.instagram.com/ratonesroom/">
-                    <a className={styles.socialBannerLink} target="_blank">
-                      <Image
-                        src={Instagram}
-                        layout="fill"
-                        objectFit="contain"
-                        // maxWidth={35}
-                        // height={35}
-                        className={styles.socialBannerLink}
-                        alt="Ratone's Room - Instagram"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div className={styles.socialBannerLinkWrap}>
-                  <Link href="https://www.facebook.com/ratonesroom/">
-                    <a className={styles.socialBannerLink} target="_blank">
-                      <Image
-                        src={Facebook}
-                        layout="fill"
-                        objectFit="contain"
-                        // maxWidth={40}
-                        // height={40}
-                        alt="Ratone's Room - Facebook"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div className={styles.socialBannerLinkWrap}>
-                  <Link href="https://vimeo.com/ratonesroom">
-                    <a className={styles.socialBannerLink} target="_blank">
-                      <Image
-                        src={vimeo}
-                        layout="fill"
-                        objectFit="contain"
-                        // maxWidth={40}
-                        // height={40}
-                        className={styles.socialBannerLink}
-                        alt="Victor Martinez - Vimeo"
-                      />
-                    </a>
-                  </Link>
-                </div>
-              </div> */}
             </form>
           </div>
         </>

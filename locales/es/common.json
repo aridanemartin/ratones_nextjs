@@ -20,6 +20,7 @@
         "messagePlaceholder": "Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad posible",
         "servicesDescription": "Selecciona los servicios en los que puedas estar interesado:",
         "send": "Enviar",
+        "disclaimer": "Al enviar este formulario aceptas nuestra política de privacidad y la política de cookies de esta web.",
         "loading": "Su mensaje está siendo enviado...",
         "success": "Su mensaje ha sido enviado correctamente."
     },

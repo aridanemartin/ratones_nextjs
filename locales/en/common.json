@@ -20,6 +20,7 @@
         "messagePlaceholder": "Write your message here and we will contact you as soon as possible.",
         "servicesDescription": "Select the services you may be interested in:",
         "send": "Send",
+        "disclaimer": "By sending this form you accept our privacy policy.",
         "loading": "Your message is being sent...",
         "success": "Your message has been sent successfully."
     },

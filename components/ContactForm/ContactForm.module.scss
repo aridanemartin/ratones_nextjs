@@ -101,7 +101,7 @@
     width: 100%;
 
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 3rem 1rem;
     background-color: #fff;
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -190,10 +190,6 @@
       }
     }
 
-    @media (min-width: 768px) {
-      padding: 20px 40px;
-    }
-
     .primaryLabel {
       display: block;
       margin: 1rem 0rem;
@@ -207,15 +203,16 @@
 
       .phone,
       .email {
-        min-width: 50%;
         display: flex;
         flex-direction: row;
         align-items: center;
+
         img {
           filter: invert(5%) sepia(37%) saturate(281%) hue-rotate(314deg)
             brightness(95%) contrast(96%);
           transition: all 300ms ease-in-out;
         }
+
         img:hover {
           filter: invert(36%) sepia(69%) saturate(484%) hue-rotate(342deg)
             brightness(90%) contrast(91%);
@@ -232,6 +229,11 @@
         width: 2rem;
       }
     }
+    .submitDisclaimer {
+      text-align: center;
+      font-size: 0.6rem;
+      margin: 1rem 0rem;
+    }
   }
 }
 
@@ -240,38 +242,16 @@
   font-weight: bold;
 }
 
-.socialWrapper {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 3rem 0;
-  height: 3rem;
-  width: 100%;
-  .socialBannerLinkWrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    transition: all 300ms ease-in-out;
-  }
-  .socialBannerLink {
-    position: relative;
-    padding: 1rem;
-    filter: invert(24%) sepia(100%) saturate(508%) hue-rotate(348deg)
-      brightness(95%) contrast(94%);
-  }
-}
-
 @media (max-width: 1500px) {
   .backgroundWrapper {
     display: none;
   }
+
   .contactFormWrapper {
     background-color: #161111;
     background-image: none;
   }
+
   .contactForm {
     color: white;
     position: relative;
@@ -304,17 +284,16 @@
       color: white;
       height: fit-content;
     }
+
     .fieldError {
       padding: 0.5rem;
       color: white;
       background: #834d26c7;
     }
 
-    .contactWrapper {
-      .phone img,
-      .email img {
-        filter: invert(100%);
-      }
+    .contactIcon {
+      filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(71deg)
+        brightness(200%) contrast(200%);
     }
   }
 }
