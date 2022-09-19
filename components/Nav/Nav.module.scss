@@ -241,6 +241,9 @@
 @media screen {
   .socialBannerLinkWrap {
     transition: all 0.3s ease-in-out;
+    &:first-child {
+      filter: invert(1);
+    }
   }
 
   .socialBannerLinkWrap:hover {

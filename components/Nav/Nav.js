@@ -11,8 +11,9 @@ import useTranslation from "next-translate/useTranslation";
 import ratonLogoDesktop from "../../public/images/logoLargeNoSubtitle.webp";
 import ratonLogoMobile from "../../public/images/logoVertical.webp";
 import Instagram from "../../public/images/icons/instagram.webp";
-import Facebook from "../../public/images/icons/facebook.webp";
+import Facebook from "../../public/images/icons/facebook.png";
 import vimeo from "../../public/images/icons/vimeo.webp";
+import youtube from "../../public/images/icons/youtube.webp";
 
 const Nav = () => {
   let { t } = useTranslation();
@@ -193,28 +194,44 @@ const Nav = () => {
               }
             >
               <div className={styles.socialBannerLinkWrap}>
+                <Link href="https://www.facebook.com/ratonesroom/">
+                  <a className={styles.socialBannerLink} target="_blank">
+                    <Image
+                      src={Facebook}
+                      layout="fixed"
+                      width={33}
+                      height={33}
+                      alt="Facebook Logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className={styles.socialBannerLinkWrap}>
                 <Link href="https://www.instagram.com/ratonesroom/">
                   <a className={styles.socialBannerLink} target="_blank">
                     <Image
                       src={Instagram}
                       layout="fixed"
-                      width={35}
-                      height={35}
+                      width={33}
+                      height={33}
                       className={styles.socialBannerLink}
                       alt="Instagram Logo"
                     />
                   </a>
                 </Link>
               </div>
+
               <div className={styles.socialBannerLinkWrap}>
-                <Link href="https://www.facebook.com/ratonesroom/">
+                <Link href="https://www.youtube.com/channel/UCjOzjLGy6SeUs9VW2JJAQUA">
                   <a className={styles.socialBannerLink} target="_blank">
                     <Image
-                      src={Facebook}
+                      src={youtube}
                       layout="fixed"
-                      width={40}
-                      height={40}
-                      alt="Facebook Logo"
+                      width={35}
+                      height={35}
+                      // objectFit="contain"
+                      className={styles.socialBannerLink}
+                      alt="Victor Martinez - Youtube"
                     />
                   </a>
                 </Link>
@@ -225,8 +242,8 @@ const Nav = () => {
                     <Image
                       src={vimeo}
                       layout="fixed"
-                      width={40}
-                      height={40}
+                      width={33}
+                      height={33}
                       className={styles.socialBannerLink}
                       alt="Vimeo logo"
                     />
