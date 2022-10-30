@@ -1,13 +1,13 @@
 import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).webp";
-import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).webp";
+import cover2 from "../../public/images/covers/Javier Solo.webp";
 import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).webp";
-import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).webp";
+import cover4 from "../../public/images/covers/Perceptual Isolation.webp";
 import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
 import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
 import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
 import cover8 from "../../public/images/covers/andare.webp";
 import cover9 from "../../public/images/covers/tuBoca.webp";
-import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
+import cover10 from "../../public/images/covers/Pectah Adrift.webp";
 
 export const albumData = [
   {
@@ -18,10 +18,10 @@ export const albumData = [
     image: { cover1 },
   },
   {
-    title: "Mi Primer Amor",
-    artist: "Borja Remacha",
+    title: "Disturbios en el corazón",
+    artist: "Javier Sólo",
     text: "Arreglos y grabación de guitarras",
-    url: "",
+    url: "https://open.spotify.com/embed/track/142X6CNggfDcV2dmTBqu1D?utm_source=generator&theme=0",
     image: { cover2 },
   },
   {
@@ -32,32 +32,31 @@ export const albumData = [
     image: { cover3 },
   },
   {
-    title: "Manuela Canta Saetas",
-    artist: "Fran Peregrina",
-    text: "Producción musical, mezcla y máster",
-    url: "https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0",
+    title: "Perceptual Isolation",
+    artist: "dCoded",
+    text: "Producción musical y grabación de guitarras",
+    url: "https://open.spotify.com/embed/track/77JZsNO59qoICStfmObLTL?utm_source=generator&theme=0",
     image: { cover4 },
   },
   {
     title: "Mi Romance",
     artist: "Fran Peregrina",
     text: "Producción musical, mezcla y máster",
-    url: "https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0",
+    url: "https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0",
     image: { cover5 },
   },
   {
     title: "MABO",
     artist: "Frederico Vaninni",
-    text: "Máster",
     text: "Producción musical, mezcla y máster",
-    url: "https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0",
+    url: "https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0",
     image: { cover6 },
   },
   {
     title: "Trapezista",
     artist: "Sandra Bautista",
     text: "Grabación de guitarras",
-    url: "https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0",
+    url: "https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0",
     image: { cover7 },
   },
   {
@@ -75,10 +74,10 @@ export const albumData = [
     image: { cover9 },
   },
   {
-    title: "Pendiente",
-    artist: "Pendiente",
-    text: "Pendiente",
-    url: "https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0",
+    title: "Pectah",
+    artist: "Adrift",
+    text: "Producción musical, mezcla y máster",
+    url: "https://open.spotify.com/embed/track/4jpOKEU7WlxcKcMqhQXrCU?utm_source=generator&theme=0",
     image: { cover10 },
   },
 ];

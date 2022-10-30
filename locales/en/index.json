@@ -1,7 +1,11 @@
 {
   "produccionTitle": "Music Production",
   "GUITARRISTA": {
-    "lista": [ "Do you need a guitar in your song?", "An energetic rock solo?", "An accompaniment with the magic of flamenco?" ],
+    "lista": [
+      "Do you need a guitar in your song?",
+      "An energetic rock solo?",
+      "An accompaniment with the magic of flamenco?"
+    ],
     "faq": {
       "p3": "Can you also record other string instruments?",
       "p4": "Can I request modifications?",
@@ -47,21 +51,26 @@
     "subtitle2": "Hire a professional guitarist!"
   },
   "AUDIOVISUALES": {
-    "lista": [ "- Advertising (spots, corporate identity, jingles...)", "- Film (short films, feature films, documentaries, etc.)", "- Television (series, programmes, etc.)", "- Podcasts..." ],
-    "videos":[
+    "lista": [
+      "- Advertising (spots, corporate identity, jingles...)",
+      "- Film (short films, feature films, documentaries, etc.)",
+      "- Television (series, programmes, etc.)",
+      "- Podcasts..."
+    ],
+    "videos": [
       {
-          "title": "Sound and Corporate Identity",
-          "src": "https://www.youtube.com/embed/ZNga2TyWISE"
+        "title": "Sound and Corporate Identity",
+        "src": "https://www.youtube.com/embed/ZNga2TyWISE"
       },
       {
-          "title": "TV Music",
-          "src": "https://www.youtube.com/embed/WRJEQRXwL2o"	
+        "title": "TV Music",
+        "src": "https://www.youtube.com/embed/WRJEQRXwL2o"
       },
       {
-          "title": "Documentary Music",
-          "src": "https://www.youtube.com/embed/IaiBBt4lOiU"	
+        "title": "Documentary Music",
+        "src": "https://www.youtube.com/embed/IaiBBt4lOiU"
       }
-  ],
+    ],
     "title": "Audiovisuals",
     "p3": {
       "text": "Contact us to contract this service"
@@ -92,19 +101,27 @@
     "desc5": "Guitarist",
     "desc1": "Ska/Reggae/Rock Group",
     "desc2": "Flamenco/Pop/Fusion",
-    "desc3": "Cantautor",
-    "desc4": "Pop/Rock singer/songwriter"
+    "desc3": "Singer/Songwriter",
+    "desc4": "Pop/Rock Singer/Songwriter",
+    "text6": "I have worked with Victor on some songs from my album \"Un Buzo en América\" and it has been a success. He makes great contributions both in the layout and in the final production. Without a doubt, I will continue working with Ratone's Room.",
+    "grupo6": "Javier Sólo",
+    "desc6": "Singer/Songwriter",
+    "lugar6": "Barcelona",
+    "text7": "Victor is a professional who has not only worked on my movie under some indications and references, but has contributed a lot creatively. His musical compositions have significantly raised the quality of the work. Sincerely, I would love to work with him again in my future projects and I recommend to all those who need a sound design and / or music, to have the opportunity to work with Ratone's Room to get good quality, personality, creativity and professionalism in their projects or audiovisual works.",
+    "grupo7": "Victoria Perelman",
+    "desc7": "Film Director",
+    "lugar7": "Barcelona"
   },
   "mezclaText": "Bring us your tracks and we'll mix them for you, bring us your mix and we'll do the mastering. We'll get everything ready for you so you can release your music in the professional quality you expect.",
   "testimoniosDescription": "",
   "PRODUCCION-MUSICAL": {
     "pasos": {
-      "4": "4 - Voice recording",
-      "3": "3 - We work on the instrumental basis",
-      "2": "2 - We agree on a price",
-      "1": "1 - Send us your song",
-      "6": "6 - Enjoy!",
-      "5": "5 - Editing, mixing and mastering",
+      "4": "Voice recording",
+      "3": "We work on the instrumental basis",
+      "2": "We agree on a price",
+      "1": "Send us your song",
+      "6": "Enjoy!",
+      "5": "Editing, mixing and mastering",
       "desc": "Start your music production by following the steps below:",
       "title": "Steps"
     },
@@ -180,7 +197,11 @@
     },
     "title": "Mixing and Mastering",
     "p1": "Nowadays it is very common for bands and singer-songwriters to record at home or in their rehearsal rooms. The technology and the necessary means are within everyone's reach, offering professional results. We are aware of this.",
-    "lista": [ "Bring us your tracks and we'll mix them for you.", "Bring us your mix and we'll master it for you.", "We'll get everything ready for you so you can publish your music in the professional quality you expect." ],
+    "lista": [
+      "Bring us your tracks and we'll mix them for you.",
+      "Bring us your mix and we'll master it for you.",
+      "We'll get everything ready for you so you can publish your music in the professional quality you expect."
+    ],
     "p2": "We are also aware that, in spite of having the perfect take recorded, you can't get everything to sound smooth, balanced, punchy, etc. Leave your tracks in our hands, we will make them sound perfect.",
     "p6": "Check our discounts and special promotions.",
     "p7": "The price does not include 21% VAT (only for Spain).",
@@ -231,11 +252,11 @@
     "ventaja1": "100% satisfaction guaranteed",
     "ventaja2": "Discounts and special promotions",
     "desc1": "Clear and fluent communication. Unlimited revisions.",
-        "desc2": "Different discounts available: regular customer, song numbers...",
-        "desc3": "Receive, free of charge and with no obligation, a final sample of what your song will sound like.",
-        "desc4": "Before mastering your songs with us, we evaluate your mixes and provide feedback and possible solutions to improve it, free of charge.",
-        "desc5": "We work exclusively for you, optimising time to the maximum.",
-        "desc6": "In any of our services you will receive creative and technical advice tailored to your needs."
+    "desc2": "Different discounts available: regular customer, song numbers...",
+    "desc3": "Receive, free of charge and with no obligation, a final sample of what your song will sound like.",
+    "desc4": "Before mastering your songs with us, we evaluate your mixes and provide feedback and possible solutions to improve it, free of charge.",
+    "desc5": "We work exclusively for you, optimising time to the maximum.",
+    "desc6": "In any of our services you will receive creative and technical advice tailored to your needs."
   },
   "testimoniosText1": "Find out what different artists who have worked with us have to say.",
   "serviciosDescription": "HERE'S WHAT WE CAN DO FOR YOU ON YOUR NEXT MUSIC PROJECT",

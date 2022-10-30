@@ -212,11 +212,6 @@
             brightness(95%) contrast(96%);
           transition: all 300ms ease-in-out;
         }
-
-        img:hover {
-          filter: invert(36%) sepia(69%) saturate(484%) hue-rotate(342deg)
-            brightness(90%) contrast(91%);
-        }
       }
 
       .phone p,

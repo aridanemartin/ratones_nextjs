@@ -169,7 +169,7 @@ const Nav = () => {
                 </a>
               </Link>
             </li>
-            <li className={styles.navLinkWrap}>
+            {/* <li className={styles.navLinkWrap}>
               <Link href="/contacto">
                 <a
                   className={
@@ -178,11 +178,11 @@ const Nav = () => {
                     (styles.navLink + " " + styles.presupuesto)
                   }
                 >
-                  {/* Pide tu presupuesto */}
+                  
                   {t("common:menuText.3.name")}
                 </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           <div className={styles.navSocialWrap}>

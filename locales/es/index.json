@@ -1,285 +1,310 @@
 {
-    "introTitle1": "Produce tu proyecto en ",
-    "introTitle2": "3 simples pasos ",
-    "introText1": "Consigue el impacto y el resultado profesional que buscas en la producción musical de tus canciones en Madrid o a través de internet. Colaboramos con todo tipo de músicos y técnicos de confianza.",
-    "introText2": "En Ratone's Room trabajamos a medida para tu canción, EP o disco. con grabaciones de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final.",
-    "introText3": "Te entregamos tu música lista para ser publicada en las principales plataformas digitales: Spotify, iTunes, Youtube, Tidal, Deezer, etc. Si también quieres publicar tu música en formato físico (CD, vinilo, etc.) no te preocupes, nosotros nos encargamos.",
-    "introText4": "Llevamos más de 5 años realizado producciones musicales, arreglos y grabaciones para artistas independientes.",
-    "introText5": "¡Producir tu música no había sido nunca tan sencillo!",
-    "serviciosTitle1": "Servicios",
-    "serviciosDescription": "A CONTINUACIÓN TE MOSTRAMOS QUE PODEMOS HACER POR TÍ EN TU PRÓXIMO PROYECTO MUSICAL",
-    "serviciosText1": "En Ratone’s Room somos conscientes de que cada artista es totalmente diferente. Por ello tratamos de adaptarnos a tu estilo, estudiar tus necesidades y ayudarte a conseguir ese sonido que estás buscando ya sea en la grabación de tu single, en la masterización de tu próximo EP o produciendo la música de tu próximo cortometraje... ¡Podemos ayudarte!",
-    "produccionTitle": "Producción Musical",
-    "produccionText": "Realizamos producciones musicales de todo tipo. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. Nos encargamos de todo el proceso: instrumentación y arreglos a medida, grabación y procesado de voces, mezcla y mastering.",
-    "grabacionTitle": "Grabación de guitarras",
-    "grabacionText": "¿Necesitas una guitarra en tu canción? ¿Un solo enérgico de rock? ¿Un acompañamiento con la magia del flamenco? Sea lo que sea que lleve cuerdas nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
-    "audiovisualesTitle": "Música para audiovisuales",
-    "audiovisualesText": "Componemos la música y el diseño sonoro para tu proyecto audiovisual (publicidad, cortometraje, largometraje, documental, podcast, etc.).",
-    "mezclaTitle": "Mezcla y Máster",
-    "mezclaText": "Tráenos tus pistas y nosotros te las mezclamos.Tráenos tu mezcla y nosotros te hacemos el máster. Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas.",
-    "grabacionesTitle": "Trabajos Realizados",
-    "grabacionesDescription": "CONSIGUE EL SONIDO MÁS PROFESIONAL CON NUESTRAS GRABACIONES EN DIRECTO,  MEZCLA Y MASTERING ONLINE...",
-    "grabacionesText1": "A continuación mostramos algunos de los trabajos en los que hemos realizado o participado en la producción musical.",
-    "testimoniosTitle": "Recomendaciones",
-    "testimoniosDescription": "",
-    "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
-    "ventajasTitle": "Ventajas",
-    "ventajasText1": "Descubre las numerosas ventajas de trabajar con Ratone's Room.",
-    "BANNER":{
-        "text":"Contacta con nosotros y te asesoraremos en cómo producir tu próximo proyecto musical",
-        "buttonText": "Contacto"
+  "introTitle1": "Produce tu proyecto en ",
+  "introTitle2": "3 simples pasos ",
+  "introText1": "Consigue el impacto y el resultado profesional que buscas en la producción musical de tus canciones en Madrid o a través de internet. Colaboramos con todo tipo de músicos y técnicos de confianza.",
+  "introText2": "En Ratone's Room trabajamos a medida para tu canción, EP o disco. con grabaciones de guitarras, bajo, samples, drums, teclados, afinación de voz, mezcla y mastering final.",
+  "introText3": "Te entregamos tu música lista para ser publicada en las principales plataformas digitales: Spotify, iTunes, Youtube, Tidal, Deezer, etc. Si también quieres publicar tu música en formato físico (CD, vinilo, etc.) no te preocupes, nosotros nos encargamos.",
+  "introText4": "Llevamos más de 5 años realizado producciones musicales, arreglos y grabaciones para artistas independientes.",
+  "introText5": "¡Producir tu música no había sido nunca tan sencillo!",
+  "serviciosTitle1": "Servicios",
+  "serviciosDescription": "A CONTINUACIÓN TE MOSTRAMOS QUE PODEMOS HACER POR TÍ EN TU PRÓXIMO PROYECTO MUSICAL",
+  "serviciosText1": "En Ratone’s Room somos conscientes de que cada artista es totalmente diferente. Por ello tratamos de adaptarnos a tu estilo, estudiar tus necesidades y ayudarte a conseguir ese sonido que estás buscando ya sea en la grabación de tu single, en la masterización de tu próximo EP o produciendo la música de tu próximo cortometraje... ¡Podemos ayudarte!",
+  "produccionTitle": "Producción Musical",
+  "produccionText": "Realizamos producciones musicales de todo tipo. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. Nos encargamos de todo el proceso: instrumentación y arreglos a medida, grabación y procesado de voces, mezcla y mastering.",
+  "grabacionTitle": "Grabación de guitarras",
+  "grabacionText": "¿Necesitas una guitarra en tu canción? ¿Un solo enérgico de rock? ¿Un acompañamiento con la magia del flamenco? Sea lo que sea que lleve cuerdas nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
+  "audiovisualesTitle": "Música para audiovisuales",
+  "audiovisualesText": "Componemos la música y el diseño sonoro para tu proyecto audiovisual (publicidad, cortometraje, largometraje, documental, podcast, etc.).",
+  "mezclaTitle": "Mezcla y Máster",
+  "mezclaText": "Tráenos tus pistas y nosotros te las mezclamos.Tráenos tu mezcla y nosotros te hacemos el máster. Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas.",
+  "grabacionesTitle": "Trabajos Realizados",
+  "grabacionesDescription": "CONSIGUE UN SONIDO PROFESIONAL CON NUESTRAS PRODUCCIONES MUSICALES, GRABACIONES DE GUITARRA, MEZCLA Y MASTERING ONLINE...",
+  "grabacionesText1": "A continuación te mostramos algunos de los trabajos publicados en los que hemos realizado la producción musical, grabado guitarras, mezclado y masterizado.",
+  "testimoniosTitle": "Recomendaciones",
+  "testimoniosDescription": "",
+  "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
+  "ventajasTitle": "Ventajas",
+  "ventajasText1": "Descubre las numerosas ventajas de trabajar con Ratone's Room.",
+  "BANNER": {
+    "text": "Contacta con nosotros y te asesoraremos en cómo producir tu próximo proyecto musical",
+    "buttonText": "Contacto"
+  },
+  "CARROUSEL": {
+    "text1": "Cuando conocimos a Víctor, vimos claro que queríamos que fuera él quien nos produjera el disco. Un profesional que sabe siempre como hacer que ese tema que estás grabando tenga el arreglo adecuado. Es muy fácil trabajar con él y el resultado ha sido excelente.",
+    "grupo1": "La Banddarra",
+    "desc1": "Grupo de Ska/Reggae/Rock",
+    "lugar1": "Barcelona",
+    "text2": "Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscará la forma de hacerlo sonar ¡Recomendable al 100%!",
+    "grupo2": "Juan Carlos Rojas",
+    "desc2": "Flamenco/Pop/Fusión ",
+    "lugar2": "Barcelona",
+    "text3": "Trabajar en Ratone's Room ha sido todo un placer. Además, el trato recibido por parte de Víctor ha sido más que excelente, no únicamente me ha ayudado a tener un mejor sonido a nivel de mezcla y de masterización, si no que me ha ayudado con todo tipo de consejos y trucos para conseguir un mejor sonido desde la grabación.",
+    "grupo3": "Fran Peregrina",
+    "desc3": "Cantautor",
+    "lugar3": "Barcelona",
+    "text4": "Víctor, responsable de Ratone's Room es un músico cualificadísimo, constante, puntual, comprometido con el trabajo y flexible. Es responsable de los arreglos y la grabación de las guitarras de las 6 últimas canciones de mi primer disco. En ellas cabe destacar el sonido y la esencia americana que buscaba en esos temas.",
+    "grupo4": "Borja Remacha",
+    "desc4": "Cantautor de Pop/Rock",
+    "lugar4": "Barcelona",
+    "text5": "Víctor, además de amigo, es un profesional de la cabeza a los pies. A su buen criterio en cuanto a sonido y producción hay que sumar su calidad como guitarrista y como músico en el más amplio sentido de la palabra. Grabar y producir con Víctor es hacerlo con un técnico de primera y con un músico más siempre dispuesto a aportar lo mejor de sí mismo.",
+    "grupo5": "David García",
+    "desc5": "Guitarrista",
+    "lugar5": "Barcelona",
+    "text6": "He trabajado algunos temas de mi disco Un Buzo en América con Victor y ha sido un acierto. Realiza grandes aportaciones tanto en la maquetación  como en la producción final. Sin duda, seguiré trabajando con Ratone’s Room.",
+    "grupo6": "Javier Sólo",
+    "desc6": "Cantautor",
+    "lugar6": "Barcelona",
+    "text7": "Víctor es un profesional que no solo ha trabajado en mi película bajo unas indicaciones y referencias, sino que ha aportado muchísimo creativamente. Sus composiciones musicales han levantado notablemente la calidad de la obra. Sinceramente, me encantaría volver a trabajar con él en mis futuros proyectos y recomiendo a todas aquellas personas que necesitan un diseño sonoro y/o música, que tengan la oportunidad de trabajar con Ratone’s Room para conseguir buena calidad, personalidad, creatividad y profesionalidad en sus proyectos u obras audiovisuales.",
+    "grupo7": "Victoria Perelman",
+    "desc7": "Directora de cine",
+    "lugar7": "Barcelona"
+  },
+  "FAQ": {
+    "title1": "¿Qué necesito para comenzar a realizar una producción musical online?",
+    "text1": "Envíanos una grabación básica. Puede ser desde una maqueta hasta una pequeña demo grabada de forma casera.",
+    "title2": "Aún no he compuesto la música para mis letras ¿Cómo puedo comenzar el proceso de producción?",
+    "text2": "¡Estás en el sitio adecuado! Podemos ayudarte a componer la música antes de producir la canción",
+    "title3": "¿Podré solicitar modificaciones en el resultado final de la producción?",
+    "text3": "¡Claro! Recuerda que estaremos en contacto hasta que estés completamente contento con el resultado.",
+    "title4": "¿Qué derechos obtendré sobre mi producción",
+    "text4": "Tendrás el 100% de los derechos de distribución y uso de la grabación, sin ningún tipo de limitación de escuchas, tiempo o plataformas. Los derechos de autor de la composición siempre serán del autor/a de la canción. Si lo necesitas, podemos ayudarte a acabar de componer la canción.",
+    "title5": "¿Puedo grabar un cover o versión?",
+    "text5": "¡Por supuesto! también podemos realizar la producción adaptada medida de covers o versiones de otros artistas."
+  },
+  "PASOS": {
+    "paso1": {
+      "title1": "Primer Paso: ",
+      "title2": "Hablemos",
+      "text": "En primer lugar nos pondremos en contacto para que nos expliques que tienes en mente, estudiaremos tus necesidades y cerraremos un presupuesto personalizado."
     },
-    "CARROUSEL":{
-        "text1":"Cuando conocimos a Víctor, vimos claro que queríamos que fuera él quien nos produjera el disco. Un profesional que sabe siempre como hacer que ese tema que estás grabando tenga el arreglo adecuado. Es muy fácil trabajar con él y el resultado ha sido excelente.",
-        "grupo1":"La Banddarra",
-        "desc1":"Grupo de Ska/Reggae/Rock",
-        "lugar1":"Barcelona",
-        "text2":"Víctor es muy bueno en su trabajo, puedes pedirle prácticamente lo que quieras y buscará la forma de hacerlo sonar ¡Recomendable al 100%!",
-        "grupo2":"Juan Carlos Rojas",
-        "desc2":"Flamenco/Pop/Fusión ",
-        "lugar2":"Barcelona",
-        "text3":"Trabajar en Ratone's Room ha sido todo un placer. Además, el trato recibido por parte de Víctor ha sido más que excelente, no únicamente me ha ayudado a tener un mejor sonido a nivel de mezcla y de masterización, si no que me ha ayudado con todo tipo de consejos y trucos para conseguir un mejor sonido desde la grabación.",
-        "grupo3":"Fran Peregrina",
-        "desc3":"Cantautor",
-        "lugar3":"Barcelona",
-        "text4":"Víctor, responsable de Ratone's Room es un músico cualificadísimo, constante, puntual, comprometido con el trabajo y flexible. Es responsable de los arreglos y la grabación de las guitarras de las 6 últimas canciones de mi primer disco. En ellas cabe destacar el sonido y la esencia americana que buscaba en esos temas.",
-        "grupo4":"Borja Remacha",
-        "desc4":"Cantautor de Pop/Rock",
-        "lugar4":"Barcelona",
-        "text5":"Víctor, además de amigo, es un profesional de la cabeza a los pies. A su buen criterio en cuanto a sonido y producción hay que sumar su calidad como guitarrista y como músico en el más amplio sentido de la palabra. Grabar y producir con Víctor es hacerlo con un técnico de primera y con un músico más siempre dispuesto a aportar lo mejor de sí mismo.",
-        "grupo5":"David García",
-        "desc5":"Guitarrista",
-        "lugar5":"Barcelona"
+    "paso2": {
+      "title1": "Segundo Paso: ",
+      "title2": "¡A trabajar!",
+      "text": "Una vez esté aprobado el presupuesto, comenzaremos a trabajar en tu proyecto. Te consultaremos cuantas veces haga falta y te enviaremos muestras para que con nuestra experiencia y tus ideas encontremos el sonido que buscas."
     },
-    "FAQ":{
-        "title1":"¿Qué necesito para comenzar a realizar una producción musical online?",
-        "text1":"Envíanos una grabación básica. Puede ser desde una maqueta hasta una pequeña demo grabada de forma casera.",
-        "title2":"Aún no he compuesto la música para mis letras ¿Cómo puedo comenzar el proceso de producción?",
-        "text2":"¡Estás en el sitio adecuado! Podemos ayudarte a componer la música antes de producir la canción",
-        "title3":"¿Podré solicitar modificaciones en el resultado final de la producción?",
-        "text3":"¡Claro! Recuerda que estaremos en contacto hasta que estés completamente contento con el resultado.",
-        "title4":"¿Qué derechos obtendré sobre mi producción",
-        "text4":"Tendrás el 100% de los derechos de distribución y uso de la grabación, sin ningún tipo de limitación de escuchas, tiempo o plataformas. Los derechos de autor de la composición siempre serán del autor/a de la canción. Si lo necesitas, podemos ayudarte a acabar de componer la canción.",
-        "title5":"¿Puedo grabar un cover o versión?",
-        "text5":"¡Por supuesto! también podemos realizar la producción adaptada medida de covers o versiones de otros artistas."
-    },
-    "PASOS":{
-        "paso1":{
-            "title1": "Primer Paso: ",
-            "title2": "Hablemos",
-            "text": "En primer lugar nos pondremos en contacto para que nos expliques que tienes en mente, estudiaremos tus necesidades y cerraremos un presupuesto personalizado."
-        },
-        "paso2":{
-            "title1": "Segundo Paso: ",
-            "title2": "¡A trabajar!",
-            "text": "Una vez esté aprobado el presupuesto, comenzaremos a trabajar en tu proyecto. Te consultaremos cuantas veces haga falta y te enviaremos muestras para que con nuestra experiencia y tus ideas encontremos el sonido que buscas."
-        },
-        "paso3":{
-            "title1": "Tercer Paso: ",
-            "title2": "¡Disfruta!",
-            "text": "Ponte cómodo y disfruta del resultado. Recuerda que en Ratone's Room ofrecemos revisiones ilimitadas con tal de que encuentres el sonido que buscas y estés 100% satisfecho."
-        }
-    },
-    "VENTAJAS":{
-        "ventaja1":"Satisfacción 100% garantizada",
-        "ventaja2":"Descuentos y promociones especiales",
-        "ventaja3":"Máster de muestra gratis",
-        "ventaja4":"Evaluación de mezcla gratis",
-        "ventaja5":"Rapidez",
-        "ventaja6":"Asesoramiento creativo y técnico",
-        "desc1": "Comunicación clara y fluida. Revisiones ilimitadas.",
-        "desc2": " Diferentes descuentos disponibles: cliente habitual, números de canciones...",
-        "desc3": "Recibe, sin coste ni compromiso alguno, una muestra final de cómo sonará tu canción.",
-        "desc4": "Antes de masterizar tus canciones con nosotros, evaluamos tus mezclas aportando comentarios y posibles soluciones para mejorarla, sin coste alguno.",
-        "desc5": "Nos ponemos a trabajar en exclusiva para ti, optimizando al máximo los tiempos.",
-        "desc6": "En cualquiera de nuestros servicios recibirás asesoramiento creativo y técnico adaptados a tus necesidades."
-    },
-    "QUIENESSOMOS":{
-        "title":"¿Quiénes somos?",
-        "p1":"Ratone's Room es un espacio que ofrece servicios profesionales de producción musical, grabación, mezcla y máster. Estamos ubicados en el centro de Madrid (España) pero también trabajamos de forma remota para todo el mundo (online).",
-        "p2":"Somos un grupo de productores musicales, músicos de sesión y técnicos con una dilatada experiencia que trabajamos coordinadamente para ofrecer el mejor sonido con unas tarifas razonables y competitivas.",
-        "p3":"Nuestro objetivo principal es que el cliente quede satisfecho al 100%. Nos implicamos al máximo en cada proyecto, dedicándole el tiempo y los medios necesarios. Hacemos un equilibrio entre la parte creativa y técnica, respetando y apoyando siempre las decisiones de nuestros clientes.",
-        "p4":"Víctor Martínez Galeote es quien está al frente de Ratone's Room. Guitarrista, compositor, productor musical e ingeniero de sonido. Es titulado superior en música moderna y jazz por el Conservatorio del Liceo (Barcelona). También es ingeniero de telecomunicaciones (especialidad en sonido e imagen) por la Universitat Politècnica de Catalunya (UPC). Con 15 años de experiencia profesional, ha grabado y girado por toda España con artistas como D'Callaos, Sandra Bautista (director musical), Daniel Felices o Javier Sólo. Ha liderado sus propios proyectos musicales, de estilos muy variados, con los que ha publicado varios discos.",
-        "p5":"Nuestros servicios principales son:",
-        "p6":"Otros servicios que pueden interesarte:",
-        "servicios":{
-            "s1":"Edición y cuantización de baterías",
-            "s2":"Edición y afinación de voces",
-            "s3":"Restauración de audio",
-            "s4":"Grabación portátil multipista",
-            "s5":"Montaje y postproducción de vídeo",
-            "s6":"Asesoramiento técnico",
-            "s7":"Asesoramiento legal en España (Propiedad Intelectual, SGAE)"
-        },
-        "p7":"Consúltamnos sin compromiso",
-        "banner": "Contacta con nosotros y te ayudaremos a dar forma a tu próximo proyecto"
-    },
-    "PRODUCCION-MUSICAL":{
-        "p1":"Realizamos producciones musicales de todo tipo y estilos. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. ¿Tienes una canción pero no sabes cómo llevarla al siguiente nivel? ¿Estás atascado con un temazo y no sabes cómo seguir? No te preocupes, nos podemos encargar de todo el proceso creativo y técnico. Cuéntanos que estás buscando y pongámonos a trabajar en ello.",
-        "p2":"Producción Musical Completa",
-        "p3":"Una producción musical profesional se compone de varias etapas (composición y arreglos, preproducción, grabación, edición y afinación, mezcla y máster). Nace a partir de una pequeña idea musical y termina con un máster listo para ser publicado en plataformas digitales.",
-        "p4":"Nosotros te acompañamos en todos y cada uno de esos procesos, poniendo a tu disposición todos los medios necesarios y nuestra experiencia para sacarle el máximo partido a tus ideas.",
-        "pasos":{
-            "title":"Pasos",
-            "desc":"Comienza tu producción musical siguiendo los pasos que te mostramos a continuación:",
-            "1":"1 - Envíanos tu canción",
-            "2":"2 - Acordamos un precio",
-            "3":"3 - Trabajamos en la base instrumental",
-            "4":"4 - Grabación de la voz",
-            "5":"5 - Edición, mezcla y máster",
-            "6":"6 - ¡Disfruta!"
-        },
-        "p5":{"text":"Disfruta de este servicio a partir de ",
-        "price":"199€ / canción"},
-        "p6":"Consulta nuestros descuentos y promociones especiales",
-        "p7":"¿Qué incluye este servicio?",
-        "servicios":{
-            "s1":"Sugerencias creativas",
-            "s2":"Dirección musical y estilística",
-            "s3":"Creación exclusiva de una base instrumental básica (2 instrumentos + percusión)",
-            "s4":"Grabación de guitarras online",
-            "s5":"Mezcla y máster online (revisiones ilimitadas)",
-            "s6":"Asesoramiento en distribución digital y física",
-            "s7":"Asesoramiento legal en España y derechos de autor (Propiedad Intelectual, SGAE)"
-        },
-        "p8":"El precio no incluye el 21% de IVA (solo para España). No incluye la producción vocal (grabación, edición y afinación).",
-        "p9":"El precio no incluye la producción vocal (grabación, edición y afinación).",
-        "p10":"Pide tu presupuesto gratis ahora.",
-        "faq":{
-            "p1":"¿Qué es lo primero que debo hacer para trabajar con vosotros?",
-            "r1":"Lo primero que tendrás que hacer es enviarnos una grabación con tu canción. Puede ser una grabación con el móvil, con o sin instrumento de acompañamiento.",
-            "p2":"¿Podéis hacer la música de una letra que he escrito?",
-            "r2":"Si has escrito una letra, con o sin melodía, podemos ayudarte a componer y producir el resto de la canción.",
-            "p3":"¿Cómo son las bases instrumentales?",
-            "r3":"Una vez estudiemos tu canción veremos qué tipo de producción le puede venir bien. Podemos hacer desde algo íntimo y acústico (pocos instrumentos) a crear una producción más completa y densa con pianos, teclados, sección de cuerdas, baterías, etc. Dependiendo de la cantidad de instrumentos y de la complejidad el precio final podrá variar.",
-            "p4":"¿Quién tendrá los derechos de la canción?",
-            "r4":"Los derechos de distribución y el uso que le quieras dar serán completamente tuyos al 100%. Los derechos de autor serán del creador o creadores de la obra. Te podemos asesorar sin coste adicional.",
-            "p5":"¿Puedo solicitar modificaciones?",
-            "r5":"Sí, las modificaciones en la fase de composición forman parte del proceso. También tienes revisiones ilimitadas de mezcla y de máster.",
-            "p6":"¿Cómo grabo las pistas de voz definitivas?",
-            "r6":"Si ya dispones de un pequeño equipo para hacerlo en tu casa (micrófono, interface, etc.) te podemos asesorar, sin coste adicional. De todas maneras te recomendamos que lo hagas en nuestro estudio de Madrid o Barcelona para conseguir un resultado más profesional. Contacta con nosotros para conocer las tarifas.",
-            "p7":"¿Cuándo tendré mi canción?",
-            "r7":"El servicio de producción musical suele tardar entre 1 y 2 semanas desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de instrumentos.",
-            "p8":"¿Qué recibiré al terminar?",
-            "r8":"Cuando todo esté terminado, recibirás el máster en formato wav en alta calidad (24 bits), wav en calidad CD (16 bits, 44,1 Khz) y en mp3. También te proporcionaremos la base instrumental para que puedas practicar. Si lo deseas también te podemos enviar las pistas o stems por separado (consultar).",
-            "p9":"¿Qué formas de pago aceptáis?",
-            "r9":"Puedes pagar mediante Paypal, bizum o transferencia bancaria."
-        }
-    },
-    "GUITARRISTA":{
-        "title": "Grabación de guitarras",
-        "subtitle": "Déjanos las guitarras a nosotros",	
-        "subtitle2": "¡Contrata a un guitarrista profesional!",
-        "lista": ["¿Necesitas una guitarra en tu canción?", "¿Un solo enérgico de rock?", "¿Un acompañamiento con la magia del flamenco?"],
-        "p1": "Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
-        "p2":"Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
-        "p3":"Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.)",
-        "p4":"No esperes más... let's rock!",
-        "pasos":{
-            "title": "Pasos",
-            "1":"Envíanos tu canción",
-            "2":"Acordamos un precio",
-            "3":"Grabamos tus guitarras",
-            "4":"¡Disfruta!"
-        },
-        "p5":{"text":"Contrata este servicio a partir de ",
-            "price":"35€ / canción"},
-        "p6":"Consulta nuestros descuentos y promociones especiales.",
-        "servicios":{
-            "title":"¿Qué incluye este servicio?",
-            "s1":"Sugerencias de estilo",
-            "s2":"Grabación de un solo de guitarra (de 8 a 16 compases aprox.)",
-            "s3":"Dos propuestas de sonido"
-        },
-        "p7":"El precio no incluye el 21% de IVA (solo para España).",
-        "p8":"Pide tu presupuesto gratis ahora",
-        "faq":{
-            "p1":"¿Qué es lo primero que debo hacer para tener guitarras en mi canción?",
-            "r1":"Lo primero que tendrás que hacer es enviarnos tu canción, en formato wav de alta calidad (24 bits). Puedes incluir comentarios, referencias, etc. para que nosotros entendamos mejor qué estás buscando.",
-            "p2":"¿Podéis grabar guitarras flamencas?",
-            "r2":"Así es, nuestro especialista dispone de todo lo necesario para tal cometido, y lo más importante... ¡el duende!",
-            "p3":"¿También podéis grabar otros instrumentos de cuerda?",
-            "r3":"Sí, ukeleles, banjos, mandolinas, bajos, lap steel... ¡consúltanos sin problema!",
-            "p4":"¿Puedo solicitar modificaciones?",
-            "r4":"Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
-            "p5":"¿Cuándo tendré la canción con las guitarras?",
-            "r5":"El servicio de grabación de guitarras suele tardar entre 1 y 3 días desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de pistas e instrumentos a grabar.",
-            "p6":"¿Cómo grabo las pistas de voz definitivas?",
-            "r6":"Cuando todo esté terminado recibirás las pistas de guitarra en formato wav de alta calidad. Dispondrás de una versión sin procesar y otra versión con nuestra propuesta de sonido. Así tendrás todo el margen de maniobra para poder elegir.",
-            "p7":"¿Qué formas de pago aceptáis?",
-            "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
-        }
-    },
-    "MEZCLAMASTER":{
-        "title": "Mezcla y Máster",
-        "lista": ["Tráenos tus pistas y nosotros te las mezclamos.", "Tráenos tu mezcla y nosotros te hacemos el máster.", "Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas."],
-        "p1": "Hoy en día es muy habitual que las bandas y los cantautores se graben en sus casas o locales de ensayo. La tecnología y los medios necesarios están al alcance de todo el mundo ofreciendo resultados profesionales. Somos conscientes de esto. ",
-        "p2":"También somos conscientes de que, a pesar de tener la toma perfecta grabada, no consigues que todo suene empastado, equilibrado, con pegada, etc. Deja tus pistas en nuestras manos, nos encargaremos de hacerlas sonar a la perfección.",
-        "pasos":{
-            "title": "Pasos",
-            "subtitle": "Sigue los pasos que te mostramos a continuación para encontrar el sonido que estás buscando:",
-            "1":"Envíanos tus pistas",
-            "2":"Acordamos un precio",
-            "3":"Mezclamos",
-            "4":"Revisamos las veces necesarias",
-            "5":"Masterizamos",
-            "6":"¡Disfruta!"
-        },
-        "p5":{
-            "text": "Contrata este servicio a partir de ",
-            "price": "39€ / canción"
-        },
-        "p6":"Consulta nuestros descuentos y promociones especiales.",
-        "servicios":{
-            "title":"¿Qué se incluye por este precio?",
-            "s1":"Mezcla de 2 o 3 pistas",
-            "s2":"Máster para plataformas digitales",
-            "s3":"Revisiones ilimitadas de mezcla"
-        },
-        "p7":"El precio no incluye el 21% de IVA (solo para España).",
-        "p8":"Pide tu presupuesto gratis ahora",
-        "faq":{
-            "p1":"¿Qué debo hacer si no consigo que mis mezclas suenen como me gustaría?",
-            "r1":"No te preocupes, nosotros nos encargamos. Envíanos tus pistas y contacta con nosotros, seguro que te podemos ayudar.",
-            "p2":"Tengo un montón de pistas y pesan mucho, ¿cómo os las envío?",
-            "r2":"Nosotros tenemos un servidor privado, te proporcionaremos un enlace donde podemos compartir todo el material. Fácil, rápido y seguro.",
-            "p3":"¿Puedo solicitar revisiones o modificaciones?",
-            "r3":"Sí, por defecto tendrás revisiones ilimitadas en la mezcla. Si lo contratas también podrás tener revisiones ilimitadas en el máster.",
-            "p4":"¿Cuándo tiempo tarda este proceso?",
-            "r4":"Dependerá del número de pistas. Puedes recibir una pre-mezcla en el mismo día. Cuando el proyecto es grande suele tardar entre 3 y 5 días.",
-            "p5":"¿Os puedo enviar las pistas grabadas sin editar y sin afinar?",
-            "r5":"Sí, pero tendrá un coste adicional. Editar cada pista y afinar las voces puede ser una faena tediosa. Envíanos las pistas y analizaremos tu caso particular. Te contestaremos con un precio justo.",
-            "p6":"¿Qué recibiré al terminar?",
-            "r6":"Cuando todo esté terminado recibirás el máster de tu canción. El máster será un archivo wav a 24 bits a la mayor frecuencia de muestreo posible. También recibirás un wav a 16 bits y un mp3. Si lo deseas también puedes recibir los stems por separado.",
-            "p7":"¿Qué formas de pago aceptáis?",
-            "r7":"Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
-        }
-    },
-    "AUDIOVISUALES":{
-        "title": "Audiovisuales",
-        "lista": ["- Publicidad (spots, identidad corporativa, jingles...)", "- Cine (cortometrajes, largometrajes, documentales, etc.)", "- Televisión (series, programas, etc.)", "- Podcasts..."],
-        "p1": "Componemos la música y realizamos el diseño sonoro para tu proyecto audiovisual. ",
-        "p2":"Crearemos la identidad sonora que reforzará el mensaje que quieres transmitir, a medida y en exclusiva para tu proyecto audiovisual o empresa.",
-        "p3":{
-            "text": "Consultanos para contratar este servicio"
-        },
-        "trabajos":{
-            "title":"Trabajos realizados",
-            "p": "A continuación te mostramos algunos trabajos realizados para nuestros clientes."
-        },
-        "videos":[
-            {
-                "title": "Identidad Sonora y Música Corporativa",
-                "src": "https://www.youtube.com/embed/ZNga2TyWISE"
-            },
-            {
-                "title": "Música para Televisión",
-                "src": "https://www.youtube.com/embed/WRJEQRXwL2o"	
-            },
-            {
-                "title": "Música para Documentales",
-                "src": "https://www.youtube.com/embed/IaiBBt4lOiU"	
-            }
-        ]
+    "paso3": {
+      "title1": "Tercer Paso: ",
+      "title2": "¡Disfruta!",
+      "text": "Ponte cómodo y disfruta del resultado. Recuerda que en Ratone's Room ofrecemos revisiones ilimitadas con tal de que encuentres el sonido que buscas y estés 100% satisfecho."
     }
+  },
+  "VENTAJAS": {
+    "ventaja1": "Satisfacción 100% garantizada",
+    "ventaja2": "Descuentos y promociones especiales",
+    "ventaja3": "Máster de muestra gratis",
+    "ventaja4": "Evaluación de mezcla gratis",
+    "ventaja5": "Rapidez",
+    "ventaja6": "Asesoramiento creativo y técnico",
+    "desc1": "Comunicación clara y fluida. Revisiones ilimitadas.",
+    "desc2": " Diferentes descuentos disponibles: cliente habitual, número de canciones...",
+    "desc3": "Recibe, sin coste ni compromiso alguno, una muestra final de cómo sonará tu canción.",
+    "desc4": "Antes de masterizar tus canciones con nosotros, evaluamos tus mezclas aportando comentarios y posibles soluciones para mejorarla, sin coste alguno.",
+    "desc5": "Nos ponemos a trabajar en exclusiva para ti, optimizando al máximo los tiempos.",
+    "desc6": "En cualquiera de nuestros servicios recibirás asesoramiento creativo y técnico adaptados a tus necesidades."
+  },
+  "QUIENESSOMOS": {
+    "title": "¿Quiénes somos?",
+    "p1": "Ratone's Room es un espacio que ofrece servicios profesionales de producción musical, grabación, mezcla y máster. Estamos ubicados en el centro de Madrid (España) pero también trabajamos de forma remota para todo el mundo (online).",
+    "p2": "Somos un grupo de productores musicales, músicos de sesión y técnicos con una dilatada experiencia que trabajamos coordinadamente para ofrecer el mejor sonido con unas tarifas razonables y competitivas.",
+    "p3": "Nuestro objetivo principal es que el cliente quede satisfecho al 100%. Nos implicamos al máximo en cada proyecto, dedicándole el tiempo y los medios necesarios. Hacemos un equilibrio entre la parte creativa y técnica, respetando y apoyando siempre las decisiones de nuestros clientes.",
+    "p4": "Víctor Martínez Galeote es quien está al frente de Ratone's Room. Guitarrista, compositor, productor musical e ingeniero de sonido. Es titulado superior en música moderna y jazz por el Conservatorio del Liceo (Barcelona). También es ingeniero de telecomunicaciones (especialidad en sonido e imagen) por la Universitat Politècnica de Catalunya (UPC). Con 15 años de experiencia profesional, ha grabado y girado por toda España con artistas como D'Callaos, Sandra Bautista (director musical), Daniel Felices o Javier Sólo. Ha liderado sus propios proyectos musicales, de estilos muy variados, con los que ha publicado varios discos.",
+    "p5": "Nuestros servicios principales son:",
+    "p6": "Otros servicios que pueden interesarte:",
+    "servicios": {
+      "s1": "Edición y cuantización de baterías",
+      "s2": "Edición y afinación de voces",
+      "s3": "Restauración de audio",
+      "s4": "Grabación portátil multipista",
+      "s5": "Montaje y postproducción de vídeo",
+      "s6": "Asesoramiento técnico",
+      "s7": "Asesoramiento legal en España (Propiedad Intelectual, SGAE)"
+    },
+    "p7": "Consúltamnos sin compromiso",
+    "banner": "Contacta con nosotros y te ayudaremos a dar forma a tu próximo proyecto"
+  },
+  "PRODUCCION-MUSICAL": {
+    "p1": "Realizamos producciones musicales de todo tipo y estilos. Te ayudamos a que tu música tenga el mejor envoltorio musical posible. ¿Tienes una canción pero no sabes cómo llevarla al siguiente nivel? ¿Estás atascado con un temazo y no sabes cómo seguir? No te preocupes, nos podemos encargar de todo el proceso creativo y técnico. Cuéntanos que estás buscando y pongámonos a trabajar en ello.",
+    "p2": "Producción Musical Completa",
+    "p3": "Una producción musical profesional se compone de varias etapas (composición y arreglos, preproducción, grabación, edición y afinación, mezcla y máster). Nace a partir de una pequeña idea musical y termina con un máster listo para ser publicado en plataformas digitales.",
+    "p4": "Nosotros te acompañamos en todos y cada uno de esos procesos, poniendo a tu disposición todos los medios necesarios y nuestra experiencia para sacarle el máximo partido a tus ideas.",
+    "pasos": {
+      "title": "Pasos",
+      "desc": "Comienza tu producción musical siguiendo los pasos que te mostramos a continuación:",
+      "1": "Envíanos tu canción",
+      "2": "Acordamos un precio",
+      "3": "Trabajamos en la base instrumental",
+      "4": "Grabación de la voz",
+      "5": "Edición, mezcla y máster",
+      "6": "¡Disfruta!"
+    },
+    "p5": {
+      "text": "Disfruta de este servicio a partir de ",
+      "price": "199€ / canción"
+    },
+    "p6": "Consulta nuestros descuentos y promociones especiales",
+    "p7": "¿Qué incluye este servicio?",
+    "servicios": {
+      "s1": "Sugerencias creativas",
+      "s2": "Dirección musical y estilística",
+      "s3": "Creación exclusiva de una base instrumental básica (2 instrumentos + percusión)",
+      "s4": "Grabación de guitarras online",
+      "s5": "Mezcla y máster online (revisiones ilimitadas)",
+      "s6": "Asesoramiento en distribución digital y física",
+      "s7": "Asesoramiento legal en España y derechos de autor (Propiedad Intelectual, SGAE)"
+    },
+    "p8": "El precio no incluye el 21% de IVA (solo para España). No incluye la producción vocal (grabación, edición y afinación).",
+    "p9": "El precio no incluye la producción vocal (grabación, edición y afinación).",
+    "p10": "Pide tu presupuesto gratis ahora.",
+    "faq": {
+      "p1": "¿Qué es lo primero que debo hacer para trabajar con vosotros?",
+      "r1": "Lo primero que tendrás que hacer es enviarnos una grabación con tu canción. Puede ser una grabación con el móvil, con o sin instrumento de acompañamiento.",
+      "p2": "¿Podéis hacer la música de una letra que he escrito?",
+      "r2": "Si has escrito una letra, con o sin melodía, podemos ayudarte a componer y producir el resto de la canción.",
+      "p3": "¿Cómo son las bases instrumentales?",
+      "r3": "Una vez estudiemos tu canción veremos qué tipo de producción le puede venir bien. Podemos hacer desde algo íntimo y acústico (pocos instrumentos) a crear una producción más completa y densa con pianos, teclados, sección de cuerdas, baterías, etc. Dependiendo de la cantidad de instrumentos y de la complejidad el precio final podrá variar.",
+      "p4": "¿Quién tendrá los derechos de la canción?",
+      "r4": "Los derechos de distribución y el uso que le quieras dar serán completamente tuyos al 100%. Los derechos de autor serán del creador o creadores de la obra. Te podemos asesorar sin coste adicional.",
+      "p5": "¿Puedo solicitar modificaciones?",
+      "r5": "Sí, las modificaciones en la fase de composición forman parte del proceso. También tienes revisiones ilimitadas de mezcla y de máster.",
+      "p6": "¿Cómo grabo las pistas de voz definitivas?",
+      "r6": "Si ya dispones de un pequeño equipo para hacerlo en tu casa (micrófono, interface, etc.) te podemos asesorar, sin coste adicional. De todas maneras te recomendamos que lo hagas en nuestro estudio de Madrid o Barcelona para conseguir un resultado más profesional. Contacta con nosotros para conocer las tarifas.",
+      "p7": "¿Cuándo tendré mi canción?",
+      "r7": "El servicio de producción musical suele tardar entre 1 y 2 semanas desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de instrumentos.",
+      "p8": "¿Qué recibiré al terminar?",
+      "r8": "Cuando todo esté terminado, recibirás el máster en formato wav en alta calidad (24 bits), wav en calidad CD (16 bits, 44,1 Khz) y en mp3. También te proporcionaremos la base instrumental para que puedas practicar. Si lo deseas también te podemos enviar las pistas o stems por separado (consultar).",
+      "p9": "¿Qué formas de pago aceptáis?",
+      "r9": "Puedes pagar mediante Paypal, bizum o transferencia bancaria."
+    }
+  },
+  "GUITARRISTA": {
+    "title": "Grabación de guitarras",
+    "subtitle": "Déjanos las guitarras a nosotros",
+    "subtitle2": "¡Contrata a un guitarrista profesional!",
+    "lista": [
+      "¿Necesitas una guitarra en tu canción?",
+      "¿Un solo enérgico de rock?",
+      "¿Un acompañamiento con la magia del flamenco?"
+    ],
+    "p1": "Sea lo que sea que lleve cuerdas (guitarra, bajo, ukelele, banjo, mandolina, lap steel, etc.) nosotros te lo podemos grabar. Este servicio es muy rápido, sencillo y económico.",
+    "p2": "Nunca había sido tan sencillo grabar una guitarra. Envíanos la canción en la que quieres que grabemos guitarras y explícanos qué buscas, seguro que te podremos ayudar. Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
+    "p3": "Disponemos de un estupendo arsenal sónico tanto analógico como digital. Nuestros instrumentos son de primer nivel (Gibson, Alhambra, Ibanez, Godin, etc.) y siempre están perfectamente ajustados por nuestro luthier de confiaza. La microfonía y previos que usamos son el estándar en la industria y nunca fallan (Shure, Sennheiser, Neumann, Warm Audio, Oktava, etc.)",
+    "p4": "No esperes más... let's rock!",
+    "pasos": {
+      "title": "Pasos",
+      "1": "Envíanos tu canción",
+      "2": "Acordamos un precio",
+      "3": "Grabamos tus guitarras",
+      "4": "¡Disfruta!"
+    },
+    "p5": {
+      "text": "Contrata este servicio a partir de ",
+      "price": "35€ / canción"
+    },
+    "p6": "Consulta nuestros descuentos y promociones especiales.",
+    "servicios": {
+      "title": "¿Qué incluye este servicio?",
+      "s1": "Sugerencias de estilo",
+      "s2": "Grabación de un solo de guitarra (de 8 a 16 compases aprox.)",
+      "s3": "Dos propuestas de sonido"
+    },
+    "p7": "El precio no incluye el 21% de IVA (solo para España).",
+    "p8": "Pide tu presupuesto gratis ahora",
+    "faq": {
+      "p1": "¿Qué es lo primero que debo hacer para tener guitarras en mi canción?",
+      "r1": "Lo primero que tendrás que hacer es enviarnos tu canción, en formato wav de alta calidad (24 bits). Puedes incluir comentarios, referencias, etc. para que nosotros entendamos mejor qué estás buscando.",
+      "p2": "¿Podéis grabar guitarras flamencas?",
+      "r2": "Así es, nuestro especialista dispone de todo lo necesario para tal cometido, y lo más importante... ¡el duende!",
+      "p3": "¿También podéis grabar otros instrumentos de cuerda?",
+      "r3": "Sí, ukeleles, banjos, mandolinas, bajos, lap steel... ¡consúltanos sin problema!",
+      "p4": "¿Puedo solicitar modificaciones?",
+      "r4": "Sí, dependiendo del servicio que contrates te enviaremos varias versiones del mismo trabajo. Así podremos elegir o combinar varias pistas hasta dejarlo a tu gusto.",
+      "p5": "¿Cuándo tendré la canción con las guitarras?",
+      "r5": "El servicio de grabación de guitarras suele tardar entre 1 y 3 días desde que se formaliza el pedido, dependiendo principalmente de la complejidad y de la cantidad de pistas e instrumentos a grabar.",
+      "p6": "¿Cómo grabo las pistas de voz definitivas?",
+      "r6": "Cuando todo esté terminado recibirás las pistas de guitarra en formato wav de alta calidad. Dispondrás de una versión sin procesar y otra versión con nuestra propuesta de sonido. Así tendrás todo el margen de maniobra para poder elegir.",
+      "p7": "¿Qué formas de pago aceptáis?",
+      "r7": "Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
+    }
+  },
+  "MEZCLAMASTER": {
+    "title": "Mezcla y Máster",
+    "lista": [
+      "Tráenos tus pistas y nosotros te las mezclamos.",
+      "Tráenos tu mezcla y nosotros te hacemos el máster.",
+      "Te lo dejaremos todo listo para que puedas publicar tu música con la calidad profesional que esperas."
+    ],
+    "p1": "Hoy en día es muy habitual que las bandas y los cantautores se graben en sus casas o locales de ensayo. La tecnología y los medios necesarios están al alcance de todo el mundo ofreciendo resultados profesionales. Somos conscientes de esto. ",
+    "p2": "También somos conscientes de que, a pesar de tener la toma perfecta grabada, no consigues que todo suene empastado, equilibrado, con pegada, etc. Deja tus pistas en nuestras manos, nos encargaremos de hacerlas sonar a la perfección.",
+    "pasos": {
+      "title": "Pasos",
+      "subtitle": "Sigue los pasos que te mostramos a continuación para encontrar el sonido que estás buscando:",
+      "1": "Envíanos tus pistas",
+      "2": "Acordamos un precio",
+      "3": "Mezclamos",
+      "4": "Revisamos las veces necesarias",
+      "5": "Masterizamos",
+      "6": "¡Disfruta!"
+    },
+    "p5": {
+      "text": "Contrata este servicio a partir de ",
+      "price": "39€ / canción"
+    },
+    "p6": "Consulta nuestros descuentos y promociones especiales.",
+    "servicios": {
+      "title": "¿Qué se incluye por este precio?",
+      "s1": "Mezcla de 2 o 3 pistas",
+      "s2": "Máster para plataformas digitales",
+      "s3": "Revisiones ilimitadas de mezcla"
+    },
+    "p7": "El precio no incluye el 21% de IVA (solo para España).",
+    "p8": "Pide tu presupuesto gratis ahora",
+    "faq": {
+      "p1": "¿Qué debo hacer si no consigo que mis mezclas suenen como me gustaría?",
+      "r1": "No te preocupes, nosotros nos encargamos. Envíanos tus pistas y contacta con nosotros, seguro que te podemos ayudar.",
+      "p2": "Tengo un montón de pistas y pesan mucho, ¿cómo os las envío?",
+      "r2": "Nosotros tenemos un servidor privado, te proporcionaremos un enlace donde podemos compartir todo el material. Fácil, rápido y seguro.",
+      "p3": "¿Puedo solicitar revisiones o modificaciones?",
+      "r3": "Sí, por defecto tendrás revisiones ilimitadas en la mezcla. Si lo contratas también podrás tener revisiones ilimitadas en el máster.",
+      "p4": "¿Cuándo tiempo tarda este proceso?",
+      "r4": "Dependerá del número de pistas. Puedes recibir una pre-mezcla en el mismo día. Cuando el proyecto es grande suele tardar entre 3 y 5 días.",
+      "p5": "¿Os puedo enviar las pistas grabadas sin editar y sin afinar?",
+      "r5": "Sí, pero tendrá un coste adicional. Editar cada pista y afinar las voces puede ser una faena tediosa. Envíanos las pistas y analizaremos tu caso particular. Te contestaremos con un precio justo.",
+      "p6": "¿Qué recibiré al terminar?",
+      "r6": "Cuando todo esté terminado recibirás el máster de tu canción. El máster será un archivo wav a 24 bits a la mayor frecuencia de muestreo posible. También recibirás un wav a 16 bits y un mp3. Si lo deseas también puedes recibir los stems por separado.",
+      "p7": "¿Qué formas de pago aceptáis?",
+      "r7": "Puedes pagar mediante Paypal, bizum o transferencia bancaria. "
+    }
+  },
+  "AUDIOVISUALES": {
+    "title": "Audiovisuales",
+    "lista": [
+      "- Publicidad (spots, identidad corporativa, jingles...)",
+      "- Cine (cortometrajes, largometrajes, documentales, etc.)",
+      "- Televisión (series, programas, etc.)",
+      "- Podcasts..."
+    ],
+    "p1": "Componemos la música y realizamos el diseño sonoro para tu proyecto audiovisual. ",
+    "p2": "Crearemos la identidad sonora que reforzará el mensaje que quieres transmitir, a medida y en exclusiva para tu proyecto audiovisual o empresa.",
+    "p3": {
+      "text": "Consultanos para contratar este servicio"
+    },
+    "trabajos": {
+      "title": "Trabajos realizados",
+      "p": "A continuación te mostramos algunos trabajos realizados para nuestros clientes."
+    },
+    "videos": [
+      {
+        "title": "Identidad Sonora y Música Corporativa",
+        "src": "https://www.youtube.com/embed/ZNga2TyWISE"
+      },
+      {
+        "title": "Música para Televisión",
+        "src": "https://www.youtube.com/embed/WRJEQRXwL2o"
+      },
+      {
+        "title": "Música para Documentales",
+        "src": "https://www.youtube.com/embed/IaiBBt4lOiU"
+      }
+    ]
+  }
 }

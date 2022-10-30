@@ -20,6 +20,8 @@ export default function Testimonials({
   image3,
   image4,
   image5,
+  image6,
+  image7,
 }) {
   let { t } = useTranslation();
 
@@ -161,6 +163,50 @@ export default function Testimonials({
                   {t("index:CARROUSEL.desc5")}
                 </p>
                 <p className={styles.lugar}>{t("index:CARROUSEL.lugar5")}</p>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide>
+          <section className={styles.cslide}>
+            <div className={styles.imageWrap}>
+              <Image src={leftCuote} layout="fill" objectFit="cover" />
+            </div>
+            <p className={styles.slideText}>{t("index:CARROUSEL.text6")}</p>
+            <div className={styles.grupoWrap}>
+              <div className={styles.profileImageFlex}>
+                <div className={styles.profileImageWrap}>
+                  <Image src={image6} layout="fill" objectFit="cover" />
+                </div>
+              </div>
+              <div className={styles.textWrap}>
+                <p className={styles.grupo}>{t("index:CARROUSEL.grupo6")}</p>
+                <p className={styles.description}>
+                  {t("index:CARROUSEL.desc6")}
+                </p>
+                <p className={styles.lugar}>{t("index:CARROUSEL.lugar6")}</p>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide>
+          <section className={styles.cslide}>
+            <div className={styles.imageWrap}>
+              <Image src={leftCuote} layout="fill" objectFit="cover" />
+            </div>
+            <p className={styles.slideText}>{t("index:CARROUSEL.text7")}</p>
+            <div className={styles.grupoWrap}>
+              <div className={styles.profileImageFlex}>
+                <div className={styles.profileImageWrap}>
+                  <Image src={image7} layout="fill" objectFit="cover" />
+                </div>
+              </div>
+              <div className={styles.textWrap}>
+                <p className={styles.grupo}>{t("index:CARROUSEL.grupo7")}</p>
+                <p className={styles.description}>
+                  {t("index:CARROUSEL.desc7")}
+                </p>
+                <p className={styles.lugar}>{t("index:CARROUSEL.lugar7")}</p>
               </div>
             </div>
           </section>

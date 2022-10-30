@@ -18,6 +18,8 @@ import juanca from "../public/images/Juanca.webp";
 import fran from "../public/images/franPeregrina.webp";
 import borja from "../public/images/borjaRemacha.webp";
 import david from "../public/images/davidGarcia.webp";
+import victoria from "../public/images/victoria.webp";
+import javierSolo from "../public/images/javierSolo.webp";
 import v1 from "../public/images/icons/like.webp";
 import v2 from "../public/images/icons/percent.webp";
 import v3 from "../public/images/icons/free.webp";
@@ -160,6 +162,8 @@ export default function Home() {
         image3={fran}
         image4={borja}
         image5={david}
+        image6={javierSolo}
+        image7={victoria}
       />
     </div>
   );

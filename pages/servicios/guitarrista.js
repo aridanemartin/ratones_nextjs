@@ -1,4 +1,5 @@
 import heroImage from "../../public/images/guitarraHero2.webp";
+import queIncluye from "../../public/images/guitarras-que-incluye.webp";
 import introPicture from "../../public/images/fotosVictor/_DSC0159.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
@@ -58,7 +59,7 @@ export default function Guitarrista() {
         <TextBlock title1={t("index:PRODUCCION-MUSICAL.p7")} />
 
         <List
-          img={heroImage}
+          img={queIncluye}
           li1={t("index:GUITARRISTA.servicios.s1")}
           li2={t("index:GUITARRISTA.servicios.s2")}
           li3={t("index:GUITARRISTA.servicios.s3")}
@@ -93,7 +94,7 @@ export default function Guitarrista() {
           description={t("index:grabacionesDescription")}
           text1={t("index:grabacionesText1")}
         />
-        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/33NHTIm3d2WlKCA3oA94U7?utm_source=generator" />
+        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/7LgDofhEkJDbieMi9wBQyh?utm_source=generator" />
         <YoutubePlayer />
       </PageLayout>
       <Faq

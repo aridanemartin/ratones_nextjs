@@ -29,6 +29,7 @@ import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Prod
 import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
 import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
 import cantautora from "../../public/images/cantautora.webp";
+import { SpotifyPlayer } from "@components/SpotifyPlayer/SpotifyPlayer";
 
 export default function ProduccionMusical() {
   let { t } = useTranslation();
@@ -93,43 +94,14 @@ export default function ProduccionMusical() {
           txt5={t("index:PRODUCCION-MUSICAL.pasos.5")}
           txt6={t("index:PRODUCCION-MUSICAL.pasos.6")}
         />
+
+        <TextBlock
+          title1={t("index:grabacionesTitle")}
+          // description={t("index:grabacionesDescription")}
+          text1={t("index:grabacionesText1")}
+        />
+        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/7dUDkLeoRkQLAYjUvCuzDQ?utm_source=generator" />
       </PageLayout>
-      <TextBlock
-        title1={t("index:grabacionesTitle")}
-        // description={t("index:grabacionesDescription")}
-        text1={t("index:grabacionesText1")}
-      />
-      <CoverCollage
-        img1={cover1}
-        text1="12Cuerdas - Producción musical, grabación de guitarras eléctricas y máster"
-        url1="https://open.spotify.com/embed/track/6vsFsGiPywocHO0KEKJeen?utm_source=generator&theme=0"
-        img2={cover2}
-        text2="Borja Remacha - Arreglos y grabación de guitarras"
-        url2=""
-        img3={cover3}
-        text3="Fran Peregrina - Producción musical, mezcla y máster"
-        url3="https://open.spotify.com/embed/track/1EfLTBmzunMGZ0HWqS8pPY?utm_source=generator&theme=0"
-        img4={cover4}
-        text4="Fran Peregrina - Producción musical, mezcla y máster"
-        url4="https://open.spotify.com/embed/track/65DB7aWziy4eWAjjMtTRSb?utm_source=generator&theme=0"
-        img5={cover5}
-        text5="Fran Peregrina - Producción musical, mezcla y máster"
-        url5="https://open.spotify.com/embed/track/4zQDRKC0rioQdIjpQn8bXV?utm_source=generator&theme=0"
-        img6={cover6}
-        text6="Frederico Vannini - Máster"
-        url6="https://open.spotify.com/embed/track/30qzYq7Vp3pFfL7sZozixk?utm_source=generator&theme=0"
-        img7={cover7}
-        text7="Sandra Bautista - Grabación de guitarras"
-        url7="https://open.spotify.com/embed/track/0KTJ3DShRlLR6vxKahwxWC?utm_source=generator&theme=0"
-        img8={cover8}
-        text8="Dr. Basilio - Grabación de guitarras"
-        url8="https://open.spotify.com/embed/track/11c5g9dX6TW2nBSxSzE9F9?utm_source=generator&theme=0"
-        img9={cover9}
-        text9="Dos"
-        img10={cover10}
-        text10="Bernard Horse - Producción musical, grabación de voces, mezcla y máster."
-      />
-      <CoverSlider />
       <Faq
         p1={t("index:PRODUCCION-MUSICAL.faq.p1")}
         r1={t("index:PRODUCCION-MUSICAL.faq.r1")}

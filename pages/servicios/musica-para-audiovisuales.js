@@ -6,8 +6,7 @@ import TextBlock from "@components/TextBlock/TextBlock";
 import PageLayout from "@components/PageLayout/PageLayout";
 import useTranslation from "next-translate/useTranslation";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
-import ImageTextBlock from "@components/ImageTextBlock/ImageTextBlock";
-import introPicture from "../../public/images/podcast.webp";
+import introPicture from "../../public/images/Hitomi-edit.webp";
 import Banner from "@components/Banner/Banner";
 import { VideoGallery } from "@components/VideoGallery/VideoGallery";
 

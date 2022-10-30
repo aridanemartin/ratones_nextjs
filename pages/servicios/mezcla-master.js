@@ -5,7 +5,7 @@ import Hero from "@components/Hero/Hero";
 import TextBlock from "@components/TextBlock/TextBlock";
 import Faq from "@components/Faq/Faq";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
-import introPicture from "../../public/images/programaDeEstudio.png";
+import introPicture from "../../public/images/mezcla-master-victor.webp";
 import PageLayout from "@components/PageLayout/PageLayout";
 import useTranslation from "next-translate/useTranslation";
 import Ventajas from "@components/Ventajas/Ventajas";
@@ -89,7 +89,7 @@ export default function MezclaMaster() {
           description={t("index:grabacionesDescription")}
           text1={t("index:grabacionesText1")}
         />
-        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/1vCrR9NwWgTB6tje6RIpHu?utm_source=generator" />
+        <SpotifyPlayer url="https://open.spotify.com/embed/playlist/4ABcxj7ltU7pyZeLbcZdmK?utm_source=generator" />
       </PageLayout>
       <Faq
         p1={t("index:MEZCLAMASTER.faq.p1")}
