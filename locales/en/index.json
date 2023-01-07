@@ -59,6 +59,10 @@
     ],
     "videos": [
       {
+        "title": "Film Music",
+        "src": "https://www.youtube.com/embed/f8ZP5s86wI0"
+      },
+      {
         "title": "Sound and Corporate Identity",
         "src": "https://www.youtube.com/embed/ZNga2TyWISE"
       },
@@ -107,7 +111,7 @@
     "grupo6": "Javier Sólo",
     "desc6": "Singer/Songwriter",
     "lugar6": "Barcelona",
-    "text7": "Victor is a professional who has not only worked on my movie under some indications and references, but has contributed a lot creatively. His musical compositions have significantly raised the quality of the work. Sincerely, I would love to work with him again in my future projects and I recommend to all those who need a sound design and / or music, to have the opportunity to work with Ratone's Room to get good quality, personality, creativity and professionalism in their projects or audiovisual works.",
+    "text7": "Victor is a professional who has contributed a lot creatively. His musical compositions have significantly raised the quality of the work. Sincerely, I recommend to all those who need a sound design and / or music, to have the opportunity to work with Ratone's Room to get good quality, personality, creativity and professionalism in their projects or audiovisual works.",
     "grupo7": "Victoria Perelman",
     "desc7": "Film Director",
     "lugar7": "Barcelona"
@@ -244,6 +248,9 @@
   "grabacionTitle": "Guitar recording",
   "grabacionesTitle": "Work Performed",
   "grabacionesDescription": "GET THE MOST PROFESSIONAL SOUND WITH OUR LIVE RECORDINGS, ONLINE MIXING AND MASTERING...",
+  "produccionText1": "Below are some of the published works in which we have work on the musical production.",
+  "guitarrasText1": "Below you can see some of the works in which we have performed or participated as a guitarist.",
+  "mezclaText1": "Below you can see some of the works in which we have performed or participated in the mixing and mastering.",
   "VENTAJAS": {
     "ventaja5": "Speed",
     "ventaja6": "Creative and technical advice",

@@ -1,6 +1,7 @@
 import styles from "./ModalCover.module.css";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import useTranslation from "next-translate/useTranslation";
 
 export default function ModalCover({
   image,
@@ -11,6 +12,8 @@ export default function ModalCover({
   handleModalState,
   modalOpen,
 }) {
+  let { t } = useTranslation();
+
   return (
     <AnimatePresence>
       {modalOpen && (
@@ -41,7 +44,9 @@ export default function ModalCover({
               allowFullScreen
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
-            <button onClick={handleModalState}>Cerrar</button>
+            <button onClick={handleModalState}>
+              {t("common:buttonText.close")}
+            </button>
           </div>
         </motion.div>
       )}

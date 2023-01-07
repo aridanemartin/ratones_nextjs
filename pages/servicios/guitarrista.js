@@ -20,6 +20,7 @@ import { List } from "@components/List";
 import Banner from "@components/Banner/Banner";
 import { SpotifyPlayer } from "@components/SpotifyPlayer/SpotifyPlayer";
 import { YoutubePlayer } from "@components/YoutubePlayer/YoutubePlayer";
+import Head from "next/head";
 
 export default function Guitarrista() {
   let { t } = useTranslation();
@@ -31,6 +32,10 @@ export default function Guitarrista() {
 
   return (
     <>
+      <Head>
+        <title>Ratone's Room | {t("meta:guitar.title")}</title>
+        <meta name="description" content={t("meta:guitar.description")} />
+      </Head>
       <Hero
         image={heroImage}
         title={t("index:GUITARRISTA.title")}
@@ -92,7 +97,7 @@ export default function Guitarrista() {
         <TextBlock
           title1={t("index:grabacionesTitle")}
           description={t("index:grabacionesDescription")}
-          text1={t("index:grabacionesText1")}
+          text1={t("index:guitarrasText1")}
         />
         <SpotifyPlayer url="https://open.spotify.com/embed/playlist/7LgDofhEkJDbieMi9wBQyh?utm_source=generator" />
         <YoutubePlayer />

@@ -1,26 +1,30 @@
 {
-    "indexTitle": "Tagorock | Rock Climbing in Las Palmas de Gran Canaria",
-    "indexDesc": "Tagorock is a Canary Islands company dedicated 100% to the management of the vertical world. We are passionate about life in the open air and we are specialized in the individual and collective accompaniment of people in all kinds of mountain and climbing activities in Greater Canaria.We have an indoor climbing wall for training as well as a team made up of Climbing and Mountain Sports Technicians who will offer you maximum safety coverage in both sports and technical interventions.Our goal is to share values ​​and style through climbing of life based on respect for nature, physical-mental health and coexistence in this field.",
-    "indexCan": "https://www.tagorock.com/",
-    "contactoTitle": "Contact | Tagorock Vertical World | Climbing in Las Palmas",
-    "contactoDesc": "DO YOU WANT TO ASK US ABOUT THE CLIMBING CALL OR OUR CLIMBING ACTIVITIES? A RECOMMENDATION? SAY HELLO!? We invite you to come and see us and get to know us.",
-    "contactoCan": "https://www.tagorock.com/contacto",
-    "rocodromoTitle": "Rocodromo | Tagorock Mundo Vertical | Climbing wall in Las Palmas",
-    "rocodromoDesc": "Our climbing room located in Gran Canaria has a main room, a warm-up wall, a wall for practicing with a harness, an aerial area for practicing Aerial Dance, Tissue... as well as changing rooms and rental equipment .",
-    "rocodromoCan": "https://www.tagorock.com/rocodromo",
-    "serviciosDeportivosTitle": "Sports Services | Tagorock Mundo Vertical | Climbing and Guides in Las Palmas de GC",
-    "serviciosDeportivosDesc": "Among our services you will find a climbing school for children and adults, technical and sports training (both individual and group classes) and a mountain and climbing guide, among other services.",
-    "serviciosDeportivosCan": "https://www.tagorock.com/servicios-deportivos",
-    "serviciosProfesionalesTitle": "Professional Services | Tagorock Mundo Vertical | Certified Specialists in Rope Access Works",
-    "serviciosProfesionalesDesc": "Among our services you will find technical mountain work, local work in an urban environment, mountain sports equipment, vertical archeology and management of municipal and private climbing walls.",
-    "serviciosProfesionalesCan": "https://www.tagorock.com/servicios-profesionales",
-    "escuelaTitle": "Climbing School | Tagorock Mundo Vertical | School for Children and Adults",
-    "escuelaDesc": "Although training and personal work with boys and girls is our strength, our climbing school is aimed at all ages. More than sixty young people and seventy adults attest to our experience as a climbing school for everyone. ",
-    "escuelaCan": "https://www.tagorock.com/servicios-deportivos/escuela-de-escalada",
-    "formacionTitle": "Technical and Sports Training | Tagorock Vertical World | Get Started In Sport Climbing",
-    "formacionDesc": "Whether you have ever climbed or not, at Tagorock Mundo Vertical you will find climbing courses for all levels and goals.",
-    "formacionCan": "https://www.tagorock.com/servicios-deportivos/formacion-tecnica",
-    "guiaTitle": "Climbing Guide | Tagorock Mundo Vertical | Professional Climbing Guides in Gran Canaria",
-    "guiaDesc": "We have a technical team of Professional Climbing Guides with Regulated Training to work as mountain companions in Gran Canaria, the Canary Islands and throughout the country.",
-    "guiaCan": "https://www.tagorock.com/servicios-deportivos/guia-de-montana"
+  "home": {
+    "title:": "Home",
+    "description": "Ratone's Room is a recording studio located in Madrid, Spain. We offer recording, mixing and mastering services for bands and artists."
+  },
+  "guitar": {
+    "title": "Guitar Recording",
+    "description": "We have a wide range of guitars and amps to record your guitar tracks. We also have a wide range of effects pedals to get the sound you are looking for."
+  },
+  "mezcla": {
+    "title": "Mixing & Mastering",
+    "description": "We offer mixing & Mastering services for your songs. We can mix your songs in our studio or remotely."
+  },
+  "film-music": {
+    "title": "Audiovisuals",
+    "description": "We will create the sound identity that will reinforce the message you want to convey, tailor-made and exclusively for your audiovisual project or company."
+  },
+  "music-production": {
+    "title": "Music Production",
+    "description": "We offer music production services for your songs. We can produce your songs in our studio or remotely."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact us for more information about our services."
+  },
+  "about": {
+    "title": "About",
+    "description": "Ratone's Room is a recording studio located in Madrid, Spain. You can find us on C. de Juan de Mariana, 12, 28045 Madrid"
+  }
 }

@@ -15,12 +15,17 @@ import v2 from "../public/images/icons/percent.webp";
 import v3 from "../public/images/icons/free.webp";
 import v5 from "../public/images/icons/clock.webp";
 import v6 from "../public/images/icons/interview.webp";
+import Head from "next/head";
 
 const Quienessomos = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>Ratone's Room | {t("meta:about.title")}</title>
+        <meta name="description" content={t("meta:about.description")} />
+      </Head>
       <Hero image={mainImage} logo={logo} />
       <PageLayout>
         <TextBlock title1={t("index:QUIENESSOMOS.title")} />

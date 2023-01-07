@@ -1,4 +1,4 @@
-import heroImage from "../../public/images/audiovisualesHero.webp";
+import heroImage from "../../public/images/hitomi.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 
@@ -9,6 +9,7 @@ import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import introPicture from "../../public/images/Hitomi-edit.webp";
 import Banner from "@components/Banner/Banner";
 import { VideoGallery } from "@components/VideoGallery/VideoGallery";
+import Head from "next/head";
 
 export default function MusicaParaAudiovisuales() {
   let { t } = useTranslation();
@@ -33,13 +34,21 @@ export default function MusicaParaAudiovisuales() {
       title: `${t("index:AUDIOVISUALES.videos.2.title")}`,
       src: `${t("index:AUDIOVISUALES.videos.2.src")}`,
     },
+    {
+      title: `${t("index:AUDIOVISUALES.videos.3.title")}`,
+      src: `${t("index:AUDIOVISUALES.videos.3.src")}`,
+    },
   ];
 
   return (
     <>
+      <Head>
+        <title>Ratone's Room | {t("meta:film-music.title")}</title>
+        <meta name="description" content={t("meta:film-music.description")} />
+      </Head>
       <Hero
         image={heroImage}
-        title="Música para audiovisuales"
+        title={t("index:audiovisualesTitle")}
         logoPeq={ratonLogo}
       />
       <PageLayout>

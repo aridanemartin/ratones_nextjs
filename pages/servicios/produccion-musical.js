@@ -4,7 +4,6 @@ import ImageTextBlock from "@components/ImageTextBlock/ImageTextBlock";
 import { List } from "@components/List";
 import PageLayout from "@components/PageLayout/PageLayout";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
-import CoverSlider from "@components/CoverSlider/CoverSlider";
 import produccionCompleta from "../../public/images/musicProduction.webp";
 import Banner from "@components/Banner/Banner";
 import TextBlock from "@components/TextBlock/TextBlock";
@@ -18,25 +17,28 @@ import paso3 from "../../public/images/icons/work.webp";
 import paso4 from "../../public/images/icons/microphone.webp";
 import paso5 from "../../public/images/icons/fader.webp";
 import paso6 from "../../public/images/icons/listen.webp";
-import cover1 from "../../public/images/covers/12Cuerdas - (Producción musical _ Mastering).webp";
-import cover2 from "../../public/images/covers/Borja Remacha - Mi Primer Amor (Arreglos y Grabación de Guitarras).webp";
-import cover3 from "../../public/images/covers/Fran Peregrina - EP Cuenta la leyenda (Producción Musical, Mezcla y Máster).webp";
-import cover4 from "../../public/images/covers/Fran Peregrina - Manuela Canta Saetas (Producción Musical, Mezcla y Máster).webp";
-import cover5 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
-import cover6 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
-import cover7 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
-import cover8 from "../../public/images/covers/Fran Peregrina - Mi Romance (Producción Musical, Mezcla y Máster).webp";
-import cover9 from "../../public/images/covers/Frederico Vaninni - MABO (Máster & DDP).webp";
-import cover10 from "../../public/images/covers/Sandra Bautista - Trapezista (Grabación de guitarras).webp";
 import cantautora from "../../public/images/cantautora.webp";
 import { SpotifyPlayer } from "@components/SpotifyPlayer/SpotifyPlayer";
+import {
+  albumDataProdEn,
+  albumDataProdEs,
+} from "@components/CoverCollage/albumData";
+import Head from "next/head";
 
 export default function ProduccionMusical() {
-  let { t } = useTranslation();
+  let { t, lang } = useTranslation();
+  let albumData = lang === "es" ? albumDataProdEs : albumDataProdEn;
 
   return (
     <>
-      <Hero image={heroImage} title="Producción Musical" />
+      <Head>
+        <title>Ratone's Room | {t("meta:music-production.title")}</title>
+        <meta
+          name="description"
+          content={t("meta:music-production.description")}
+        />
+      </Head>
+      <Hero image={heroImage} title={t("index:produccionTitle")} />
       <PageLayout>
         <TextBlock
           title1={t("index:PRODUCCION-MUSICAL.p2")}
@@ -72,12 +74,14 @@ export default function ProduccionMusical() {
           li7={t("index:PRODUCCION-MUSICAL.servicios.s7")}
         />
       </PageLayout>
+
       <PageLayout>
         <TextBlock
           title1={t("index:PRODUCCION-MUSICAL.pasos.title")}
           text1={t("index:PRODUCCION-MUSICAL.pasos.desc")}
         />
       </PageLayout>
+
       <PageLayout small>
         <Ventajas
           vertical
@@ -94,14 +98,44 @@ export default function ProduccionMusical() {
           txt5={t("index:PRODUCCION-MUSICAL.pasos.5")}
           txt6={t("index:PRODUCCION-MUSICAL.pasos.6")}
         />
+      </PageLayout>
 
+      <PageLayout small>
         <TextBlock
           title1={t("index:grabacionesTitle")}
           // description={t("index:grabacionesDescription")}
-          text1={t("index:grabacionesText1")}
+          text1={t("index:produccionText1")}
         />
         <SpotifyPlayer url="https://open.spotify.com/embed/playlist/7dUDkLeoRkQLAYjUvCuzDQ?utm_source=generator" />
       </PageLayout>
+      <CoverCollage
+        isReduced={true}
+        img1={albumData[0].image.cover10}
+        title1={albumData[0].title}
+        artist1={albumData[0].artist}
+        text1={albumData[0].text}
+        url1={albumData[0].url}
+        img2={albumData[1].image.cover1}
+        title2={albumData[1].title}
+        artist2={albumData[1].artist}
+        text2={albumData[1].text}
+        url2={albumData[1].url}
+        img3={albumData[2].image.cover4}
+        title3={albumData[2].title}
+        artist3={albumData[2].artist}
+        text3={albumData[2].text}
+        url3={albumData[2].url}
+        img4={albumData[3].image.cover11}
+        title4={albumData[3].title}
+        artist4={albumData[3].artist}
+        text4={albumData[3].text}
+        url4={albumData[3].url}
+        img5={albumData[4].image.cover12}
+        title5={albumData[4].title}
+        artist5={albumData[4].artist}
+        text5={albumData[4].text}
+        url5={albumData[4].url}
+      />
       <Faq
         p1={t("index:PRODUCCION-MUSICAL.faq.p1")}
         r1={t("index:PRODUCCION-MUSICAL.faq.r1")}

@@ -1,7 +1,7 @@
 {
-    "locales": ["es", "en"],
-    "defaultLocale": "es",
-    "pages": {
-        "*": ["index","common"]
-    }
+  "locales": ["es", "en"],
+  "defaultLocale": "es",
+  "pages": {
+    "*": ["index", "common", "meta"]
+  }
 }

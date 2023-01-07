@@ -1,3 +1,4 @@
+import Head from "next/head";
 import heroImage from "../../public/images/musicProduction.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
@@ -31,6 +32,10 @@ export default function MezclaMaster() {
 
   return (
     <>
+      <Head>
+        <title>Ratone's Room | {t("meta:mezcla.title")}</title>
+        <meta name="description" content={t("meta:mezcla.description")} />
+      </Head>
       <Hero
         image={heroImage}
         title={t("index:MEZCLAMASTER.title")}
@@ -86,8 +91,7 @@ export default function MezclaMaster() {
       <PageLayout small>
         <TextBlock
           title1={t("index:grabacionesTitle")}
-          description={t("index:grabacionesDescription")}
-          text1={t("index:grabacionesText1")}
+          description={t("index:mezclaText1")}
         />
         <SpotifyPlayer url="https://open.spotify.com/embed/playlist/4ABcxj7ltU7pyZeLbcZdmK?utm_source=generator" />
       </PageLayout>

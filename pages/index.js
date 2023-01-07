@@ -1,5 +1,4 @@
 import Hero from "@components/Hero/Hero";
-import Layout from "@components/Layout/Layout";
 import Pasos from "@components/Pasos/Pasos";
 import SocialBanner from "@components/SocialBanner/SocialBanner";
 import styles from "../styles/Home.module.css";
@@ -8,6 +7,7 @@ import TextBlock from "@components/TextBlock/TextBlock";
 import Servicios from "@components/Servicios/Servicios";
 import CoverSlider from "@components/CoverSlider/CoverSlider";
 import Banner from "@components/Banner/Banner";
+
 
 import Completa from "../public/images/cover1.webp";
 import Testimonials from "@components/Testimonials/Testimonials.js";
@@ -29,13 +29,23 @@ import logo from "../public/images/logoLarge.webp";
 import Ventajas from "@components/Ventajas/Ventajas";
 import PageLayout from "@components/PageLayout/PageLayout";
 
-import { albumData } from "@components/CoverCollage/albumData";
+import { albumDataEs, albumDataEn } from "@components/CoverCollage/albumData";
+import Head from "next/head";
 
 export default function Home() {
-  let { t } = useTranslation();
-
+  let { t, lang } = useTranslation();
+  let albumData = lang === "es" ? albumDataEs : albumDataEn;
+  
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Ratone's Room | Home</title>
+        
+        <meta
+          name="description"
+          content={t("meta:home.description")}
+        />
+      </Head>
       <Hero image={Completa} logo={logo} />
       <SocialBanner />
       <PageLayout>

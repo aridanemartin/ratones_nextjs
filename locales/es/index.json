@@ -20,6 +20,9 @@
   "grabacionesTitle": "Trabajos Realizados",
   "grabacionesDescription": "CONSIGUE UN SONIDO PROFESIONAL CON NUESTRAS PRODUCCIONES MUSICALES, GRABACIONES DE GUITARRA, MEZCLA Y MASTERING ONLINE...",
   "grabacionesText1": "A continuación te mostramos algunos de los trabajos publicados en los que hemos realizado la producción musical, grabado guitarras, mezclado y masterizado.",
+  "produccionText1": "A continuación te mostramos algunos de los trabajos publicados en los que hemos realizado la producción musical.",
+  "guitarrasText1": "A continuación te mostramos algunos de los trabajos publicados en los que hemos realizado la grabación de guitarras.",
+  "mezclaText1": "A continuación te mostramos algunos de los trabajos publicados en los que hemos realizado la mezcla y el máster.",
   "testimoniosTitle": "Recomendaciones",
   "testimoniosDescription": "",
   "testimoniosText1": "Conoce la opinión de diferentes artistas que han trabajado con nosotros.",
@@ -54,7 +57,7 @@
     "grupo6": "Javier Sólo",
     "desc6": "Cantautor",
     "lugar6": "Barcelona",
-    "text7": "Víctor es un profesional que no solo ha trabajado en mi película bajo unas indicaciones y referencias, sino que ha aportado muchísimo creativamente. Sus composiciones musicales han levantado notablemente la calidad de la obra. Sinceramente, me encantaría volver a trabajar con él en mis futuros proyectos y recomiendo a todas aquellas personas que necesitan un diseño sonoro y/o música, que tengan la oportunidad de trabajar con Ratone’s Room para conseguir buena calidad, personalidad, creatividad y profesionalidad en sus proyectos u obras audiovisuales.",
+    "text7": "Víctor es un profesional que ha aportado muchísimo creativamente a mi proyecto. Sus composiciones musicales han levantado notablemente la calidad de la obra. Recomiendo a todas aquellas personas que necesitan un diseño sonoro y/o música en sus proyectos, que acudan a Ratone’s Room para conseguir buena calidad, personalidad, creatividad y profesionalidad en sus proyectos u obras audiovisuales.",
     "grupo7": "Victoria Perelman",
     "desc7": "Directora de cine",
     "lugar7": "Barcelona"
@@ -293,6 +296,10 @@
       "p": "A continuación te mostramos algunos trabajos realizados para nuestros clientes."
     },
     "videos": [
+      {
+        "title": "Música para Cine",
+        "src": "https://www.youtube.com/embed/f8ZP5s86wI0"
+      },
       {
         "title": "Identidad Sonora y Música Corporativa",
         "src": "https://www.youtube.com/embed/ZNga2TyWISE"

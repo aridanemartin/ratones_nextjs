@@ -1,36 +1,35 @@
 {
-    "menuText": [
-        {"name": "MEET US"}, 
-        {"name": "SERVICES"}, 
-        {"name": "CONTACT"}, 
-        {"name": "ASK FOR YOUR BUDGET"}
-    ],
-    "servicios": [
-        "Music Production",
-        "Guitar Recording",
-        "Film Music",
-        "Mixing & Mastering"
-    ],
-    "contactForm": {
-        "title": "Contact with us",
-        "description": "Use the form below to contact us or directly request a quote.",
-        "name": "Name",
-        "email": "Email",
-        "message": "Message",
-        "messagePlaceholder": "Write your message here and we will contact you as soon as possible.",
-        "servicesDescription": "Select the services you may be interested in:",
-        "send": "Send",
-        "disclaimer": "By sending this form you accept our privacy policy.",
-        "loading": "Your message is being sent...",
-        "success": "Your message has been sent successfully."
-    },
-    "buttonText": {
-        "back": "Back",
-        "moreInfo": "More info"
-
-    },
-    "footer":{
-        "payments": "Payments"
-    }
-    
+  "menuText": [
+    { "name": "MEET US" },
+    { "name": "SERVICES" },
+    { "name": "CONTACT" },
+    { "name": "ASK FOR YOUR BUDGET" }
+  ],
+  "servicios": [
+    "Music Production",
+    "Guitar Recording",
+    "Film Music",
+    "Mixing & Mastering"
+  ],
+  "contactForm": {
+    "title": "Contact with us",
+    "description": "Use the form below to contact us or directly request a quote.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here and we will contact you as soon as possible.",
+    "servicesDescription": "Select the services you may be interested in:",
+    "send": "Send",
+    "disclaimer": "By sending this form you accept our privacy policy.",
+    "loading": "Your message is being sent...",
+    "success": "Your message has been sent successfully."
+  },
+  "buttonText": {
+    "back": "Back",
+    "moreInfo": "More info",
+    "close": "Close"
+  },
+  "footer": {
+    "payments": "Payments"
+  }
 }

@@ -7,6 +7,7 @@ import { useState } from "react";
 import ModalCover from "@components/ModalCover/ModalCover";
 
 export default function CoverCollage({
+  isReduced,
   img1,
   img2,
   img3,
@@ -58,7 +59,7 @@ export default function CoverCollage({
   url9,
   url10,
 }) {
-  const coverData = [
+  const completeCoverData = [
     [img1, title1, artist1, text1, url1],
     [img2, title2, artist2, text2, url2],
     [img3, title3, artist3, text3, url3],
@@ -70,6 +71,9 @@ export default function CoverCollage({
     [img9, title9, artist9, text9, url9],
     [img10, title10, artist10, text10, url10],
   ];
+
+  const reducedCoverData = completeCoverData.slice(0, 5);
+  const coverData = isReduced ? reducedCoverData : completeCoverData;
 
   const [modalImage, setModalImage] = useState();
   const [modalTitle, setModalTitle] = useState();
@@ -109,6 +113,7 @@ export default function CoverCollage({
               src={coverData[0]}
               layout="fill"
               objectFit="cover"
+              alt={coverData[0]}
             />
           </a>
         );

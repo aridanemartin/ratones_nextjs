@@ -1,36 +1,35 @@
 {
-    "menuText": [
-        {"name": "QUIÉNES SOMOS"}, 
-        {"name": "SERVICIOS"}, 
-        {"name": "CONTACTO"}, 
-        {"name": "PIDE TU PRESUPUESTO"}
-    ],
-    "servicios": [
-        "Producción musical",
-        "Grabación de guitarras",
-        "Música para audiovisuales",
-        "Mezcla y Máster"
-    ],
-    "contactForm": {
-        "title": "Contacta con Nosotros",
-        "description": "Utiliza el siguiente formulario para contactar con nosotros o directamente pedirnos un presupuesto.",
-        "name": "Nombre",
-        "email": "Email",
-        "message": "Mensaje",
-        "messagePlaceholder": "Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad posible",
-        "servicesDescription": "Selecciona los servicios en los que puedas estar interesado:",
-        "send": "Enviar",
-        "disclaimer": "Al enviar este formulario aceptas nuestra política de privacidad y la política de cookies de esta web.",
-        "loading": "Su mensaje está siendo enviado...",
-        "success": "Su mensaje ha sido enviado correctamente."
-    },
-    "buttonText": {
-        "back": "Volver",
-        "moreInfo": "Más información"
-
-    },
-    "footer": {
-        "payments": "Métodos de pago"
-    }
+  "menuText": [
+    { "name": "QUIÉNES SOMOS" },
+    { "name": "SERVICIOS" },
+    { "name": "CONTACTO" },
+    { "name": "PIDE TU PRESUPUESTO" }
+  ],
+  "servicios": [
+    "Producción musical",
+    "Grabación de guitarras",
+    "Música para audiovisuales",
+    "Mezcla y Máster"
+  ],
+  "contactForm": {
+    "title": "Contacta con Nosotros",
+    "description": "Utiliza el siguiente formulario para contactar con nosotros o directamente pedirnos un presupuesto.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escríbenos aquí tu mensaje y te contactaremos a la mayor brevedad posible",
+    "servicesDescription": "Selecciona los servicios en los que puedas estar interesado:",
+    "send": "Enviar",
+    "disclaimer": "Al enviar este formulario aceptas nuestra política de privacidad y la política de cookies de esta web.",
+    "loading": "Su mensaje está siendo enviado...",
+    "success": "Su mensaje ha sido enviado correctamente."
+  },
+  "buttonText": {
+    "back": "Volver",
+    "moreInfo": "Más información",
+    "close": "Cerrar"
+  },
+  "footer": {
+    "payments": "Métodos de pago"
+  }
 }
-	
