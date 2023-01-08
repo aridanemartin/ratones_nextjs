@@ -57,7 +57,7 @@ export default function Guitarrista() {
         text={t("index:GUITARRISTA.p5.text")}
         price={t("index:GUITARRISTA.p5.price")}
         link="/contacto"
-        buttonText="CONTACTO"
+        buttonText={t("index:BANNER.buttonText")}
         disclaimer={t("index:GUITARRISTA.p7")}
       />
       <PageLayout>

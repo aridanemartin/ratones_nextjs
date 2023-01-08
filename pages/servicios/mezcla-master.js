@@ -55,7 +55,7 @@ export default function MezclaMaster() {
         text={t("index:MEZCLAMASTER.p5.text")}
         price={t("index:MEZCLAMASTER.p5.price")}
         link="/contacto"
-        buttonText="CONTACTO"
+        buttonText={t("index:BANNER.buttonText")}
         disclaimer={t("index:MEZCLAMASTER.p7")}
       />
       <PageLayout>

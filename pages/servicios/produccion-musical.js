@@ -56,7 +56,7 @@ export default function ProduccionMusical() {
         text={t("index:PRODUCCION-MUSICAL.p5.text")}
         price={t("index:PRODUCCION-MUSICAL.p5.price")}
         link="/contacto"
-        buttonText="CONTACTO"
+        buttonText={t("index:BANNER.buttonText")}
         disclaimer={t("index:PRODUCCION-MUSICAL.p8")}
       />
 

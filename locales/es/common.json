@@ -3,7 +3,8 @@
     { "name": "QUIÉNES SOMOS" },
     { "name": "SERVICIOS" },
     { "name": "CONTACTO" },
-    { "name": "PIDE TU PRESUPUESTO" }
+    { "name": "PIDE TU PRESUPUESTO" },
+    { "name": "INICIO" }
   ],
   "servicios": [
     "Producción musical",

@@ -77,15 +77,31 @@ const Nav = () => {
             <Locale />
           </div>
           <div className={styles.navLogoWrap}>
-            <Image
-              src={ratonLogoMobile}
-              placeholder="blur"
-              layout="responsive"
-              alt="Ratone's Studio Logo"
-            />
+            <Link href="/">
+              <Image
+                src={ratonLogoMobile}
+                placeholder="blur"
+                layout="responsive"
+                alt="Ratone's Studio Logo"
+              />
+            </Link>
           </div>
 
           <ul className={styles.navContent}>
+            <li className={styles.navLinkWrap}>
+              <Link href="/">
+                <a
+                  className={
+                    (serviciosOpen ? styles.hideMenu : "") +
+                    " " +
+                    styles.navLink
+                  }
+                >
+                  {/* Inicio */}
+                  {t("common:menuText.4.name")}
+                </a>
+              </Link>
+            </li>
             <li className={styles.navLinkWrap}>
               <Link href="/quienes-somos">
                 <a

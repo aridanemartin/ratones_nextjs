@@ -3,7 +3,8 @@
     { "name": "MEET US" },
     { "name": "SERVICES" },
     { "name": "CONTACT" },
-    { "name": "ASK FOR YOUR BUDGET" }
+    { "name": "ASK FOR YOUR BUDGET" },
+    { "name": "HOME" }
   ],
   "servicios": [
     "Music Production",

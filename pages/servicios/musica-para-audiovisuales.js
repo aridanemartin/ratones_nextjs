@@ -69,7 +69,7 @@ export default function MusicaParaAudiovisuales() {
         noPrice
         text={t("index:AUDIOVISUALES.p3.text")}
         link="/contacto"
-        buttonText="CONTACTO"
+        buttonText={t("index:BANNER.buttonText")}
       />
       <PageLayout>
         <TextBlock
