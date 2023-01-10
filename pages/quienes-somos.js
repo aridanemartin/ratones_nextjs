@@ -6,7 +6,7 @@ import TextBlock from "@components/TextBlock/TextBlock";
 import { TextWithPicture } from "@components/TextWithPicture/TextWithPicture";
 import Ventajas from "@components/Ventajas/Ventajas";
 import useTranslation from "next-translate/useTranslation";
-import mainImage from "../public/images/estudio.webp";
+import mainImage from "../public/images/estudio.jpeg";
 import logo from "../public/images/logoLarge.webp";
 import header from "../public/images/musicLand.webp";
 

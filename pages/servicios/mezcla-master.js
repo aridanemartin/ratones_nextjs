@@ -91,7 +91,7 @@ export default function MezclaMaster() {
       <PageLayout small>
         <TextBlock
           title1={t("index:grabacionesTitle")}
-          description={t("index:mezclaText1")}
+          text1={t("index:mezclaText1")}
         />
         <SpotifyPlayer url="https://open.spotify.com/embed/playlist/4ABcxj7ltU7pyZeLbcZdmK?utm_source=generator" />
       </PageLayout>

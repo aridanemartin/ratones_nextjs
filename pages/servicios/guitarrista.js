@@ -96,7 +96,6 @@ export default function Guitarrista() {
       <PageLayout small>
         <TextBlock
           title1={t("index:grabacionesTitle")}
-          description={t("index:grabacionesDescription")}
           text1={t("index:guitarrasText1")}
         />
         <SpotifyPlayer url="https://open.spotify.com/embed/playlist/7LgDofhEkJDbieMi9wBQyh?utm_source=generator" />

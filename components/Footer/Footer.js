@@ -14,10 +14,6 @@ import bizum from "../../public/images/cards/bizum.webp";
 
 export default function Footer() {
   let { t } = useTranslation();
-  // Route to the contact page
-  const handleContact = () => {
-    window.location.href = "/contact";
-  };
 
   return (
     <div className={styles.footerWrap}>
@@ -25,6 +21,11 @@ export default function Footer() {
         <div className={styles.menuWrap}>
           <h3>Ratone's Room</h3>
           <ul className={styles.menuContent}>
+            <li>
+              <Link href="/">
+                <a>{t("common:menuText.4.name")}</a>
+              </Link>
+            </li>
             <li>
               <Link href="/quienes-somos">
                 <a>{t("common:menuText.0.name")}</a>
@@ -38,11 +39,6 @@ export default function Footer() {
             <li>
               <Link href="/contacto">
                 <a>{t("common:menuText.2.name")}</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contacto">
-                <a>{t("common:menuText.3.name")}</a>
               </Link>
             </li>
           </ul>
@@ -188,17 +184,13 @@ export default function Footer() {
           <Link href="/contacto">
             <a className={styles.mapWrapper}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.49697429807!2d-3.6859413999999995!3d40.397839999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42263e9c7ff531%3A0xea709ef82282a29a!2sC.%20de%20Juan%20de%20Mariana%2C%2012%2C%2028045%20Madrid!5e0!3m2!1ses!2ses!4v1655287470616!5m2!1ses!2ses"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10826.461571389951!2d-3.6872770522070377!3d40.40723137071332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42278f7c2b90b7%3A0xd3c275e76a14fa94!2sRatone&#39;s%20Room!5e0!3m2!1sen!2ses!4v1662925019950!5m2!1sen!2ses"
                 width="100%"
                 height="100%"
                 loading="lazy"
               ></iframe>
             </a>
           </Link>
-          {/* <p className={styles.adress}>
-            C/ Juan de Mariana 12 <br />
-            28045 Madrid (España)
-          </p> */}
         </div>
         <div className={styles.serviciosWrap}>
           <h3>{t("common:menuText.1.name")}</h3>
