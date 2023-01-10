@@ -52,6 +52,10 @@ export default function Home() {
           property="og:description"
           content={t("meta:home.description")}
         />
+        <meta
+          name="og:image"
+          content="https://www.ratonesroom.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F_DSC0159.4cb62120.webp&w=1920&q=75"
+        />
         <meta property="og:site_name" content="Ratone's Room | Home" />
         <meta property="og:url" content="https://www.ratonesroom.com/" />
         <meta name="twitter:card" content={t("meta:home.description")} />
