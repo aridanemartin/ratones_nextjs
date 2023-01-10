@@ -8,7 +8,6 @@ import Servicios from "@components/Servicios/Servicios";
 import CoverSlider from "@components/CoverSlider/CoverSlider";
 import Banner from "@components/Banner/Banner";
 
-
 import Completa from "../public/images/cover1.webp";
 import Testimonials from "@components/Testimonials/Testimonials.js";
 import CoverCollage from "@components/CoverCollage/CoverCollage";
@@ -35,16 +34,34 @@ import Head from "next/head";
 export default function Home() {
   let { t, lang } = useTranslation();
   let albumData = lang === "es" ? albumDataEs : albumDataEn;
-  
+
   return (
     <div className={styles.container}>
       <Head>
         <title>Ratone's Room | Home</title>
-        
+
+        <meta name="description" content={t("meta:home.description")} />
+        <meta property="og:type" content="website" />
         <meta
-          name="description"
+          name="og:title"
+          property="og:title"
+          content="Ratone's Room | Home"
+        />
+        <meta
+          name="og:description"
+          property="og:description"
           content={t("meta:home.description")}
         />
+        <meta property="og:site_name" content="Ratone's Room | Home" />
+        <meta property="og:url" content="https://www.ratonesroom.com/" />
+        <meta name="twitter:card" content={t("meta:home.description")} />
+        <meta name="twitter:title" content="Ratone's Room | Home" />
+        <meta name="twitter:description" content={t("meta:home.description")} />
+        <meta
+          name="twitter:image"
+          content="https://www.ratonesroom.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F_DSC0159.4cb62120.webp&w=1920&q=75"
+        />
+        <link rel="canonical" href={`${props.canonical}`} />
       </Head>
       <Hero image={Completa} logo={logo} />
       <SocialBanner />
