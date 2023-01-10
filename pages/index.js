@@ -61,7 +61,7 @@ export default function Home() {
           name="twitter:image"
           content="https://www.ratonesroom.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F_DSC0159.4cb62120.webp&w=1920&q=75"
         />
-        <link rel="canonical" href={`${props.canonical}`} />
+        <link rel="canonical" href="https://www.ratonesroom.com/" />
       </Head>
       <Hero image={Completa} logo={logo} />
       <SocialBanner />
