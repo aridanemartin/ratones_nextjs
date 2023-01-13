@@ -52,11 +52,12 @@
     margin: 0;
     padding-bottom: 2rem;
     opacity: 0;
+    transform: translateY(0);
     animation: fadeOutText 500ms ease-in;
 
     &Open {
       opacity: 1;
-      animation: fadeInText 1000ms ease-in;
+      animation: fadeInText 500ms ease-in;
     }
   }
 }
@@ -99,11 +100,11 @@
 
 @keyframes fadeInText {
   0% {
-    transform: translate(0, 10%);
+    transform: translateY(10%);
     opacity: 0;
   }
   100% {
-    transform: translate(0, 0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -111,9 +112,6 @@
 @keyframes fadeOutText {
   0% {
     opacity: 1;
-  }
-  40% {
-    opacity: 0;
   }
   100% {
     opacity: 0;
