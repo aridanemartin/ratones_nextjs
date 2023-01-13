@@ -2,11 +2,12 @@
   margin-top: 3rem;
   padding: 5rem;
   background: url(../../public/images/guitarristaHero.webp);
-  background-color: #2d2424be;
+  background-color: #241c1cbe;
   background-size: cover;
-  background-position: 50% 50%;
-  background-attachment: initial;
+  /* background-position: 50% 50%; */
+  background-attachment: fixed;
   background-blend-mode: darken;
+  background-repeat: no-repeat;
 }
 
 .faqWrap ul {

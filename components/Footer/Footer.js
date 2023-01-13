@@ -196,22 +196,22 @@ export default function Footer() {
           <h3>{t("common:menuText.1.name")}</h3>
           <ul className={styles.menuContent}>
             <li>
-              <Link href="/">
+              <Link href="/servicios/produccion-musical">
                 <a>{t("common:servicios.0")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/servicios/guitarrista">
                 <a>{t("common:servicios.1")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/servicios/musica-para-audiovisuales">
                 <a>{t("common:servicios.2")}</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/servicios/mezcla-master">
                 <a>{t("common:servicios.3")}</a>
               </Link>
             </li>
