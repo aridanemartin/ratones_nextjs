@@ -8,6 +8,7 @@
   border-bottom: 1px solid rgba(220, 220, 220, 0.116);
 
   &__question {
+    cursor: pointer;
     color: white;
     display: flex;
     justify-content: space-between;

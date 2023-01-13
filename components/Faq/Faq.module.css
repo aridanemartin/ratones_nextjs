@@ -21,7 +21,6 @@
   display: flex;
   justify-content: center;
 
-  padding-bottom: 3rem;
   font-size: 3rem;
   color: white;
 }
@@ -32,6 +31,5 @@
   }
   .faqTitle {
     width: 100%;
-    padding: 1rem 0rem;
   }
 }
