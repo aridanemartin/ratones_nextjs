@@ -1,47 +1,57 @@
-import styles from './Accordion.module.css';
-import { useState } from 'react';
+import styles from "./Accordion.module.scss";
+import { useState } from "react";
+import Image from "next/image";
 
 const Accordion = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    if (!isOpen) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  };
 
-    const toggle = () => {
-        if(!isOpen){setIsOpen(true)}else{setIsOpen(false)};
-    };
-
-    return (    
-
-    <div className={styles.accordionWrap}>
-
-        <div className={styles.accordionTitle}>
-            <div className={styles.accordionQuestion}>
-                <h3>{props.title}</h3>
-            </div>
-            <div className={styles.accordionArrow}>
-                <svg
-                onClick={toggle}
-                className={styles.accordionToggle}
-                aria-expanded={isOpen}
-                xmlns="http://www.w3.org/2000/svg" 
-                fill="none" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor">
-                    <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth="2" 
-                    d="M19 9l-7 7-7-7" />
-                </svg>
-            </div>
+  return (
+    <ul className={styles.accordion}>
+      <li>
+        <div className={styles.accordion__question} onClick={toggle}>
+          <h3>{props.title}</h3>
+          <div
+            className={
+              isOpen
+                ? `${styles.accordion__icon} ${styles.accordion__iconOpen}`
+                : `${styles.accordion__icon}`
+            }
+          >
+            <Image
+              src={"/images/icons/add.png"}
+              alt="plus"
+              width={30}
+              height={30}
+              objectFit="contain"
+            />
+          </div>
         </div>
-        <p className={styles.accordionHiddenText} aria-expanded={!isOpen}>{props.text}</p>
-        
-    </div>
-
-    
-
-
-    );
-}
+        <div
+          className={
+            isOpen ? styles.accordion__wrapperOpen : styles.accordion__wrapper
+          }
+        >
+          <p
+            className={
+              isOpen
+                ? `${styles.accordion__text} ${styles.accordion__textOpen}`
+                : `${styles.accordion__text}`
+            }
+          >
+            {props.text}
+          </p>
+        </div>
+      </li>
+    </ul>
+  );
+};
 
 export default Accordion;
