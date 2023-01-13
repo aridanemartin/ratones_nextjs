@@ -47,72 +47,73 @@
   &__text {
     color: white;
     margin: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     opacity: 0;
     animation: fadeOutText 500ms ease-in;
+
     &Open {
       opacity: 1;
       animation: fadeInText 1000ms ease-in;
     }
   }
+}
 
-  @keyframes rotateOpen {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(405deg);
-    }
+@keyframes rotateOpen {
+  0% {
+    transform: rotate(0deg);
   }
-
-  @keyframes rotateClose {
-    0% {
-      transform: rotate(45deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+  100% {
+    transform: rotate(405deg);
   }
+}
 
-  @keyframes showItem {
-    0% {
-      max-height: 0;
-    }
-    100% {
-      max-height: 200px;
-    }
+@keyframes rotateClose {
+  0% {
+    transform: rotate(45deg);
   }
-
-  @keyframes hideItem {
-    0% {
-      max-height: 200px;
-    }
-    100% {
-      max-height: 0;
-    }
+  100% {
+    transform: rotate(0deg);
   }
+}
 
-  @keyframes fadeInText {
-    0% {
-      transform: translate(0, 10%);
-      opacity: 0;
-    }
-    100% {
-      transform: translate(0, 0);
-      opacity: 1;
-    }
+@keyframes showItem {
+  0% {
+    max-height: 0;
   }
+  100% {
+    max-height: 200px;
+  }
+}
 
-  @keyframes fadeOutText {
-    0% {
-      opacity: 1;
-    }
-    40% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
+@keyframes hideItem {
+  0% {
+    max-height: 200px;
+  }
+  100% {
+    max-height: 0;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    transform: translate(0, 10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutText {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
