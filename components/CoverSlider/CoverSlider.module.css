@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.swiper-scrollbar {
+  display: none;
+}
+
 @media (min-width: 900px) {
   .coverSliderWrapper {
     display: none;

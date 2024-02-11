@@ -15,7 +15,7 @@ const PoliticaDePrivacidad = () => {
           <br />
           NIF: 45642022V
           <br />
-          Domicilio: Calle Juan de Mariana, 12, 28045 Madrid – España
+          Domicilio: Calle Najarra, 4F CP 28053, Madrid – España
           <br />
           Correo electrónico: hola@victormartinezgaleote.com
           <br />

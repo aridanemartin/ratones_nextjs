@@ -1,6 +1,6 @@
 import heroImage from "../../public/images/guitarraHero2.webp";
 import queIncluye from "../../public/images/guitarras-que-incluye.webp";
-import introPicture from "../../public/images/fotosVictor/_DSC0159.webp";
+import introPicture from "../../public/images/pedales.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 import styles from "@styles/Servicios.module.css";

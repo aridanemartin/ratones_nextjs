@@ -1,4 +1,4 @@
-import heroImage from "../../public/images/hitomi.webp";
+import heroImage from "../../public/images/audiovisualesHero.webp";
 import ratonLogo from "../../public/images/logoSoloRaton.webp";
 import Hero from "@components/Hero/Hero";
 

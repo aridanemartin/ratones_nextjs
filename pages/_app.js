@@ -5,6 +5,7 @@ import Footer from "@components/Footer/Footer";
 import AriSignature from "@components/AriSignature/AriSignature";
 import { useEffect, useState } from "react";
 import Head from "next/head";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps, router }) {
   const [mode, setMode] = useState("light");
@@ -38,6 +39,20 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
+      />
+      <Script id="gtag-init" strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
       <Head>
         {mode === "dark" ? (
           <link rel="icon" href="/faviconLight.ico" />
