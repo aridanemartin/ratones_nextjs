@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "@emailjs/browser";
 
 export const useForm = (initialForm, validateForm) => {
   const [form, setForm] = useState(initialForm);
@@ -29,27 +28,30 @@ export const useForm = (initialForm, validateForm) => {
     setErrors(validateForm(form));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setErrors(validateForm(form));
 
-    //si no hay errores enviar
+    const formData = {
+      name: form.name,
+      email: form.email,
+      message: form.message,
+      produccion: form.produccion,
+      grabacion: form.grabacion,
+      audiovisuales: form.audiovisuales,
+      mezcla: form.mezcla,
+    };
+
     if (Object.keys(errors).length === 0) {
-      emailjs
-        .sendForm(
-          `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
-          `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`,
-          form.current,
-          `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+      const response = await fetch("/api/send-form", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await response.json();
+      console.log(data);
 
       setLoading(true);
       setTimeout(() => setLoading(false), 5000);

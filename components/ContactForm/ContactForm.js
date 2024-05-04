@@ -77,6 +77,7 @@ export const ContactForm = () => {
               quality="50"
               priority="true"
               as="image"
+              alt="Ratone's Room Logo"
             />
           </div>
         </div>
@@ -91,7 +92,7 @@ export const ContactForm = () => {
                 loading="lazy"
               ></iframe>
             </div>
-            <form
+            {/* <form
               ref={form}
               onSubmit={(e) => handleSubmit(e)}
               className={styles.formWrapper}
@@ -227,7 +228,11 @@ export const ContactForm = () => {
                   <p>+34 659 670 788</p>
                 </a>
               </div>
-            </form>
+            </form> */}
+            <section className={styles.temporaryContact}>
+              <p>Contacta con nosotros / Contact with us:</p>
+              <p>ratonesroomweb@gmail.com</p>
+            </section>
           </div>
         </>
       )}
